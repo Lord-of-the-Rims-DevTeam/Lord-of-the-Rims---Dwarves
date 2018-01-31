@@ -30,14 +30,15 @@
 	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
 	    <alienPartGenerator>
 	      <customDrawSize>(1.15, 0.8)</customDrawSize>
-		  <customHeadDrawSize>(0.5, 1.0)</customHeadDrawSize>
+		  <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 		  <customPortraitDrawSize>(1.15, 0.8)</customPortraitDrawSize>
-		  <customPortraitHeadDrawSize>(0.5, 1.0)</customPortraitHeadDrawSize>
+		  <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
 	      <bodyAddons>
 		    <li>
 		      <path>Things/Beards/Beard</path>
 			  <bodyPart>Head</bodyPart>
 			  <inFrontOfBody>true</inFrontOfBody>
+			  <layerOffset>-0.275</layerOffset>
 			  <offsets>
 				  <front>
 					<bodyTypes>
@@ -96,6 +97,9 @@
 		  </li>
 		</startingColonists>
 	  </pawnKindSettings>
+	  <hairSettings>
+	    <getsGreyAt>200</getsGreyAt>
+	  </hairSettings>
 	</alienRace>
     <statBases>
       <MarketValue>1750</MarketValue>
