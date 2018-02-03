@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+		<defName>LotRD_MoriaBattleShield</defName>
+		<label>Dwarven Moria Shield</label>
+		<description>Shield commonly used alongside the battle armor of the dwarves from Moria.</description>
+		<equipmentType>None</equipmentType>
+		<graphicData>
+			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaMoriaBattleShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>75</costStuffCount>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>1.25</Mass>
+			<Weapon_Bulk>2.0</Weapon_Bulk>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracy>-0.6</ShootingAccuracy>
+			<!--MoveSpeed>-1.6</MoveSpeed-->
+		</equippedStatOffsets>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<!--weaponTags><li>NonNeolithicOnlyMelee</li></weaponTags-->
+		<comps>
+			<li Class="PawnShields.CompProperties_Shield">
+				<!-- Rendering systems -->
+				<wieldedGraphic>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaMoriaBattleShield</texPath>
+				</wieldedGraphic>
+				<renderProperties>
+					<!-- Same as defaults in C# -->
+					<northOffset>(-0.3, -0.017, -0.3)</northOffset>
+					<southOffset>(0.3, 0.033, -0.3)</southOffset>
+					<westOffset>(-0.3, 0.053, -0.3)</westOffset>
+					<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+					<flipRotation>true</flipRotation>
+					<renderWhenPeaceful>false</renderWhenPeaceful>
+				</renderProperties>
+				<!-- Blocking sytstem (Optional???) -->
+				<canBlockRanged>true</canBlockRanged>
+				<canBlockMelee>true</canBlockMelee>
+				<meleeBlockChanceFactor>10.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
+				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+				<!-- Shield damage system (Optional) -->
+				<shieldTakeDamage>true</shieldTakeDamage>
+				<shieldTakeDamageFactor>0.6</shieldTakeDamageFactor>
+				<!-- Auto discard system (Optional) -->
+				<canBeAutoDiscarded>true</canBeAutoDiscarded>
+				<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+				<!-- Shield fatigue system (Optional) -->
+				<useFatigue>true</useFatigue>
+				<damageToFatigueFactor>0.005</damageToFatigueFactor>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>side</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+			<li>
+				<label>buckle</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<!-- Hediffs -->
+	<HediffDef>
+		<defName>ShieldFatigue</defName>
+		<label>shield fatigue</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-48.0</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.02</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.02</offset>
+					</li>
+				</capMods>
+			</li> 
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<label>major</label>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.06</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.06</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>severe</label>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>1.0</minSeverity>
+				<label>extreme</label>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- Melee Block -->
+	<StatDef>
+		<defName>MeleeShieldBlockChance</defName>
+		<label>melee block chance</label>
+		<description>Chance to block a melee attack that would've otherwise hit.</description>
+		<category>PawnCombat</category>
+		<displayPriorityInCategory>99</displayPriorityInCategory>
+		<neverDisabled>false</neverDisabled>
+		<defaultBaseValue>0.3</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
+		<noSkillOffset>0</noSkillOffset>
+		<skillNeedOffsets>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Melee</skill>
+				<baseValue>5</baseValue>
+				<bonusPerLevel>7</bonusPerLevel>
+			</li>
+		</skillNeedOffsets>
+		<capacityOffsets>
+			<li>
+				<capacity>Moving</capacity>
+				<scale>18</scale>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<scale>8</scale>
+				<max>1.4</max>
+			</li>
+		</capacityOffsets>
+		<postProcessCurve>
+			<points>
+				<li>(5, 0.10)</li>
+				<li>(20, 0.30)</li>
+				<li>(60, 0.50)</li>
+				<li>(100, 0.80)</li>
+				<li>(140, 0.99)</li>
+			</points>
+		</postProcessCurve>
+	</StatDef>
+	<!-- Ranged Block -->
+	<StatDef>
+		<defName>RangedShieldBlockChance</defName>
+		<label>ranged block chance</label>
+		<description>Chance to block a ranged attack that would've otherwise hit.</description>
+		<category>PawnCombat</category>
+		<displayPriorityInCategory>99</displayPriorityInCategory>
+		<neverDisabled>false</neverDisabled>
+		<defaultBaseValue>0.1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
+		<noSkillOffset>0</noSkillOffset>
+		<skillNeedOffsets>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Melee</skill>
+				<baseValue>5</baseValue>
+				<bonusPerLevel>3</bonusPerLevel>
+			</li>
+		</skillNeedOffsets>
+		<capacityOffsets>
+			<li>
+				<capacity>Moving</capacity>
+				<scale>18</scale>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<scale>8</scale>
+				<max>1.4</max>
+			</li>
+		</capacityOffsets>
+		<postProcessCurve>
+			<points>
+				<li>(5, 0.05)</li>
+				<li>(20, 0.10)</li>
+				<li>(60, 0.30)</li>
+				<li>(100, 0.60)</li>
+				<li>(140, 0.80)</li>
+			</points>
+		</postProcessCurve>
+	</StatDef>
+</Defs>

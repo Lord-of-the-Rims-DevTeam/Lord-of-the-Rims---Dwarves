@@ -103,6 +103,56 @@
 		      <useSkinColor>false</useSkinColor>
 		    </li>
 		  </bodyAddons>
+		  
+		  <alienhaircolorgen Class="ColorGenerator_Options">
+			<options>
+				<!-- Thorin -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.26,0.25,0.24,1)</only>
+				</li>				
+				<!-- Bofur -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.44,0.36,0.28,1)</only>
+				</li>
+			    <!-- Nori -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.51,0.36,0.29,1)</only>
+				</li>
+				<!-- Ori -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.37,0.22,0.16,1)</only>
+				</li>
+				<!-- Fili -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.91,0.80,0.51,1)</only>
+				</li>				
+				<!-- Kili -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.44,0.38,0.33,1)</only>
+				</li>
+				<!-- Gloin -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.61,0.35,0.22,1)</only>
+				</li>
+				<!-- Bombur -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.68,0.64,0.61,1)</only>
+				</li>
+				<!-- Gimli -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.67,0.35,0.15,1)</only>
+				</li>
+			</options>
+		  </alienhaircolorgen>
 		</alienPartGenerator>
 		
 	  </generalSettings>
@@ -123,8 +173,9 @@
 		  </li>
 		</startingColonists>
 	  </pawnKindSettings>
+	  
 	  <hairSettings>
-	    <getsGreyAt>200</getsGreyAt>
+		<GetsGreyAt>200</GetsGreyAt>
 	  </hairSettings>
 	  <raceRestriction>
 	    <apparelList>
@@ -187,6 +238,8 @@
       </li>
     </tools>
     <race>
+	  <nameGenerator>LotRD_DwarfNamer</nameGenerator>
+	  <nameGeneratorFemale>LotRD_DwarfFemaleNamer</nameGeneratorFemale>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
@@ -229,7 +282,7 @@
         </li>
         <li>
           <def>HumanlikeAdult</def>
-          <minAge>18</minAge>
+          <minAge>65</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
@@ -242,13 +295,19 @@
       <ageGenerationCurve>
         <points>
           <li>(14,0)</li>
-          <li>(16,100)</li>
-          <li>(50,100)</li>
-          <li>(60,30)</li>
-          <li>(70,18)</li>
-          <li>(80,10)</li>
-          <li>(90,3)</li>
-          <li>(100,0)</li>
+          <li>(16,0)</li>
+          <li>(50,10)</li>
+          <li>(60,18)</li>
+          <li>(70,40)</li>
+          <li>(80,100)</li>
+          <li>(90,100)</li>
+          <li>(120,100)</li>
+          <li>(140,80)</li>
+          <li>(160,60)</li>
+          <li>(180,30)</li>
+          <li>(200,8)</li>
+          <li>(230,3)</li>
+          <li>(250,0)</li>
         </points>
       </ageGenerationCurve>
       <hediffGiverSets>

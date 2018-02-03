@@ -49,4 +49,49 @@
     </apparel>
   </ThingDef>
 
+    <ThingDef ParentName="LotRD_ArmorHelmetMakeableBase">
+    <defName>LotRD_DwarfApparel_GimliHelmet</defName>
+    <label>Dwarf longbeard helmet</label>
+    <description>A helmet crafted from metalsmiths descended from the line of Durin and the longbeard dwarves.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaMoriaBattleHelmetDisplay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>170</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>2700</WorkToMake>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Mass>1.9</Mass>
+      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <ArmorRating_Electric>0</ArmorRating_Electric>
+      <Insulation_Cold>-3</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+    </statBases>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaGimliHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>LotR_DwarfMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>LotR_DwarfLongbeard</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
 </Defs>
