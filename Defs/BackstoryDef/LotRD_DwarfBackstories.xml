@@ -8,12 +8,17 @@
     <spawnCategories>
       <li>LotR_BackstoryDwarf</li>
     </spawnCategories>
+    <disallowedTraits>
+      <li>
+        <defName>Wimp</defName>
+      </li>
+    </disallowedTraits>
 </AlienRace.BackstoryDef>
 
 <AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
-    <defName>LotRD_BackstoryDwarfChildOne</defName>
-    <title>Tunneler</title>
-    <baseDescription>NAME dug deep and often hid in the underground.</baseDescription>
+    <defName>LotRD_jecrellBackstoryChildOne</defName>
+    <title>Dwarf pathfinder</title>
+    <baseDescription>NAME spent HIS early years, as many dwarf-children do, aiding the miners. HECAP used HIS smaller body to crawl through narrow openings to find pathways through tunnels, both new and old, that led to precious minerals.</baseDescription>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
@@ -23,27 +28,258 @@
     </skillGains>
 </AlienRace.BackstoryDef>
 
-<!-- Adult backstories -->
 
 <AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
-    <defName>LotRD_BackstoryDwarfAdultOne</defName>
-    <title>Warrior</title>
-    <baseDescription>NAME was a warrior among HIS people.</baseDescription>
-	<slot>Adulthood</slot>
+    <defName>LotRD_dreggrodDaTraitorBackstoryChildTwo</defName>
+    <title>Dwarf refugee</title>
+    <baseDescription>Torn from HIS home at an early age, NAME had to grow up sooner rather than later.</baseDescription>
+	<slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_jecrellBackstoryChildThree</defName>
+    <title>Dwarf guarded child</title>
+    <baseDescription>As a child, NAME spent HIS childhood under incredible care and watchful eyes. HISCAP parents made sure no harm or conflict came to HIM.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_jecrellBackstoryChildFour</defName>
+    <title>Dwarf warrior family</title>
+    <baseDescription>Growing up with a family of warriors gave NAME a lot of practice wrestling, playing with toy weapons, and firing slingshots. Books were rarely on the table, however.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+<!-- Adult backstories -->
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultOne</defName>
+    <title>Dwarf miner</title>
+    <baseDescription>NAME was a miner. HECAP was instrumental in carving out the mountain fortresses of the dwarf-kingdoms.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>PlantWork</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultTwo</defName>
+    <title>Dwarf blacksmith</title>
+    <baseDescription>NAME was a master craftsman renowned among the Free Peoples of the World for HIS masterwork weapons and armor.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
         <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>Cooking</li>
+        <li>PlantWork</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultThree</defName>
+    <title>Dwarf forager</title>
+    <baseDescription>As a forager, NAME would have to leave the stronghold in order to forage and hunt for food on the mountainsides.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>      
+	  <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultFour</defName>
+    <title>Dwarf soldier</title>
+    <baseDescription>NAME served as a soldier for his stronghold. HE learned to use the axe and bow with precision, which helped HIM built a career defending the stronghold against outside threats.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>            
+	  <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>PlantWork</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultFive</defName>
+    <title>Dwarf noble</title>
+    <baseDescription>NAME's family line extended from the dwarf-lords of old. Other dwarves followed HIS orders without question, and HE always got HIS drinks for free.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>            
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>ManualDumb</li>
+        <li>Cooking</li>
+        <li>Cleaning</li>
+        <li>PlantWork</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultFive</defName>
+    <title>Dwarf adventurer</title>
+    <baseDescription>NAME was an adventurer. HECAP left HIS stronghold in order to pursue wealth and fame throughout the world. HE learned the true value of treasure in HIS travels, and came away with excellent bartering skills.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>            
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultFive</defName>
+    <title>Dwarf adventurer</title>
+    <baseDescription>NAME was an adventurer. HE left HIS stronghold in order to pursue wealth and fame throughout the world. HE learned the true value of treasure in HIS travels, and came away with excellent bartering skills.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>            
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultSix</defName>
+    <title>Dwarf toymaker</title>
+    <baseDescription>A dwarf who loves to spread joy to little children, NAME has dedicated HIS art to toymaking.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>            
+	  <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
       </li>
     </skillGains>
     <forcedTraits>
-        <li>
-            <defName>Bloodlust</defName>
-            <chance>50</chance>
-        </li>
+      <li>
+        <defName>Kind</defName>
+      </li>
     </forcedTraits>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultSeven</defName>
+    <title>Dwarf brewmaster</title>
+    <baseDescription>If there is one thing dwarves love most in this world, it's ale. NAME provides.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>            
+    </skillGains>
     <workDisables>
-        <li>Artistic</li>
+        <li>ManualDumb</li>
     </workDisables>
 </AlienRace.BackstoryDef>
 

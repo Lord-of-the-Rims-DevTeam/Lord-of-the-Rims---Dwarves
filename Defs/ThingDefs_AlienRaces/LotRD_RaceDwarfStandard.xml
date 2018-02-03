@@ -28,6 +28,32 @@
 	  <generalSettings>
 	    <maleGenderProbability>0.85</maleGenderProbability>
 	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+	    <notXenophobistTowards>
+		  <li>LotRH_HobbitStandardRace</li>
+	    </notXenophobistTowards>
+		<forcedRaceTraitEntries>
+			<li>
+				<defName>Nerves</defName>
+				<degree>2</degree>
+				<chance>20</chance>
+				<commonalityMale>50</commonalityMale>
+				<commonalityFemale>20</commonalityFemale>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+				<commonalityMale>50</commonalityMale>
+				<commonalityFemale>20</commonalityFemale>
+			</li>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+				<commonalityMale>50</commonalityMale>
+				<commonalityFemale>20</commonalityFemale>
+			</li>
+		</forcedRaceTraitEntries>
 	    <alienPartGenerator>
 	      <customDrawSize>(1.15, 0.8)</customDrawSize>
 		  <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
@@ -100,6 +126,11 @@
 	  <hairSettings>
 	    <getsGreyAt>200</getsGreyAt>
 	  </hairSettings>
+	  <raceRestriction>
+	    <apparelList>
+		  <li>Apparel_TestArmor</li>
+		</apparelList>
+	  </raceRestriction>
 	</alienRace>
     <statBases>
       <MarketValue>1750</MarketValue>
