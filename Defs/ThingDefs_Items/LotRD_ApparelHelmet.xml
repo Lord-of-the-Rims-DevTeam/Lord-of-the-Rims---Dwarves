@@ -58,7 +58,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaMoriaBattleHelmetDisplay</texPath>
+      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaGimliHelmetDisplay</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>170</costStuffCount>
