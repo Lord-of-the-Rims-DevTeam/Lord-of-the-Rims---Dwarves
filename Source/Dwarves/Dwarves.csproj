@@ -7,8 +7,8 @@
     <ProjectGuid>{3A4FB893-1148-4E16-B548-867647DF1724}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vampire</RootNamespace>
-    <AssemblyName>Vampire</AssemblyName>
+    <RootNamespace>Dwarves</RootNamespace>
+    <AssemblyName>Dwarves</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

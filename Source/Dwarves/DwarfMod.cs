@@ -1,6 +1,6 @@
 ﻿using Verse;
 
-namespace Vampire
+namespace Dwarves
 {
     public class DwarfMod : Mod
     {
