@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+	<ThingDef ParentName="LotRD_ArmorMakeableBase">
+    <defName>LotRD_DwarfApparel_GimliArmor</defName>
+    <label>Dwarven longbeard chaincoat</label>
+    <description>Used by Durin's folk, this fine reinforced tabard wrapped chainmail served as a strong yet comfortable alternative to heavier armors and full plates favored by dwarves in combat.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaGimliArmor_Male_front</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	<costList>
+	  <Steel>70</Steel>
+	</costList>
+    <costStuffCount>70</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>9</Mass>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.33</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <Insulation_Cold>-45</Insulation_Cold>
+      <Insulation_Heat>0</Insulation_Heat>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+        <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaGimliArmor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+			  <li>LotR_DwarfMilitary</li>
+			</tags>
+      <defaultOutfitTags>
+        <li>LotR_DwarfLongbeard</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
 	<ThingDef ParentName="LotRD_ArmorMakeableBase">
     <defName>LotRD_DwarfApparel_MoriaBattleArmor</defName>
     <label>Dwarven Moria battle armor</label>
