@@ -175,7 +175,7 @@
 	  </pawnKindSettings>
 	  
 	  <hairSettings>
-		<GetsGreyAt>200</GetsGreyAt>
+		<getsGreyAt>200</getsGreyAt>
 	  </hairSettings>
 	  <raceRestriction>
 	    <apparelList>
