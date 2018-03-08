@@ -1,140 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
-    <defName>LotRD_MeleeWeapon_AxeWarGimli</defName>
-    <label>Dwarven War Axe</label>
-    <description>A massive axe that takes two hands to wield.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/Axe/AxeWarGimli</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>1.1</drawSize>
-    </graphicData>
-    <techLevel>Medieval</techLevel>
-    <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
-    </weaponTags>
-    <costStuffCount>170</costStuffCount>
-    <statBases>
-      <WorkToMake>29000</WorkToMake>
-      <Mass>3.4</Mass>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
-    </statBases>
-    <equippedAngleOffset>60</equippedAngleOffset>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-	<comps>
-	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-	  <verticalFlipNorth>true</verticalFlipNorth>
-	  <angleAdjustmentWest>90</angleAdjustmentWest>
-	  <angleAdjustmentEast>-90</angleAdjustmentEast>
-	  <northOffset>(0.30,0,0.2)</northOffset>
-	  <eastOffset>(0,0,-0.1)</eastOffset>
-	  <westOffset>(0,0,-0.1)</westOffset>
-	  <southOffset>(-0.30,0,-0.2)</southOffset>
-	  </li>
-	</comps>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>6</power>
-        <cooldownTime>2.5</cooldownTime>
-      </li>
-      <li>
-        <label>tip</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>6</power>
-        <cooldownTime>2.5</cooldownTime>
-      </li>
-      <li>
-        <label>edge</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>36</power>
-        <cooldownTime>3.5</cooldownTime>
-      </li>
-    </tools>
-    <recipeMaker>
-      <researchPrerequisite>LongBlades</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>
-  
-  <ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
-    <defName>LotRD_MeleeWeapon_AxeBattle</defName>
-    <label>Dwarven Battle Axe</label>
-    <description>A single-headed axe designed for war.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/Axe/AxeBattle</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-	  <drawSize>1.0</drawSize>
-    </graphicData>
-    <techLevel>Medieval</techLevel>
-    <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
-    </weaponTags>
-    <costStuffCount>150</costStuffCount>
-    <statBases>
-      <WorkToMake>27000</WorkToMake>
-      <Mass>2.9</Mass>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
-    </statBases>
-    <equippedAngleOffset>60</equippedAngleOffset>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-	<comps>
-	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-	  <verticalFlipNorth>true</verticalFlipNorth>
-	  <angleAdjustmentWest>90</angleAdjustmentWest>
-	  <angleAdjustmentEast>-90</angleAdjustmentEast>
-	  <northOffset>(0.30,0,0.2)</northOffset>
-	  <eastOffset>(0,0,-0.1)</eastOffset>
-	  <westOffset>(0,0,-0.1)</westOffset>
-	  <southOffset>(-0.30,0,-0.2)</southOffset>
-	  </li>
-	</comps>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>6</power>
-        <cooldownTime>2.5</cooldownTime>
-      </li>
-      <li>
-        <label>tip</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>6</power>
-        <cooldownTime>2.5</cooldownTime>
-      </li>
-      <li>
-        <label>edge</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>26</power>
-        <cooldownTime>2.5</cooldownTime>
-      </li>
-    </tools>
-    <recipeMaker>
-      <researchPrerequisite>LongBlades</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>
-  
+<!-- Tier 1 -->
+
   <ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_AxeGimliWalking</defName>
     <label>Dwarven Walking Axe</label>
@@ -150,9 +18,9 @@
       <li>NonNeolithicOnlyMelee</li>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
-    <costStuffCount>100</costStuffCount>
+    <costStuffCount>148</costStuffCount>
     <statBases>
-      <WorkToMake>25000</WorkToMake>
+      <WorkToMake>24500</WorkToMake>
       <Mass>1.0</Mass>
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
@@ -185,7 +53,76 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>4</power>
+        <power>12</power>
+        <cooldownTime>1.95</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
+<!-- Tier 2 -->
+  
+  <ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
+    <defName>LotRD_MeleeWeapon_AxeBattle</defName>
+    <label>Dwarven Battle Axe</label>
+    <description>A single-headed axe designed for war.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Axe/AxeBattle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.0</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>NonNeolithicOnlyMelee</li>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>160</costStuffCount>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>2</Mass>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+    </statBases>
+    <equippedAngleOffset>60</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<comps>
+	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+	  <verticalFlipNorth>true</verticalFlipNorth>
+	  <angleAdjustmentWest>90</angleAdjustmentWest>
+	  <angleAdjustmentEast>-90</angleAdjustmentEast>
+	  <northOffset>(0.30,0,0.2)</northOffset>
+	  <eastOffset>(0,0,-0.1)</eastOffset>
+	  <westOffset>(0,0,-0.1)</westOffset>
+	  <southOffset>(-0.30,0,-0.2)</southOffset>
+	  </li>
+	</comps>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>tip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
         <cooldownTime>2.5</cooldownTime>
       </li>
       <li>
@@ -193,8 +130,78 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>16</power>
-        <cooldownTime>2.25</cooldownTime>
+        <power>32</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
+
+<!-- Tier 3 -->
+
+	<ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
+    <defName>LotRD_MeleeWeapon_AxeWarGimli</defName>
+    <label>Dwarven Double-Headed Axe</label>
+    <description>A massive axe that takes two hands to wield.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Axe/AxeWarGimli</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.1</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>NonNeolithicOnlyMelee</li>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>185</costStuffCount>
+    <statBases>
+      <WorkToMake>27000</WorkToMake>
+      <Mass>4.0</Mass>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+    </statBases>
+    <equippedAngleOffset>60</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<comps>
+	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+	  <verticalFlipNorth>true</verticalFlipNorth>
+	  <angleAdjustmentWest>90</angleAdjustmentWest>
+	  <angleAdjustmentEast>-90</angleAdjustmentEast>
+	  <northOffset>(0.30,0,0.2)</northOffset>
+	  <eastOffset>(0,0,-0.1)</eastOffset>
+	  <westOffset>(0,0,-0.1)</westOffset>
+	  <southOffset>(-0.30,0,-0.2)</southOffset>
+	  </li>
+	</comps>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>tip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>3.0</cooldownTime>
       </li>
     </tools>
     <recipeMaker>
