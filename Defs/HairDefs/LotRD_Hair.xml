@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>LotRD_Braidbun</defName>
+    <label>dwarf braidbun</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Dwarf/Hairs/LotRD_Braidbun</texPath>
+		<hairTags>
+			<li>LotRD_Dwarf</li>
+		</hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRD_BraidbunLong</defName>
+    <label>dwarf braidbun long</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Dwarf/Hairs/LotRD_BraidbunLong</texPath>
+		<hairTags>
+			<li>LotRD_Dwarf</li>
+		</hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRD_Gaston</defName>
+    <label>dwarf gaston</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Dwarf/Hairs/LotRD_Gaston</texPath>
+		<hairTags>
+			<li>LotRD_Dwarf</li>
+		</hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRD_Princess</defName>
+    <label>dwarf princess</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Dwarf/Hairs/LotRD_Princess</texPath>
+		<hairTags>
+			<li>LotRD_Dwarf</li>
+		</hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRD_Scat</defName>
+    <label>dwarf scat</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Dwarf/Hairs/LotRD_Scat</texPath>
+		<hairTags>
+			<li>LotRD_Dwarf</li>
+		</hairTags>
+  </HairDef>
+</Defs>

@@ -175,6 +175,9 @@
 	  </pawnKindSettings>
 	  
 	  <hairSettings>
+		<hairTags>
+			<li>LotRD_Dwarf</li>
+		</hairTags>
 		<getsGreyAt>200</getsGreyAt>
 	  </hairSettings>
 	  <raceRestriction>
