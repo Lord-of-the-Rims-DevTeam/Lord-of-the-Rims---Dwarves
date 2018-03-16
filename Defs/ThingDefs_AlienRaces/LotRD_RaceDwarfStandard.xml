@@ -63,6 +63,7 @@
 		    <li>
 		      <path>Things/Beards/Beard</path>
 			  <bodyPart>Head</bodyPart>
+			  <drawSize>(0.85, 1.2)</drawSize>
 			  <inFrontOfBody>true</inFrontOfBody>
 			  <layerOffset>-0.295</layerOffset>
 			  <offsets>
