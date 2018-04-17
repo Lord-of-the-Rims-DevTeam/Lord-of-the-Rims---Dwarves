@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="LotRD_BaseProjectileNeolithic">
+    <defName>LotRD_Arrow</defName>
+    <label>dwarven arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>23</damageAmountBase>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="LotRD_BaseWeaponNeolithic">
+    <defName>LotRD_Bow_Dwarven</defName>
+    <label>dwarven horn bow</label>
+    <description>Efficient at both close and medium range, this heavy hitting bow is the preferred ranged weapon of the Dwarves.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/LotRD_sheidulaDwarvenHornBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>BowRecurve</soundInteract>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>14400</WorkToMake>
+      <Mass>0.96</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.49</AccuracyLong>
+      <RangedWeapon_Cooldown>1.68</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+    </statBases>
+    <weaponTags>
+      <li>DwarvenRanged</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>Greatbows</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>LotRD_Arrow</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>32</range>
+        <soundCast>LotRD_BowDwarf</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  </Defs>
