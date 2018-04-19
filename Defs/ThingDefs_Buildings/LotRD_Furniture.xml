@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<ThingDef ParentName="LotRD_ArtableFurnitureBase">
+		<defName>LotRD_DwarvenThrone</defName>
+		<label>dwarven throne</label>
+		<description>The seat of nobility for dwarf kind.</description>
+		<size>(3,3)</size>
+		<graphicData>
+			<texPath>Things/Building/Furniture/sheidulaEreborThrone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>2200</WorkToBuild>
+			<Mass>300</Mass>
+			<Flammability>0.0</Flammability>
+			<Beauty>20</Beauty>
+			<Comfort>1.2</Comfort>
+		</statBases>
+		<passability>Standable</passability>
+		<costList>
+			<Gold>10</Gold>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>300</costStuffCount>
+		<pathCost>80</pathCost>
+		<rotatable>false</rotatable>
+		<fillPercent>0.75</fillPercent>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+	</ThingDef>
+  
+</Defs>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <PawnKindDef ParentName="LotRD_BasePlayerPawnKind">
+    <defName>LotRD_DwarfColonist</defName>
+	<race>LotRD_DwarfStandardRace</race>
+    <label>colonist (dwarf)</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>Spacer</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+
+  
+  <PawnKindDef ParentName="LotRD_BasePlayerPawnKind" Name="LotRD_DwarfVillager">
+    <defName>LotRD_DwarfVillager</defName>
+	<race>LotRD_DwarfStandardRace</race>
+    <label>dwarf-villager</label>
+    <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
+    <combatPower>30</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>2.0</max>
+    </gearHealthRange>
+	<apparelTags>
+      <li>Outlander</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>300</min>
+      <max>900</max>
+    </apparelMoney>
+    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>0</min>
+      <max>250</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>DwarvenMelee</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.75</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>25</min>
+            <max>70</max>
+          </countRange>
+        </li>
+        <li>
+          <choiceChance>10</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>700</min>
+            <max>1000</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+ 
+  <PawnKindDef ParentName="LotRD_DwarfVillager">
+    <defName>LotRD_DwarfTrader</defName>
+    <label>dwarf-trader</label>
+    <trader>true</trader>
+  </PawnKindDef>
+  
+  
+  <PawnKindDef ParentName="LotRD_DwarfVillager" Name="LotRD_DwarfKing">
+    <defName>LotRD_DwarfKing</defName>
+    <label>dwarf-king</label>
+    <labelMale>dwarf-king</labelMale>
+    <labelFemale>dwarf-queen</labelFemale>
+    <isFighter>true</isFighter>
+    <apparelTags>
+      <li>LotR_DwarfMilitary</li>
+    </apparelTags>
+    <factionLeader>true</factionLeader>
+    <minGenerationAge>60</minGenerationAge>
+    <maxGenerationAge>100</maxGenerationAge>
+    <apparelMoney>
+      <min>3300</min>
+      <max>3900</max>
+    </apparelMoney>
+    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>3200</min>
+      <max>3600</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>DwarvenMeleeNoble</li>
+    </weaponTags>
+  </PawnKindDef>
+    
+  <PawnKindDef ParentName="LotRD_BasePlayerPawnKind" Name="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfGuard</defName>
+    <label>dwarf-guard</label>
+	<race>LotRD_DwarfStandardRace</race>
+    <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
+    <combatPower>120</combatPower>
+    <maxGenerationAge>6500</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+	<apparelTags>
+      <li>LotR_DwarfMilitary</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>300</min>
+      <max>900</max>
+    </apparelMoney>
+    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>400</min>
+      <max>600</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>DwarvenMelee</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfGuardMountain</defName>
+    <label>mountain-dwarf guard</label>
+	<apparelRequired>
+      <li>LotRD_DwarfApparel_MoriaBattleArmor</li>
+      <li>LotRD_DwarfApparel_MoriaBattleHelmet</li>
+    </apparelRequired>
+  </PawnKindDef>  
+  
+  <PawnKindDef ParentName="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfGuardHill</defName>
+    <label>hill-dwarf guard</label>
+	<apparelRequired>
+      <li>LotRD_DwarfApparel_IronHillArmor</li>
+      <li>LotRD_DwarfApparel_IronHillHelmet</li>
+    </apparelRequired>
+  </PawnKindDef>
+  
+</Defs>

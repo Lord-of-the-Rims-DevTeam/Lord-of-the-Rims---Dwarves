@@ -15,7 +15,7 @@
     <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>DwarvenMelee</li>
-      <li>DwarvenMeleeStrong</li>
+      <li>DwarvenMeleeNoble</li>
     </weaponTags>
     <costStuffCount>144</costStuffCount>
     <statBases>
@@ -23,7 +23,7 @@
       <Mass>1.9</Mass>
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
-    <equippedAngleOffset>50</equippedAngleOffset>
+    <equippedAngleOffset>40</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
@@ -36,7 +36,7 @@
 	  <northOffset>(0.27,0,0.2)</northOffset>
 	  <eastOffset>(0.1,0,0.1)</eastOffset>
 	  <westOffset>(-0.1,-0.2,0.1)</westOffset>
-	  <southOffset>(-0.27,0,-0.2)</southOffset>
+	  <southOffset>(-0.3,0,-0.2)</southOffset>
 	  
 	  </li>
 	</comps>

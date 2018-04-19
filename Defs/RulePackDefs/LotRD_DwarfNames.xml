@@ -30,5 +30,36 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
+  
+    
+  <RulePackDef>
+    <defName>LotRD_NamerFactionBaseDwarfMountain</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_BaseDwarfMountain</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+    
+  <RulePackDef>
+    <defName>LotRD_NamerFactionBaseDwarfHills</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_BaseDwarfHills</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
 
 </Defs>

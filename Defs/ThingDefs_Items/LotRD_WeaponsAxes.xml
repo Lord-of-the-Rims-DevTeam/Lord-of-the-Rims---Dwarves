@@ -15,8 +15,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>DwarvenMelee</li>
+      <li>DwarvenAxe</li>
     </weaponTags>
     <costStuffCount>148</costStuffCount>
     <statBases>
@@ -84,8 +84,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>DwarvenMelee</li>
+      <li>DwarvenAxe</li>
     </weaponTags>
     <costStuffCount>160</costStuffCount>
     <statBases>
@@ -154,8 +154,9 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>DwarvenMelee</li>
+      <li>DwarvenAxe</li>
+	  <li>DwarvenElite</li>
     </weaponTags>
     <costStuffCount>185</costStuffCount>
     <statBases>
