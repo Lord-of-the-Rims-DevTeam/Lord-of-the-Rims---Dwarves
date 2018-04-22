@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef ParentName="LotRD_BasePlayerPawnKind">
-    <defName>LotRD_DwarfColonist</defName>
-	<race>LotRD_DwarfStandardRace</race>
-    <label>colonist (dwarf)</label>
-    <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
-    <chemicalAddictionChance>0.06</chemicalAddictionChance>
-    <apparelTags>
-      <li>Spacer</li>
-    </apparelTags>
-    <apparelMoney>
-      <min>1000</min>
-      <max>2400</max>
-    </apparelMoney>
-    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
-  </PawnKindDef>
-
 
 
   <AlienRace.ThingDef_AlienRace ParentName="LotRD_BasePawn">

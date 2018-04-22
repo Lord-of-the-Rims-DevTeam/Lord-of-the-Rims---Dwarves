@@ -9,12 +9,13 @@
 		<graphicData>
 			<texPath>Things/Building/Furniture/sheidulaEreborThrone</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4,4)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(8,8)</drawSize>
 			<damageData>
 				<rect>(0.05,0.1,0.9,0.9)</rect>
 			</damageData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>Item</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
 			<WorkToBuild>2200</WorkToBuild>
@@ -28,8 +29,6 @@
 			<Gold>10</Gold>
 		</costList>
 		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
 			<li>Stony</li>
 		</stuffCategories>
 		<costStuffCount>300</costStuffCount>
@@ -39,6 +38,9 @@
 		<building>
 			<isSittable>true</isSittable>
 		</building>
+		<placeWorkers>
+		  <li>JecsTools.PlaceWorker_Outline</li>
+		</placeWorkers>
 	</ThingDef>
   
 </Defs>

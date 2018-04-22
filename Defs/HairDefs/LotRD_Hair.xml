@@ -39,7 +39,7 @@
   <HairDef>
     <defName>LotRD_Scat</defName>
     <label>dwarf scat</label>
-    <hairGender>Any</hairGender>
+    <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Dwarf/Hairs/LotRD_Scat</texPath>
 		<hairTags>
 			<li>LotRD_Dwarf</li>

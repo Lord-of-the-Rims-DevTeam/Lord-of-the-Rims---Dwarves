@@ -68,6 +68,9 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
+	<tradeTags>
+	  <li>LotRD_DwarvenRangedWeapons</li>
+	</tradeTags>
   </ThingDef>
 
   </Defs>

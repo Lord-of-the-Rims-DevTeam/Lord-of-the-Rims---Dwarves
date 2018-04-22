@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="DwarfMod.cs" />
     <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="IncidentWorker_QuestAncientMines.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

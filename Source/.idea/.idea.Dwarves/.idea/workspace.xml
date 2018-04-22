@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HarmonyPatches.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HarmonyPatches.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="87">
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <marker date="1524159497401" expanded="true" signature="6:119" ph="..." />
                 <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
@@ -69,10 +69,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="IncidentWorker_QuestAncientMines.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1634">
+              <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+              <folding>
+                <marker date="1524334704855" expanded="true" signature="6:104" ph="..." />
+                <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
+                <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
+                <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -82,6 +98,7 @@
         <option value="$PROJECT_DIR$/Dwarves/Mod.cs" />
         <option value="$PROJECT_DIR$/Dwarves/DwarfMod.cs" />
         <option value="$PROJECT_DIR$/Dwarves/HarmonyPatches.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs" />
       </list>
     </option>
   </component>
@@ -92,9 +109,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="258" />
-    <option name="y" value="183" />
-    <option name="width" value="1684" />
+    <option name="x" value="456" />
+    <option name="y" value="3" />
+    <option name="width" value="1088" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
@@ -188,12 +205,12 @@
       <workItem from="1521216081791" duration="1931000" />
       <workItem from="1523844976467" duration="1119000" />
       <workItem from="1523974932737" duration="4699000" />
-      <workItem from="1524145099424" duration="5853000" />
+      <workItem from="1524145099424" duration="22438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51143000" />
+    <option name="totallyTimeSpent" value="67728000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -205,7 +222,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="183" width="1684" height="797" extended-state="0" />
+    <frame x="456" y="3" width="1088" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -215,7 +233,7 @@
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16542289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26284584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -524,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="87">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <marker date="1524159497401" expanded="true" signature="6:119" ph="..." />
             <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
@@ -550,6 +568,19 @@
             <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
             <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
             <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <marker date="1524334704855" expanded="true" signature="6:104" ph="..." />
+            <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />
           </folding>
         </state>
       </provider>

@@ -8,6 +8,7 @@
         <e p="DwarfMod.cs" t="Include" />
         <e p="Dwarves.csproj" t="IncludeRecursive" />
         <e p="HarmonyPatches.cs" t="Include" />
+        <e p="IncidentWorker_QuestAncientMines.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
       </e>
       <e p="Dwarves.sln" t="IncludeFlat" />

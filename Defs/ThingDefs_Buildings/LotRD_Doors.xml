@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!--
+    ██████   ██████   ██████  ██████  ███████
+    ██   ██ ██    ██ ██    ██ ██   ██ ██
+    ██   ██ ██    ██ ██    ██ ██████  ███████
+    ██   ██ ██    ██ ██    ██ ██   ██      ██
+    ██████   ██████   ██████  ██   ██ ███████
+  -->  
+
+  <DoorsExpanded.DoorExpandedDef Name="HeronDoor" ParentName="HeronDoorBase">
+    <defName>PH_DoorDoubleDwarvenGrand</defName>
+    <label>dwarven grand gate (3x2)</label>
+    <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
+    <blueprintClass>Blueprint_Build</blueprintClass>
+    <blueprintGraphicData>
+      <texPath>Things/Building/Door/DoorDouble_Blueprint</texPath>
+    </blueprintGraphicData>
+    <description>A massive gate that stands as a strong divider between adversaries and a Dwarven stronghold.</description>
+    <statBases>
+	  <MaxHitPoints>1000</MaxHitPoints>
+      <WorkToBuild>2850</WorkToBuild>
+    </statBases>
+	<placeWorkers>
+      <li>JecsTools.PlaceWorker_Outline</li>
+    </placeWorkers>
+    <size>(3,2)</size>
+	<stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+	</stuffCategories>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Structures/edmundWulfgarthDwarvenGate_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5.5,5.5)</drawSize>
+      <damageData>
+        <!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Structures/edmundWulfgarthDwarvenGate_MenuUI</uiIconPath>
+    <costStuffCount>500</costStuffCount>
+    <designationHotKey>Misc1</designationHotKey>
+    <doorType>Standard</doorType>	
+  </DoorsExpanded.DoorExpandedDef>
+
+</Defs>

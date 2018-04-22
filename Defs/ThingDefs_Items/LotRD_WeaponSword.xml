@@ -14,8 +14,7 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>DwarvenMelee</li>
-      <li>DwarvenMeleeNoble</li>
+      <li>LotRD_NobleDwarf</li>
     </weaponTags>
     <costStuffCount>144</costStuffCount>
     <statBases>
@@ -23,7 +22,7 @@
       <Mass>1.9</Mass>
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
-    <equippedAngleOffset>40</equippedAngleOffset>
+    <equippedAngleOffset>50</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
@@ -33,10 +32,10 @@
 	  <verticalFlipNorth>true</verticalFlipNorth>
 	  <angleAdjustmentWest>90</angleAdjustmentWest>
 	  <angleAdjustmentEast>-90</angleAdjustmentEast>
-	  <northOffset>(0.27,0,0.2)</northOffset>
+	  <northOffset>(0.35,0,0.2)</northOffset>
 	  <eastOffset>(0.1,0,0.1)</eastOffset>
 	  <westOffset>(-0.1,-0.2,0.1)</westOffset>
-	  <southOffset>(-0.3,0,-0.2)</southOffset>
+	  <southOffset>(-0.35,0,-0.2)</southOffset>
 	  
 	  </li>
 	</comps>
@@ -69,6 +68,9 @@
     <recipeMaker>
       <researchPrerequisite>LongBlades</researchPrerequisite>
     </recipeMaker>
+	<tradeTags>
+	  <li>LotRD_DwarvenWeapons</li>
+	</tradeTags>
   </ThingDef>
 
 </Defs>

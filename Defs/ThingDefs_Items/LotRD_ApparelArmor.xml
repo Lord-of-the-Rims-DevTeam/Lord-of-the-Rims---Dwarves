@@ -51,11 +51,16 @@
 			</layers>
 			<tags>
 			  <li>LotR_DwarfMilitary</li>
+			  <li>LotR_DwarfGuard</li>
 			</tags>
       <defaultOutfitTags>
         <li>LotR_DwarfLongbeard</li>
+        <li>LotR_DwarfGuard</li>
       </defaultOutfitTags>
     </apparel>
+	<tradeTags>
+	  <li>LotRD_DwarvenArmor</li>
+	</tradeTags>
   </ThingDef>
 
   
@@ -112,6 +117,9 @@
         <li>LotR_DwarfIronHill</li>
       </defaultOutfitTags>
     </apparel>
+	<tradeTags>
+	  <li>LotRD_DwarvenArmor</li>
+	</tradeTags>
   </ThingDef>
   
 	<ThingDef ParentName="LotRD_ArmorMakeableBase">
@@ -167,6 +175,9 @@
         <li>LotR_DwarfMoria</li>
       </defaultOutfitTags>
     </apparel>
+	<tradeTags>
+	  <li>LotRD_DwarvenArmor</li>
+	</tradeTags>
   </ThingDef>
 
 </Defs>

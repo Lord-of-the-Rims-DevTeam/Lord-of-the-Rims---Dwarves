@@ -24,6 +24,7 @@
     <defName>LotRD_DwarfVillager</defName>
 	<race>LotRD_DwarfStandardRace</race>
     <label>dwarf-villager</label>
+	<defaultFactionType>LotRD_MountainKingdom</defaultFactionType>
     <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
     <combatPower>30</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -86,39 +87,48 @@
     <trader>true</trader>
   </PawnKindDef>
   
-  
   <PawnKindDef ParentName="LotRD_DwarfVillager" Name="LotRD_DwarfKing">
     <defName>LotRD_DwarfKing</defName>
     <label>dwarf-king</label>
     <labelMale>dwarf-king</labelMale>
     <labelFemale>dwarf-queen</labelFemale>
     <isFighter>true</isFighter>
+    <combatPower>200</combatPower>
     <apparelTags>
+      <li>Outlander</li>
       <li>LotR_DwarfMilitary</li>
+      <li>LotR_DwarfNoble</li>
     </apparelTags>
     <factionLeader>true</factionLeader>
     <minGenerationAge>60</minGenerationAge>
     <maxGenerationAge>100</maxGenerationAge>
+    <apparelRequired>
+      <li>LotRD_DwarfApparel_MoriaBattleArmor</li>
+      <li>LotRD_DwarfApparel_Crown</li>
+    </apparelRequired>
     <apparelMoney>
-      <min>3300</min>
-      <max>3900</max>
+      <min>2000</min>
+      <max>32000</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
-    <weaponMoney>
-      <min>3200</min>
-      <max>3600</max>
+    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+	<weaponMoney>
+      <min>0</min>
+      <max>32000</max>
     </weaponMoney>
     <weaponTags>
-      <li>DwarvenMeleeNoble</li>
-    </weaponTags>
+      <li>LotRD_NobleDwarf</li>
+    </weaponTags>    
+
   </PawnKindDef>
-    
+ 
   <PawnKindDef ParentName="LotRD_BasePlayerPawnKind" Name="LotRD_DwarfGuard">
     <defName>LotRD_DwarfGuard</defName>
     <label>dwarf-guard</label>
 	<race>LotRD_DwarfStandardRace</race>
+	<defaultFactionType>LotRD_MountainKingdom</defaultFactionType>
     <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
     <combatPower>120</combatPower>
+    <isFighter>true</isFighter>
     <maxGenerationAge>6500</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
@@ -128,16 +138,16 @@
       <li>LotR_DwarfMilitary</li>
     </apparelTags>
     <apparelMoney>
-      <min>300</min>
-      <max>900</max>
+      <min>3000</min>
+      <max>9000</max>
     </apparelMoney>
     <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
     <weaponMoney>
-      <min>400</min>
-      <max>600</max>
+      <min>0</min>
+      <max>2000</max>
     </weaponMoney>
-    <weaponTags>
-      <li>DwarvenMelee</li>
+	<weaponTags>
+      <li>DwarvenGuard</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -162,18 +172,62 @@
     <defName>LotRD_DwarfGuardMountain</defName>
     <label>mountain-dwarf guard</label>
 	<apparelRequired>
-      <li>LotRD_DwarfApparel_MoriaBattleArmor</li>
-      <li>LotRD_DwarfApparel_MoriaBattleHelmet</li>
+      <li>LotRD_DwarfApparel_GimliArmor</li>
     </apparelRequired>
-  </PawnKindDef>  
-  
+	<apparelTags>
+      <li>LotR_DwarfGuard</li>
+    </apparelTags>
+    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+  </PawnKindDef>    
+
   <PawnKindDef ParentName="LotRD_DwarfGuard">
     <defName>LotRD_DwarfGuardHill</defName>
     <label>hill-dwarf guard</label>
 	<apparelRequired>
+      <li>LotRD_DwarfApparel_GimliArmor</li>
+    </apparelRequired>
+	<apparelTags>
+      <li>LotR_DwarfGuard</li>
+    </apparelTags>
+    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+  </PawnKindDef>  
+    
+  <PawnKindDef ParentName="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfSoldierMountain</defName>
+    <label>mountain-dwarf soldier</label>
+    <combatPower>180</combatPower>
+	<apparelRequired>
+      <li>LotRD_DwarfApparel_MoriaBattleArmor</li>
+      <li>LotRD_DwarfApparel_MoriaBattleHelmet</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+	<weaponMoney>
+      <min>0</min>
+      <max>12000</max>
+    </weaponMoney>
+	<weaponTags>
+      <li>DwarvenElite</li>
+    </weaponTags>
+  </PawnKindDef>  
+  
+  <PawnKindDef ParentName="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfSoldierHill</defName>
+    <label>hill-dwarf soldier</label>
+    <combatPower>180</combatPower>
+	<apparelRequired>
       <li>LotRD_DwarfApparel_IronHillArmor</li>
       <li>LotRD_DwarfApparel_IronHillHelmet</li>
     </apparelRequired>
+    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+	<weaponMoney>
+      <min>0</min>
+      <max>12000</max>
+    </weaponMoney>
+	<weaponTags>
+      <li>DwarvenElite</li>
+    </weaponTags>
   </PawnKindDef>
+  
+  -->
   
 </Defs>

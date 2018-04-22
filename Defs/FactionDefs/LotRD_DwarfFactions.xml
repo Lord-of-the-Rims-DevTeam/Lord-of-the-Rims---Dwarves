@@ -30,10 +30,8 @@
       <max>0</max>
     </naturalColonyGoodwill>
     <caravanTraderKinds>
-      <li>Caravan_Outlander_BulkGoods</li>
-      <li>Caravan_Outlander_CombatSupplier</li>
-      <li>Caravan_Outlander_Exotic</li>
-      <li>Caravan_Outlander_PirateMerchant</li>
+      <li>LotRD_Caravan_Dwarf_BulkGoods</li>
+      <li>LotRD_Caravan_Dwarf_CombatSupplier</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
@@ -49,10 +47,11 @@
       <li>
         <kindDef>Normal</kindDef>
         <options>
-					<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
-					<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
-					<LotRD_DwarfKing>10</LotRD_DwarfKing>
-				</options>
+			<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
+			<LotRD_DwarfVillager>100</LotRD_DwarfVillager>
+			<LotRD_DwarfSoldierMountain>20</LotRD_DwarfSoldierMountain>
+			<LotRD_DwarfKing>5</LotRD_DwarfKing>
+		</options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
@@ -63,17 +62,18 @@
           <Muffalo>6</Muffalo>
         </carriers>
         <guards>
-					<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
-					<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
-				</guards>
+			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
+			<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
+		</guards>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-					<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
-					<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
-					<LotRD_DwarfKing>10</LotRD_DwarfKing>
-				</options>
+			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
+			<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
+			<LotRD_DwarfSoldierMountain>20</LotRD_DwarfSoldierMountain>
+			<LotRD_DwarfKing>10</LotRD_DwarfKing>
+		</options>
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
@@ -108,10 +108,8 @@
       <max>0</max>
     </naturalColonyGoodwill>
     <caravanTraderKinds>
-      <li>Caravan_Outlander_BulkGoods</li>
-      <li>Caravan_Outlander_CombatSupplier</li>
-      <li>Caravan_Outlander_Exotic</li>
-      <li>Caravan_Outlander_PirateMerchant</li>
+      <li>LotRD_Caravan_Dwarf_BulkGoods</li>
+      <li>LotRD_Caravan_Dwarf_CombatSupplier</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
@@ -129,7 +127,8 @@
         <options>
 					<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
 					<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
-					<LotRD_DwarfKing>10</LotRD_DwarfKing>
+					<LotRD_DwarfSoldierHill>20</LotRD_DwarfSoldierHill>
+					<LotRD_DwarfKing>5</LotRD_DwarfKing>
 				</options>
       </li>
       <li>
@@ -141,17 +140,18 @@
           <Muffalo>6</Muffalo>
         </carriers>
         <guards>
-					<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
-					<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
-				</guards>
+			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
+			<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
+		</guards>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-					<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
-					<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
-					<LotRD_DwarfKing>10</LotRD_DwarfKing>
-				</options>
+			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
+			<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
+			<LotRD_DwarfSoldierHill>20</LotRD_DwarfSoldierHill>
+			<LotRD_DwarfKing>5</LotRD_DwarfKing>
+		</options>
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>

@@ -47,6 +47,9 @@
         <li>LotR_DwarfMoria</li>
       </defaultOutfitTags>
     </apparel>
+	<tradeTags>
+	  <li>LotRD_DwarvenArmor</li>
+	</tradeTags>
   </ThingDef>
 
   <ThingDef ParentName="LotRD_ArmorHelmetMakeableBase">
@@ -95,6 +98,9 @@
         <li>LotR_DwarfMoria</li>
       </defaultOutfitTags>
     </apparel>
+	<tradeTags>
+	  <li>LotRD_DwarvenArmor</li>
+	</tradeTags>
   </ThingDef>
 
     <ThingDef ParentName="LotRD_ArmorHelmetMakeableBase">
@@ -135,11 +141,60 @@
 			</layers>
 			<tags>
         <li>LotR_DwarfMilitary</li>
+        <li>LotR_DwarfGuard</li>
       </tags>
       <defaultOutfitTags>
         <li>LotR_DwarfLongbeard</li>
+        <li>LotR_DwarfGuard</li>
       </defaultOutfitTags>
     </apparel>
+	<tradeTags>
+	  <li>LotRD_DwarvenArmor</li>
+	</tradeTags>
   </ThingDef>
+
+
+    <ThingDef ParentName="LotRD_ArmorHelmetMakeableBase">
+    <defName>LotRD_DwarfApparel_Crown</defName>
+    <label>Dwarf-king's crown</label>
+    <description>A dwarven crown fashioned in the likeness of the great kingdom of Erebor's raven crown.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/jecrellDwarfCrown_front</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>170</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>3500</WorkToMake>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>1.3</Mass>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.12</ArmorRating_Heat>
+      <ArmorRating_Electric>0</ArmorRating_Electric>
+      <Insulation_Cold>-3</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+    </statBases>
+	<generateCommonality>0.01</generateCommonality>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Helmet/jecrellDwarfCrown</wornGraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<tags>
+		  <li>LotR_DwarfNoble</li>
+		</tags>
+	</apparel>
+  </ThingDef>
+
   
 </Defs>

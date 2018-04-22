@@ -17,6 +17,7 @@
     <weaponTags>
       <li>DwarvenMelee</li>
       <li>DwarvenAxe</li>
+      <li>DwarvenGuard</li>
     </weaponTags>
     <costStuffCount>148</costStuffCount>
     <statBases>
@@ -68,6 +69,9 @@
     <recipeMaker>
       <researchPrerequisite>LongBlades</researchPrerequisite>
     </recipeMaker>
+	<tradeTags>
+	  <li>LotRD_DwarvenWeapons</li>
+	</tradeTags>
   </ThingDef>
   
 <!-- Tier 2 -->
@@ -85,7 +89,7 @@
     <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>DwarvenMelee</li>
-      <li>DwarvenAxe</li>
+      <li>LotRD_AxyDwarf</li>
     </weaponTags>
     <costStuffCount>160</costStuffCount>
     <statBases>
@@ -137,6 +141,9 @@
     <recipeMaker>
       <researchPrerequisite>LongBlades</researchPrerequisite>
     </recipeMaker>
+	<tradeTags>
+	  <li>LotRD_DwarvenWeapons</li>
+	</tradeTags>
   </ThingDef>
   
 
@@ -154,8 +161,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
+      <li>LotRD_AxyDwarf</li>
       <li>DwarvenMelee</li>
-      <li>DwarvenAxe</li>
 	  <li>DwarvenElite</li>
     </weaponTags>
     <costStuffCount>185</costStuffCount>
@@ -207,7 +214,10 @@
     </tools>
     <recipeMaker>
       <researchPrerequisite>LongBlades</researchPrerequisite>
-    </recipeMaker>
+    </recipeMaker>	
+	<tradeTags>
+	  <li>LotRD_DwarvenWeapons</li>
+	</tradeTags>
   </ThingDef>
 
 </Defs>
