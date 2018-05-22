@@ -27,7 +27,6 @@
             <state relative-caret-position="190">
               <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
-                <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
                 <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
                 <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
               </folding>
@@ -38,7 +37,7 @@
       <file leaf-file-name="HarmonyPatches.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="475">
               <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <marker date="1524159497401" expanded="true" signature="6:119" ph="..." />
@@ -72,10 +71,10 @@
       <file leaf-file-name="IncidentWorker_QuestAncientMines.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
+            <state relative-caret-position="559">
               <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
               <folding>
-                <marker date="1524334704855" expanded="true" signature="6:104" ph="..." />
+                <marker date="1524334704855" expanded="false" signature="6:104" ph="..." />
                 <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
                 <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
                 <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />
@@ -88,8 +87,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,9 +107,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="456" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="47" />
+    <option name="y" value="26" />
     <option name="width" value="1088" />
     <option name="height" value="797" />
   </component>
@@ -129,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -137,17 +135,13 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Dwarves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Dwarves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Dwarves" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,9 +163,9 @@
   <component name="RunManager" selected=".NET Executable.Deployer">
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
     <configuration name="Deployer" type="RunExe" factoryName=".NET Executable">
-      <option name="EXE_PATH" value="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\RimworldModReleaseTool.exe" />
-      <option name="PROGRAM_PARAMETERS" value="D:\SteamLibrary\steamapps\common\RimWorld\Mods\Lord-of-the-Rims---Dwarves" />
-      <option name="WORKING_DIRECTORY" value="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves" />
+      <option name="EXE_PATH" value="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\RimworldModReleaseTool.exe" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Lord-of-the-Rims---Dwarves&quot;" />
+      <option name="WORKING_DIRECTORY" value="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <envs />
       <option name="USE_MONO" value="0" />
@@ -206,11 +200,17 @@
       <workItem from="1523844976467" duration="1119000" />
       <workItem from="1523974932737" duration="4699000" />
       <workItem from="1524145099424" duration="22438000" />
+      <workItem from="1524838728298" duration="1867000" />
+      <workItem from="1526221532705" duration="1148000" />
+      <workItem from="1526305751930" duration="1764000" />
+      <workItem from="1526701368138" duration="1274000" />
+      <workItem from="1526792899415" duration="627000" />
+      <workItem from="1526972533060" duration="4863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67728000" />
+    <option name="totallyTimeSpent" value="79271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -222,18 +222,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="456" y="3" width="1088" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="47" y="26" width="1088" height="797" extended-state="1" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6698565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26284584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3083004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -260,102 +259,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="1558">
+          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
           <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+            <marker date="1524334704855" expanded="false" signature="6:104" ph="..." />
+            <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />
           </folding>
         </state>
       </provider>
@@ -373,167 +285,6 @@
         <state relative-caret-position="190">
           <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="79" lean-forward="false" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="79" lean-forward="false" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="79" lean-forward="false" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
-            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1518182220858" expanded="true" signature="31:163" ph="{...}" />
             <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
             <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
           </folding>
@@ -542,7 +293,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="475">
           <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <marker date="1524159497401" expanded="true" signature="6:119" ph="..." />
@@ -574,10 +325,577 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <marker date="1524334704855" expanded="false" signature="6:104" ph="..." />
+            <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1524159497401" expanded="true" signature="6:119" ph="..." />
+            <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="213:4889" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="252:563" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="658:1289" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="681:860" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+            <marker date="1524159497401" expanded="true" signature="920:1052" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1118:1254" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1411:2429" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1463:2323" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1830:1909" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2118:2309" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2211:2291" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2557:3625" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2609:3519" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2992:3086" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3310:3505" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3407:3487" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3748:4874" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3800:4768" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <marker date="1524334704855" expanded="false" signature="6:104" ph="..." />
+            <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1524159497401" expanded="true" signature="6:119" ph="..." />
+            <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="213:4889" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="252:563" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="658:1289" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="681:860" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+            <marker date="1524159497401" expanded="true" signature="920:1052" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1118:1254" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1411:2429" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1463:2323" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1830:1909" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2118:2309" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2211:2291" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2557:3625" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2609:3519" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2992:3086" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3310:3505" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3407:3487" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3748:4874" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3800:4768" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <marker date="1524334704855" expanded="false" signature="6:104" ph="..." />
+            <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <marker date="1524334704855" expanded="false" signature="6:104" ph="..." />
+            <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1524159497401" expanded="true" signature="6:119" ph="..." />
+            <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="213:4889" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="252:563" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="658:1289" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="681:860" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+            <marker date="1524159497401" expanded="true" signature="920:1052" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1118:1254" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1411:2429" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1463:2323" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1830:1909" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2118:2309" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2211:2291" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2557:3625" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2609:3519" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2992:3086" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3310:3505" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3407:3487" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3748:4874" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3800:4768" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1524159497401" expanded="true" signature="6:119" ph="..." />
+            <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="213:4889" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="252:563" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="658:1289" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="681:860" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+            <marker date="1524159497401" expanded="true" signature="920:1052" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1118:1254" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1411:2429" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1463:2323" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1830:1909" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2118:2309" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2211:2291" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2557:3625" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2609:3519" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2992:3086" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3310:3505" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3407:3487" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3748:4874" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3800:4768" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1634">
           <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
           <folding>
-            <marker date="1524334704855" expanded="true" signature="6:104" ph="..." />
+            <marker date="1524334704855" expanded="false" signature="6:104" ph="..." />
+            <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
+            <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="79" lean-forward="false" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="79" lean-forward="false" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="79" lean-forward="false" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1518182220858" expanded="true" signature="65:161" ph="{...}" />
+            <marker date="1518182220858" expanded="true" signature="135:155" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1524159497401" expanded="true" signature="6:119" ph="..." />
+            <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="213:4889" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="252:563" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="658:1289" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="681:860" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+            <marker date="1524159497401" expanded="true" signature="920:1052" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1118:1254" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1411:2429" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1463:2323" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="1830:1909" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2118:2309" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2211:2291" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2557:3625" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2609:3519" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="2992:3086" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3310:3505" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3407:3487" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3748:4874" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="3800:4768" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
+            <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <marker date="1524334704855" expanded="false" signature="6:104" ph="..." />
             <marker date="1524334704855" expanded="true" signature="123:2739" ph="{...}" />
             <marker date="1524334704855" expanded="true" signature="187:2737" ph="{...}" />
             <marker date="1524334704855" expanded="true" signature="191:2734" ph="/* protected override bool CanFireNowSub(IIncidentTarget target) ... */" />

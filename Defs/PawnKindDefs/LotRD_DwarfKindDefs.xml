@@ -40,13 +40,13 @@
       <min>300</min>
       <max>900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
     <weaponMoney>
       <min>0</min>
       <max>250</max>
     </weaponMoney>
     <weaponTags>
-      <li>DwarvenMelee</li>
+      <li>DwarvenMeleeTier1</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -118,7 +118,18 @@
     <weaponTags>
       <li>LotRD_NobleDwarf</li>
     </weaponTags>    
-
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="LotRD_DwarfKing">
+    <defName>LotRD_DwarfLord</defName>
+	<defaultFactionType>LotRD_HillClans</defaultFactionType>
+	<label>dwarf-lord</label>
+    <labelMale>dwarf-lord</labelMale>
+    <labelFemale>dwarf-queen</labelFemale>
+    <apparelRequired>
+      <li>LotRD_DwarfApparel_IronHillArmor</li>
+      <li>LotRD_DwarfApparel_IronHillHelmet</li>
+    </apparelRequired>
   </PawnKindDef>
  
   <PawnKindDef ParentName="LotRD_BasePlayerPawnKind" Name="LotRD_DwarfGuard">
@@ -147,7 +158,7 @@
       <max>2000</max>
     </weaponMoney>
 	<weaponTags>
-      <li>DwarvenGuard</li>
+      <li>DwarvenMeleeTier2</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -180,9 +191,83 @@
     <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
   </PawnKindDef>    
 
+  
+ 
+  <PawnKindDef ParentName="LotRD_DwarfVillager">
+    <defName>LotRD_DwarfThief</defName>
+    <label>dwarf thief</label>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfBandit</defName>
+    <label>dwarf bandit</label>
+	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
+	<apparelTags>
+      <li>LotR_DwarfGuard</li>
+      <li>Outlander</li>
+    </apparelTags>
+	<weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+  </PawnKindDef>    
+  
+  <PawnKindDef ParentName="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfBanditHunter</defName>
+    <label>dwarf brigand</label>
+	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
+	<apparelTags>
+      <li>LotR_DwarfGuard</li>
+      <li>Outlander</li>
+    </apparelTags>
+	<weaponTags>
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+  </PawnKindDef>      
+  
+  <PawnKindDef ParentName="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfBanditTough</defName>
+    <label>dwarf marauder</label>
+	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
+    <combatPower>160</combatPower>
+	<apparelRequired>
+      <li>LotRD_DwarfApparel_IronHillArmor</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>0.0</apparelAllowHeadwearChance>
+	<weaponMoney>
+      <min>0</min>
+      <max>12000</max>
+    </weaponMoney>
+	<weaponTags>
+      <li>DwarvenMeleeTier1</li>
+      <li>DwarvenMeleeTier2</li>
+      <li>DwarvenMeleeTier3</li>
+    </weaponTags>
+  </PawnKindDef>    
+
+  <PawnKindDef ParentName="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfBanditToughRanged</defName>
+    <label>dwarf highwayman</label>
+	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
+    <combatPower>160</combatPower>
+	<apparelRequired>
+      <li>LotRD_DwarfApparel_IronHillArmor</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>0.0</apparelAllowHeadwearChance>
+	<weaponMoney>
+      <min>0</min>
+      <max>12000</max>
+    </weaponMoney>
+	<weaponTags>
+      <li>DwarvenRanged</li>
+    </weaponTags>
+  </PawnKindDef>    
+
   <PawnKindDef ParentName="LotRD_DwarfGuard">
     <defName>LotRD_DwarfGuardHill</defName>
     <label>hill-dwarf guard</label>
+	<defaultFactionType>LotRD_HillClans</defaultFactionType>
 	<apparelRequired>
       <li>LotRD_DwarfApparel_GimliArmor</li>
     </apparelRequired>
@@ -206,7 +291,7 @@
       <max>12000</max>
     </weaponMoney>
 	<weaponTags>
-      <li>DwarvenElite</li>
+      <li>DwarvenMeleeTier3</li>
     </weaponTags>
   </PawnKindDef>  
   
@@ -214,6 +299,7 @@
     <defName>LotRD_DwarfSoldierHill</defName>
     <label>hill-dwarf soldier</label>
     <combatPower>180</combatPower>
+	<defaultFactionType>LotRD_HillClans</defaultFactionType>
 	<apparelRequired>
       <li>LotRD_DwarfApparel_IronHillArmor</li>
       <li>LotRD_DwarfApparel_IronHillHelmet</li>
@@ -224,7 +310,26 @@
       <max>12000</max>
     </weaponMoney>
 	<weaponTags>
-      <li>DwarvenElite</li>
+      <li>DwarvenMeleeTier3</li>
+    </weaponTags>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="LotRD_DwarfGuard">
+    <defName>LotRD_DwarfSoldierHillHogRider</defName>
+    <label>hill-dwarf hogrider</label>
+    <combatPower>180</combatPower>
+	<defaultFactionType>LotRD_HillClans</defaultFactionType>
+	<apparelRequired>
+      <li>LotRD_DwarfApparel_IronHillArmor</li>
+      <li>LotRD_DwarfApparel_IronHillHelmet</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+	<weaponMoney>
+      <min>0</min>
+      <max>12000</max>
+    </weaponMoney>
+	<weaponTags>
+      <li>DwarvenMeleeTier2</li>
     </weaponTags>
   </PawnKindDef>
   

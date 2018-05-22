@@ -166,7 +166,13 @@
 	  </hairSettings>
 	  <raceRestriction>
 	    <apparelList>
-		  <li>Apparel_TestArmor</li>
+		  <li>LotRD_DwarfApparel_GimliArmor</li>
+		  <li>LotRD_DwarfApparel_IronHillArmor</li>
+		  <li>LotRD_DwarfApparel_MoriaBattleArmor</li>
+		  <li>LotRD_DwarfApparel_Crown</li>
+		  <li>LotRD_DwarfApparel_GimliHelmet</li>
+		  <li>LotRD_DwarfApparel_IronHillHelmet</li>
+		  <li>LotRD_DwarfApparel_MoriaBattleHelmet</li>
 		</apparelList>
 	  </raceRestriction>
 	</alienRace>

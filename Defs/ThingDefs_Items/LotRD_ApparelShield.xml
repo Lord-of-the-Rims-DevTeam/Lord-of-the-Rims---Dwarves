@@ -30,7 +30,7 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<!--weaponTags><li>NonNeolithicOnlyMelee</li></weaponTags-->
+		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
 		<comps>
 			<li Class="PawnShields.CompProperties_Shield">
 				<!-- Rendering systems -->
@@ -92,6 +92,7 @@
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignTwo_front</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
       <comps>
 	    <li Class="PawnShields.CompProperties_Shield">
 			<!-- Rendering systems -->
@@ -134,6 +135,7 @@
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignThree_front</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
       <comps>
 	    <li Class="PawnShields.CompProperties_Shield">
 			<!-- Rendering systems -->
@@ -176,6 +178,7 @@
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignFour_front</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
       <comps>
 	    <li Class="PawnShields.CompProperties_Shield">
 			<!-- Rendering systems -->
@@ -218,6 +221,7 @@
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignSix_front</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
       <comps>
 	    <li Class="PawnShields.CompProperties_Shield">
 			<!-- Rendering systems -->
@@ -258,6 +262,7 @@
 		<label>Dwarven Iron Hill Shield</label>
 		<description>Shield commonly used alongside the battle armor of the dwarves from the Iron Hills.</description>
 		<equipmentType>None</equipmentType>
+		<weaponTags><li>DwarvenMeleeTier2</li></weaponTags>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaIronHillShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -338,6 +343,7 @@
 		<label>Dwarven Moria Shield</label>
 		<description>Shield commonly used alongside the battle armor of the dwarves from Moria.</description>
 		<equipmentType>None</equipmentType>
+		<weaponTags><li>DwarvenMeleeTier3</li></weaponTags>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaMoriaBattleShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

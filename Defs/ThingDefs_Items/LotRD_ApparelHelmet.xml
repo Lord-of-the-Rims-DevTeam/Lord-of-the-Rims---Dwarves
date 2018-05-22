@@ -61,7 +61,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaMoriaBattleHelmetDisplay</texPath>
+      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaIronHillHelmet_front</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>250</costStuffCount>
@@ -87,7 +87,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaMoriaBattleHelmet</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaIronHillHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

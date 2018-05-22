@@ -77,6 +77,11 @@
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+		<modExtensions>
+		  <li Class="JecsTools.FactionSettings">
+		    <entrySoundDef>LotRD_FanfareDwarfMountain</entrySoundDef>
+		  </li>
+		</modExtensions>
   </FactionDef>
 
   <FactionDef>
@@ -125,11 +130,12 @@
       <li>
         <kindDef>Normal</kindDef>
         <options>
-					<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
-					<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
-					<LotRD_DwarfSoldierHill>20</LotRD_DwarfSoldierHill>
-					<LotRD_DwarfKing>5</LotRD_DwarfKing>
-				</options>
+			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
+			<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
+			<LotRD_DwarfSoldierHill>20</LotRD_DwarfSoldierHill>
+			<LotRD_DwarfSoldierHillHogRider>123</LotRD_DwarfSoldierHillHogRider>
+			<LotRD_DwarfLord>5</LotRD_DwarfLord>
+		</options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
@@ -142,6 +148,7 @@
         <guards>
 			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
 			<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
+			<LotRD_DwarfSoldierHillHogRider>123</LotRD_DwarfSoldierHillHogRider>
 		</guards>
       </li>
       <li>
@@ -150,7 +157,99 @@
 			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
 			<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
 			<LotRD_DwarfSoldierHill>20</LotRD_DwarfSoldierHill>
-			<LotRD_DwarfKing>5</LotRD_DwarfKing>
+			<LotRD_DwarfSoldierHillHogRider>123</LotRD_DwarfSoldierHillHogRider>
+			<LotRD_DwarfLord>5</LotRD_DwarfLord>
+		</options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+		<modExtensions>
+		  <li Class="JecsTools.FactionSettings">
+		    <entrySoundDef>LotRD_FanfareDwarfHill</entrySoundDef>
+		  </li>
+		</modExtensions>
+  </FactionDef>
+
+  <FactionDef>
+	<defName>LotRD_DwarfBandits</defName>
+	<label>dwarf bandits</label>
+	<fixedName>Dwarven Bandits</fixedName>
+    <description></description>
+    <pawnsPlural>bandit dwarves</pawnsPlural>
+    <baseSelectionWeight>0.1</baseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>2</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>boss</leaderTitle>
+    <expandingIconTexture>World/BanditDwarves</expandingIconTexture>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-90</max>
+    </startingGoodwill>
+		<baseNameMaker>NamerFactionBasePirate</baseNameMaker>
+		<techLevel>Medieval</techLevel>
+		<backstoryCategory>Civil</backstoryCategory>
+		<geneticVariance>0.8</geneticVariance>
+		<hairTags>
+			<li>Rural</li>
+		</hairTags>
+    <naturalColonyGoodwill>
+      <min>0</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <caravanTraderKinds>
+      <li>LotRD_Caravan_Dwarf_BulkGoods</li>
+      <li>LotRD_Caravan_Dwarf_CombatSupplier</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <options>
+			<LotRD_DwarfThief>50</LotRD_DwarfThief>
+			<LotRD_DwarfBandit>100</LotRD_DwarfBandit>
+			<LotRD_DwarfBanditHunter>100</LotRD_DwarfBanditHunter>
+			<LotRD_DwarfBanditTough>123</LotRD_DwarfBanditTough>
+			<LotRD_DwarfBanditToughRanged>123</LotRD_DwarfBanditToughRanged>
+			<LotRD_DwarfLord>5</LotRD_DwarfLord>
+		</options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <LotRD_DwarfTrader>1</LotRD_DwarfTrader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+        </carriers>
+        <guards>
+			<LotRD_DwarfThief>50</LotRD_DwarfThief>
+			<LotRD_DwarfBandit>100</LotRD_DwarfBandit>
+			<LotRD_DwarfBanditHunter>100</LotRD_DwarfBanditHunter>
+			<LotRD_DwarfBanditTough>123</LotRD_DwarfBanditTough>
+			<LotRD_DwarfBanditToughRanged>123</LotRD_DwarfBanditToughRanged>
+		</guards>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+			<LotRD_DwarfThief>50</LotRD_DwarfThief>
+			<LotRD_DwarfBandit>100</LotRD_DwarfBandit>
+			<LotRD_DwarfBanditHunter>100</LotRD_DwarfBanditHunter>
+			<LotRD_DwarfBanditTough>123</LotRD_DwarfBanditTough>
+			<LotRD_DwarfBanditToughRanged>123</LotRD_DwarfBanditToughRanged>
+			<LotRD_DwarfLord>500</LotRD_DwarfLord>
 		</options>
       </li>
     </pawnGroupMakers>

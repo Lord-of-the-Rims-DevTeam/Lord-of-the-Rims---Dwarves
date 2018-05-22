@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?><Defs>
 
+
+      <!-- A sound def for entry -->
+	  <!-- Make sure this has onCamera -->
+	  <SoundDef>
+		<defName>LotRD_FanfareDwarfMountain</defName>  
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		  <li>
+		    <!-- Yeah this must be true -->
+			<onCamera>True</onCamera>      
+			<grains>
+			  <li Class="AudioGrain_Folder">
+				<clipFolderPath>Faction/FanfareDwarfMountain</clipFolderPath>
+			  </li>
+			</grains>      
+			<volumeRange>
+			  <min>10.058827</min>        
+			  <max>10.058827</max>
+			</volumeRange>      
+			<pitchRange>
+			  <min>0.9311765</min>        
+			  <max>1</max>
+			</pitchRange>
+		  </li>
+		</subSounds>
+	  </SoundDef>
+	  <SoundDef>
+		<defName>LotRD_FanfareDwarfHill</defName>  
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		  <li>
+		    <!-- Yeah this must be true -->
+			<onCamera>True</onCamera>      
+			<grains>
+			  <li Class="AudioGrain_Folder">
+				<clipFolderPath>Faction/FanfareDwarfHill</clipFolderPath>
+			  </li>
+			</grains>      
+			<volumeRange>
+			  <min>10.058827</min>        
+			  <max>10.058827</max>
+			</volumeRange>      
+			<pitchRange>
+			  <min>0.9311765</min>        
+			  <max>1</max>
+			</pitchRange>
+		  </li>
+		</subSounds>
+	  </SoundDef>
+
+
   <SoundDef>
     <defName>LotRD_BowDwarf</defName>  
     <context>MapOnly</context>
@@ -22,5 +75,6 @@
       </li>
     </subSounds>
   </SoundDef>
+
 
 </Defs>

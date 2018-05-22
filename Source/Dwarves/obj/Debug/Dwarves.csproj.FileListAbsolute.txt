@@ -4,3 +4,6 @@ D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord of the Rims - Dwarv
 D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.csprojResolveAssemblyReference.cache
 D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Assemblies\Dwarves.dll
 D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Assemblies\Dwarves.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.dll

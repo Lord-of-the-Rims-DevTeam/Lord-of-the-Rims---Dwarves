@@ -62,18 +62,17 @@
 	  <li>LotRD_DwarvenArmor</li>
 	</tradeTags>
   </ThingDef>
-
   
 	<ThingDef ParentName="LotRD_ArmorMakeableBase">
     <defName>LotRD_DwarfApparel_IronHillArmor</defName>
-    <label>Dwarven Iron Hill armor</label>
+    <label>Dwarven Hill armor</label>
     <description>Used by the Dwarves of the Iron Hills, this armor appeared most prominently during the Battle of the Five Armies.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Armor/xenIronHillArmorDisplay</texPath>
+      <texPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaIronHillArmor_Male_front</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>250</costStuffCount>
@@ -105,7 +104,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Armor/xenIronHillArmor</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaIronHillArmor</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
@@ -124,7 +123,7 @@
   
 	<ThingDef ParentName="LotRD_ArmorMakeableBase">
     <defName>LotRD_DwarfApparel_MoriaBattleArmor</defName>
-    <label>Dwarven Moria battle armor</label>
+    <label>Dwarven Moria armor</label>
     <description>Used by the Dwarves of Moria, this sturdy battle armor helped prolong their survival during the Battle of Moria.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>

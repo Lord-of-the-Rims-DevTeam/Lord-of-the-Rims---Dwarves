@@ -15,12 +15,11 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>DwarvenMelee</li>
-      <li>DwarvenAxe</li>
-      <li>DwarvenGuard</li>
+      <li>DwarvenMeleeTier1</li>
     </weaponTags>
     <costStuffCount>148</costStuffCount>
     <statBases>
+	  <MarketValue>20</MarketValue>
       <WorkToMake>24500</WorkToMake>
       <Mass>1.0</Mass>
       <Weapon_Bulk>1.0</Weapon_Bulk>
@@ -33,7 +32,7 @@
 	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
 	  <verticalFlipNorth>true</verticalFlipNorth>
 	  <angleAdjustmentWest>90</angleAdjustmentWest>
-	  <angleAdjustmentEast>-90</angleAdjustmentEast>
+	  <angleAdjustmentEast>-130</angleAdjustmentEast>
 	  <northOffset>(0.30,0,0.2)</northOffset>
 	  <eastOffset>(0,0,-0.1)</eastOffset>
 	  <westOffset>(0,0,-0.1)</westOffset>
@@ -88,8 +87,7 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>DwarvenMelee</li>
-      <li>LotRD_AxyDwarf</li>
+      <li>DwarvenMeleeTier2</li>
     </weaponTags>
     <costStuffCount>160</costStuffCount>
     <statBases>
@@ -161,9 +159,7 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>LotRD_AxyDwarf</li>
-      <li>DwarvenMelee</li>
-	  <li>DwarvenElite</li>
+      <li>DwarvenMeleeTier3</li>
     </weaponTags>
     <costStuffCount>185</costStuffCount>
     <statBases>
@@ -179,7 +175,7 @@
 	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
 	  <verticalFlipNorth>true</verticalFlipNorth>
 	  <angleAdjustmentWest>90</angleAdjustmentWest>
-	  <angleAdjustmentEast>-90</angleAdjustmentEast>
+	  <angleAdjustmentEast>-130</angleAdjustmentEast>
 	  <northOffset>(0.30,0,0.2)</northOffset>
 	  <eastOffset>(0,0,-0.1)</eastOffset>
 	  <westOffset>(0,0,-0.1)</westOffset>
