@@ -4,7 +4,7 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality" Name="LotRD_DwarfStandardShield">
 		<defName>LotRD_DwarfStandardShield</defName>
-		<label>Dwarven Standard Shield</label>
+		<label>dwarf-shield</label>
 		<description>This is a fast to craft, common shield, often employed by Dwarves.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
@@ -30,7 +30,7 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
+		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
 		<comps>
 			<li Class="PawnShields.CompProperties_Shield">
 				<!-- Rendering systems -->
@@ -87,12 +87,12 @@
 	
 	<ThingDef ParentName="LotRD_DwarfStandardShield">
 	  <defName>LotRD_DwarfStandardShieldTwo</defName>
-	  <label>Dwarven Standard Shield (Knotted)</label>
+	  <label>dwarf-shield (knotted)</label>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignTwo_front</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
+		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
       <comps>
 	    <li Class="PawnShields.CompProperties_Shield">
 			<!-- Rendering systems -->
@@ -130,12 +130,12 @@
 
 	<ThingDef ParentName="LotRD_DwarfStandardShield">
 	  <defName>LotRD_DwarfStandardShieldThree</defName>
-	  <label>Dwarven Standard Shield (Green)</label>
+	  <label>dwarf-shield (green)</label>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignThree_front</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
+		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
       <comps>
 	    <li Class="PawnShields.CompProperties_Shield">
 			<!-- Rendering systems -->
@@ -173,12 +173,12 @@
 	
 	<ThingDef ParentName="LotRD_DwarfStandardShield">
 	  <defName>LotRD_DwarfStandardShieldFour</defName>
-	  <label>Dwarven Standard Shield (Heraldry)</label>
+	  <label>dwarf-shield (heraldry)</label>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignFour_front</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
+		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
       <comps>
 	    <li Class="PawnShields.CompProperties_Shield">
 			<!-- Rendering systems -->
@@ -216,12 +216,12 @@
 	
 	<ThingDef ParentName="LotRD_DwarfStandardShield">
 	  <defName>LotRD_DwarfStandardShieldFive</defName>
-	  <label>Dwarven Standard Shield (Noble)</label>
+	  <label>dwarf-shield (noble)</label>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignSix_front</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags><li>DwarvenMeleeTier1</li></weaponTags>
+		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
       <comps>
 	    <li Class="PawnShields.CompProperties_Shield">
 			<!-- Rendering systems -->
@@ -259,10 +259,10 @@
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>LotRD_IronHillBattleShield</defName>
-		<label>Dwarven Iron Hill Shield</label>
+		<label>hill-dwarf Shield</label>
 		<description>Shield commonly used alongside the battle armor of the dwarves from the Iron Hills.</description>
 		<equipmentType>None</equipmentType>
-		<weaponTags><li>DwarvenMeleeTier2</li></weaponTags>
+		<weaponTags><li>DwarvenShieldTier2</li></weaponTags>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaIronHillShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -283,7 +283,6 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<!--weaponTags><li>NonNeolithicOnlyMelee</li></weaponTags-->
 		<comps>
 			<li Class="PawnShields.CompProperties_Shield">
 				<!-- Rendering systems -->
@@ -340,10 +339,10 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>LotRD_MoriaBattleShield</defName>
-		<label>Dwarven Moria Shield</label>
+		<label>mountain-dwarf shield</label>
 		<description>Shield commonly used alongside the battle armor of the dwarves from Moria.</description>
 		<equipmentType>None</equipmentType>
-		<weaponTags><li>DwarvenMeleeTier3</li></weaponTags>
+		<weaponTags><li>DwarvenShieldTier3</li></weaponTags>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaMoriaBattleShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -365,7 +364,6 @@
 			<li>Metallic</li>
 			<li>Woody</li>
 		</stuffCategories>
-		<!--weaponTags><li>NonNeolithicOnlyMelee</li></weaponTags-->
 		<comps>
 			<li Class="PawnShields.CompProperties_Shield">
 				<!-- Rendering systems -->

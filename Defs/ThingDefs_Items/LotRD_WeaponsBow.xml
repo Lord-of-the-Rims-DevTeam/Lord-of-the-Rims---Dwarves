@@ -17,7 +17,7 @@
   </ThingDef>
   <ThingDef ParentName="LotRD_BaseWeaponNeolithic">
     <defName>LotRD_Bow_Dwarven</defName>
-    <label>dwarven horn bow</label>
+    <label>dwarf horn bow</label>
     <description>Efficient at both close and medium range, this heavy hitting bow is the preferred ranged weapon of the Dwarves.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/LotRD_sheidulaDwarvenHornBow</texPath>

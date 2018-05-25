@@ -5,8 +5,8 @@
 
 	<ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_DwarfSword</defName>
-    <label>Dwarven Sword</label>
-    <description>A finely crafted dwarven blade, suitable for noble dwarves demonstrating their heraldry.</description>
+    <label>dwarf-sword</label>
+    <description>A finely crafted Dwarven blade, suitable for noble Dwarves demonstrating their heraldry.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/Sword/LotRD_sheidulaDwarvenSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -27,16 +27,14 @@
       <li>Metallic</li>
     </stuffCategories>
 	<comps>
-	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-	  
-	  <verticalFlipNorth>true</verticalFlipNorth>
-	  <angleAdjustmentWest>90</angleAdjustmentWest>
-	  <angleAdjustmentEast>-90</angleAdjustmentEast>
-	  <northOffset>(0.35,0,0.2)</northOffset>
-	  <eastOffset>(0.1,0,0.1)</eastOffset>
-	  <westOffset>(-0.1,-0.2,0.1)</westOffset>
-	  <southOffset>(-0.35,0,-0.2)</southOffset>
-	  
+	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">		  
+		<verticalFlipNorth>true</verticalFlipNorth>
+		<angleAdjustmentWest>90</angleAdjustmentWest>
+		<angleAdjustmentEast>-90</angleAdjustmentEast>
+		<northOffset>(0.35,0,0.2)</northOffset>
+		<eastOffset>(0.1,0,0.1)</eastOffset>
+		<westOffset>(-0.1,-0.2,0.1)</westOffset>
+		<southOffset>(-0.35,0,-0.2)</southOffset>
 	  </li>
 	</comps>
     <tools>

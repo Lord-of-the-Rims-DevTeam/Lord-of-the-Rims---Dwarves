@@ -3,7 +3,7 @@
   
   <ThingDef ParentName="LotRD_ArmorHelmetMakeableBase">
     <defName>LotRD_DwarfApparel_MoriaBattleHelmet</defName>
-    <label>Dwarven Moria battle helmet</label>
+    <label>mountain-dwarf battle helmet</label>
     <description>A part of the Dwarven Moria battle armor set.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -54,8 +54,8 @@
 
   <ThingDef ParentName="LotRD_ArmorHelmetMakeableBase">
     <defName>LotRD_DwarfApparel_IronHillHelmet</defName>
-    <label>Dwarven Iron Hill helmet</label>
-    <description>A part of the Dwarven Moria battle armor set.</description>
+    <label>hill-dwarf helmet</label>
+    <description>A helmet worn by dwarves from the hillsides.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -105,7 +105,7 @@
 
     <ThingDef ParentName="LotRD_ArmorHelmetMakeableBase">
     <defName>LotRD_DwarfApparel_GimliHelmet</defName>
-    <label>Dwarf longbeard helmet</label>
+    <label>longbeard-dwarf helmet</label>
     <description>A helmet crafted from metalsmiths descended from the line of Durin and the longbeard dwarves.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -156,7 +156,7 @@
 
     <ThingDef ParentName="LotRD_ArmorHelmetMakeableBase">
     <defName>LotRD_DwarfApparel_Crown</defName>
-    <label>Dwarf-king's crown</label>
+    <label>dwarf-king's crown</label>
     <description>A dwarven crown fashioned in the likeness of the great kingdom of Erebor's raven crown.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>

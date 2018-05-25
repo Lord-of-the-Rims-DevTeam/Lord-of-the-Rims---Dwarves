@@ -5,7 +5,7 @@
 
   <ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_AxeGimliWalking</defName>
-    <label>Dwarven Walking Axe</label>
+    <label>dwarf walking axe</label>
     <description>An axe with a very long handle. It also helps with mountain climbing.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/Axe/AxeWalkingGimli</texPath>
@@ -77,7 +77,7 @@
   
   <ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_AxeBattle</defName>
-    <label>Dwarven Battle Axe</label>
+    <label>dwarf battle axe</label>
     <description>A single-headed axe designed for war.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/Axe/AxeBattle</texPath>
@@ -149,7 +149,7 @@
 
 	<ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_AxeWarGimli</defName>
-    <label>Dwarven Double-Headed Axe</label>
+    <label>dwarf double-bearded axe</label>
     <description>A massive axe that takes two hands to wield.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/Axe/AxeWarGimli</texPath>

@@ -4,7 +4,7 @@
 
 	<ThingDef ParentName="LotRD_ArmorMakeableBase">
     <defName>LotRD_DwarfApparel_GimliArmor</defName>
-    <label>Dwarven longbeard chaincoat</label>
+    <label>longbeard-dwarf chaincoat</label>
     <description>Used by Durin's folk, this fine reinforced tabard wrapped chainmail served as a strong yet comfortable alternative to heavier armors and full plates favored by dwarves in combat.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -65,7 +65,7 @@
   
 	<ThingDef ParentName="LotRD_ArmorMakeableBase">
     <defName>LotRD_DwarfApparel_IronHillArmor</defName>
-    <label>Dwarven Hill armor</label>
+    <label>hill-dwarf armor</label>
     <description>Used by the Dwarves of the Iron Hills, this armor appeared most prominently during the Battle of the Five Armies.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -123,7 +123,7 @@
   
 	<ThingDef ParentName="LotRD_ArmorMakeableBase">
     <defName>LotRD_DwarfApparel_MoriaBattleArmor</defName>
-    <label>Dwarven Moria armor</label>
+    <label>mountain-dwarf armor</label>
     <description>Used by the Dwarves of Moria, this sturdy battle armor helped prolong their survival during the Battle of Moria.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
