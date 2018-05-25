@@ -268,18 +268,19 @@
       <li>DwarvenMeleeTier2</li>
       <li>DwarvenMeleeTier3</li>
     </weaponTags>
+	<!--
 	<modExtensions>
 		<li Class="PawnShields.ShieldPawnGeneratorProperties">
 			<shieldMoney>
 				<min>0</min>
 				<max>2000</max>
 			</shieldMoney>
-			<!-- Looks in weapons for these tags. -->
 			<shieldTags>
 				<li>DwarvenShieldTier1</li>
 			</shieldTags>
 		</li>
 	</modExtensions>
+	-->
   </PawnKindDef>    
 
   <PawnKindDef ParentName="LotRD_DwarfGuard">
@@ -311,18 +312,19 @@
       <li>LotR_DwarfGuard</li>
     </apparelTags>
     <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+	<!--
 	<modExtensions>
 		<li Class="PawnShields.ShieldPawnGeneratorProperties">
 			<shieldMoney>
 				<min>0</min>
 				<max>2000</max>
 			</shieldMoney>
-			<!-- Looks in weapons for these tags. -->
 			<shieldTags>
 				<li>DwarvenShieldTier1</li>
 			</shieldTags>
 		</li>
 	</modExtensions>
+	-->
   </PawnKindDef>  
     
   <PawnKindDef ParentName="LotRD_DwarfGuard">
@@ -341,18 +343,19 @@
 	<weaponTags>
       <li>DwarvenMeleeTier3</li>
     </weaponTags>
+	<!--
 	<modExtensions>
 		<li Class="PawnShields.ShieldPawnGeneratorProperties">
 			<shieldMoney>
 				<min>0</min>
 				<max>2000</max>
 			</shieldMoney>
-			<!-- Looks in weapons for these tags. -->
 			<shieldTags>
 				<li>DwarvenShieldTier3</li>
 			</shieldTags>
 		</li>
 	</modExtensions>
+	-->
   </PawnKindDef>  
   
   <PawnKindDef ParentName="LotRD_DwarfGuard">
@@ -372,18 +375,19 @@
 	<weaponTags>
       <li>DwarvenMeleeTier3</li>
     </weaponTags>
+	<!--
 	<modExtensions>
 		<li Class="PawnShields.ShieldPawnGeneratorProperties">
 			<shieldMoney>
 				<min>0</min>
 				<max>2000</max>
 			</shieldMoney>
-			<!-- Looks in weapons for these tags. -->
 			<shieldTags>
 				<li>DwarvenShieldTier2</li>
 			</shieldTags>
 		</li>
 	</modExtensions>
+	-->
   </PawnKindDef>
   
   <PawnKindDef ParentName="LotRD_DwarfGuard">
@@ -403,20 +407,19 @@
 	<weaponTags>
       <li>DwarvenMeleeTier2</li>
     </weaponTags>
+	<!--
 	<modExtensions>
 		<li Class="PawnShields.ShieldPawnGeneratorProperties">
 			<shieldMoney>
 				<min>0</min>
 				<max>2000</max>
 			</shieldMoney>
-			<!-- Looks in weapons for these tags. -->
 			<shieldTags>
 				<li>DwarvenShieldTier1</li>
 			</shieldTags>
 		</li>
 	</modExtensions>
+	-->
   </PawnKindDef>
-  
-  -->
   
 </Defs>
