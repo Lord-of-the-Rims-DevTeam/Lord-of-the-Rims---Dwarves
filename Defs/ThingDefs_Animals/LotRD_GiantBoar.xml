@@ -2,7 +2,7 @@
 <Defs>
 
 
-  <ThingDef ParentName="LotRD_AnimalThingBase">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>LotRD_GiantBoarRace</defName>
     <label>giant boar</label>
     <description>An over-sized boar with massive head and shoulders, rumored to be capable of being ridden.</description>
@@ -89,7 +89,7 @@
     </tradeTags>
   </ThingDef>
   
-  <PawnKindDef ParentName="LotRD_AnimalKindBase">
+  <PawnKindDef ParentName="AnimalKindBase">
     <defName>LotRD_GiantBoarKind</defName>
     <label>giant boar</label>
     <race>LotRD_GiantBoarRace</race>
@@ -149,38 +149,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-  
-  
-  <ThingDef ParentName="LotRD_BasePawn" Name="LotRD_AnimalThingBase" Abstract="True">
-    <statBases>
-      <Flammability>1.0</Flammability>
-      <LeatherAmount>25</LeatherAmount>
-    </statBases>
-    <race>
-      <thinkTreeMain>Animal</thinkTreeMain>
-      <thinkTreeConstant>AnimalConstant</thinkTreeConstant>
-      <hasGenders>true</hasGenders>
-      <nameGenerator>NamerAnimalGenericMale</nameGenerator>
-      <nameGeneratorFemale>NamerAnimalGenericFemale</nameGeneratorFemale>
-      <manhunterOnDamageChance>0.0125</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.003</manhunterOnTameFailChance>
-      <nameOnNuzzleChance>0.5</nameOnNuzzleChance>
-      <hediffGiverSets>
-        <li>OrganicStandard</li>
-      </hediffGiverSets>
-    </race>
-    <recipes>
-			<li>ExciseCarcinoma</li>
-      <li>AdministerMechSerumHealer</li>
-      <li>RemoveBodyPart</li>
-      <li>Euthanize</li>
-      <li>Anesthetize</li>
-    </recipes>
-  </ThingDef>
-
-  <PawnKindDef Name="LotRD_AnimalKindBase" Abstract="True">
-  </PawnKindDef>
-  
     
   
 </Defs>

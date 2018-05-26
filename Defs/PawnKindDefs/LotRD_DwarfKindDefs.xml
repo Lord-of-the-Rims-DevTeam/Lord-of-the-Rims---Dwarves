@@ -2,7 +2,7 @@
 <Defs>
 
 
-  <PawnKindDef ParentName="LotRD_BasePlayerPawnKind">
+  <PawnKindDef ParentName="BasePlayerPawnKind">
     <defName>LotRD_DwarfColonist</defName>
 	<race>LotRD_DwarfStandardRace</race>
     <label>colonist (dwarf)</label>
@@ -20,7 +20,7 @@
   </PawnKindDef>
 
   
-  <PawnKindDef ParentName="LotRD_BasePlayerPawnKind" Name="LotRD_DwarfVillager">
+  <PawnKindDef ParentName="BasePlayerPawnKind" Name="LotRD_DwarfVillager">
     <defName>LotRD_DwarfVillager</defName>
 	<race>LotRD_DwarfStandardRace</race>
     <label>dwarf-villager</label>
@@ -132,7 +132,7 @@
     </apparelRequired>
   </PawnKindDef>
  
-  <PawnKindDef ParentName="LotRD_BasePlayerPawnKind" Name="LotRD_DwarfGuard">
+  <PawnKindDef ParentName="BasePlayerPawnKind" Name="LotRD_DwarfGuard">
     <defName>LotRD_DwarfGuard</defName>
     <label>dwarf-guard</label>
 	<race>LotRD_DwarfStandardRace</race>
