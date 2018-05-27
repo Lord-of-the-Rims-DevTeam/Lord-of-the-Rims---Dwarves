@@ -4,10 +4,15 @@
     <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Assemblies" t="ExcludeRecursive" />
     <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source" t="IncludeFlat">
       <e p="Dwarves" t="IncludeRecursive">
+        <e p="DwarfDefOf.cs" t="Include" />
         <e p="DwarfMod.cs" t="Include" />
         <e p="Dwarves.csproj" t="IncludeRecursive" />
+        <e p="GenStep_AncientDwarvenStronghold.cs" t="Include" />
         <e p="HarmonyPatches.cs" t="Include" />
-        <e p="IncidentWorker_QuestAncientMines.cs" t="Include" />
+        <e p="IncidentWorker_AncientDwarvenStronghold.cs" t="Include" />
+        <e p="ItemCollectionGenerator_Treasure.cs" t="Include" />
+        <e p="JobDriver_SolvePuzzle.cs" t="Include" />
+        <e p="JoyGiver_Puzzlebox.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
       </e>
       <e p="Dwarves.sln" t="IncludeFlat" />

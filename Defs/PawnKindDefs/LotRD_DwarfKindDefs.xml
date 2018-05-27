@@ -120,7 +120,7 @@
     </weaponTags>    
   </PawnKindDef>
   
-  <PawnKindDef ParentName="LotRD_DwarfKing">
+  <PawnKindDef ParentName="LotRD_DwarfVillager" Name="LotRD_DwarfLord">
     <defName>LotRD_DwarfLord</defName>
 	<defaultFactionType>LotRD_HillClans</defaultFactionType>
 	<label>dwarf-lord</label>
@@ -128,8 +128,30 @@
     <labelFemale>dwarf-queen</labelFemale>
     <apparelRequired>
       <li>LotRD_DwarfApparel_IronHillArmor</li>
-      <li>LotRD_DwarfApparel_IronHillHelmet</li>
+      <li>LotRD_DwarfApparel_IronHillHelmetKing</li>
     </apparelRequired>
+	<isFighter>true</isFighter>
+    <combatPower>200</combatPower>
+    <apparelTags>
+      <li>Outlander</li>
+      <li>LotR_DwarfMilitary</li>
+      <li>LotR_DwarfNoble</li>
+    </apparelTags>
+    <factionLeader>true</factionLeader>
+    <minGenerationAge>60</minGenerationAge>
+    <maxGenerationAge>100</maxGenerationAge>
+    <apparelMoney>
+      <min>2000</min>
+      <max>32000</max>
+    </apparelMoney>
+    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+	<weaponMoney>
+      <min>0</min>
+      <max>32000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>LotRD_NobleDwarf</li>
+    </weaponTags>    
   </PawnKindDef>
  
   <PawnKindDef ParentName="BasePlayerPawnKind" Name="LotRD_DwarfGuard">

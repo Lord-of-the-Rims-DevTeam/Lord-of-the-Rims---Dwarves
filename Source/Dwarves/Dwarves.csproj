@@ -50,9 +50,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DwarfDefOf.cs" />
     <Compile Include="DwarfMod.cs" />
+    <Compile Include="GenStep_AncientDwarvenStronghold.cs" />
     <Compile Include="HarmonyPatches.cs" />
-    <Compile Include="IncidentWorker_QuestAncientMines.cs" />
+    <Compile Include="IncidentWorker_AncientDwarvenStronghold.cs" />
+    <Compile Include="ItemCollectionGenerator_Treasure.cs" />
+    <Compile Include="JobDriver_SolvePuzzle.cs" />
+    <Compile Include="JoyGiver_Puzzlebox.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

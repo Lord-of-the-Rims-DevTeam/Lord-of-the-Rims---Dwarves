@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SitePartDef>
+    <defName>LotRD_AncientDwarvenStronghold</defName>
+    <label>ancient dwarven stronghold</label>
+    <description>A treasure trove guarded by some terrible beast.</description>
+		<descriptionDialogue>there is terrible creature guarding this ruin</descriptionDialogue>
+		<siteTexture>World/WorldObjects/Sites/Outpost</siteTexture>
+    <expandingIconTexture>World/AncientDwarfRuin</expandingIconTexture>
+    <applyFactionColorToSiteTexture>false</applyFactionColorToSiteTexture>
+    <showFactionInInspectString>false</showFactionInInspectString>
+    <knownDanger>true</knownDanger>
+    <requiresFaction>false</requiresFaction>
+    <tags>
+      <li>AncientDwarvenStronghold</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>LotRD_AncientDwarvenStronghold</defName>
+    <linkWithSite>LotRD_AncientDwarvenStronghold</linkWithSite>
+    <order>741</order>
+    <genStep Class="Dwarves.GenStep_AncientDwarvenStronghold"/>
+  </GenStepDef>
+  
+</Defs>

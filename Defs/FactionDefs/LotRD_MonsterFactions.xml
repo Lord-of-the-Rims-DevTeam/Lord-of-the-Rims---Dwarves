@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef>
+    <defName>LotRD_MonsterFaction</defName>
+    <label>monster faction</label>
+    <description>Ancient danger of unknown type.</description>
+    <pawnsPlural>monsters</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <fixedName>den of monsters</fixedName>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+    <humanlikeFaction>false</humanlikeFaction>
+    <hidden>true</hidden>
+    <autoFlee>false</autoFlee>
+    <canUseAvoidGrid>false</canUseAvoidGrid>
+    <techLevel>Medieval</techLevel>
+    <earliestRaidDays>9999</earliestRaidDays>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-100</max>
+    </startingGoodwill>
+    <mustStartOneEnemy>true</mustStartOneEnemy>
+    <naturalColonyGoodwill>
+      <min>-100</min>
+      <max>-100</max>
+    </naturalColonyGoodwill>
+		<maxPawnOptionCostFactor>3.0</maxPawnOptionCostFactor>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <options>
+            <LotRD_Dragon>9999999</LotRD_Dragon>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <allowedArrivalTemperatureRange>
+      <min>-255</min>
+      <max>255</max>
+    </allowedArrivalTemperatureRange>
+  </FactionDef>
+
+  
+	<PawnKindDef>
+    <defName>LotRD_Dragon</defName>
+    <label>dragon</label>
+    <race>Mechanoid_Centipede</race>
+    <combatPower>1000</combatPower>
+    <defaultFactionType>Mechanoid</defaultFactionType>
+    <aiAvoidCover>true</aiAvoidCover>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Mechanoid/Centipede</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>3</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.8, 0.6)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponMoney>
+      <min>8000</min>
+      <max>8000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>MechanoidGunHeavy</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JoyGiverDef>
+    <defName>LotRD_PuzzleBox</defName>
+    <giverClass>Dwarves.JoyGiver_Puzzlebox</giverClass>
+    <baseChance>2</baseChance>
+    <jobDef>LotRD_SolvePuzzleBox</jobDef>
+    <joyKind>Study</joyKind>
+    <thingDefs>
+      <li>LotRD_DwarfPuzzleBox</li>
+    </thingDefs>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+
+</Defs>
