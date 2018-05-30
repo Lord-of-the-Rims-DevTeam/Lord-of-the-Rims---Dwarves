@@ -136,7 +136,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaIronHillHelmet</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaIronHillHelmetKing</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

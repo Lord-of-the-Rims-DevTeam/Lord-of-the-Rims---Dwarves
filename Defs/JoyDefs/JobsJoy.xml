@@ -11,5 +11,15 @@
     <joyGainRate>1</joyGainRate>
     <joyKind>Study</joyKind>
   </JobDef>
+  <JobDef>
+    <defName>LotRD_PlayWithDoll</defName>
+    <driverClass>Dwarves.JobDriver_PlayWithDoll</driverClass>
+    <reportString>playing with TargetA.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joySkill>Social</joySkill>
+    <joyXpPerTick>0.002</joyXpPerTick>
+    <joyGainRate>1</joyGainRate>
+    <joyKind>Social</joyKind>
+  </JobDef>
 
 </Defs>

@@ -7,19 +7,15 @@ using Verse.AI;
 
 namespace Dwarves
 {
-    
-    //Code by Mehni
-    public class JobDriver_SolvePuzzle : JobDriver
+    //Original code by Mehni, adopted by Jecrell
+    public class JobDriver_PlayWithDoll : JobDriver
     {
-        private const TargetIndex PuzzleBoxInd = TargetIndex.A;
+        private const TargetIndex ToyInd = TargetIndex.A;
         private const TargetIndex joySpot = TargetIndex.B;
 
         private Thing PuzzleBox
         {
-            get
-            {
-                return this.job.GetTarget(TargetIndex.A).Thing;
-            }
+            get { return this.job.GetTarget(TargetIndex.A).Thing; }
         }
 
         public override bool TryMakePreToilReservations()
@@ -29,46 +25,51 @@ namespace Dwarves
 
         protected override IEnumerable<Toil> MakeNewToils()
         {
-            yield return Toils_Goto.GotoThing(PuzzleBoxInd, PathEndMode.ClosestTouch).FailOnDespawnedNullOrForbidden(PuzzleBoxInd);
-            yield return Toils_Ingest.PickupIngestible(PuzzleBoxInd, this.pawn);
-            yield return CarryPuzzleToSpot(pawn, PuzzleBoxInd);
-            yield return Toils_Ingest.FindAdjacentEatSurface(joySpot, PuzzleBoxInd);
-            Toil puzzle;
-            puzzle = new Toil();
+            yield return Toils_Goto.GotoThing(ToyInd, PathEndMode.ClosestTouch).FailOnDespawnedNullOrForbidden(ToyInd);
+            yield return Toils_Ingest.PickupIngestible(ToyInd, this.pawn);
+            yield return CarryToyToSpot(pawn, ToyInd);
+            yield return Toils_Ingest.FindAdjacentEatSurface(joySpot, ToyInd);
+            Toil playWithToy;
+            playWithToy = new Toil();
 
-            puzzle.tickAction = this.WaitTickAction();
-            puzzle.AddFinishAction(() =>
+            playWithToy.tickAction = this.WaitTickAction();
+            playWithToy.AddFinishAction(() =>
             {
                 JoyUtility.TryGainRecRoomThought(this.pawn);
-                this.RollForLuck();
+                this.TalkToDoll();
             });
-            puzzle.defaultCompleteMode = ToilCompleteMode.Delay;
-            puzzle.defaultDuration = this.job.def.joyDuration;
-            puzzle.handlingFacing = true;
-            yield return puzzle;
+            playWithToy.defaultCompleteMode = ToilCompleteMode.Delay;
+            playWithToy.defaultDuration = this.job.def.joyDuration;
+            playWithToy.handlingFacing = true;
+            yield return playWithToy;
         }
 
-        protected void RollForLuck()
+        protected void TalkToDoll()
         {
-            float extraLuckFromQuality = base.TargetThingA.GetStatValue(StatDefOf.EntertainmentStrengthFactor, true);
-            float extraLuckFromSmarts = pawn.skills.GetSkill(SkillDefOf.Intellectual).levelInt;
-
-            float yourLuckyNumber = ((1f + extraLuckFromSmarts) * extraLuckFromQuality) / 100;
-
-            Log.Message("lucky number is: " + yourLuckyNumber.ToString());
-
-            if (Rand.Chance(yourLuckyNumber) || DebugSettings.godMode)
-            {
-                Thing reward = ThingMaker.MakeThing(ThingDefOf.Gold);
-                reward.stackCount = Rand.RangeInclusive(10, 50);
-                GenSpawn.Spawn(reward, pawn.Position, pawn.Map);
-                PuzzleBox.Destroy();
-                Letter letter = LetterMaker.MakeLetter("LotRD_PuzzleSolvedLabel".Translate(), "LotRD_PuzzleSolved".Translate(new object[] {
-                    pawn.Label,
-                    reward.Label,
-                }), LetterDefOf.PositiveEvent);
-                Find.LetterStack.ReceiveLetter(letter);
-            }
+            var symbol = InteractionDefOf.Chitchat.Symbol;
+            if (((Rand.Value > 0.5f) && pawn?.needs?.joy?.CurCategory <= JoyCategory.Low) ||
+                (pawn?.story?.traits.HasTrait(TraitDefOf.Abrasive) ?? false))
+                symbol = InteractionDefOf.Insult.Symbol;
+            MoteMaker.MakeInteractionBubble(pawn, null, ThingDefOf.Mote_Speech, symbol);
+//            float extraLuckFromQuality = base.TargetThingA.GetStatValue(StatDefOf.EntertainmentStrengthFactor, true);
+//            float extraLuckFromSmarts = pawn.skills.GetSkill(SkillDefOf.Intellectual).levelInt;
+//
+//            float yourLuckyNumber = ((1f + extraLuckFromSmarts) * extraLuckFromQuality) / 100;
+//
+//            Log.Message("lucky number is: " + yourLuckyNumber.ToString());
+//
+//            if (Rand.Chance(yourLuckyNumber) || DebugSettings.godMode)
+//            {
+//                Thing reward = ThingMaker.MakeThing(ThingDefOf.Gold);
+//                reward.stackCount = Rand.RangeInclusive(10, 50);
+//                GenSpawn.Spawn(reward, pawn.Position, pawn.Map);
+//                PuzzleBox.Destroy();
+//                Letter letter = LetterMaker.MakeLetter("LotRD_PuzzleSolvedLabel".Translate(), "LotRD_PuzzleSolved".Translate(new object[] {
+//                    pawn.Label,
+//                    reward.Label,
+//                }), LetterDefOf.PositiveEvent);
+//                Find.LetterStack.ReceiveLetter(letter);
+//            }
         }
 
         protected Action WaitTickAction()
@@ -83,7 +84,7 @@ namespace Dwarves
         }
 
         //slightly modified version of Toils_Ingest.CarryIngestibleToChewSpot
-        public static Toil CarryPuzzleToSpot(Pawn pawn, TargetIndex puzzleInd)
+        public static Toil CarryToyToSpot(Pawn pawn, TargetIndex puzzleInd)
         {
             Toil toil = new Toil();
             toil.initAction = delegate
@@ -92,7 +93,7 @@ namespace Dwarves
                 IntVec3 intVec = IntVec3.Invalid;
                 Thing thing = null;
                 Thing thing2 = actor.CurJob.GetTarget(puzzleInd).Thing;
-                Predicate<Thing> baseChairValidator = delegate (Thing t)
+                Predicate<Thing> baseChairValidator = delegate(Thing t)
                 {
                     if (t.def.building == null || !t.def.building.isSittable)
                     {
@@ -134,19 +135,20 @@ namespace Dwarves
 
                 //if you can find a table with chair, great. If not, go to your room.
 
-                thing = GenClosest.ClosestThingReachable(actor.Position, actor.Map, 
-                    ThingRequest.ForGroup(ThingRequestGroup.BuildingArtificial), PathEndMode.OnCell, 
-                    TraverseParms.For(actor), 
+                thing = GenClosest.ClosestThingReachable(actor.Position, actor.Map,
+                    ThingRequest.ForGroup(ThingRequestGroup.BuildingArtificial), PathEndMode.OnCell,
+                    TraverseParms.For(actor),
                     30f, //"chair search radius"
                     (Thing t) => baseChairValidator(t) && t.Position.GetDangerFor(pawn, t.Map) == Danger.None);
-                
+
                 if (thing == null)
                 {
                     if (pawn.ownership?.OwnedRoom != null)
                     {
                         (from c in pawn.ownership.OwnedRoom.Cells
-                         where c.Standable(pawn.Map) && !c.IsForbidden(pawn) && pawn.CanReserveAndReach(c, PathEndMode.OnCell, Danger.None)
-                         select c).TryRandomElement(out intVec);
+                            where c.Standable(pawn.Map) && !c.IsForbidden(pawn) &&
+                                  pawn.CanReserveAndReach(c, PathEndMode.OnCell, Danger.None)
+                            select c).TryRandomElement(out intVec);
                     }
                 }
                 if (thing != null)

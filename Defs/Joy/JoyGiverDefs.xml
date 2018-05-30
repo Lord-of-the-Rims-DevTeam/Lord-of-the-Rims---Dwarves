@@ -15,5 +15,35 @@
       <li>Manipulation</li>
     </requiredCapacities>
   </JoyGiverDef>
+  
+  <JoyGiverDef>
+    <defName>LotRD_DwarfMarbleLabyrinth</defName>
+    <giverClass>Dwarves.JoyGiver_MarbleLabyrinth</giverClass>
+    <baseChance>2</baseChance>
+    <jobDef>LotRD_SolvePuzzleBox</jobDef>
+    <joyKind>Study</joyKind>
+    <thingDefs>
+      <li>LotRD_DwarfMarbleLabyrinth</li>
+    </thingDefs>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  <JoyGiverDef>
+    <defName>LotRD_ToyDoll</defName>
+    <giverClass>Dwarves.JoyGiver_ToyDoll</giverClass>
+    <baseChance>2</baseChance>
+    <jobDef>LotRD_PlayWithDoll</jobDef>
+    <joyKind>Social</joyKind>
+    <thingDefs>
+      <li>LotRD_DwarfElfToy</li>
+    </thingDefs>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Talking</li>
+    </requiredCapacities>
+  </JoyGiverDef>
 
 </Defs>

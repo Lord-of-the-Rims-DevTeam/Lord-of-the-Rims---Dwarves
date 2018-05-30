@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?><Defs>
 
 
+  <SoundDef>
+    <defName>LotRD_ElfOof</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Toy/LotrD_ElfOof</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>9</min>
+          <max>11</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1.591765</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+
       <!-- A sound def for entry -->
 	  <!-- Make sure this has onCamera -->
 	  <SoundDef>

@@ -10,6 +10,19 @@ namespace Dwarves
 {
 	public class GenStep_AncientDwarvenStronghold : GenStep
 	{
+		
+		
+		public static CellRect TopHalf(CellRect rect)
+		{
+			return new CellRect(rect.minX, rect.minZ, rect.Width, (int)(rect.Height / 2f));
+		}
+
+		
+		public static CellRect BottomHalf(CellRect rect)
+		{
+			return new CellRect(rect.minX, rect.minZ + (int)(rect.Height / 2f), rect.Width, (int)(rect.Height / 2f));
+		}
+		
 		public override void Generate(Map map)
 		{
 			CellRect rectToDefend;
@@ -34,12 +47,15 @@ namespace Dwarves
 //			BaseGen.globalSettings.minBuildings = 1;
 //			BaseGen.globalSettings.minBarracks = 1;
 //			BaseGen.symbolStack.Push("factionBase", resolveParams);
-
+			Lord singlePawnLord = rp.singlePawnLord ?? LordMaker.MakeNewLord(faction, new LordJob_DefendPoint(rp.rect.CenterCell), map, null);
+		
 			
 			BaseGen.symbolStack.Push("outdoorLighting", rp);
 			ResolveParams resolveParams3 = rp;
 			Pawn pawn = PawnGenerator.GeneratePawn(DwarfDefOf.LotRD_Dragon, faction);
 			resolveParams3.singlePawnToSpawn = pawn;
+			resolveParams3.rect = new CellRect(rp.rect.CenterCell.x, rp.rect.CenterCell.z, 5, 5);
+			resolveParams3.singlePawnLord = singlePawnLord;
 			BaseGen.symbolStack.Push("pawn", resolveParams3);
 			
 			ThingDef thingDef = ThingDefOf.BlocksGranite; //rp.wallStuff ?? BaseGenUtility.RandomCheapWallStuff(rp.faction, false);
@@ -49,14 +65,29 @@ namespace Dwarves
 			var dragonRoomParams = default(ResolveParams);
 			var dragonRoomRect = rp.rect.ContractedBy(Rand.Range(20, 25));
 			
+			//Corpses strewn about
+			ResolveParams corpsesEverywhere = rp;
+			corpsesEverywhere.rect = dragonRoomRect.ContractedBy(1);
+			corpsesEverywhere.hivesCount = Rand.Range(12, 18);
+			corpsesEverywhere.faction = Find.FactionManager.RandomEnemyFaction();
+			BaseGen.symbolStack.Push("corpseMaker", corpsesEverywhere);
+			
+			//Just place a dwaven throne.
+			ResolveParams throneArea = rp;
+			throneArea.rect = CellRect.SingleCell(BottomHalf(dragonRoomRect).CenterCell);
+			throneArea.singleThingDef = ThingDef.Named("LotRD_DwarvenThrone");
+			throneArea.singleThingStuff = ThingDefOf.BlocksGranite;
+			BaseGen.symbolStack.Push("thing", throneArea);
+			
 			//Dragon horde
 			ResolveParams dragonHorde = rp;
-			dragonHorde.rect = new CellRect(dragonRoomRect.minX, (int)(dragonRoomRect.minZ + dragonRoomRect.Height / 2f), dragonRoomRect.Width, (int)(dragonRoomRect.Height / 2f));
+			dragonHorde.rect = TopHalf(dragonRoomRect); //new CellRect(dragonRoomRect.minX, (int)(dragonRoomRect.minZ + dragonRoomRect.Height / 2f), dragonRoomRect.Width, (int)(dragonRoomRect.Height / 2f));
 			dragonHorde.itemCollectionGeneratorDef = DwarfDefOf.LotRD_Treasure;
 			var newParamsForItemGen = new ItemCollectionGeneratorParams();
 			newParamsForItemGen.count = Rand.Range(15, 20);
 			newParamsForItemGen.totalMarketValue = Rand.Range(6000, 8000);
 			dragonHorde.itemCollectionGeneratorParams = newParamsForItemGen;
+			dragonHorde.singleThingStackCount = 250;
 			BaseGen.symbolStack.Push("stockpile", dragonHorde);
 			//
 			
@@ -80,17 +111,16 @@ namespace Dwarves
 			int? edgeDefenseWidth = rp.edgeDefenseWidth;
 			float num2 = (float)rp.rect.Area / 144f * 0.17f;
 			BaseGen.globalSettings.minEmptyNodes = ((num2 >= 1f) ? GenMath.RoundRandom(num2) : 0);
-			Lord singlePawnLord = rp.singlePawnLord ?? LordMaker.MakeNewLord(faction, new LordJob_DefendBase(faction, rp.rect.CenterCell), map, null);
 			TraverseParms traverseParms = TraverseParms.For(TraverseMode.PassDoors, Danger.Deadly, false);
 			ResolveParams abandonedBase = rp;
 			abandonedBase.rect = rp.rect;
 			abandonedBase.faction = faction;
 			ResolveParams resolveParams4 = abandonedBase;
-			resolveParams4.rect = rp.rect.ContractedBy(num);
+			resolveParams4.rect = rp.rect.ContractedBy(num + 10);
 			resolveParams4.faction = faction;
 			BaseGen.symbolStack.Push("ensureCanReachMapEdge", resolveParams4);
 			ResolveParams resolveParams5 = abandonedBase;
-			resolveParams5.rect = rp.rect.ContractedBy(num);
+			resolveParams5.rect = rp.rect.ContractedBy(num + 10);
 			resolveParams5.faction = faction;
 			BaseGen.symbolStack.Push("basePart_outdoors", resolveParams5);
 			/// 

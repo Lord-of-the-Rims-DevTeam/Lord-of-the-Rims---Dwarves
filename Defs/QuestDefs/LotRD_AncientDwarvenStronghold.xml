@@ -24,4 +24,12 @@
     <genStep Class="Dwarves.GenStep_AncientDwarvenStronghold"/>
   </GenStepDef>
   
+  <RuleDef>
+    <defName>LotRD_CorpseMaker</defName>
+    <symbol>corpseMaker</symbol>
+    <resolvers>
+      <li Class="Dwarves.SymbolResolver_CorpseMaker" />
+    </resolvers>
+  </RuleDef>
+  
 </Defs>
