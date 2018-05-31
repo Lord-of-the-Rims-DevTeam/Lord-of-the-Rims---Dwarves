@@ -181,7 +181,7 @@
       <MoveSpeed>4.61</MoveSpeed>
       <Flammability>1.0</Flammability>
       <ComfyTemperatureMin>12</ComfyTemperatureMin>
-      <ComfyTemperatureMax>32</ComfyTemperatureMax>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
       <LeatherAmount>25</LeatherAmount>
     </statBases>
     <tools>

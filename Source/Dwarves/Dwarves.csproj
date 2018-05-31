@@ -50,6 +50,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dragon.cs" />
     <Compile Include="DwarfDefOf.cs" />
     <Compile Include="DwarfMod.cs" />
     <Compile Include="GenStep_AncientDwarvenStronghold.cs" />

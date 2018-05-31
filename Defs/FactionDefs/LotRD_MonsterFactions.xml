@@ -4,7 +4,7 @@
   <FactionDef>
     <defName>LotRD_MonsterFaction</defName>
     <label>monster faction</label>
-    <description>Ancient danger of unknown type.</description>
+    <description>Ancient danger</description>
     <pawnsPlural>monsters</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <fixedName>den of monsters</fixedName>
@@ -33,7 +33,7 @@
       <li>
         <kindDef>Normal</kindDef>
         <options>
-            <LotRD_Dragon>9999999</LotRD_Dragon>
+            <LotRD_DragonFireDrake>9999999</LotRD_DragonFireDrake>
         </options>
       </li>
     </pawnGroupMakers>
@@ -47,7 +47,7 @@
   
 	<PawnKindDef>
     <defName>LotRD_Dragon</defName>
-    <label>dragon</label>
+    <label>placeholder dragon</label>
     <race>Mechanoid_Centipede</race>
     <combatPower>1000</combatPower>
     <defaultFactionType>Mechanoid</defaultFactionType>

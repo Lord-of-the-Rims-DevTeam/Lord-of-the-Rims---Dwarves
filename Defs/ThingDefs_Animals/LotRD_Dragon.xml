@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Dragon (Fire drake) -->
+  <!-- KIND DEFS -->
+  
+  
+  <LifeStageDef>
+    <defName>LotRD_Spawn</defName>
+    <label>spawn</label>
+    <voxPitch>1.6</voxPitch>
+    <voxVolume>0.8</voxVolume>
+    <bodySizeFactor>0.50</bodySizeFactor>
+    <healthScaleFactor>0.50</healthScaleFactor>
+    <hungerRateFactor>0.4</hungerRateFactor>
+    <marketValueFactor>0.4</marketValueFactor>
+    <statFactors>
+      <MoveSpeed>0.75</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>LotRD_FullyFormed</defName>
+    <label>fully formed</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+    
+  <LifeStageDef>
+    <defName>LotRD_Ancient</defName>
+    <label>ancient</label>
+    <voxPitch>0.8</voxPitch>
+    <voxVolume>1.2</voxVolume>
+    <bodySizeFactor>1.20</bodySizeFactor>
+    <healthScaleFactor>1.20</healthScaleFactor>
+    <hungerRateFactor>1.2</hungerRateFactor>
+    <marketValueFactor>1.2</marketValueFactor>
+    <statFactors>
+      <MoveSpeed>1.25</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+  
+  <PawnKindDef>
+    <defName>LotRD_DragonFireDrake</defName>
+    <label>dragon (fire drake)</label>
+    <race>LotRD_DragonFireDrakeRace</race>
+    <combatPower>1600</combatPower>
+    <defaultFactionType>LotRD_MonsterFaction</defaultFactionType>
+    <aiAvoidCover>true</aiAvoidCover>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dragon/FireDrake</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>5.5</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.8, 0.6)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dragon/FireDrake</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>10.0</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.8, 0.6)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dragon/FireDrake</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>13.0</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.8, 0.6)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  <!-- RACE DEFS -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>LotRD_DragonFireDrakeRace</defName>	
+    <label>dragon (fire-drake)</label>
+	<thingClass>Dwarves.Dragon</thingClass>
+    <description>The most powerful division of dragonkind. As their name implies, fire-drakes are capable of breathing fire on their enemies.</description>
+    <statBases>
+      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <ComfyTemperatureMax>255</ComfyTemperatureMax>
+      <MoveSpeed>7.0</MoveSpeed>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+	  <CarryingCapacity>150</CarryingCapacity>
+      <MarketValue>16000</MarketValue>	  
+      <MeatAmount>300</MeatAmount>
+    </statBases>
+    <tools>
+	   <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <label>left claws</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <label>right claws</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <label>wings</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>LotRD_Wings</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <wildness>0.985</wildness>
+      <thinkTreeMain>Animal</thinkTreeMain>
+      <body>LotRD_DragonBody</body>
+      <leatherColor>(151,63,42)</leatherColor>
+      <leatherInsulation>1.35</leatherInsulation>
+      <leatherCommonalityFactor>0.005</leatherCommonalityFactor>
+      <leatherMarketValueFactor>8</leatherMarketValueFactor>
+      <leatherLabel>dragonscale (fire-drake)</leatherLabel>
+      <leatherStatFactors>
+        <ArmorRating_Blunt>3.7</ArmorRating_Blunt>
+        <ArmorRating_Sharp>4.5</ArmorRating_Sharp>
+        <ArmorRating_Heat>5.0</ArmorRating_Heat>
+      </leatherStatFactors>
+      <baseBodySize>6.0</baseBodySize>
+      <baseHealthScale>21.0</baseHealthScale>
+      <lifeExpectancy>1500</lifeExpectancy>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <lifeStageAges>
+        <li>
+          <def>LotRD_Spawn</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>LotRD_FullyFormed</def>
+          <minAge>15</minAge>
+		  <!--
+          <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+		  -->
+          <soundCall>Pawn_DragonFireDrake_Call</soundCall>
+        </li>
+        <li>
+          <def>LotRD_Ancient</def>
+          <minAge>600</minAge>
+        </li>
+      </lifeStageAges>
+      <nameGenerator>NamerAnimalGenericMale</nameGenerator>
+      <nameGeneratorFemale>NamerAnimalGenericFemale</nameGeneratorFemale>	  
+      <soundCallIntervalRange>
+        <min>1000</min>
+        <max>2000</max>
+      </soundCallIntervalRange>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+ 
+ 
+  <SoundDef>
+    <defName>Pawn_DragonFireDrake_Call</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Dragon/FireDrakeRoar</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>20</min>        
+          <max>20</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.045882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+ 
+  
+</Defs>

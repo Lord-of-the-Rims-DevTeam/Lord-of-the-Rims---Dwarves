@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef Name="LotRD_RacialBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.0, 0.8, 0.0)</defaultLabelColor>
+    <initialSeverity>0.0</initialSeverity>
+	<isBad>false</isBad>
+	<scenarioCanAdd>false</scenarioCanAdd>
+  </HediffDef>
+
+  <JecsTools.HediffExpandedDef ParentName="LotRD_RacialBase">
+    <defName>LotRD_DwarfTraits</defName>
+    <label>Racial Bonus: Dwarf</label>
+	<postListText>Immune to disease, increased heat tolerance.</postListText>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <postFactor>1.3</postFactor>
+          </li>
+        </capMods>
+		<statOffsets>
+		  <MiningSpeed>0.25</MiningSpeed>
+		  <MiningYield>0.10</MiningYield>
+		</statOffsets>
+      </li>
+    </stages>
+  </JecsTools.HediffExpandedDef>
+  
+  <HediffGiverSetDef>
+    <defName>LotRD_DwarfTraitsGiver</defName>
+    <hediffGivers>
+      
+      <!-- Environmental -->
+      <li Class="HediffGiver_Bleeding">
+        <hediff>BloodLoss</hediff>
+      </li>
+      <li Class="HediffGiver_Hypothermia">
+        <hediff>Hypothermia</hediff>
+      </li>
+      <li Class="HediffGiver_Heat">
+        <hediff>Heatstroke</hediff>
+      </li>
+
+
+        <!-- Responsive and special -->
+      <li Class="HediffGiver_BrainInjury">
+        <hediff>TraumaSavant</hediff>
+        <partsToAffect>
+          <li>Brain</li>
+        </partsToAffect>
+        <chancePerDamagePct>0.12</chancePerDamagePct>
+        <letterLabel>Trauma savant</letterLabel>
+        <letter>NAME's brain injury has caused HIM to develop strange savant-like abilities.</letter>
+      </li>
+	  
+      <li Class="JecsTools.HediffGiver_StartWithHediff">
+        <hediff>LotRD_DwarfTraits</hediff>
+        <expandedDef>LotRD_DwarfTraits</expandedDef>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>  
+  
+  
+</Defs>

@@ -14,6 +14,27 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>LotRD_DwarfPuzzleBox</thingDef>
+        <countRange>
+          <min>-1</min>
+          <max>4</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>LotRD_DwarfMarbleLabyrinth</thingDef>
+        <countRange>
+          <min>-1</min>
+          <max>4</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>LotRD_DwarfElfToy</thingDef>
+        <countRange>
+          <min>-1</min>
+          <max>4</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Component</thingDef>
         <countRange>
           <min>30</min>

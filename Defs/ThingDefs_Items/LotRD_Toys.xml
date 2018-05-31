@@ -52,7 +52,7 @@
 	  <WoodLog>100</WoodLog>
     </costList>
     <statBases>
-      <MarketValue>300</MarketValue>
+      <MarketValue>130</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
       <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
@@ -67,7 +67,7 @@
       </li>
     </comps>
     <drawGUIOverlay>false</drawGUIOverlay>
-    <tradeability>Sellable</tradeability>
+    <tradeability>Stockable</tradeability>
     <techLevel>Medieval</techLevel>
     <tradeTags>
       <li>Medieval</li>
@@ -91,7 +91,7 @@
     <stackLimit>1</stackLimit>
     <useHitPoints>true</useHitPoints>
     <statBases>
-      <MarketValue>200</MarketValue>
+      <MarketValue>115</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
       <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
@@ -119,7 +119,7 @@
     </li>
     </comps>
     <drawGUIOverlay>false</drawGUIOverlay>
-    <tradeability>Sellable</tradeability>
+    <tradeability>Stockable</tradeability>
     <techLevel>Medieval</techLevel>
     <tradeTags>
       <li>Medieval</li>
@@ -141,7 +141,7 @@
     <stackLimit>1</stackLimit>
     <useHitPoints>true</useHitPoints>
     <statBases>
-      <MarketValue>400</MarketValue>
+      <MarketValue>65</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
       <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
@@ -169,7 +169,7 @@
     </li>
     </comps>
     <drawGUIOverlay>false</drawGUIOverlay>
-    <tradeability>Sellable</tradeability>
+    <tradeability>Stockable</tradeability>
     <techLevel>Medieval</techLevel>
     <tradeTags>
       <li>Medieval</li>

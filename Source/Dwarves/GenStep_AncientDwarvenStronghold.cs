@@ -52,7 +52,7 @@ namespace Dwarves
 			
 			BaseGen.symbolStack.Push("outdoorLighting", rp);
 			ResolveParams resolveParams3 = rp;
-			Pawn pawn = PawnGenerator.GeneratePawn(DwarfDefOf.LotRD_Dragon, faction);
+			Pawn pawn = PawnGenerator.GeneratePawn(DwarfDefOf.LotRD_DragonFireDrake, faction);
 			resolveParams3.singlePawnToSpawn = pawn;
 			resolveParams3.rect = new CellRect(rp.rect.CenterCell.x, rp.rect.CenterCell.z, 5, 5);
 			resolveParams3.singlePawnLord = singlePawnLord;
@@ -71,6 +71,13 @@ namespace Dwarves
 			corpsesEverywhere.hivesCount = Rand.Range(12, 18);
 			corpsesEverywhere.faction = Find.FactionManager.RandomEnemyFaction();
 			BaseGen.symbolStack.Push("corpseMaker", corpsesEverywhere);
+			
+			//Corpses strewn about (2)
+			ResolveParams corpsesEverywhereTwo = rp;
+			corpsesEverywhereTwo.rect = rp.rect.ContractedBy(1);
+			corpsesEverywhereTwo.hivesCount = Rand.Range(12, 18);
+			corpsesEverywhereTwo.faction = Find.FactionManager.RandomEnemyFaction();
+			BaseGen.symbolStack.Push("corpseMaker", corpsesEverywhereTwo);
 			
 			//Just place a dwaven throne.
 			ResolveParams throneArea = rp;

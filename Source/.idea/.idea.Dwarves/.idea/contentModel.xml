@@ -4,6 +4,7 @@
     <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Assemblies" t="ExcludeRecursive" />
     <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source" t="IncludeFlat">
       <e p="Dwarves" t="IncludeRecursive">
+        <e p="Dragon.cs" t="Include" />
         <e p="DwarfDefOf.cs" t="Include" />
         <e p="DwarfMod.cs" t="Include" />
         <e p="Dwarves.csproj" t="IncludeRecursive" />
