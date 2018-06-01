@@ -304,7 +304,7 @@
         </points>
       </ageGenerationCurve>
       <hediffGiverSets>
-        <li>OrganicStandard</li>
+        <li>LotRD_DwarfTraitsGiver</li>
       </hediffGiverSets>
     </race>
     <recipes>

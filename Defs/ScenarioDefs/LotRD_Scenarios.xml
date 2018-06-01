@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>LotRD_PlayerColony</defName>
+    <label>Dwarf Settlement</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>LotRD_DwarfVillager</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategory>Civil</backstoryCategory>
+    <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+		<baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
+		<geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>LotRD_Dwarf</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+  <ScenarioDef>
+    <defName>LotRD_Homeless</defName>
+    <label>Dwarves - Homeless</label>
+    <description>Driven from their ancestral homeland by perilous dark forces, this party of dwarves has led what remains of their livestock along with them and seeks to make camp.</description>
+    <scenario>
+      <summary>Four Dwarves and their livestock seek shelter.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>LotRD_PlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>4</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          <visible>false</visible>
+        </li>
+
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>800</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>33</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Medicine</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+		  <animalKind>LotRD_GiantBoarKind</animalKind>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+		  <animalKind>GrizzlyBear</animalKind>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>3</count>
+		  <animalKind>Pig</animalKind>
+          <bondToRandomPlayerPawnChance>0.0</bondToRandomPlayerPawnChance>
+        </li>
+		
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>LotRD_DwarfApparel_GimliArmor</thingDef>
+          <stuff>GrizzlyBear_Leather</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>LotRD_DwarfApparel_GimliArmor</thingDef>
+          <stuff>GrizzlyBear_Leather</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>LotRD_DwarfApparel_GimliHelmet</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+		<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>LotRD_Bow_Dwarven</thingDef>
+          <stuff>WoodLog</stuff>
+        </li>
+
+        <!-- Scatter some things near player start -->
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>      
+
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>720</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>7</count>
+        </li>
+        
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>

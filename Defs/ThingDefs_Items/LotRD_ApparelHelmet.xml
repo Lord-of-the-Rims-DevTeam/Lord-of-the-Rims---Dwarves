@@ -228,6 +228,9 @@
       <Insulation_Heat>3</Insulation_Heat>
       <SellPriceFactor>2.5</SellPriceFactor>
     </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.3</SocialImpact>
+    </equippedStatOffsets>
 	<generateCommonality>0.01</generateCommonality>
 	<apparel>
 		<bodyPartGroups>
