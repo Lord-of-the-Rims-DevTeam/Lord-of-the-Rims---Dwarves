@@ -5,7 +5,7 @@
 
 	<ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_DwarfSword</defName>
-    <label>dwarf-sword</label>
+    <label>noble dwarf-sword</label>
     <description>A finely crafted Dwarven blade, suitable for noble Dwarves demonstrating their heraldry.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/Sword/LotRD_sheidulaDwarvenSword</texPath>
@@ -71,4 +71,130 @@
 	</tradeTags>
   </ThingDef>
 
+	<ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
+    <defName>LotRD_MeleeWeapon_DwarfSwordBandit</defName>
+    <label>dwarf-sword</label>
+    <description>A jagged toothed Dwarven blade, suited utility as well as combat.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Sword/LotRD_edmundWulfgarthDwarvenSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.9</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>LotRD_BanditDwarf</li>
+    </weaponTags>
+    <costStuffCount>138</costStuffCount>
+    <statBases>
+      <WorkToMake>19800</WorkToMake>
+      <Mass>1.28</Mass>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+    </statBases>
+    <equippedAngleOffset>50</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<comps>
+	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">		  
+		<verticalFlipNorth>true</verticalFlipNorth>
+		<angleAdjustmentWest>90</angleAdjustmentWest>
+		<angleAdjustmentEast>-90</angleAdjustmentEast>
+		<northOffset>(0.35,0,0.2)</northOffset>
+		<eastOffset>(0.1,0,0.1)</eastOffset>
+		<westOffset>(-0.1,-0.2,0.1)</westOffset>
+		<southOffset>(-0.35,0,-0.2)</southOffset>
+	  </li>
+	</comps>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+    </recipeMaker>
+	<tradeTags>
+	  <li>LotRD_DwarvenWeapons</li>
+	</tradeTags>
+  </ThingDef>
+
+  
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>LotRD_MeleeWeapon_DwarfSpear</defName>
+		<label>dwarf-spear</label>
+		<description>A polearm tipped with a sharp point for stabbing opponents in melee combat. This one has a particularly nasty point forged by the dwarves.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Spear/LotRD_edmundWulfgarthDwarvenSpear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.75</drawSize>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<weaponTags>
+			<li>LotRD_SpearDwarf</li>
+		</weaponTags>
+		<costStuffCount>105</costStuffCount>
+		<statBases>
+			<WorkToMake>19550</WorkToMake>
+			<Mass>2.3</Mass>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+		</statBases>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+    </tools>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
+	<tradeTags>
+	  <li>LotRD_DwarvenWeapons</li>
+	</tradeTags>
+	<comps>
+	  <li>
+	    <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+	  </li>
+	</comps>
+	</ThingDef>
+
+  
 </Defs>

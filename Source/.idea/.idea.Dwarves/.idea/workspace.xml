@@ -78,17 +78,26 @@
       <file leaf-file-name="Dragon.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dwarves/Dragon.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding>
-                <marker date="1527786177718" expanded="false" signature="6:28" ph="..." />
-                <marker date="1527786177718" expanded="true" signature="47:1246" ph="{...}" />
-                <marker date="1527786177718" expanded="true" signature="80:1244" ph="{...}" />
-                <marker date="1527786177718" expanded="true" signature="167:453" ph="{...}" />
-                <marker date="1527786177718" expanded="true" signature="328:443" ph="{...}" />
-                <marker date="1527786177718" expanded="true" signature="529:1238" ph="{...}" />
-                <marker date="1527786177718" expanded="true" signature="999:1228" ph="{...}" />
-                <marker date="1527786177718" expanded="true" signature="1114:1214" ph="{...}" />
+                <marker date="1528034319301" expanded="false" signature="6:28" ph="..." />
+                <marker date="1528034319301" expanded="true" signature="47:2852" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="95:2850" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="182:754" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="343:458" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="569:744" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="830:1539" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="1300:1529" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="1415:1515" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="1592:2844" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="1713:1990" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="1810:1976" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="2036:2319" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="2136:2305" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="2336:2609" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="2429:2595" ph="{...}" />
+                <marker date="1528034319301" expanded="true" signature="2673:2808" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -349,6 +358,11 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Dwarves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Dwarves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Dwarves" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -431,7 +445,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121208000" />
+    <option name="totallyTimeSpent" value="122159000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,30 +457,46 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
+    <frame x="18" y="17" width="1512" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30387932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44976076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15789473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20473538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30387932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15789473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +506,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Dwarves/Dragon.cs</url>
+          <line>77</line>
+          <properties documentPath="$PROJECT_DIR$/Dwarves/Dragon.cs">
+            <startOffsets>
+              <startOffset value="2822" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2834" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Dwarves/Dragon.cs</url>
+          <line>57</line>
+          <properties documentPath="$PROJECT_DIR$/Dwarves/Dragon.cs">
+            <startOffsets>
+              <startOffset value="2153" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2154" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -1068,17 +1127,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dwarves/Dragon.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
           <folding>
-            <marker date="1527786177718" expanded="false" signature="6:28" ph="..." />
-            <marker date="1527786177718" expanded="true" signature="47:1246" ph="{...}" />
-            <marker date="1527786177718" expanded="true" signature="80:1244" ph="{...}" />
-            <marker date="1527786177718" expanded="true" signature="167:453" ph="{...}" />
-            <marker date="1527786177718" expanded="true" signature="328:443" ph="{...}" />
-            <marker date="1527786177718" expanded="true" signature="529:1238" ph="{...}" />
-            <marker date="1527786177718" expanded="true" signature="999:1228" ph="{...}" />
-            <marker date="1527786177718" expanded="true" signature="1114:1214" ph="{...}" />
+            <marker date="1528034319301" expanded="false" signature="6:28" ph="..." />
+            <marker date="1528034319301" expanded="true" signature="47:2852" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="95:2850" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="182:754" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="343:458" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="569:744" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="830:1539" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="1300:1529" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="1415:1515" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="1592:2844" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="1713:1990" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="1810:1976" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="2036:2319" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="2136:2305" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="2336:2609" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="2429:2595" ph="{...}" />
+            <marker date="1528034319301" expanded="true" signature="2673:2808" ph="{...}" />
           </folding>
         </state>
       </provider>
