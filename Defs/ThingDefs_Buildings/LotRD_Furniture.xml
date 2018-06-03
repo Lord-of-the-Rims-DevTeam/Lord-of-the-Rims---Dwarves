@@ -1,6 +1,120 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
+  <ThingDef ParentName="TableBase">
+    <defName>LotRD_EndTable</defName>
+    <label>dwarven end table</label>
+    <description>A small bedside table. Makes the nearby beds a little bit more comfortable. Must be placed directly adjacent to their head. Placing more than one end table near the same bed will have no effect.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenSmallTable1x1</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+	  <drawSize>1.5</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1250</WorkToBuild>
+      <Mass>7</Mass>
+      <Flammability>0.8</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <costStuffCount>40</costStuffCount>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+  </ThingDef>
+
+  <ThingDef ParentName="TableGatherSpotBase">
+    <defName>LotRD_Table1x2c</defName>
+    <label>dwarven table (1x2)</label>
+    <graphicData>
+      <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenTable1x2</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2.5)</drawSize>
+      <damageData>
+        <rectN>(0,0.27,1,1.73)</rectN>
+        <rectS>(0,0.27,1,1.73)</rectS>
+        <rectE>(0.125,0.27,1.75,0.73)</rectE>
+        <rectW>(0.125,0.27,1.75,0.73)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>1250</WorkToBuild>
+      <Mass>8</Mass>
+      <Flammability>0.8</Flammability>
+      <Beauty>0.65</Beauty>
+    </statBases>
+    <size>(1,2)</size>
+    <costStuffCount>45</costStuffCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="LotRD_ArtableFurnitureBase">
+    <defName>LotRD_Stool</defName>
+    <label>dwarven stool</label>
+    <graphicData>
+      <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenStool</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>1.15</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+      <damageData>
+        <rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+        <rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+        <rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+        <rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1050</WorkToBuild>
+      <Mass>3</Mass>
+      <Flammability>0.8</Flammability>
+      <Beauty>1.2</Beauty>
+      <Comfort>0.65</Comfort>
+    </statBases>
+    <description>A simple platform on which to sit fashioned by the dwarves.</description>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <pathCost>30</pathCost>
+    <designationHotKey>Misc6</designationHotKey>
+    <fillPercent>0.20</fillPercent>
+    <building>
+      <isSittable>true</isSittable>
+    </building>
+  </ThingDef>
+
 	<ThingDef ParentName="LotRD_ArtableFurnitureBase">
 		<defName>LotRD_DwarvenThrone</defName>
 		<label>dwarven throne</label>

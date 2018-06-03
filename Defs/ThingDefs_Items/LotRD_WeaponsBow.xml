@@ -72,5 +72,84 @@
 	  <li>LotRD_DwarvenRangedWeapons</li>
 	</tradeTags>
   </ThingDef>
+  
+  <ThingDef ParentName="LotRD_BaseProjectileNeolithic">
+    <defName>LotRD_Bolt</defName>
+    <label>dwarven bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>27</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="LotRD_BaseWeaponNeolithic">
+    <defName>LotRD_Bow_DwarvenCross</defName>
+    <label>dwarf crossbow</label>
+    <description>Slow recharge rate, but the heaviest hitting dwarf bow. Among the craftier dwarves, this is their ranged weapon of choice.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/LotRD_edmundWulfgarthPumpCrossbowIronHill</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.2</drawSize>
+    </graphicData>
+    <soundInteract>BowRecurve</soundInteract>
+    <costList>
+      <WoodLog>60</WoodLog>
+      <Steel>10</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>14400</WorkToMake>
+      <Mass>0.96</Mass>
+      <AccuracyTouch>0.91</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.81</AccuracyMedium>
+      <AccuracyLong>0.47</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+    </statBases>
+    <weaponTags>
+      <li>DwarvenRanged</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>Greatbows</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>LotRD_Arrow</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>32</range>
+        <soundCast>LotRD_BowDwarf</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+	  <li>
+		<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+	  </li>
+	</comps>
+	<tradeTags>
+	  <li>LotRD_DwarvenRangedWeapons</li>
+	</tradeTags>
+  </ThingDef>
 
   </Defs>

@@ -3,7 +3,7 @@ using Verse;
 
 namespace Dwarves
 {
-    public class Dragon : Pawn
+    public class Dragon : Pawn, IThoughtGiver
     {
         public override void PreApplyDamage(DamageInfo dinfo, out bool absorbed)
         {
@@ -13,6 +13,11 @@ namespace Dwarves
             {
                 Log.Message("Absorbed flame damage");
                 absorbed = true;
+            }
+            if (!this.InMentalState && dinfo.Instigator is Pawn p && p?.Faction == Faction.OfPlayerSilentFail)
+            {
+                this.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter, p.Label, true, false,
+                    null);
             }
         }
 
@@ -33,6 +38,44 @@ namespace Dwarves
                         this?.health?.RemoveHediff(hd);
                     }
             }
+        }
+
+        public Thought_Memory GiveObservedThought()
+        {
+           
+            Thought_MemoryObservation thought_MemoryObservation = null;
+            if (this.Dead)
+            {
+                if (ThoughtDef.Named("LotRD_ObservedDragonDead") is ThoughtDef td)
+                {
+                    thought_MemoryObservation =
+                        (Thought_MemoryObservation) ThoughtMaker.MakeThought(td);
+                }
+            }
+            else if (this.InAggroMentalState)
+            {
+                if (ThoughtDef.Named("LotRD_ObservedDragonEnraged") is ThoughtDef td)
+                {
+                    thought_MemoryObservation =
+                        (Thought_MemoryObservation) ThoughtMaker.MakeThought(td);   
+                }
+            }
+            else
+            {
+                if (ThoughtDef.Named("LotRD_ObservedDragon") is ThoughtDef td)
+                {
+                    thought_MemoryObservation =
+                        (Thought_MemoryObservation) ThoughtMaker.MakeThought(td);
+                }
+            }
+            
+            if (thought_MemoryObservation != null)
+            {
+                thought_MemoryObservation.Target = this;
+                return thought_MemoryObservation;
+            }
+
+            return null;
         }
     }
 }

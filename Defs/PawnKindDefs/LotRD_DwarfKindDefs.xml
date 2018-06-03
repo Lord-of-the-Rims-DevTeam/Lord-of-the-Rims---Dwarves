@@ -80,6 +80,43 @@
     </inventoryOptions>
   </PawnKindDef>
   
+
+  <PawnKindDef>
+    <defName>LotRD_DwarfSlave</defName>
+    <label>dwarf slave</label>
+    <combatPower>30</combatPower>
+    <race>LotRD_DwarfStandardRace</race>
+    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+	<defaultFactionType>LotRD_MountainKingdom</defaultFactionType>
+    <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
+    <itemQuality>Shoddy</itemQuality>
+    <backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
+    <isFighter>false</isFighter>
+    <chemicalAddictionChance>0.0</chemicalAddictionChance>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>0.8</max>
+    </gearHealthRange>
+	<apparelTags>
+      <li>Outlander</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>150</min>
+      <max>300</max>
+    </apparelMoney>
+    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <techHediffsMoney>
+      <min>0</min>
+      <max>35</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.0</techHediffsChance>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <invNutrition>1</invNutrition>
+    <invFoodDef>Pemmican</invFoodDef>
+  </PawnKindDef>
  
   <PawnKindDef ParentName="LotRD_DwarfVillager">
     <defName>LotRD_DwarfTrader</defName>

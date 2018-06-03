@@ -141,6 +141,22 @@
 		
 	  </generalSettings>
 	  <pawnKindSettings>
+		<alienrefugeekinds>
+			<li>
+				<kindDefs>
+					<li>LotRD_DwarfVillager</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienrefugeekinds>
+		<alienslavekinds>
+			<li>
+				<kindDefs>
+					<li>LotRD_DwarfSlave</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienslavekinds>
 		<startingColonists>
 		  <li>
 			<pawnKindEntries>
@@ -153,6 +169,7 @@
 			</pawnKindEntries>
 			<factionDefs>
 			  <li>PlayerColony</li> 
+			  <li>LotRPlayerColony</li> 
 			</factionDefs>
 		  </li>
 		</startingColonists>
