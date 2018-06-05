@@ -192,6 +192,11 @@
 		  <li>LotRD_DwarfApparel_MoriaBattleHelmet</li>
 		</apparelList>
 	  </raceRestriction>
+	  <thoughtSettings>
+		<cannotReceiveThoughts>
+			<li>CabinFever</li>
+		</cannotReceiveThoughts>
+	  </thoughtSettings>
 	</alienRace>
     <statBases>
       <MarketValue>1750</MarketValue>
