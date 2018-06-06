@@ -9,6 +9,7 @@
     <description>Immune to disease. Lives for 250 years. Loves to mine, craft, and make friends.</description>
 	<alienRace>
 	  <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
 	    <maleGenderProbability>0.85</maleGenderProbability>
 	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
 	    <notXenophobistTowards>
