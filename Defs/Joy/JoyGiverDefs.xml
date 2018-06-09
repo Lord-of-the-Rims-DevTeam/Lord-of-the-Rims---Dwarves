@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+  <JoyGiverDef>
+    <defName>LotRD_PlayGames</defName>
+    <giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+    <baseChance>1.5</baseChance>
+    <thingDefs>
+      <li>LotRD_GameTable</li>
+    </thingDefs>
+    <jobDef>LotRD_PlayGameTable</jobDef>
+    <joyKind>GamingCerebral</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+
+
   <JoyGiverDef>
     <defName>LotRD_PuzzleBox</defName>
     <giverClass>Dwarves.JoyGiver_Puzzlebox</giverClass>

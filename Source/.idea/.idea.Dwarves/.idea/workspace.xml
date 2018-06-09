@@ -11,32 +11,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="IncidentWorker_AncientDwarvenStronghold.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IncidentWorker_AncientDwarvenStronghold.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="66" column="52" lean-forward="false" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+            <state relative-caret-position="247">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <marker date="1527430332400" expanded="false" signature="6:118" ph="..." />
-                <marker date="1527430332400" expanded="true" signature="137:5263" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="213:5261" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="289:510" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="537:634" ph="/* The same as TileFinder.TryFindNewSiteTile EXCEPT ... */" />
-                <marker date="1527430332400" expanded="true" signature="811:1929" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="1423:1494" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="1593:1657" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="1769:1854" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="2001:2931" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="2104:2162" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="2163:2488" ph="/* Faction faction; ... */" />
-                <marker date="1527430332400" expanded="true" signature="3006:3308" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="3310:4033" ph="/* private bool TryFindFactions(out Faction alliedFaction, out Faction enemyFaction) ... */" />
-                <marker date="1527430332400" expanded="true" signature="4091:4547" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="4207:4511" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="4428:4497" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="4627:4716" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="4793:5199" ph="{...}" />
-                <marker date="1527430332400" expanded="true" signature="5105:5164" ph="{...}" />
+                <marker date="1528550402382" expanded="false" signature="6:118" ph="..." />
+                <marker date="1528550402382" expanded="true" signature="137:5514" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="213:5512" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="289:539" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="592:777" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="788:885" ph="/* The same as TileFinder.TryFindNewSiteTile EXCEPT ... */" />
+                <marker date="1528550402382" expanded="true" signature="1062:2180" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="1674:1745" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="1844:1908" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="2020:2105" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="2252:3182" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="2355:2413" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="2414:2739" ph="/* Faction faction; ... */" />
+                <marker date="1528550402382" expanded="true" signature="3257:3559" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="3561:4284" ph="/* private bool TryFindFactions(out Faction alliedFaction, out Faction enemyFaction) ... */" />
+                <marker date="1528550402382" expanded="true" signature="4342:4798" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="4458:4762" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="4679:4748" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="4878:4967" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="5044:5450" ph="{...}" />
+                <marker date="1528550402382" expanded="true" signature="5356:5415" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -45,221 +46,243 @@
       <file leaf-file-name="HarmonyPatches.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="456">
+              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding>
-                <marker date="1524159497401" expanded="false" signature="6:119" ph="..." />
-                <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="213:4889" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="252:563" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="658:1289" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="681:860" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
-                <marker date="1524159497401" expanded="true" signature="920:1052" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="1118:1254" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="1411:2429" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="1463:2323" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="1830:1909" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="2118:2309" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="2211:2291" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="2557:3625" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="2609:3519" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="2992:3086" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="3310:3505" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="3407:3487" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="3748:4874" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="3800:4768" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
-                <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
+                <marker date="1528515567845" expanded="false" signature="6:119" ph="..." />
+                <marker date="1528515567845" expanded="true" signature="213:5749" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="252:966" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="1099:1265" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="1193:1255" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="1460:1569" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="1664:2295" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="1687:1866" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+                <marker date="1528515567845" expanded="true" signature="1926:2058" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="2124:2260" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="2409:3426" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="2461:3320" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="2827:2906" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="3115:3306" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="3208:3288" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="3546:4558" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="3598:4452" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="3964:4043" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="4247:4438" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="4340:4420" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="4673:5743" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="4725:5637" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="5091:5170" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="5432:5623" ph="{...}" />
+                <marker date="1528515567845" expanded="true" signature="5525:5605" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dragon.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dwarves/Dragon.cs">
+      <file leaf-file-name="Building_FermentingMeadBarrel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dwarves/Building_FermentingMeadBarrel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="4180">
+              <caret line="225" column="13" lean-forward="false" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
               <folding>
-                <marker date="1528034319301" expanded="false" signature="6:28" ph="..." />
-                <marker date="1528034319301" expanded="true" signature="47:2852" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="95:2850" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="182:754" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="343:458" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="569:744" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="830:1539" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="1300:1529" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="1415:1515" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="1592:2844" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="1713:1990" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="1810:1976" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="2036:2319" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="2136:2305" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="2336:2609" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="2429:2595" ph="{...}" />
-                <marker date="1528034319301" expanded="true" signature="2673:2808" ph="{...}" />
+                <marker date="1528567751106" expanded="false" signature="6:114" ph="..." />
+                <marker date="1528567751106" expanded="true" signature="133:6635" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="220:6633" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="247:444" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="258:297" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="304:440" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="344:369" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="477:803" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="488:799" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="534:758" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="834:942" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="845:938" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="874:901" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="964:1021" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="975:1017" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1046:1118" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1057:1114" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1166:1624" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1177:1620" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1424:1454" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1487:1600" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1670:1761" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1681:1757" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1795:1921" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1806:1917" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="1958:2134" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="2169:2320" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="2213:2316" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="2354:2781" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="2433:2562" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="2631:2653" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="2841:2917" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="2885:2913" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="2941:2995" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3030:3201" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3112:3197" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3246:4846" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3388:3430" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3541:3856" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3570:3704" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3656:3695" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3713:3851" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3803:3842" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3876:4444" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3905:3973" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="3982:4439" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="4070:4188" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="4243:4433" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="4353:4423" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="4618:4785" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="4876:5148" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="4904:4997" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="5179:5664" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="5219:5660" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="5376:5653" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="5714:6016" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="5759:5789" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="5826:5996" ph="{...}" />
+                <marker date="1528567751106" expanded="true" signature="5872:5990" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoyGiver_Puzzlebox.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dwarves/JoyGiver_Puzzlebox.cs">
+      <file leaf-file-name="JobDriver_TakeMeadOutOfFermentingBarrel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dwarves/JobDriver_TakeMeadOutOfFermentingBarrel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="570">
+              <caret line="30" column="55" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
               <folding>
-                <marker date="1527474224701" expanded="false" signature="6:92" ph="..." />
-                <marker date="1527474224701" expanded="true" signature="111:2312" ph="{...}" />
-                <marker date="1527474224701" expanded="true" signature="167:2310" ph="{...}" />
-                <marker date="1527474224701" expanded="true" signature="182:351" ph="/// Similar to how a pawn can be a social drinker or solitary relaxer in their room, hobbits can try and solve a  ... " />
-                <marker date="1527474224701" expanded="true" signature="403:627" ph="{...}" />
-                <marker date="1527474224701" expanded="true" signature="771:847" ph="{...}" />
-                <marker date="1527474224701" expanded="true" signature="928:1084" ph="{...}" />
-                <marker date="1527474224701" expanded="true" signature="1168:1399" ph="{...}" />
-                <marker date="1527474224701" expanded="true" signature="1278:1364" ph="{...}" />
-                <marker date="1527474224701" expanded="true" signature="1492:2069" ph="{...}" />
-                <marker date="1527474224701" expanded="true" signature="2141:2304" ph="{...}" />
-                <marker date="1527474224701" expanded="true" signature="2252:2293" ph="{...}" />
+                <marker date="1528567751489" expanded="true" signature="6:78" ph="..." />
+                <marker date="1528567751489" expanded="true" signature="168:2775" ph="{...}" />
+                <marker date="1528567751489" expanded="true" signature="718:2768" ph="{...}" />
+                <marker date="1528567751489" expanded="true" signature="1228:2187" ph="{...}" />
+                <marker date="1528567751489" expanded="true" signature="1741:1958" ph="{...}" />
+                <marker date="1528567751489" expanded="true" signature="1983:2091" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoyGiver_MarbleLabyrinth.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dwarves/JoyGiver_MarbleLabyrinth.cs">
+      <file leaf-file-name="WorkGiver_TakeMeadOutOfFermentingBarrel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dwarves/WorkGiver_TakeMeadOutOfFermentingBarrel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <marker date="1527605095905" expanded="false" signature="6:92" ph="..." />
-                <marker date="1527605095905" expanded="true" signature="111:2324" ph="{...}" />
-                <marker date="1527605095905" expanded="true" signature="173:2322" ph="{...}" />
-                <marker date="1527605095905" expanded="true" signature="188:357" ph="/// Similar to how a pawn can be a social drinker or solitary relaxer in their room, hobbits can try and solve a  ... " />
-                <marker date="1527605095905" expanded="true" signature="409:633" ph="{...}" />
-                <marker date="1527605095905" expanded="true" signature="777:853" ph="{...}" />
-                <marker date="1527605095905" expanded="true" signature="934:1090" ph="{...}" />
-                <marker date="1527605095905" expanded="true" signature="1174:1405" ph="{...}" />
-                <marker date="1527605095905" expanded="true" signature="1284:1370" ph="{...}" />
-                <marker date="1527605095905" expanded="true" signature="1498:2081" ph="{...}" />
-                <marker date="1527605095905" expanded="true" signature="2153:2316" ph="{...}" />
-                <marker date="1527605095905" expanded="true" signature="2264:2305" ph="{...}" />
+                <marker date="1528567751638" expanded="true" signature="6:44" ph="..." />
+                <marker date="1528567751638" expanded="true" signature="63:1053" ph="{...}" />
+                <marker date="1528567751638" expanded="true" signature="142:1051" ph="{...}" />
+                <marker date="1528567751638" expanded="true" signature="432:844" ph="{...}" />
+                <marker date="1528567751638" expanded="true" signature="925:1045" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenStep_AncientDwarvenStronghold.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dwarves/GenStep_AncientDwarvenStronghold.cs">
+      <file leaf-file-name="JobDriver_FillFermentingBarrel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dwarves/JobDriver_FillFermentingBarrel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+            <state relative-caret-position="247">
+              <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
               <folding>
-                <marker date="1527785921447" expanded="false" signature="6:146" ph="..." />
-                <marker date="1527785921447" expanded="true" signature="165:8914" ph="{...}" />
-                <marker date="1527785921447" expanded="true" signature="224:8912" ph="{...}" />
-                <marker date="1527785921447" expanded="true" signature="281:372" ph="{...}" />
-                <marker date="1527785921447" expanded="true" signature="427:544" ph="{...}" />
-                <marker date="1527785921447" expanded="true" signature="588:7830" ph="{...}" />
-                <marker date="1527785921447" expanded="true" signature="696:758" ph="{...}" />
-                <marker date="1527785921447" expanded="true" signature="1489:1640" ph="/* BaseGen.globalSettings.minBuildings = 1; ... */" />
-                <marker date="1527785921447" expanded="true" signature="4878:4924" ph="/* Abandoned Dwarven Mountain Fortress ... */" />
-                <marker date="1527785921447" expanded="true" signature="5760:5807" ph="/* Four Corners -- Four Guardtowers ... */" />
-                <marker date="1527785921447" expanded="true" signature="5838:6583" ph="{...}" />
-                <marker date="1527785921447" expanded="true" signature="7693:7758" ph="{...}" />
-                <marker date="1527785921447" expanded="true" signature="7897:8806" ph="{...}" />
-                <marker date="1527785921447" expanded="true" signature="8683:8778" ph="{...}" />
+                <marker date="1528567751731" expanded="false" signature="6:78" ph="..." />
+                <marker date="1528567751731" expanded="true" signature="97:1973" ph="{...}" />
+                <marker date="1528567751731" expanded="true" signature="156:1971" ph="{...}" />
+                <marker date="1528567751731" expanded="true" signature="714:1967" ph="{...}" />
+                <marker date="1528567751731" expanded="true" signature="1823:1946" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DwarfDefOf.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dwarves/DwarfDefOf.cs">
+      <file leaf-file-name="WorkGiver_FillFermentingBarrel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dwarves/WorkGiver_FillFermentingBarrel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="114">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1527784095123" expanded="false" signature="6:28" ph="..." />
-                <marker date="1527784095123" expanded="true" signature="96:477" ph="{...}" />
+                <marker date="1528567751751" expanded="true" signature="6:58" ph="..." />
+                <marker date="1528567751751" expanded="true" signature="147:3017" ph="{...}" />
+                <marker date="1528567751751" expanded="true" signature="388:537" ph="{...}" />
+                <marker date="1528567751751" expanded="true" signature="622:1851" ph="{...}" />
+                <marker date="1528567751751" expanded="true" signature="1257:1367" ph="{...}" />
+                <marker date="1528567751751" expanded="true" signature="1932:2152" ph="{...}" />
+                <marker date="1528567751751" expanded="true" signature="2233:2918" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SymbolResolver_CorpseMaker.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dwarves/SymbolResolver_CorpseMaker.cs">
+      <file leaf-file-name="Graphic_CustomFlicker.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dwarves/Graphic_CustomFlicker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="74" lean-forward="false" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+            <state relative-caret-position="190">
+              <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
-                <marker date="1527600658316" expanded="true" signature="6:105" ph="..." />
-                <marker date="1527600658316" expanded="true" signature="187:2146" ph="{...}" />
-                <marker date="1527600658316" expanded="true" signature="248:1765" ph="{...}" />
-                <marker date="1527600658316" expanded="true" signature="360:1755" ph="{...}" />
-                <marker date="1527600658316" expanded="true" signature="1532:1741" ph="{...}" />
-                <marker date="1527600658316" expanded="true" signature="1813:1925" ph="{...}" />
+                <marker date="1528567751769" expanded="false" signature="6:31" ph="..." />
+                <marker date="1528567751769" expanded="true" signature="50:2975" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="112:2973" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="324:479" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="350:469" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="596:2649" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="640:778" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="820:964" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="1180:1758" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="1443:1744" ph="/* Fire fire = thing as Fire; ... */" />
+                <marker date="1528567751769" expanded="true" signature="1819:1951" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="2277:2397" ph="/* if (compFireOverlay != null) ... */" />
+                <marker date="1528567751769" expanded="true" signature="2692:2967" ph="{...}" />
+                <marker date="1528567751769" expanded="true" signature="2761:2955" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoyGiver_ToyDoll.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dwarves/JoyGiver_ToyDoll.cs">
+      <file leaf-file-name="Building_StreetLamp.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dwarves/Building_StreetLamp.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="209">
+              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
-                <marker date="1527600658346" expanded="false" signature="6:92" ph="..." />
-                <marker date="1527600658346" expanded="true" signature="111:2573" ph="{...}" />
-                <marker date="1527600658346" expanded="true" signature="219:2571" ph="{...}" />
-                <marker date="1527600658346" expanded="true" signature="234:386" ph="/// Similar to how a pawn can be a social drinker or solitary relaxer in their room, some will prefer toys. ... " />
-                <marker date="1527600658346" expanded="true" signature="438:893" ph="{...}" />
-                <marker date="1527600658346" expanded="true" signature="1046:1122" ph="{...}" />
-                <marker date="1527600658346" expanded="true" signature="1203:1359" ph="{...}" />
-                <marker date="1527600658346" expanded="true" signature="1443:1674" ph="{...}" />
-                <marker date="1527600658346" expanded="true" signature="1553:1639" ph="{...}" />
-                <marker date="1527600658346" expanded="true" signature="1767:2332" ph="{...}" />
-                <marker date="1527600658346" expanded="true" signature="2404:2565" ph="{...}" />
-                <marker date="1527600658346" expanded="true" signature="2513:2554" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="6:28" ph="..." />
+                <marker date="1528567751791" expanded="true" signature="47:1967" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="90:1965" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="314:723" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="761:872" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="910:1307" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="963:1297" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="1027:1148" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="1184:1283" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="1367:1496" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="1533:1684" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="1613:1674" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="1724:1772" ph="{...}" />
+                <marker date="1528567751791" expanded="true" signature="1815:1959" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobDriver_SolvePuzzle.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dwarves/JobDriver_SolvePuzzle.cs">
+      <file leaf-file-name="ThingWithComps_Glower.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dwarves/ThingWithComps_Glower.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="247">
+              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding>
-                <marker date="1527474712323" expanded="false" signature="6:111" ph="..." />
-                <marker date="1527474712323" expanded="true" signature="130:6865" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="208:6863" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="370:498" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="396:488" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="557:649" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="710:1577" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="1237:1362" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="1615:2668" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="2083:2658" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="2473:2558" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="2711:3142" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="3300:6634" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="3767:3849" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="3894:3976" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="4042:4124" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="4176:4258" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="4297:4379" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="4422:4504" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="4593:5001" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="4849:4979" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="5590:6000" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="5667:5982" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="6035:6185" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="6232:6347" ph="{...}" />
-                <marker date="1527474712323" expanded="true" signature="6644:6857" ph="/* public override bool ModifyCarriedThingDrawPos(ref Vector3 drawPos, ref bool behind, ref bool flip) ... */" />
+                <marker date="1528567751873" expanded="true" signature="6:28" ph="..." />
+                <marker date="1528567751873" expanded="true" signature="47:1219" ph="{...}" />
+                <marker date="1528567751873" expanded="true" signature="98:1217" ph="{...}" />
+                <marker date="1528567751873" expanded="true" signature="191:211" ph="{...}" />
+                <marker date="1528567751873" expanded="true" signature="248:361" ph="{...}" />
+                <marker date="1528567751873" expanded="true" signature="406:641" ph="{...}" />
+                <marker date="1528567751873" expanded="true" signature="464:631" ph="{...}" />
+                <marker date="1528567751873" expanded="true" signature="515:616" ph="{...}" />
+                <marker date="1528567751873" expanded="true" signature="680:1026" ph="{...}" />
+                <marker date="1528567751873" expanded="true" signature="951:1016" ph="{...}" />
+                <marker date="1528567751873" expanded="true" signature="1069:1211" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -273,31 +296,54 @@
       <find>resolveParams</find>
       <find>ItemCollectionGenerator_Rewards</find>
       <find>ensure</find>
+      <find>25</find>
+      <find>TargetIndex.A</find>
+      <find>TargetIndex.C</find>
+      <find>Building_FermentingMeadBarrel</find>
+      <find>this.$this.</find>
+      <find>TargetIndex.B</find>
+      <find>200</find>
+      <find>Building_FermentingBarrel</find>
     </findStrings>
     <replaceStrings>
       <replace>GenStep_AncientDwarvenStronghold</replace>
       <replace>rp</replace>
       <replace>ItemCollectionGenerator_Treasure</replace>
+      <replace>20</replace>
+      <replace>BarrelInd</replace>
+      <replace>BeerToHaulInd</replace>
+      <replace>StorageCellInd</replace>
+      <replace>WortInd</replace>
+      <replace>Duration</replace>
+      <replace>Building_FermentingMeadBarrel</replace>
     </replaceStrings>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/fd/87cd6e95/ResolveParams.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/JoyGiver_MarbleLabyrinth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/JoyGiver_ToyDoll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/25/1417601b/CellFinder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/JobDriver_SolvePuzzle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/JobDriver_PlayWithDoll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/SymbolResolver_CorpseMaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dwarves/Dragon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/25/1417601b/CellFinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/fd/87cd6e95/ResolveParams.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/Building_StreetLamp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/ItemCollectionGenerator_Treasure.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/DwarfDefOf.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/63/8000abc8/TileFinder.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/Graphic_CustomFlicker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/JoyGiver_MarbleLabyrinth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/JobDriver_SolvePuzzle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/WorkGiver_FillFermentingBarrel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dwarves/JoyGiver_Puzzlebox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dwarves/GenStep_AncientDwarvenStronghold.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/JobDriver_TakeMeadOutOfFermentingBarrel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/ItemCollectionGenerator_Treasure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/JoyGiver_ToyDoll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/69/5937db42/DefeatAllEnemiesQuestComp.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/GenStep_AncientDwarvenStronghold.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/WorkGiver_TakeMeadOutOfFermentingBarrel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/SymbolResolver_CorpseMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/Building_FermentingMeadBarrel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/JobDriver_PlayWithDoll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/DwarfDefOf.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/JobDriver_FillFermentingBarrel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dwarves/ThingWithComps_Glower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/63/8000abc8/TileFinder.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -305,10 +351,8 @@
         <option value="$PROJECT_DIR$/Dwarves.sln" />
         <option value="$PROJECT_DIR$/Dwarves/Mod.cs" />
         <option value="$PROJECT_DIR$/Dwarves/DwarfMod.cs" />
-        <option value="$PROJECT_DIR$/Dwarves/HarmonyPatches.cs" />
         <option value="$PROJECT_DIR$/Dwarves/IncidentWorker_QuestAncientMines.cs" />
         <option value="$PROJECT_DIR$/Dwarves/JoyGiver_Puzzlebox.cs" />
-        <option value="$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs" />
         <option value="$PROJECT_DIR$/Dwarves/ItemCollectionGenerator_Treasure.cs" />
         <option value="$PROJECT_DIR$/Dwarves/JobDriver_SolvePuzzle.cs" />
         <option value="$PROJECT_DIR$/Dwarves/JoyGiver_ToyDoll.cs" />
@@ -321,6 +365,20 @@
         <option value="$PROJECT_DIR$/Dwarves/DwarfDefOf.cs" />
         <option value="$PROJECT_DIR$/Dwarves/GenStep_AncientDwarvenStronghold.cs" />
         <option value="$PROJECT_DIR$/Dwarves/Dragon.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/ttt.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/StreetLamp.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/ThingWithComps_Glower.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/Building_StreetLamp.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/HarmonyPatches.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/Building_FermentingBarrel.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/TakeMeadOutOfFermentingBarrel.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/JobDriver_TakeMeadOutOfFermentingBarrel.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/WorkGiver_TakeMeadOutOfFermentingBarrel.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/JobDriver_FillFermentingBarrels.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/JobDriver_FillFermentingBarrel.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/WorkGiver_FillFermentingBarrel.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/Building_FermentingMeadBarrel.cs" />
+        <option value="$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs" />
       </list>
     </option>
   </component>
@@ -330,10 +388,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="17" />
-    <option name="width" value="1512" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="7" />
+    <option name="y" value="67" />
+    <option name="width" value="1088" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
@@ -351,7 +409,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -370,6 +427,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,6 +465,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="682d31b6-d839-48de-bb6e-ccf77bd3656d" name="Default" comment="" />
@@ -442,12 +503,15 @@
       <workItem from="1527600652860" duration="8765000" />
       <workItem from="1527867809073" duration="2206000" />
       <workItem from="1527897863951" duration="1786000" />
-      <workItem from="1528244890766" duration="575000" />
+      <workItem from="1528244890766" duration="1286000" />
+      <workItem from="1528365215857" duration="2857000" />
+      <workItem from="1528464269341" duration="18989000" />
+      <workItem from="1528567753757" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125179000" />
+    <option name="totallyTimeSpent" value="147810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,17 +523,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="17" width="1512" height="797" extended-state="0" />
+    <frame x="7" y="67" width="1088" height="797" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30387932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20255183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1608635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34486166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -480,7 +546,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -525,156 +590,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-          <folding>
-            <marker date="1527430332400" expanded="false" signature="6:118" ph="..." />
-            <marker date="1527430332400" expanded="true" signature="137:5263" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="213:5261" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="289:510" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="537:634" ph="/* The same as TileFinder.TryFindNewSiteTile EXCEPT ... */" />
-            <marker date="1527430332400" expanded="true" signature="811:1929" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="1423:1494" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="1593:1657" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="1769:1854" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="2001:2931" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="2104:2162" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="2163:2488" ph="/* Faction faction; ... */" />
-            <marker date="1527430332400" expanded="true" signature="3006:3308" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="3310:4033" ph="/* private bool TryFindFactions(out Faction alliedFaction, out Faction enemyFaction) ... */" />
-            <marker date="1527430332400" expanded="true" signature="4091:4547" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4207:4511" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4428:4497" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4627:4716" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4793:5199" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="5105:5164" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <marker date="1524159497401" expanded="false" signature="6:119" ph="..." />
-            <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="213:4889" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="252:563" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="658:1289" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="681:860" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
-            <marker date="1524159497401" expanded="true" signature="920:1052" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1118:1254" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1411:2429" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1463:2323" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1830:1909" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2118:2309" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2211:2291" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2557:3625" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2609:3519" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2992:3086" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3310:3505" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3407:3487" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3748:4874" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3800:4768" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <marker date="1524159497401" expanded="false" signature="6:119" ph="..." />
-            <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="213:4889" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="252:563" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="658:1289" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="681:860" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
-            <marker date="1524159497401" expanded="true" signature="920:1052" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1118:1254" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1411:2429" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1463:2323" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1830:1909" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2118:2309" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2211:2291" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2557:3625" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2609:3519" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2992:3086" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3310:3505" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3407:3487" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3748:4874" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3800:4768" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-          <folding>
-            <marker date="1527430332400" expanded="false" signature="6:118" ph="..." />
-            <marker date="1527430332400" expanded="true" signature="137:5263" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="213:5261" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="289:510" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="537:634" ph="/* The same as TileFinder.TryFindNewSiteTile EXCEPT ... */" />
-            <marker date="1527430332400" expanded="true" signature="811:1929" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="1423:1494" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="1593:1657" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="1769:1854" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="2001:2931" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="2104:2162" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="2163:2488" ph="/* Faction faction; ... */" />
-            <marker date="1527430332400" expanded="true" signature="3006:3308" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="3310:4033" ph="/* private bool TryFindFactions(out Faction alliedFaction, out Faction enemyFaction) ... */" />
-            <marker date="1527430332400" expanded="true" signature="4091:4547" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4207:4511" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4428:4497" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4627:4716" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4793:5199" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="5105:5164" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -906,85 +821,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="66" column="52" lean-forward="false" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
-          <folding>
-            <marker date="1527430332400" expanded="false" signature="6:118" ph="..." />
-            <marker date="1527430332400" expanded="true" signature="137:5263" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="213:5261" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="289:510" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="537:634" ph="/* The same as TileFinder.TryFindNewSiteTile EXCEPT ... */" />
-            <marker date="1527430332400" expanded="true" signature="811:1929" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="1423:1494" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="1593:1657" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="1769:1854" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="2001:2931" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="2104:2162" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="2163:2488" ph="/* Faction faction; ... */" />
-            <marker date="1527430332400" expanded="true" signature="3006:3308" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="3310:4033" ph="/* private bool TryFindFactions(out Faction alliedFaction, out Faction enemyFaction) ... */" />
-            <marker date="1527430332400" expanded="true" signature="4091:4547" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4207:4511" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4428:4497" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4627:4716" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="4793:5199" ph="{...}" />
-            <marker date="1527430332400" expanded="true" signature="5105:5164" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <marker date="1524159497401" expanded="false" signature="6:119" ph="..." />
-            <marker date="1524159497401" expanded="true" signature="138:4891" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="213:4889" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="252:563" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="658:1289" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="681:860" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
-            <marker date="1524159497401" expanded="true" signature="920:1052" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1118:1254" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1411:2429" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1463:2323" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="1830:1909" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2118:2309" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2211:2291" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2557:3625" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2609:3519" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="2992:3086" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3310:3505" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3407:3487" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3748:4874" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="3800:4768" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="4183:4277" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="4563:4754" ph="{...}" />
-            <marker date="1524159497401" expanded="true" signature="4656:4736" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dwarves/JoyGiver_Puzzlebox.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <marker date="1527474224701" expanded="false" signature="6:92" ph="..." />
-            <marker date="1527474224701" expanded="true" signature="111:2312" ph="{...}" />
-            <marker date="1527474224701" expanded="true" signature="167:2310" ph="{...}" />
-            <marker date="1527474224701" expanded="true" signature="182:351" ph="/// Similar to how a pawn can be a social drinker or solitary relaxer in their room, hobbits can try and solve a  ... " />
-            <marker date="1527474224701" expanded="true" signature="403:627" ph="{...}" />
-            <marker date="1527474224701" expanded="true" signature="771:847" ph="{...}" />
-            <marker date="1527474224701" expanded="true" signature="928:1084" ph="{...}" />
-            <marker date="1527474224701" expanded="true" signature="1168:1399" ph="{...}" />
-            <marker date="1527474224701" expanded="true" signature="1278:1364" ph="{...}" />
-            <marker date="1527474224701" expanded="true" signature="1492:2069" ph="{...}" />
-            <marker date="1527474224701" expanded="true" signature="2141:2304" ph="{...}" />
-            <marker date="1527474224701" expanded="true" signature="2252:2293" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,43 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <marker date="1527605095905" expanded="false" signature="6:92" ph="..." />
-            <marker date="1527605095905" expanded="true" signature="111:2324" ph="{...}" />
-            <marker date="1527605095905" expanded="true" signature="173:2322" ph="{...}" />
-            <marker date="1527605095905" expanded="true" signature="188:357" ph="/// Similar to how a pawn can be a social drinker or solitary relaxer in their room, hobbits can try and solve a  ... " />
-            <marker date="1527605095905" expanded="true" signature="409:633" ph="{...}" />
-            <marker date="1527605095905" expanded="true" signature="777:853" ph="{...}" />
-            <marker date="1527605095905" expanded="true" signature="934:1090" ph="{...}" />
-            <marker date="1527605095905" expanded="true" signature="1174:1405" ph="{...}" />
-            <marker date="1527605095905" expanded="true" signature="1284:1370" ph="{...}" />
-            <marker date="1527605095905" expanded="true" signature="1498:2081" ph="{...}" />
-            <marker date="1527605095905" expanded="true" signature="2153:2316" ph="{...}" />
-            <marker date="1527605095905" expanded="true" signature="2264:2305" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dwarves/GenStep_AncientDwarvenStronghold.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <marker date="1527785921447" expanded="false" signature="6:146" ph="..." />
-            <marker date="1527785921447" expanded="true" signature="165:8914" ph="{...}" />
-            <marker date="1527785921447" expanded="true" signature="224:8912" ph="{...}" />
-            <marker date="1527785921447" expanded="true" signature="281:372" ph="{...}" />
-            <marker date="1527785921447" expanded="true" signature="427:544" ph="{...}" />
-            <marker date="1527785921447" expanded="true" signature="588:7830" ph="{...}" />
-            <marker date="1527785921447" expanded="true" signature="696:758" ph="{...}" />
-            <marker date="1527785921447" expanded="true" signature="1489:1640" ph="/* BaseGen.globalSettings.minBuildings = 1; ... */" />
-            <marker date="1527785921447" expanded="true" signature="4878:4924" ph="/* Abandoned Dwarven Mountain Fortress ... */" />
-            <marker date="1527785921447" expanded="true" signature="5760:5807" ph="/* Four Corners -- Four Guardtowers ... */" />
-            <marker date="1527785921447" expanded="true" signature="5838:6583" ph="{...}" />
-            <marker date="1527785921447" expanded="true" signature="7693:7758" ph="{...}" />
-            <marker date="1527785921447" expanded="true" signature="7897:8806" ph="{...}" />
-            <marker date="1527785921447" expanded="true" signature="8683:8778" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,10 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <marker date="1527784095123" expanded="false" signature="6:28" ph="..." />
-            <marker date="1527784095123" expanded="true" signature="96:477" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,14 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="74" lean-forward="false" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
-          <folding>
-            <marker date="1527600658316" expanded="true" signature="6:105" ph="..." />
-            <marker date="1527600658316" expanded="true" signature="187:2146" ph="{...}" />
-            <marker date="1527600658316" expanded="true" signature="248:1765" ph="{...}" />
-            <marker date="1527600658316" expanded="true" signature="360:1755" ph="{...}" />
-            <marker date="1527600658316" expanded="true" signature="1532:1741" ph="{...}" />
-            <marker date="1527600658316" expanded="true" signature="1813:1925" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,20 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <marker date="1527600658346" expanded="false" signature="6:92" ph="..." />
-            <marker date="1527600658346" expanded="true" signature="111:2573" ph="{...}" />
-            <marker date="1527600658346" expanded="true" signature="219:2571" ph="{...}" />
-            <marker date="1527600658346" expanded="true" signature="234:386" ph="/// Similar to how a pawn can be a social drinker or solitary relaxer in their room, some will prefer toys. ... " />
-            <marker date="1527600658346" expanded="true" signature="438:893" ph="{...}" />
-            <marker date="1527600658346" expanded="true" signature="1046:1122" ph="{...}" />
-            <marker date="1527600658346" expanded="true" signature="1203:1359" ph="{...}" />
-            <marker date="1527600658346" expanded="true" signature="1443:1674" ph="{...}" />
-            <marker date="1527600658346" expanded="true" signature="1553:1639" ph="{...}" />
-            <marker date="1527600658346" expanded="true" signature="1767:2332" ph="{...}" />
-            <marker date="1527600658346" expanded="true" signature="2404:2565" ph="{...}" />
-            <marker date="1527600658346" expanded="true" signature="2513:2554" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,41 +860,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1527474712323" expanded="false" signature="6:111" ph="..." />
-            <marker date="1527474712323" expanded="true" signature="130:6865" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="208:6863" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="370:498" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="396:488" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="557:649" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="710:1577" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="1237:1362" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="1615:2668" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="2083:2658" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="2473:2558" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="2711:3142" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="3300:6634" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="3767:3849" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="3894:3976" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="4042:4124" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="4176:4258" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="4297:4379" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="4422:4504" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="4593:5001" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="4849:4979" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="5590:6000" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="5667:5982" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="6035:6185" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="6232:6347" ph="{...}" />
-            <marker date="1527474712323" expanded="true" signature="6644:6857" ph="/* public override bool ModifyCarriedThingDrawPos(ref Vector3 drawPos, ref bool behind, ref bool flip) ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dwarves/Dragon.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="532">
+          <caret line="29" column="66" lean-forward="false" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
           <folding>
             <marker date="1528034319301" expanded="false" signature="6:28" ph="..." />
             <marker date="1528034319301" expanded="true" signature="47:2852" ph="{...}" />
@@ -1136,6 +885,270 @@
             <marker date="1528034319301" expanded="true" signature="2336:2609" ph="{...}" />
             <marker date="1528034319301" expanded="true" signature="2429:2595" ph="{...}" />
             <marker date="1528034319301" expanded="true" signature="2673:2808" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/GenStep_AncientDwarvenStronghold.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="126" column="45" lean-forward="false" selection-start-line="126" selection-start-column="45" selection-end-line="127" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/Graphic_CustomFlicker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <marker date="1528567751769" expanded="false" signature="6:31" ph="..." />
+            <marker date="1528567751769" expanded="true" signature="50:2975" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="112:2973" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="324:479" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="350:469" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="596:2649" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="640:778" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="820:964" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="1180:1758" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="1443:1744" ph="/* Fire fire = thing as Fire; ... */" />
+            <marker date="1528567751769" expanded="true" signature="1819:1951" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="2277:2397" ph="/* if (compFireOverlay != null) ... */" />
+            <marker date="1528567751769" expanded="true" signature="2692:2967" ph="{...}" />
+            <marker date="1528567751769" expanded="true" signature="2761:2955" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/ThingWithComps_Glower.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <marker date="1528567751873" expanded="true" signature="6:28" ph="..." />
+            <marker date="1528567751873" expanded="true" signature="47:1219" ph="{...}" />
+            <marker date="1528567751873" expanded="true" signature="98:1217" ph="{...}" />
+            <marker date="1528567751873" expanded="true" signature="191:211" ph="{...}" />
+            <marker date="1528567751873" expanded="true" signature="248:361" ph="{...}" />
+            <marker date="1528567751873" expanded="true" signature="406:641" ph="{...}" />
+            <marker date="1528567751873" expanded="true" signature="464:631" ph="{...}" />
+            <marker date="1528567751873" expanded="true" signature="515:616" ph="{...}" />
+            <marker date="1528567751873" expanded="true" signature="680:1026" ph="{...}" />
+            <marker date="1528567751873" expanded="true" signature="951:1016" ph="{...}" />
+            <marker date="1528567751873" expanded="true" signature="1069:1211" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/Building_StreetLamp.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <marker date="1528567751791" expanded="true" signature="6:28" ph="..." />
+            <marker date="1528567751791" expanded="true" signature="47:1967" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="90:1965" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="314:723" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="761:872" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="910:1307" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="963:1297" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="1027:1148" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="1184:1283" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="1367:1496" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="1533:1684" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="1613:1674" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="1724:1772" ph="{...}" />
+            <marker date="1528567751791" expanded="true" signature="1815:1959" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <marker date="1528515567845" expanded="false" signature="6:119" ph="..." />
+            <marker date="1528515567845" expanded="true" signature="213:5749" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="252:966" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="1099:1265" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="1193:1255" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="1460:1569" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="1664:2295" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="1687:1866" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+            <marker date="1528515567845" expanded="true" signature="1926:2058" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="2124:2260" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="2409:3426" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="2461:3320" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="2827:2906" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="3115:3306" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="3208:3288" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="3546:4558" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="3598:4452" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="3964:4043" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="4247:4438" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="4340:4420" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="4673:5743" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="4725:5637" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="5091:5170" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="5432:5623" ph="{...}" />
+            <marker date="1528515567845" expanded="true" signature="5525:5605" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/JobDriver_FillFermentingBarrel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding>
+            <marker date="1528567751731" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528567751731" expanded="true" signature="97:1973" ph="{...}" />
+            <marker date="1528567751731" expanded="true" signature="156:1971" ph="{...}" />
+            <marker date="1528567751731" expanded="true" signature="714:1967" ph="{...}" />
+            <marker date="1528567751731" expanded="true" signature="1823:1946" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/WorkGiver_FillFermentingBarrel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1528567751751" expanded="true" signature="6:58" ph="..." />
+            <marker date="1528567751751" expanded="true" signature="147:3017" ph="{...}" />
+            <marker date="1528567751751" expanded="true" signature="388:537" ph="{...}" />
+            <marker date="1528567751751" expanded="true" signature="622:1851" ph="{...}" />
+            <marker date="1528567751751" expanded="true" signature="1257:1367" ph="{...}" />
+            <marker date="1528567751751" expanded="true" signature="1932:2152" ph="{...}" />
+            <marker date="1528567751751" expanded="true" signature="2233:2918" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/WorkGiver_TakeMeadOutOfFermentingBarrel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1528567751638" expanded="true" signature="6:44" ph="..." />
+            <marker date="1528567751638" expanded="true" signature="63:1053" ph="{...}" />
+            <marker date="1528567751638" expanded="true" signature="142:1051" ph="{...}" />
+            <marker date="1528567751638" expanded="true" signature="432:844" ph="{...}" />
+            <marker date="1528567751638" expanded="true" signature="925:1045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/JobDriver_TakeMeadOutOfFermentingBarrel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="55" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding>
+            <marker date="1528567751489" expanded="true" signature="6:78" ph="..." />
+            <marker date="1528567751489" expanded="true" signature="168:2775" ph="{...}" />
+            <marker date="1528567751489" expanded="true" signature="718:2768" ph="{...}" />
+            <marker date="1528567751489" expanded="true" signature="1228:2187" ph="{...}" />
+            <marker date="1528567751489" expanded="true" signature="1741:1958" ph="{...}" />
+            <marker date="1528567751489" expanded="true" signature="1983:2091" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/Building_FermentingMeadBarrel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4180">
+          <caret line="225" column="13" lean-forward="false" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
+          <folding>
+            <marker date="1528567751106" expanded="false" signature="6:114" ph="..." />
+            <marker date="1528567751106" expanded="true" signature="133:6635" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="220:6633" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="247:444" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="258:297" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="304:440" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="344:369" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="477:803" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="488:799" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="534:758" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="834:942" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="845:938" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="874:901" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="964:1021" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="975:1017" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1046:1118" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1057:1114" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1166:1624" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1177:1620" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1424:1454" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1487:1600" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1670:1761" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1681:1757" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1795:1921" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1806:1917" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="1958:2134" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="2169:2320" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="2213:2316" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="2354:2781" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="2433:2562" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="2631:2653" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="2841:2917" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="2885:2913" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="2941:2995" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3030:3201" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3112:3197" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3246:4846" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3388:3430" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3541:3856" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3570:3704" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3656:3695" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3713:3851" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3803:3842" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3876:4444" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3905:3973" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="3982:4439" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="4070:4188" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="4243:4433" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="4353:4423" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="4618:4785" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="4876:5148" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="4904:4997" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="5179:5664" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="5219:5660" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="5376:5653" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="5714:6016" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="5759:5789" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="5826:5996" ph="{...}" />
+            <marker date="1528567751106" expanded="true" signature="5872:5990" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1528550402382" expanded="false" signature="6:118" ph="..." />
+            <marker date="1528550402382" expanded="true" signature="137:5514" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="213:5512" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="289:539" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="592:777" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="788:885" ph="/* The same as TileFinder.TryFindNewSiteTile EXCEPT ... */" />
+            <marker date="1528550402382" expanded="true" signature="1062:2180" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="1674:1745" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="1844:1908" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="2020:2105" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="2252:3182" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="2355:2413" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="2414:2739" ph="/* Faction faction; ... */" />
+            <marker date="1528550402382" expanded="true" signature="3257:3559" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="3561:4284" ph="/* private bool TryFindFactions(out Faction alliedFaction, out Faction enemyFaction) ... */" />
+            <marker date="1528550402382" expanded="true" signature="4342:4798" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="4458:4762" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="4679:4748" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="4878:4967" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="5044:5450" ph="{...}" />
+            <marker date="1528550402382" expanded="true" signature="5356:5415" ph="{...}" />
           </folding>
         </state>
       </provider>

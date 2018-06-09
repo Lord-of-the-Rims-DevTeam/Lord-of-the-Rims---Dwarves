@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<LOTR_Wizardry>Wizardry</LOTR_Wizardry>
+<LotRD_ContainsWortMead>Contains {0} / {1} mead wort.</LotRD_ContainsWortMead>
+<LotRD_ContainsMead>Contains {0} / {1} dwarven mead.</LotRD_ContainsMead>
+<LotRD_NoWortMead>need mead wort</LotRD_NoWortMead>
 
 </LanguageData>

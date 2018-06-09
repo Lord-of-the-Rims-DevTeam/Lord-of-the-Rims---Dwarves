@@ -14,8 +14,27 @@ namespace Dwarves
         {
             HarmonyInstance harmony = HarmonyInstance.Create("rimworld.lotr.dwarves");
 
-            harmony.Patch(AccessTools.Method(typeof(TileFinder), "RandomFactionBaseTileFor"), new HarmonyMethod(typeof(HarmonyFactions).GetMethod("RandomFactionBaseTileFor_PreFix")), null);
-            
+            harmony.Patch(AccessTools.Method(typeof(TileFinder), "RandomFactionBaseTileFor"),
+                new HarmonyMethod(typeof(HarmonyFactions).GetMethod("RandomFactionBaseTileFor_PreFix")), null);
+            harmony.Patch(AccessTools.Method(typeof(Plant), "get_DyingBecauseExposedToLight"), null,
+                new HarmonyMethod(typeof(HarmonyFactions), nameof(get_DyingBecauseExposedToLight_PostFix)), null);
+            harmony.Patch(AccessTools.Method(typeof(Plant), "get_GrowthRate"), null,
+                new HarmonyMethod(typeof(HarmonyFactions), nameof(get_GrowthRate_PostFix)), null);
+        }
+
+        //Reduces growth rate to one fourth
+        public static void get_GrowthRate_PostFix(Plant __instance, ref float __result)
+        {
+            if (__instance.Map.glowGrid.GameGlowAt(__instance.Position, true) > 0f)
+            {
+                __result *= 0.5f;
+            }
+        }
+        
+        //While Earthbread prefers caves, it does not die when exposed to sunlight
+        public static void get_DyingBecauseExposedToLight_PostFix(Plant __instance, ref bool __result)
+        {
+            if (__instance.def.defName == "LotRD_PlantEarthBreadRoot") __result = false;
         }
 
         public static bool RandomFactionBaseTileFor_PreFix(ref int __result, Faction faction)
@@ -37,7 +56,7 @@ namespace Dwarves
             }
             return true;
         }
-        
+
 
         public static int RandomFactionBaseTileFor_HighElves(Faction faction, bool mustBeAutoChoosable = false)
         {
@@ -45,7 +64,7 @@ namespace Dwarves
             {
                 int num;
                 if ((from _ in Enumerable.Range(0, 100)
-                    select Rand.Range(0, Find.WorldGrid.TilesCount)).TryRandomElementByWeight(delegate (int x)
+                    select Rand.Range(0, Find.WorldGrid.TilesCount)).TryRandomElementByWeight(delegate(int x)
                 {
                     Tile tile = Find.WorldGrid[x];
                     if (!tile.biome.canBuildBase || tile.hilliness == Hilliness.Impassable)
@@ -66,7 +85,7 @@ namespace Dwarves
             Log.Error("Failed to find faction base tile for " + faction);
             return 0;
         }
-        
+
 
         public static int RandomFactionBaseTileFor_MountainDwarves(Faction faction, bool mustBeAutoChoosable = false)
         {
@@ -74,46 +93,17 @@ namespace Dwarves
             {
                 int num;
                 if ((from _ in Enumerable.Range(0, 100)
-                     select Rand.Range(0, Find.WorldGrid.TilesCount)).TryRandomElementByWeight(delegate (int x)
-                     {
-                         Tile tile = Find.WorldGrid[x];
-                         if (!tile.biome.canBuildBase || tile.hilliness == Hilliness.Impassable)
-                         {
-                             return 0f;
-                         }
-                         if (tile.hilliness == Hilliness.Mountainous)
-                             return 1000f;
-                         return 0f; //tile.biome.factionBaseSelectionWeight;
-                     }, out num))
+                    select Rand.Range(0, Find.WorldGrid.TilesCount)).TryRandomElementByWeight(delegate(int x)
+                {
+                    Tile tile = Find.WorldGrid[x];
+                    if (!tile.biome.canBuildBase || tile.hilliness == Hilliness.Impassable)
                     {
-                    if (TileFinder.IsValidTileForNewSettlement(num, null))
-                    {
-                        return num;
+                        return 0f;
                     }
-                }
-            }
-            Log.Error("Failed to find faction base tile for " + faction);
-            return 0;
-        }
-        
-        public static int RandomFactionBaseTileFor_HillDwarves(Faction faction, bool mustBeAutoChoosable = false)
-        {
-            for (int i = 0; i < 500; i++)
-            {
-                int num;
-                if ((from _ in Enumerable.Range(0, 100)
-                     select Rand.Range(0, Find.WorldGrid.TilesCount)).TryRandomElementByWeight(delegate (int x)
-                     {
-                         Tile tile = Find.WorldGrid[x];
-                         if (!tile.biome.canBuildBase || tile.hilliness == Hilliness.Impassable)
-                         {
-                             return 0f;
-                         }
-                         List<int> neighbors = new List<int>();
-                         if (tile.hilliness == Hilliness.LargeHills)
-                             return 1000f;
-                         return 0f;//tile.biome.factionBaseSelectionWeight;
-                     }, out num))
+                    if (tile.hilliness == Hilliness.Mountainous)
+                        return 1000f;
+                    return 0f; //tile.biome.factionBaseSelectionWeight;
+                }, out num))
                 {
                     if (TileFinder.IsValidTileForNewSettlement(num, null))
                     {
@@ -124,6 +114,34 @@ namespace Dwarves
             Log.Error("Failed to find faction base tile for " + faction);
             return 0;
         }
-        
+
+        public static int RandomFactionBaseTileFor_HillDwarves(Faction faction, bool mustBeAutoChoosable = false)
+        {
+            for (int i = 0; i < 500; i++)
+            {
+                int num;
+                if ((from _ in Enumerable.Range(0, 100)
+                    select Rand.Range(0, Find.WorldGrid.TilesCount)).TryRandomElementByWeight(delegate(int x)
+                {
+                    Tile tile = Find.WorldGrid[x];
+                    if (!tile.biome.canBuildBase || tile.hilliness == Hilliness.Impassable)
+                    {
+                        return 0f;
+                    }
+                    List<int> neighbors = new List<int>();
+                    if (tile.hilliness == Hilliness.LargeHills)
+                        return 1000f;
+                    return 0f; //tile.biome.factionBaseSelectionWeight;
+                }, out num))
+                {
+                    if (TileFinder.IsValidTileForNewSettlement(num, null))
+                    {
+                        return num;
+                    }
+                }
+            }
+            Log.Error("Failed to find faction base tile for " + faction);
+            return 0;
+        }
     }
 }

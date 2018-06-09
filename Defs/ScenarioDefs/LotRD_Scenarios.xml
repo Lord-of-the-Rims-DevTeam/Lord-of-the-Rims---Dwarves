@@ -15,9 +15,11 @@
 		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
 		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
 		<geneticVariance>1</geneticVariance>
+		<!--
 		<startingResearchTags>
 			<li>ClassicStart</li>
 		</startingResearchTags>
+		-->
 		<hairTags>
 			<li>LotRD_Dwarf</li>
 		</hairTags>
@@ -54,6 +56,36 @@
           <visible>false</visible>
         </li>
 
+		<!-- Starting research -->
+		<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>Stonecutting</project>
+		</li>
+		<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>ComplexClothing</project>
+		</li>
+		<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>Beds</project>
+		</li>
+		<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>Brewing</project>
+		</li>
+		<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>Smithing</project>
+		</li>
+		<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>RecurveBow</project>
+		</li>
+		<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>LongBlades</project>
+		</li>
+		
         <!-- Player starting things -->
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>

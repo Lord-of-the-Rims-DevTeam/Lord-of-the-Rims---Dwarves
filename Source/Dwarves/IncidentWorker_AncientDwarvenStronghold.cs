@@ -14,11 +14,16 @@ namespace Dwarves
             Faction faction;
             Faction faction2;
             int num;
-            return base.CanFireNowSub(target) &&
+            return base.CanFireNowSub(target) && !AnyExistingStrongholds() &&
                    TryFindNewSiteTile(out num, 8, 30, false, true, -1);
         }
-        
-        
+
+        public static bool AnyExistingStrongholds()
+        {
+            return Find.World?.worldObjects?.Sites?.FirstOrDefault(x => x.parts.FirstOrDefault(y => y.defName == "LotRD_AncientDwarvenStronghold") != null) != null;
+        }
+
+
         //The same as TileFinder.TryFindNewSiteTile EXCEPT
         // this one finds locations with caves
         public static bool TryFindNewSiteTile(out int tile, int minDist = 8, int maxDist = 30, bool allowCaravans = false, bool preferCloserTiles = true, int nearThisTile = -1)
