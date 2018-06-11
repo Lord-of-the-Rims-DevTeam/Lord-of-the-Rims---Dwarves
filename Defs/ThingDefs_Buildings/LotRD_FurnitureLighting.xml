@@ -77,7 +77,6 @@
 	  </li>
     </comps>
 	<placeWorkers>
-      <li>PlaceWorker_IsUnderRoof</li>
       <li>PlaceWorker_Heater</li>
     </placeWorkers>
     <designationCategory>Furniture</designationCategory>

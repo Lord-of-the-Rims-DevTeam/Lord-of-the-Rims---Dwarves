@@ -10,6 +10,9 @@ namespace Dwarves
     [StaticConstructorOnStartup]
     public static class HarmonyFactions
     {
+        private const string WaxModPackName = "Call of Cthulhu - Industrial Age";
+
+
         static HarmonyFactions()
         {
             HarmonyInstance harmony = HarmonyInstance.Create("rimworld.lotr.dwarves");
@@ -20,12 +23,55 @@ namespace Dwarves
                 new HarmonyMethod(typeof(HarmonyFactions), nameof(get_DyingBecauseExposedToLight_PostFix)), null);
             harmony.Patch(AccessTools.Method(typeof(Plant), "get_GrowthRate"), null,
                 new HarmonyMethod(typeof(HarmonyFactions), nameof(get_GrowthRate_PostFix)), null);
+
+
+            //AdjustFurnitureSettings();
+            //AdjustWaxSettings();
+        }
+
+        private static void AdjustWaxSettings()
+        {
+            var candelabra = ThingDef.Named("LotRD_DwarvenCandelabra");
+            
+            if (LoadedModManager.RunningMods.FirstOrDefault(x => x.Name == WaxModPackName) != null)
+            {
+                var WaxDef = ThingDef.Named("Jecrell_Wax");
+                if (candelabra.GetCompProperties<CompProperties_Refuelable>() is CompProperties_Refuelable rf)
+                {
+                    //Log.Message("Set wax for Dwarven Candelabra");
+                    rf.fuelFilter.SetAllow(WaxDef, true);
+                    rf.fuelFilter.SetAllow(ThingDefOf.WoodLog, false);
+                }
+            }
+        }
+
+        private static void AdjustFurnitureSettings()
+        {
+            var endTable = ThingDef.Named("LotRD_EndTable");
+            
+            HashSet<ThingDef> bedDefs;
+            bedDefs = new HashSet<ThingDef>(DefDatabase<ThingDef>.AllDefsListForReading.FindAll(x => x.IsBed));
+            if (bedDefs?.Count > 0)
+            {
+                foreach (var def in bedDefs)
+                {
+                    if (def.GetCompProperties<CompProperties_AffectedByFacilities>() is
+                        CompProperties_AffectedByFacilities cp)
+                    {
+                        if (!cp?.linkableFacilities?.Contains(endTable) ?? false)
+                        {
+                            //Log.Message("Added end table to " + def.label);
+                            cp.linkableFacilities.Add(endTable);
+                        }
+                    }
+                }
+            }
         }
 
         //Reduces growth rate to one fourth
         public static void get_GrowthRate_PostFix(Plant __instance, ref float __result)
         {
-            if (__instance.Map.glowGrid.GameGlowAt(__instance.Position, true) > 0f)
+            if (__instance.def.defName == "LotRD_PlantEarthBreadRoot" && __instance.Map.glowGrid.GameGlowAt(__instance.Position, true) > 0f)
             {
                 __result *= 0.5f;
             }
