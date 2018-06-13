@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRD_GiantBoarKind.label>巨大イノシシ</LotRD_GiantBoarKind.label>
+  <LotRD_GiantBoarKind.labelPlural>巨大イノシシたち</LotRD_GiantBoarKind.labelPlural>
+  <LotRD_GiantBoarKind.lifeStages.0.label>巨大ウリ坊</LotRD_GiantBoarKind.lifeStages.0.label>
+  <LotRD_GiantBoarKind.lifeStages.0.labelPlural>巨大ウリ坊たち</LotRD_GiantBoarKind.lifeStages.0.labelPlural>
+  <LotRD_GiantBoarKind.lifeStages.0.labelMale>男性 巨大ウリ坊</LotRD_GiantBoarKind.lifeStages.0.labelMale>
+  <LotRD_GiantBoarKind.lifeStages.0.labelMalePlural>男性 巨大ウリ坊たち</LotRD_GiantBoarKind.lifeStages.0.labelMalePlural>
+  <LotRD_GiantBoarKind.lifeStages.0.labelFemale>女性 巨大ウリ坊</LotRD_GiantBoarKind.lifeStages.0.labelFemale>
+  <LotRD_GiantBoarKind.lifeStages.0.labelFemalePlural>女性 巨大ウリ坊たち</LotRD_GiantBoarKind.lifeStages.0.labelFemalePlural>
+  <LotRD_GiantBoarKind.lifeStages.1.label>巨大若イノシシ</LotRD_GiantBoarKind.lifeStages.1.label>
+  <LotRD_GiantBoarKind.lifeStages.1.labelPlural>巨大若イノシシ</LotRD_GiantBoarKind.lifeStages.1.labelPlural>
+  <LotRD_GiantBoarKind.lifeStages.1.labelMale>男性 巨大若イノシシたち</LotRD_GiantBoarKind.lifeStages.1.labelMale>
+  <LotRD_GiantBoarKind.lifeStages.1.labelMalePlural>男性 巨大若イノシシたち</LotRD_GiantBoarKind.lifeStages.1.labelMalePlural>
+  <LotRD_GiantBoarKind.lifeStages.1.labelFemale>女性 巨大若イノシシ</LotRD_GiantBoarKind.lifeStages.1.labelFemale>
+  <LotRD_GiantBoarKind.lifeStages.1.labelFemalePlural>女性 巨大若イノシシたち</LotRD_GiantBoarKind.lifeStages.1.labelFemalePlural>
+  <LotRD_GiantBoarKind.lifeStages.2.label>巨大イノシシ</LotRD_GiantBoarKind.lifeStages.2.label>
+  <LotRD_GiantBoarKind.lifeStages.2.labelPlural>巨大イノシシたち</LotRD_GiantBoarKind.lifeStages.2.labelPlural>
+  <LotRD_GiantBoarKind.lifeStages.2.labelMale>男性 巨大イノシシ</LotRD_GiantBoarKind.lifeStages.2.labelMale>
+  <LotRD_GiantBoarKind.lifeStages.2.labelMalePlural>男性 巨大イノシシたち</LotRD_GiantBoarKind.lifeStages.2.labelMalePlural>
+  <LotRD_GiantBoarKind.lifeStages.2.labelFemale>女性 巨大イノシシ</LotRD_GiantBoarKind.lifeStages.2.labelFemale>
+  <LotRD_GiantBoarKind.lifeStages.2.labelFemalePlural>女性 巨大イノシシたち</LotRD_GiantBoarKind.lifeStages.2.labelFemalePlural>
+  <LotRD_GiantBoarKind.labelMale>男性 巨大イノシシ</LotRD_GiantBoarKind.labelMale>
+  <LotRD_GiantBoarKind.labelMalePlural>男性 巨大イノシシたち</LotRD_GiantBoarKind.labelMalePlural>
+  <LotRD_GiantBoarKind.labelFemale>女性 巨大イノシシ</LotRD_GiantBoarKind.labelFemale>
+  <LotRD_GiantBoarKind.labelFemalePlural>女性 巨大イノシシたち</LotRD_GiantBoarKind.labelFemalePlural>
+
+
+</LanguageData>
