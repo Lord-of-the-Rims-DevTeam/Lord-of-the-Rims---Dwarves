@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRD_RawEarthBread.label>大地のパン(生)</LotRD_RawEarthBread.label>
+  <LotRD_RawEarthBread.description>生の「大地のパン」の根です。植物の根にしか見えませんが、保存が効く上に、皮を剥くと白く肉質で茹でて調理するとパンのような味になります。</LotRD_RawEarthBread.description>
+
+  <LotRD_PlantEarthBreadRoot.label>大地のパン</LotRD_PlantEarthBreadRoot.label>
+  <LotRD_PlantEarthBreadRoot.description>別名「荒れ地の根くず」と呼ばれ、小ドワーフやドワーフたちにしか知られていない食用の根菜です。 洞窟の外でゆっくりと成長します。</LotRD_PlantEarthBreadRoot.description>
+
+
+</LanguageData>
