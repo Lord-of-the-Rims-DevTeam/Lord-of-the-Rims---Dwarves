@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 1 -->
+
+  <LotRD_MeleeWeapon_AxeGimliWalking.label>ドワーヴンウォーキングアックス</LotRD_MeleeWeapon_AxeGimliWalking.label>
+  <LotRD_MeleeWeapon_AxeGimliWalking.description>非常に長い柄を持つ斧です。 登山にも役立ちます。</LotRD_MeleeWeapon_AxeGimliWalking.description>
+  <LotRD_MeleeWeapon_AxeGimliWalking.tools.0.label>持ち手</LotRD_MeleeWeapon_AxeGimliWalking.tools.0.label>
+  <LotRD_MeleeWeapon_AxeGimliWalking.tools.1.label>先刃</LotRD_MeleeWeapon_AxeGimliWalking.tools.1.label>
+  <LotRD_MeleeWeapon_AxeGimliWalking.tools.2.label>刃</LotRD_MeleeWeapon_AxeGimliWalking.tools.2.label>
+
+
+  <!-- Tier 2 -->
+
+  <LotRD_MeleeWeapon_AxeBattle.label>ドワーヴンバトルアックス</LotRD_MeleeWeapon_AxeBattle.label>
+  <LotRD_MeleeWeapon_AxeBattle.description>戦いのために設計された片頭の斧です。</LotRD_MeleeWeapon_AxeBattle.description>
+  <LotRD_MeleeWeapon_AxeBattle.tools.0.label>持ち手</LotRD_MeleeWeapon_AxeBattle.tools.0.label>
+  <LotRD_MeleeWeapon_AxeBattle.tools.1.label>先刃</LotRD_MeleeWeapon_AxeBattle.tools.1.label>
+  <LotRD_MeleeWeapon_AxeBattle.tools.2.label>刃</LotRD_MeleeWeapon_AxeBattle.tools.2.label>
+
+
+  <!-- Tier 3 -->
+
+  <LotRD_MeleeWeapon_AxeWarGimli.label>ドワーヴンダブルブレードアックス</LotRD_MeleeWeapon_AxeWarGimli.label>
+  <LotRD_MeleeWeapon_AxeWarGimli.description>両手でしっかりと握る巨大な斧です。</LotRD_MeleeWeapon_AxeWarGimli.description>
+  <LotRD_MeleeWeapon_AxeWarGimli.tools.0.label>持ち手</LotRD_MeleeWeapon_AxeWarGimli.tools.0.label>
+  <LotRD_MeleeWeapon_AxeWarGimli.tools.1.label>先刃</LotRD_MeleeWeapon_AxeWarGimli.tools.1.label>
+  <LotRD_MeleeWeapon_AxeWarGimli.tools.2.label>刃</LotRD_MeleeWeapon_AxeWarGimli.tools.2.label>
+
+
+</LanguageData>
