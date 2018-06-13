@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRD_DwarfApparel_MoriaBattleHelmet.label>ドワーヴンバトルヘルム(山)</LotRD_DwarfApparel_MoriaBattleHelmet.label>
+  <LotRD_DwarfApparel_MoriaBattleHelmet.description>モリアに住んでいたドワーフたちが使っていた頭部用の戦闘用ヘルメットです。</LotRD_DwarfApparel_MoriaBattleHelmet.description>
+
+  <LotRD_DwarfApparel_IronHillHelmet.label>ドワーヴンヘルム(丘)</LotRD_DwarfApparel_IronHillHelmet.label>
+  <LotRD_DwarfApparel_IronHillHelmet.description>くろがね連山に住む丘ドワーフたちが着用するヘルメットです。</LotRD_DwarfApparel_IronHillHelmet.description>
+
+  <LotRD_DwarfApparel_IronHillHelmetKing.label>ドワーヴンロードヘルム(丘)</LotRD_DwarfApparel_IronHillHelmetKing.label>
+  <LotRD_DwarfApparel_IronHillHelmetKing.description>くろがね連山に住む丘ドワーフの君主が着用した華やかな羽毛付きのヘルメット。</LotRD_DwarfApparel_IronHillHelmetKing.description>
+
+  <LotRD_DwarfApparel_GimliHelmet.label>ドワーヴンヘルム(長髭)</LotRD_DwarfApparel_GimliHelmet.label>
+  <LotRD_DwarfApparel_GimliHelmet.description>不死のドゥリンを始祖とする長髭族たちの文化様式で金属細工師が作り上げたのがこのヘルメットです。また指輪の仲間であった長鬚族ドワーフのギムリが被っていた兜のデザインでもあります。</LotRD_DwarfApparel_GimliHelmet.description>
+
+  <LotRD_DwarfApparel_Crown.label>ドワーヴンクラウン</LotRD_DwarfApparel_Crown.label>
+  <LotRD_DwarfApparel_Crown.description>この王冠はエレボール(はなれ山)のドラゴンに略奪された王冠のように、偉大な王国の王であった山の下の王が戴冠するような、ドワーフの王冠のデザインになっています。</LotRD_DwarfApparel_Crown.description>
+
+
+</LanguageData>
