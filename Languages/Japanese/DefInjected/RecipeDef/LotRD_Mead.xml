@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRD_MakeWortMead.label>蜂蜜汁を作る</LotRD_MakeWortMead.label>
+  <LotRD_MakeWortMead.description>生のハニールートを使って蜂蜜汁を作ります。</LotRD_MakeWortMead.description>
+  <LotRD_MakeWortMead.jobString>蜂蜜汁を作成中</LotRD_MakeWortMead.jobString>
+
+
+</LanguageData>
