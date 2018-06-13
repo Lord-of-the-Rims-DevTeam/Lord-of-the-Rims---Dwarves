@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- RACE DEFS -->
+
+  <LotRD_DragonFireDrakeRace.label>ドラゴン(火竜)</LotRD_DragonFireDrakeRace.label>
+  <LotRD_DragonFireDrakeRace.description>火竜は竜種の中で最も強力な種類です。彼らの名前が暗示しているように、火竜は敵に向かって口から火炎を吐き出すことができます。</LotRD_DragonFireDrakeRace.description>
+  <LotRD_DragonFireDrakeRace.tools.0.label>牙</LotRD_DragonFireDrakeRace.tools.0.label>
+  <LotRD_DragonFireDrakeRace.tools.1.label>鉤爪(左)</LotRD_DragonFireDrakeRace.tools.1.label>
+  <LotRD_DragonFireDrakeRace.tools.2.label>鉤爪(右)</LotRD_DragonFireDrakeRace.tools.2.label>
+  <LotRD_DragonFireDrakeRace.tools.3.label>翼</LotRD_DragonFireDrakeRace.tools.3.label>
+  <LotRD_DragonFireDrakeRace_Leather.label>ドラゴンの鱗(火竜)</LotRD_DragonFireDrakeRace_Leather.label>
+  <LotRD_DragonFireDrakeRace_Leather.description>ドラゴンの鱗(火竜)</LotRD_DragonFireDrakeRace_Leather.description>
+  <LotRD_DragonFireDrakeRace_Leather.stuffProps.stuffAdjective>ドラゴンの鱗(火竜)</LotRD_DragonFireDrakeRace_Leather.stuffProps.stuffAdjective>
+  <LotRD_DragonFireDrakeRace_Meat.label>ドラゴン(火竜)の肉</LotRD_DragonFireDrakeRace_Meat.label>
+  <LotRD_DragonFireDrakeRace_Meat.description>ドラゴン(火竜)の肉</LotRD_DragonFireDrakeRace_Meat.description>
+  <LotRD_DragonFireDrakeRace_Corpse.label>ドラゴン(火竜)の死骸</LotRD_DragonFireDrakeRace_Corpse.label>
+  <LotRD_DragonFireDrakeRace_Corpse.description>ドラゴン(火竜)の死骸</LotRD_DragonFireDrakeRace_Corpse.description>
+
+
+</LanguageData>
