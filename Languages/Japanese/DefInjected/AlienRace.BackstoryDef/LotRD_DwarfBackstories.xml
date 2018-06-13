@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRD_jecrellBackstoryChildOne.title>ドワーフ:探索者</LotRD_jecrellBackstoryChildOne.title>
+  <LotRD_dreggrodDaTraitorBackstoryChildTwo.title>ドワーフ:放浪生活者</LotRD_dreggrodDaTraitorBackstoryChildTwo.title>
+  <LotRD_jecrellBackstoryChildThree.title>ドワーフ:過保護な子</LotRD_jecrellBackstoryChildThree.title>
+  <LotRD_jecrellBackstoryChildFour.title>ドワーフ:脳筋一家</LotRD_jecrellBackstoryChildFour.title>
+
+
+  <!-- Adult backstories -->
+
+  <LotRD_dreggrodDaTraitorBackstoryAdultOne.title>ドワーフ:炭鉱夫</LotRD_dreggrodDaTraitorBackstoryAdultOne.title>
+  <LotRD_dreggrodDaTraitorBackstoryAdultTwo.title>ドワーフ:鍛冶屋</LotRD_dreggrodDaTraitorBackstoryAdultTwo.title>
+  <LotRD_dreggrodDaTraitorBackstoryAdultThree.title>ドワーフ:採食者</LotRD_dreggrodDaTraitorBackstoryAdultThree.title>
+  <LotRD_dreggrodDaTraitorBackstoryAdultFour.title>ドワーフ:兵士</LotRD_dreggrodDaTraitorBackstoryAdultFour.title>
+  <!--[Duplicated] <LotRD_dreggrodDaTraitorBackstoryAdultFive.title>ドワーフ:貴族</LotRD_dreggrodDaTraitorBackstoryAdultFive.title>-->
+  <!--[Duplicated] <LotRD_dreggrodDaTraitorBackstoryAdultFive.title>ドワーフ:冒険者</LotRD_dreggrodDaTraitorBackstoryAdultFive.title>-->
+  <LotRD_dreggrodDaTraitorBackstoryAdultFive.title>ドワーフ:冒険者</LotRD_dreggrodDaTraitorBackstoryAdultFive.title>
+  <LotRD_dreggrodDaTraitorBackstoryAdultSix.title>ドワーフ:玩具職人</LotRD_dreggrodDaTraitorBackstoryAdultSix.title>
+  <LotRD_dreggrodDaTraitorBackstoryAdultSeven.title>ドワーフ:醸造家</LotRD_dreggrodDaTraitorBackstoryAdultSeven.title>
+  <LotRD_jecrellBackstoryAdultEight.title>ドワーフ:料理人</LotRD_jecrellBackstoryAdultEight.title>
+
+
+</LanguageData>
