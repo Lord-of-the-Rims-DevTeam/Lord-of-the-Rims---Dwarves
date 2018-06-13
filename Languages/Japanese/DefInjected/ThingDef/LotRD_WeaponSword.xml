@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRD_MeleeWeapon_DwarfSword.label>ノーブルドワーヴンソード</LotRD_MeleeWeapon_DwarfSword.label>
+  <LotRD_MeleeWeapon_DwarfSword.description>細工が施されたドワーフの刀剣で、貴族のドワーフが家名を見せつけるのに適しています。</LotRD_MeleeWeapon_DwarfSword.description>
+  <LotRD_MeleeWeapon_DwarfSword.tools.0.label>持ち手</LotRD_MeleeWeapon_DwarfSword.tools.0.label>
+  <LotRD_MeleeWeapon_DwarfSword.tools.1.label>切っ先</LotRD_MeleeWeapon_DwarfSword.tools.1.label>
+  <LotRD_MeleeWeapon_DwarfSword.tools.2.label>刃</LotRD_MeleeWeapon_DwarfSword.tools.2.label>
+
+  <LotRD_MeleeWeapon_DwarfSwordBandit.label>ドワーヴンソード</LotRD_MeleeWeapon_DwarfSwordBandit.label>
+  <LotRD_MeleeWeapon_DwarfSwordBandit.description>ギザギザの歯付いたドワーフの刀剣で、戦闘に適した機能を持っています。</LotRD_MeleeWeapon_DwarfSwordBandit.description>
+  <LotRD_MeleeWeapon_DwarfSwordBandit.tools.0.label>持ち手</LotRD_MeleeWeapon_DwarfSwordBandit.tools.0.label>
+  <LotRD_MeleeWeapon_DwarfSwordBandit.tools.1.label>切っ先</LotRD_MeleeWeapon_DwarfSwordBandit.tools.1.label>
+  <LotRD_MeleeWeapon_DwarfSwordBandit.tools.2.label>刃</LotRD_MeleeWeapon_DwarfSwordBandit.tools.2.label>
+
+  <LotRD_MeleeWeapon_DwarfSpear.label>ドワーヴンスピアー</LotRD_MeleeWeapon_DwarfSpear.label>
+  <LotRD_MeleeWeapon_DwarfSpear.description>近接戦で相手を突き刺すために、先端に鋭い槍先が付いたポールアームです。これはドワーフによって鍛え上げられた場合、特に危険なものとなります。</LotRD_MeleeWeapon_DwarfSpear.description>
+  <LotRD_MeleeWeapon_DwarfSpear.tools.0.label>柄</LotRD_MeleeWeapon_DwarfSpear.tools.0.label>
+  <LotRD_MeleeWeapon_DwarfSpear.tools.1.label>槍先</LotRD_MeleeWeapon_DwarfSpear.tools.1.label>
+
+
+</LanguageData>
