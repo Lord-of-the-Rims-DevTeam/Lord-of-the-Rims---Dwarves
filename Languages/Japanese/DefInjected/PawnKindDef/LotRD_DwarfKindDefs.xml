@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRD_DwarfColonist.label>colonist(ドワーフ)</LotRD_DwarfColonist.label>
+  <LotRD_DwarfColonist.labelPlural>入植者(ドワーフ)たち</LotRD_DwarfColonist.labelPlural>
+  <LotRD_DwarfColonist.labelMale>男性 入植者(ドワーフ)</LotRD_DwarfColonist.labelMale>
+  <LotRD_DwarfColonist.labelMalePlural>男性 入植者(ドワーフ)たち</LotRD_DwarfColonist.labelMalePlural>
+  <LotRD_DwarfColonist.labelFemale>女性 入植者(ドワーフ)</LotRD_DwarfColonist.labelFemale>
+  <LotRD_DwarfColonist.labelFemalePlural>女性 入植者(ドワーフ)たち</LotRD_DwarfColonist.labelFemalePlural>
+
+  <LotRD_DwarfVillager.label>村人(ドワーフ)</LotRD_DwarfVillager.label>
+  <LotRD_DwarfVillager.labelPlural>村人(ドワーフ)たち</LotRD_DwarfVillager.labelPlural>
+  <LotRD_DwarfVillager.labelMale>男性 村人(ドワーフ)</LotRD_DwarfVillager.labelMale>
+  <LotRD_DwarfVillager.labelMalePlural>男性 村人(ドワーフ)たち</LotRD_DwarfVillager.labelMalePlural>
+  <LotRD_DwarfVillager.labelFemale>女性 村人(ドワーフ)</LotRD_DwarfVillager.labelFemale>
+  <LotRD_DwarfVillager.labelFemalePlural>女性 村人(ドワーフ)たち</LotRD_DwarfVillager.labelFemalePlural>
+
+  <LotRD_DwarfSlave.label>奴隷(ドワーフ)</LotRD_DwarfSlave.label>
+  <LotRD_DwarfSlave.labelPlural>奴隷(ドワーフ)たち</LotRD_DwarfSlave.labelPlural>
+  <LotRD_DwarfSlave.labelMale>男性 奴隷(ドワーフ)</LotRD_DwarfSlave.labelMale>
+  <LotRD_DwarfSlave.labelMalePlural>男性 奴隷(ドワーフ)たち</LotRD_DwarfSlave.labelMalePlural>
+  <LotRD_DwarfSlave.labelFemale>女性 奴隷(ドワーフ)</LotRD_DwarfSlave.labelFemale>
+  <LotRD_DwarfSlave.labelFemalePlural>女性 奴隷(ドワーフ)たち</LotRD_DwarfSlave.labelFemalePlural>
+
+  <LotRD_DwarfTrader.label>商人(ドワーフ)</LotRD_DwarfTrader.label>
+  <LotRD_DwarfTrader.labelPlural>商人(ドワーフ)たち</LotRD_DwarfTrader.labelPlural>
+  <LotRD_DwarfTrader.labelMale>男性 商人(ドワーフ)</LotRD_DwarfTrader.labelMale>
+  <LotRD_DwarfTrader.labelMalePlural>男性 商人(ドワーフ)たち</LotRD_DwarfTrader.labelMalePlural>
+  <LotRD_DwarfTrader.labelFemale>女性 商人(ドワーフ)</LotRD_DwarfTrader.labelFemale>
+  <LotRD_DwarfTrader.labelFemalePlural>女性 商人(ドワーフ)たち</LotRD_DwarfTrader.labelFemalePlural>
+
+  <LotRD_DwarfKing.label>王(ドワーフ)</LotRD_DwarfKing.label>
+  <LotRD_DwarfKing.labelPlural>王(ドワーフ)たち</LotRD_DwarfKing.labelPlural>
+  <LotRD_DwarfKing.labelMale>王(ドワーフ)</LotRD_DwarfKing.labelMale>
+  <LotRD_DwarfKing.labelMalePlural>王(ドワーフ)たち</LotRD_DwarfKing.labelMalePlural>
+  <LotRD_DwarfKing.labelFemale>女王(ドワーフ)</LotRD_DwarfKing.labelFemale>
+  <LotRD_DwarfKing.labelFemalePlural>女王(ドワーフ)たち</LotRD_DwarfKing.labelFemalePlural>
+
+  <LotRD_DwarfLord.label>領主(ドワーフ)</LotRD_DwarfLord.label>
+  <LotRD_DwarfLord.labelPlural>領主(ドワーフ)たち</LotRD_DwarfLord.labelPlural>
+  <LotRD_DwarfLord.labelMale>領主(ドワーフ)</LotRD_DwarfLord.labelMale>
+  <LotRD_DwarfLord.labelMalePlural>領主(ドワーフ)たち</LotRD_DwarfLord.labelMalePlural>
+  <LotRD_DwarfLord.labelFemale>女領主(ドワーフ)</LotRD_DwarfLord.labelFemale>
+  <LotRD_DwarfLord.labelFemalePlural>女領主(ドワーフ)たち</LotRD_DwarfLord.labelFemalePlural>
+
+  <LotRD_DwarfGuard.label>警備兵(ドワーフ)</LotRD_DwarfGuard.label>
+  <LotRD_DwarfGuard.labelPlural>警備兵(ドワーフ)たち</LotRD_DwarfGuard.labelPlural>
+  <LotRD_DwarfGuard.labelMale>男性 警備兵(ドワーフ)</LotRD_DwarfGuard.labelMale>
+  <LotRD_DwarfGuard.labelMalePlural>男性 警備兵(ドワーフ)たち</LotRD_DwarfGuard.labelMalePlural>
+  <LotRD_DwarfGuard.labelFemale>女性 警備兵(ドワーフ)</LotRD_DwarfGuard.labelFemale>
+  <LotRD_DwarfGuard.labelFemalePlural>女性 警備兵(ドワーフ)たち</LotRD_DwarfGuard.labelFemalePlural>
+
+  <LotRD_DwarfGuardMountain.label>警備兵(山ドワーフ)</LotRD_DwarfGuardMountain.label>
+  <LotRD_DwarfGuardMountain.labelPlural>警備兵(山ドワーフ)たち</LotRD_DwarfGuardMountain.labelPlural>
+  <LotRD_DwarfGuardMountain.labelMale>男性 警備兵(山ドワーフ)</LotRD_DwarfGuardMountain.labelMale>
+  <LotRD_DwarfGuardMountain.labelMalePlural>男性 警備兵(山ドワーフ)たち</LotRD_DwarfGuardMountain.labelMalePlural>
+  <LotRD_DwarfGuardMountain.labelFemale>女性 警備兵(山ドワーフ)</LotRD_DwarfGuardMountain.labelFemale>
+  <LotRD_DwarfGuardMountain.labelFemalePlural>女性 警備兵(山ドワーフ)たち</LotRD_DwarfGuardMountain.labelFemalePlural>
+
+  <LotRD_DwarfThief.label>盗賊(ドワーフ)</LotRD_DwarfThief.label>
+  <LotRD_DwarfThief.labelPlural>盗賊(ドワーフ)たち</LotRD_DwarfThief.labelPlural>
+  <LotRD_DwarfThief.labelMale>男性 盗賊(ドワーフ)</LotRD_DwarfThief.labelMale>
+  <LotRD_DwarfThief.labelMalePlural>男性 盗賊(ドワーフ)たち</LotRD_DwarfThief.labelMalePlural>
+  <LotRD_DwarfThief.labelFemale>女性 盗賊(ドワーフ)</LotRD_DwarfThief.labelFemale>
+  <LotRD_DwarfThief.labelFemalePlural>女性 盗賊(ドワーフ)たち</LotRD_DwarfThief.labelFemalePlural>
+
+  <LotRD_DwarfBandit.label>強盗(ドワーフ)</LotRD_DwarfBandit.label>
+  <LotRD_DwarfBandit.labelPlural>強盗(ドワーフ)たち</LotRD_DwarfBandit.labelPlural>
+  <LotRD_DwarfBandit.labelMale>男性 強盗(ドワーフ)</LotRD_DwarfBandit.labelMale>
+  <LotRD_DwarfBandit.labelMalePlural>男性 強盗(ドワーフ)たち</LotRD_DwarfBandit.labelMalePlural>
+  <LotRD_DwarfBandit.labelFemale>女性 強盗(ドワーフ)</LotRD_DwarfBandit.labelFemale>
+  <LotRD_DwarfBandit.labelFemalePlural>女性 強盗(ドワーフ)たち</LotRD_DwarfBandit.labelFemalePlural>
+
+  <LotRD_DwarfBanditHunter.label>山賊(ドワーフ)</LotRD_DwarfBanditHunter.label>
+  <LotRD_DwarfBanditHunter.labelPlural>山賊(ドワーフ)たち</LotRD_DwarfBanditHunter.labelPlural>
+  <LotRD_DwarfBanditHunter.labelMale>男性 山賊(ドワーフ)</LotRD_DwarfBanditHunter.labelMale>
+  <LotRD_DwarfBanditHunter.labelMalePlural>男性 山賊(ドワーフ)たち</LotRD_DwarfBanditHunter.labelMalePlural>
+  <LotRD_DwarfBanditHunter.labelFemale>女性 山賊(ドワーフ)</LotRD_DwarfBanditHunter.labelFemale>
+  <LotRD_DwarfBanditHunter.labelFemalePlural>女性 山賊(ドワーフ)たち</LotRD_DwarfBanditHunter.labelFemalePlural>
+
+  <LotRD_DwarfBanditTough.label>略奪者(ドワーフ)</LotRD_DwarfBanditTough.label>
+  <LotRD_DwarfBanditTough.labelPlural>略奪者(ドワーフ)たち</LotRD_DwarfBanditTough.labelPlural>
+  <LotRD_DwarfBanditTough.labelMale>男性 略奪者(ドワーフ)</LotRD_DwarfBanditTough.labelMale>
+  <LotRD_DwarfBanditTough.labelMalePlural>男性 略奪者(ドワーフ)たち</LotRD_DwarfBanditTough.labelMalePlural>
+  <LotRD_DwarfBanditTough.labelFemale>女性 略奪者(ドワーフ)</LotRD_DwarfBanditTough.labelFemale>
+  <LotRD_DwarfBanditTough.labelFemalePlural>女性 略奪者(ドワーフ)たち</LotRD_DwarfBanditTough.labelFemalePlural>
+
+  <LotRD_DwarfBanditToughRanged.label>追いはぎ(ドワーフ)</LotRD_DwarfBanditToughRanged.label>
+  <LotRD_DwarfBanditToughRanged.labelPlural>追いはぎ(ドワーフ)たち</LotRD_DwarfBanditToughRanged.labelPlural>
+  <LotRD_DwarfBanditToughRanged.labelMale>男性 追いはぎ(ドワーフ)</LotRD_DwarfBanditToughRanged.labelMale>
+  <LotRD_DwarfBanditToughRanged.labelMalePlural>男性 追いはぎ(ドワーフ)たち</LotRD_DwarfBanditToughRanged.labelMalePlural>
+  <LotRD_DwarfBanditToughRanged.labelFemale>女性 追いはぎ(ドワーフ)</LotRD_DwarfBanditToughRanged.labelFemale>
+  <LotRD_DwarfBanditToughRanged.labelFemalePlural>女性 追いはぎ(ドワーフ)たち</LotRD_DwarfBanditToughRanged.labelFemalePlural>
+
+  <LotRD_DwarfGuardHill.label>警備兵(丘ドワーフ)</LotRD_DwarfGuardHill.label>
+  <LotRD_DwarfGuardHill.labelPlural>警備兵(丘ドワーフ)たち</LotRD_DwarfGuardHill.labelPlural>
+  <LotRD_DwarfGuardHill.labelMale>男性 警備兵(丘ドワーフ)</LotRD_DwarfGuardHill.labelMale>
+  <LotRD_DwarfGuardHill.labelMalePlural>男性 警備兵(丘ドワーフ)たち</LotRD_DwarfGuardHill.labelMalePlural>
+  <LotRD_DwarfGuardHill.labelFemale>女性 警備兵(丘ドワーフ)</LotRD_DwarfGuardHill.labelFemale>
+  <LotRD_DwarfGuardHill.labelFemalePlural>女性 警備兵(丘ドワーフ)たち</LotRD_DwarfGuardHill.labelFemalePlural>
+
+  <LotRD_DwarfSoldierMountain.label>兵士(山ドワーフ)</LotRD_DwarfSoldierMountain.label>
+  <LotRD_DwarfSoldierMountain.labelPlural>兵士(山ドワーフ)たち</LotRD_DwarfSoldierMountain.labelPlural>
+  <LotRD_DwarfSoldierMountain.labelMale>男性 兵士(山ドワーフ)</LotRD_DwarfSoldierMountain.labelMale>
+  <LotRD_DwarfSoldierMountain.labelMalePlural>男性 兵士(山ドワーフ)たち</LotRD_DwarfSoldierMountain.labelMalePlural>
+  <LotRD_DwarfSoldierMountain.labelFemale>女性 兵士(山ドワーフ)</LotRD_DwarfSoldierMountain.labelFemale>
+  <LotRD_DwarfSoldierMountain.labelFemalePlural>女性 兵士(山ドワーフ)たち</LotRD_DwarfSoldierMountain.labelFemalePlural>
+
+  <LotRD_DwarfSoldierMountainSpearman.label>槍兵(山ドワーフ)</LotRD_DwarfSoldierMountainSpearman.label>
+  <LotRD_DwarfSoldierMountainSpearman.labelPlural>槍兵(山ドワーフ)たち</LotRD_DwarfSoldierMountainSpearman.labelPlural>
+  <LotRD_DwarfSoldierMountainSpearman.labelMale>男性 槍兵(山ドワーフ)</LotRD_DwarfSoldierMountainSpearman.labelMale>
+  <LotRD_DwarfSoldierMountainSpearman.labelMalePlural>男性 槍兵(山ドワーフ)たち</LotRD_DwarfSoldierMountainSpearman.labelMalePlural>
+  <LotRD_DwarfSoldierMountainSpearman.labelFemale>女性 槍兵(山ドワーフ)</LotRD_DwarfSoldierMountainSpearman.labelFemale>
+  <LotRD_DwarfSoldierMountainSpearman.labelFemalePlural>女性 槍兵(山ドワーフ)たち</LotRD_DwarfSoldierMountainSpearman.labelFemalePlural>
+
+  <LotRD_DwarfSoldierHill.label>兵士(丘ドワーフ)</LotRD_DwarfSoldierHill.label>
+  <LotRD_DwarfSoldierHill.labelPlural>兵士(丘ドワーフ)たち</LotRD_DwarfSoldierHill.labelPlural>
+  <LotRD_DwarfSoldierHill.labelMale>男性 兵士(丘ドワーフ)</LotRD_DwarfSoldierHill.labelMale>
+  <LotRD_DwarfSoldierHill.labelMalePlural>男性 兵士(丘ドワーフ)たち</LotRD_DwarfSoldierHill.labelMalePlural>
+  <LotRD_DwarfSoldierHill.labelFemale>女性 兵士(丘ドワーフ)</LotRD_DwarfSoldierHill.labelFemale>
+  <LotRD_DwarfSoldierHill.labelFemalePlural>女性 兵士(丘ドワーフ)たち</LotRD_DwarfSoldierHill.labelFemalePlural>
+
+  <LotRD_DwarfSoldierHillSpear.label>槍兵(丘ドワーフ)</LotRD_DwarfSoldierHillSpear.label>
+  <LotRD_DwarfSoldierHillSpear.labelPlural>槍兵(丘ドワーフ)たち</LotRD_DwarfSoldierHillSpear.labelPlural>
+  <LotRD_DwarfSoldierHillSpear.labelMale>男性 槍兵(丘ドワーフ)</LotRD_DwarfSoldierHillSpear.labelMale>
+  <LotRD_DwarfSoldierHillSpear.labelMalePlural>男性 槍兵(丘ドワーフ)たち</LotRD_DwarfSoldierHillSpear.labelMalePlural>
+  <LotRD_DwarfSoldierHillSpear.labelFemale>女性 槍兵(丘ドワーフ)</LotRD_DwarfSoldierHillSpear.labelFemale>
+  <LotRD_DwarfSoldierHillSpear.labelFemalePlural>女性 槍兵(丘ドワーフ)たち</LotRD_DwarfSoldierHillSpear.labelFemalePlural>
+
+  <LotRD_DwarfSoldierHillHogRider.label>猪騎兵(丘ドワーフ)</LotRD_DwarfSoldierHillHogRider.label>
+  <LotRD_DwarfSoldierHillHogRider.labelPlural>猪騎兵(丘ドワーフ)たち</LotRD_DwarfSoldierHillHogRider.labelPlural>
+  <LotRD_DwarfSoldierHillHogRider.labelMale>男性 猪騎兵(丘ドワーフ)</LotRD_DwarfSoldierHillHogRider.labelMale>
+  <LotRD_DwarfSoldierHillHogRider.labelMalePlural>男性 猪騎兵(丘ドワーフ)たち</LotRD_DwarfSoldierHillHogRider.labelMalePlural>
+  <LotRD_DwarfSoldierHillHogRider.labelFemale>女性 猪騎兵(丘ドワーフ)</LotRD_DwarfSoldierHillHogRider.labelFemale>
+  <LotRD_DwarfSoldierHillHogRider.labelFemalePlural>女性 猪騎兵(丘ドワーフ)たち</LotRD_DwarfSoldierHillHogRider.labelFemalePlural>
+
+
+</LanguageData>
