@@ -25,6 +25,7 @@
     <costStuffCount>110</costStuffCount>	
     <rotatable>false</rotatable>
     <altitudeLayer>MoteOverhead</altitudeLayer>
+    <clearBuildingArea>false</clearBuildingArea>
     <passability>Standable</passability>
 	<pathCost>8</pathCost>
     <tickerType>Normal</tickerType>
@@ -247,7 +248,7 @@
             <li>WoodLog</li>
           </thingDefs>
         </fuelFilter>
-        <destroyOnNoFuel>true</destroyOnNoFuel>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>10</glowRadius>
@@ -312,6 +313,7 @@
     <rotatable>false</rotatable>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <passability>PassThroughOnly</passability>
+    <clearBuildingArea>false</clearBuildingArea>
 	<pathCost>8</pathCost>
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
