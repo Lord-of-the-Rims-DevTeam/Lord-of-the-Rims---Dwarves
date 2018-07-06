@@ -11,7 +11,7 @@
     <defName>LotRD_LeftWing</defName>
     <label>left wing</label>
     <hitPoints>10</hitPoints>
-    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0.08</permanentInjuryBaseChance>
     <skinCovered>true</skinCovered>
     <tags>
       <li>MovingLimbCore</li>
@@ -22,7 +22,7 @@
     <defName>LotRD_RightWing</defName>
     <label>right wing</label>
     <hitPoints>10</hitPoints>
-    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <permanentInjuryBaseChance>0.08</permanentInjuryBaseChance>
     <skinCovered>true</skinCovered>
     <tags>
       <li>MovingLimbCore</li>
@@ -73,22 +73,26 @@
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>LeftLung</def>
+					<def>Lung</def>
+<customLabel>left lung</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>RightLung</def>
+					<def>Lung</def>
+<customLabel>right lung</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>LeftKidney</def>
+					<def>Kidney</def>
+<customLabel>left kidney</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>RightKidney</def>
+					<def>Kidney</def>
+<customLabel>right kidney</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
@@ -122,19 +126,23 @@
 									</parts>
 								</li>
 								<li>
-									<def>LeftEye</def>
+									<def>Eye</def>
+<customLabel>left eye</customLabel>
 									<coverage>0.12</coverage>
 								</li>
 								<li>
-									<def>RightEye</def>
+									<def>Eye</def>
+<customLabel>right eye</customLabel>
 									<coverage>0.12</coverage>
 								</li>
 								<li>
-									<def>LeftEar</def>
+									<def>Ear</def>
+<customLabel>left ear</customLabel>
 									<coverage>0.08</coverage>
 								</li>
 								<li>
-									<def>RightEar</def>
+									<def>Ear</def>
+<customLabel>right ear</customLabel>
 									<coverage>0.08</coverage>
 								</li>
 								<li>
@@ -153,7 +161,8 @@
 					</parts>
 				</li>
 				<li>
-					<def>FrontLeftLeg</def>
+					<def>Leg</def>
+<customLabel>front left leg</customLabel>
 					<coverage>0.065</coverage>
 					<height>Bottom</height>
 					<parts>
@@ -195,7 +204,8 @@
 					</parts>
 				</li>
 				<li>
-					<def>FrontRightLeg</def>
+					<def>Leg</def>
+<customLabel>front right leg</customLabel>
 					<coverage>0.065</coverage>
 					<height>Bottom</height>
 					<parts>
@@ -237,7 +247,8 @@
 					</parts>
 				</li>
 				<li>
-					<def>RearLeftLeg</def>
+					<def>Leg</def>
+<customLabel>rear left leg</customLabel>
 					<coverage>0.065</coverage>
 					<height>Bottom</height>
 					<parts>
@@ -264,7 +275,8 @@
 					</parts>
 				</li>
 				<li>
-					<def>RearRightLeg</def>
+					<def>Leg</def>
+<customLabel>rear right leg</customLabel>
 					<coverage>0.065</coverage>
 					<height>Bottom</height>
 					<parts>

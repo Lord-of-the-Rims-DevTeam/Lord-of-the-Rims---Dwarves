@@ -7,7 +7,7 @@
 	<fixedName>Kingdom Under the Mountain</fixedName>
     <description></description>
     <pawnsPlural>mountain dwarves</pawnsPlural>
-    <baseSelectionWeight>0.2</baseSelectionWeight>
+    <settlementGenerationWeight>0.2</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
@@ -18,7 +18,7 @@
       <min>0</min>
       <max>40</max>
     </startingGoodwill>
-		<baseNameMaker>LotRD_NamerFactionBaseDwarfMountain</baseNameMaker>
+		<settlementNameMaker>LotRD_NamerFactionBaseDwarfMountain</settlementNameMaker>
 		<techLevel>Medieval</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
 		<geneticVariance>0.8</geneticVariance>
@@ -45,7 +45,7 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
 			<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
 			<LotRD_DwarfVillager>100</LotRD_DwarfVillager>
@@ -67,7 +67,7 @@
 		</guards>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
 			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
 			<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
@@ -76,7 +76,7 @@
 		</options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
 		<modExtensions>
 		  <li Class="JecsTools.FactionSettings">
 		    <entrySoundDef>LotRD_FanfareDwarfMountain</entrySoundDef>
@@ -90,7 +90,7 @@
 	<fixedName>Dwarven Hill Clans</fixedName>
     <description></description>
     <pawnsPlural>hill dwarves</pawnsPlural>
-    <baseSelectionWeight>0.2</baseSelectionWeight>
+    <settlementGenerationWeight>0.2</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
@@ -101,7 +101,7 @@
       <min>0</min>
       <max>40</max>
     </startingGoodwill>
-		<baseNameMaker>LotRD_NamerFactionBaseDwarfHills</baseNameMaker>
+		<settlementNameMaker>LotRD_NamerFactionBaseDwarfHills</settlementNameMaker>
 		<techLevel>Medieval</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
 		<geneticVariance>0.8</geneticVariance>
@@ -128,7 +128,7 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
 			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
 			<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
@@ -152,7 +152,7 @@
 		</guards>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
 			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
 			<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
@@ -162,7 +162,7 @@
 		</options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
 		<modExtensions>
 		  <li Class="JecsTools.FactionSettings">
 		    <entrySoundDef>LotRD_FanfareDwarfHill</entrySoundDef>
@@ -176,7 +176,7 @@
 	<fixedName>Dwarven Bandits</fixedName>
     <description></description>
     <pawnsPlural>bandit dwarves</pawnsPlural>
-    <baseSelectionWeight>0.1</baseSelectionWeight>
+    <settlementGenerationWeight>0.1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>2</maxCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
@@ -188,7 +188,7 @@
       <min>-100</min>
       <max>-90</max>
     </startingGoodwill>
-		<baseNameMaker>NamerFactionBasePirate</baseNameMaker>
+		<settlementNameMaker>NamerFactionBasePirate</settlementNameMaker>
 		<techLevel>Medieval</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
 		<geneticVariance>0.8</geneticVariance>
@@ -215,7 +215,7 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
 			<LotRD_DwarfThief>50</LotRD_DwarfThief>
 			<LotRD_DwarfBandit>100</LotRD_DwarfBandit>
@@ -242,7 +242,7 @@
 		</guards>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
 			<LotRD_DwarfThief>50</LotRD_DwarfThief>
 			<LotRD_DwarfBandit>100</LotRD_DwarfBandit>
@@ -253,7 +253,7 @@
 		</options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
   </FactionDef>
 
 </Defs>

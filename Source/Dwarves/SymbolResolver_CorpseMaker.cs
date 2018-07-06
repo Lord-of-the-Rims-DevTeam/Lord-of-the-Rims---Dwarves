@@ -18,13 +18,13 @@ namespace Dwarves
                 PawnKindDef kind = (Rand.Value > 0.3f) ? DwarfDefOf.LotRD_DwarfVillager : DwarfDefOf.LotRD_DwarfGuardMountain;
                 Faction faction = rp.faction;
                 PawnGenerationRequest request = new PawnGenerationRequest(kind, faction,
-                    PawnGenerationContext.NonPlayer, BaseGen.globalSettings?.map?.Tile ?? Find.VisibleMap.Tile, false, false, false, false, true, true, 1f, false, true, false,
+                    PawnGenerationContext.NonPlayer, BaseGen.globalSettings?.map?.Tile ?? Find.CurrentMap.Tile, false, false, false, false, true, true, 1f, false, true, false,
                     false, false, false, false, null, null, null, null, null, null, null);
                 Pawn pawn = PawnGenerator.GeneratePawn(request);
                 IntVec3 spawnLoc;
                 
                 //CellFinder.TryFindBestPawnStandCell(pawn, out spawnLoc);
-                var map = BaseGen.globalSettings?.map ?? Find.VisibleMap;
+                var map = BaseGen.globalSettings?.map ?? Find.CurrentMap;
                 CellFinderLoose.TryGetRandomCellWith((x => x.IsValid && rp.rect.Contains(x) && x.GetEdifice(map) == null && x.GetFirstItem(map) == null), map, 250, out spawnLoc);
                 GenSpawn.Spawn(pawn, spawnLoc, map);
                 pawn.Kill(null);

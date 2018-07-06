@@ -9,7 +9,7 @@ namespace Dwarves
 {
     public class IncidentWorker_AncientDwarvenStronghold : IncidentWorker
     {
-        protected override bool CanFireNowSub(IIncidentTarget target)
+        protected override bool CanFireNowSub(IncidentParms parms)
         {
             Faction faction;
             Faction faction2;

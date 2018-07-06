@@ -21,11 +21,11 @@
     </building>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
-      <WorkToBuild>12000</WorkToBuild>
+      <WorkToBuild>2100</WorkToBuild>
       <Mass>120</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>0</Beauty>
-      <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+      <JoyGainFactor>1</JoyGainFactor>
     </statBases>
     <size>(1,1)</size>
     <stuffCategories>

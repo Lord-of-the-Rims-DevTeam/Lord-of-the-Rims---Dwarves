@@ -5,10 +5,11 @@
     <defName>LotRD_Chandelier</defName>
     <label>dwarven chandelier</label>
     <description>A metal or stone ceiling mount to light an area in the dwarven style. Can be automatically refueled with wax made from animal fats at a cooking station. Produces a very small amount of heat.</description>
-    <category>Building</category>
+    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
 	<building>
 	  <isEdifice>false</isEdifice>
 	</building>
+	<clearBuildingArea>false</clearBuildingArea>
     <graphicData>
       <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenChandelier</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -25,7 +26,6 @@
     <costStuffCount>110</costStuffCount>	
     <rotatable>false</rotatable>
     <altitudeLayer>MoteOverhead</altitudeLayer>
-    <clearBuildingArea>false</clearBuildingArea>
     <passability>Standable</passability>
 	<pathCost>8</pathCost>
     <tickerType>Normal</tickerType>
@@ -39,7 +39,7 @@
       <Mass>4.5</Mass>	  
     </statBases>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactGround</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
@@ -87,7 +87,7 @@
     <defName>LotRD_DwarvenCandelabra</defName>
     <label>dwarven candelabra</label>
     <description>A mount for wax candles to light an area. Can be automatically refueled with wax. Produces a small amount of heat.</description>
-    <category>Building</category>
+    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
     <graphicData>
       <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenCandelabra</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -119,7 +119,7 @@
 	  <Beauty>2</Beauty>
     </statBases>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactGround</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <placeWorkers>
@@ -131,6 +131,7 @@
         <fuelConsumptionRate>0.5</fuelConsumptionRate>
         <fuelCapacity>20.0</fuelCapacity>
         <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+		 <destroyOnNoFuel>false</destroyOnNoFuel>
         <fuelFilter>
           <thingDefs>
             <li>WoodLog</li>
@@ -202,7 +203,7 @@
     <defName>LotRD_Brazier</defName>
     <label>dwarven brazier box</label>
     <description>A pit for a flame to grow and light its surroundings.</description>
-    <category>Building</category>
+    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
     <graphicData>
       <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenBrazier</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -231,7 +232,7 @@
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactGround</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <placeWorkers>
@@ -288,10 +289,11 @@
     <defName>LotRD_DwarvenWallLight</defName>
     <label>dwarven ithildin wall light</label>
     <description>Imbued with the mithril alloy of ithildin, this wall light gives off a beautiful blue luminescence.</description>
-    <category>Building</category>
+    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
 	<building>
 	  <isEdifice>false</isEdifice>
 	</building>
+    <clearBuildingArea>false</clearBuildingArea>
     <graphicData>
       <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenWallLight</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -308,16 +310,15 @@
     <costStuffCount>15</costStuffCount>
     <costList>
       <Steel>3</Steel>
-      <Component>2</Component>	  
+      <ComponentIndustrial>2</ComponentIndustrial>	  
 	</costList>	
     <rotatable>false</rotatable>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <clearBuildingArea>false</clearBuildingArea>
 	<pathCost>8</pathCost>
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
-	<minifiedDef>MinifiedFurniture</minifiedDef>	
+	<minifiedDef>MinifiedThing</minifiedDef>	
     <fillPercent>0.15</fillPercent>
     <statBases>
       <Mass>5</Mass>		
@@ -327,7 +328,7 @@
 	  <Beauty>1</Beauty>
     </statBases>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactGround</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>10</glowRadius>
@@ -343,7 +344,7 @@
     <defName>LotRD_DwarvenStreetLamp</defName>
     <label>dwarven ithildin lamp</label>
     <description>A standing lamp that uses the mithril alloy ithildin to create endless blue light.</description>
-    <category>Building</category>
+    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
 	<thingClass>Dwarves.Building_StreetLamp</thingClass>	
     <graphicData>
       <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenLampPost</texPath>
@@ -363,7 +364,7 @@
     <costStuffCount>40</costStuffCount>
     <costList>
       <Steel>7</Steel>
-      <Component>2</Component>	  
+      <ComponentIndustrial>2</ComponentIndustrial>	  
 	</costList>		
     <rotatable>false</rotatable>
     <altitudeLayer>MoteOverhead</altitudeLayer>
@@ -381,7 +382,7 @@
     </statBases>
 	<size>(1,1)</size>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactGround</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <comps>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>	  
@@ -406,7 +407,7 @@
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
     </graphicData>
-    <category>Building</category>
+    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
     <thingClass>Dwarves.ThingWithComps_Glower</thingClass>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <tickerType>Normal</tickerType>

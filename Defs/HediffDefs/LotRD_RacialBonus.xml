@@ -12,13 +12,13 @@
   <JecsTools.HediffExpandedDef ParentName="LotRD_RacialBase">
     <defName>LotRD_DwarfTraits</defName>
     <label>Racial Bonus: Dwarf</label>
-	<postListText>Immune to disease, increased heat tolerance.</postListText>
+	<postListText>Highly immune to disease with increased heat tolerance.</postListText>
     <stages>
       <li>
         <capMods>
           <li>
             <capacity>BloodFiltration</capacity>
-            <postFactor>1.3</postFactor>
+            <postFactor>2.3</postFactor>
           </li>
         </capMods>
 		<statOffsets>

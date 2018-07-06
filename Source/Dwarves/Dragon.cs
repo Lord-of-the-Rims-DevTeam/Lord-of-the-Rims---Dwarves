@@ -5,9 +5,9 @@ namespace Dwarves
 {
     public class Dragon : Pawn, IThoughtGiver
     {
-        public override void PreApplyDamage(DamageInfo dinfo, out bool absorbed)
+        public override void PreApplyDamage(ref DamageInfo dinfo, out bool absorbed)
         {
-            base.PreApplyDamage(dinfo, out absorbed);
+            base.PreApplyDamage(ref dinfo, out absorbed);
             if (dinfo.Def == DamageDefOf.Burn ||
                 dinfo.Def == DamageDefOf.Flame)
             {

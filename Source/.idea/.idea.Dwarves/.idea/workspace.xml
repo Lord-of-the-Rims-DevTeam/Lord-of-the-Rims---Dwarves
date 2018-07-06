@@ -8,17 +8,16 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
+  </ComponentIndustrial>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="IncidentWorker_AncientDwarvenStronghold.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="494">
               <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <marker date="1528550402382" expanded="false" signature="6:118" ph="..." />
-                <marker date="1528550402382" expanded="true" signature="137:5514" ph="{...}" />
                 <marker date="1528550402382" expanded="true" signature="213:5512" ph="{...}" />
                 <marker date="1528550402382" expanded="true" signature="289:539" ph="{...}" />
                 <marker date="1528550402382" expanded="true" signature="592:777" ph="{...}" />
@@ -46,8 +45,8 @@
       <file leaf-file-name="HarmonyPatches.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
               <folding>
                 <marker date="1528734746329" expanded="false" signature="6:119" ph="..." />
                 <marker date="1528734746329" expanded="true" signature="138:7575" ph="{...}" />
@@ -96,7 +95,6 @@
               <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding>
                 <marker date="1528734121818" expanded="true" signature="6:81" ph="..." />
-                <marker date="1528734121818" expanded="true" signature="100:250" ph="{...}" />
                 <marker date="1528734121818" expanded="true" signature="134:248" ph="{...}" />
                 <marker date="1528734121818" expanded="true" signature="213:233" ph="{...}" />
               </folding>
@@ -247,20 +245,20 @@
             <state relative-caret-position="209">
               <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
-                <marker date="1528567751791" expanded="true" signature="6:28" ph="..." />
-                <marker date="1528567751791" expanded="true" signature="47:1967" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="90:1965" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="314:723" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="761:872" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="910:1307" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="963:1297" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="1027:1148" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="1184:1283" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="1367:1496" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="1533:1684" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="1613:1674" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="1724:1772" ph="{...}" />
-                <marker date="1528567751791" expanded="true" signature="1815:1959" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="6:28" ph="..." />
+                <marker date="1529227682405" expanded="true" signature="47:2008" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="90:2006" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="314:723" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="761:872" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="910:1307" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="963:1297" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="1027:1148" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="1184:1283" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="1367:1496" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="1533:1684" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="1613:1674" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="1761:1813" ph="{...}" />
+                <marker date="1529227682405" expanded="true" signature="1856:2000" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -289,7 +287,7 @@
         </entry>
       </file>
     </leaf>
-  </component>
+  </ComponentIndustrial>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>GenStep_Outpost</find>
@@ -317,7 +315,7 @@
       <replace>Duration</replace>
       <replace>Building_FermentingMeadBarrel</replace>
     </replaceStrings>
-  </component>
+  </ComponentIndustrial>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Dwarves/Dragon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/25/1417601b/CellFinder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -344,7 +342,7 @@
     <setting file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dwarves/ThingWithComps_Glower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/63/8000abc8/TileFinder.cs" root0="SKIP_INSPECTION" />
-  </component>
+  </ComponentIndustrial>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -381,19 +379,19 @@
         <option value="$PROJECT_DIR$/Dwarves/HarmonyPatches.cs" />
       </list>
     </option>
-  </component>
+  </ComponentIndustrial>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="730" />
-    <option name="y" value="223" />
+  </ComponentIndustrial>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="683" />
+    <option name="y" value="206" />
     <option name="width" value="1088" />
     <option name="height" value="797" />
-  </component>
+  </ComponentIndustrial>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -417,11 +415,6 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Dwarves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Dwarves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Dwarves" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -429,11 +422,11 @@
         <option name="show-all-items" value="false" />
       </pane>
     </panes>
-  </component>
+  </ComponentIndustrial>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RimworldModReleaseTool.exe" />
-  </component>
+  </ComponentIndustrial>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -445,7 +438,7 @@
         </RuleState>
       </list>
     </option>
-  </component>
+  </ComponentIndustrial>
   <component name="RunManager" selected=".NET Executable.Deployer">
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
     <configuration name="Deployer" type="RunExe" factoryName=".NET Executable">
@@ -461,13 +454,13 @@
       <item index="0" class="java.lang.String" itemvalue=".NET Executable.Deployer" />
       <item index="1" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
     </list>
-  </component>
+  </ComponentIndustrial>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
-  </component>
+  </ComponentIndustrial>
   <component name="SvnConfiguration">
     <configuration />
-  </component>
+  </ComponentIndustrial>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="682d31b6-d839-48de-bb6e-ccf77bd3656d" name="Default" comment="" />
@@ -508,12 +501,14 @@
       <workItem from="1528464269341" duration="18989000" />
       <workItem from="1528567753757" duration="1147000" />
       <workItem from="1528725986081" duration="6000000" />
+      <workItem from="1529075671958" duration="9220000" />
+      <workItem from="1529196349663" duration="1194000" />
     </task>
     <servers />
-  </component>
+  </ComponentIndustrial>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154883000" />
-  </component>
+    <option name="totallyTimeSpent" value="165297000" />
+  </ComponentIndustrial>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -522,9 +517,9 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
+  </ComponentIndustrial>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="683" y="206" width="1088" height="797" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -532,11 +527,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20159453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20095694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19280344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20256917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -547,16 +541,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
+  </ComponentIndustrial>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
+  </ComponentIndustrial>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
+  </ComponentIndustrial>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -586,10 +581,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
-  </component>
+  </ComponentIndustrial>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Dwarves/DwarfMod.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -894,22 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <marker date="1528567751769" expanded="false" signature="6:31" ph="..." />
-            <marker date="1528567751769" expanded="true" signature="50:2975" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="112:2973" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="324:479" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="350:469" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="596:2649" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="640:778" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="820:964" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="1180:1758" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="1443:1744" ph="/* Fire fire = thing as Fire; ... */" />
-            <marker date="1528567751769" expanded="true" signature="1819:1951" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="2277:2397" ph="/* if (compFireOverlay != null) ... */" />
-            <marker date="1528567751769" expanded="true" signature="2692:2967" ph="{...}" />
-            <marker date="1528567751769" expanded="true" signature="2761:2955" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,20 +917,20 @@
         <state relative-caret-position="209">
           <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
-            <marker date="1528567751791" expanded="true" signature="6:28" ph="..." />
-            <marker date="1528567751791" expanded="true" signature="47:1967" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="90:1965" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="314:723" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="761:872" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="910:1307" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="963:1297" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="1027:1148" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="1184:1283" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="1367:1496" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="1533:1684" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="1613:1674" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="1724:1772" ph="{...}" />
-            <marker date="1528567751791" expanded="true" signature="1815:1959" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="6:28" ph="..." />
+            <marker date="1529227682405" expanded="true" signature="47:2008" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="90:2006" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="314:723" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="761:872" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="910:1307" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="963:1297" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="1027:1148" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="1184:1283" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="1367:1496" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="1533:1684" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="1613:1674" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="1761:1813" ph="{...}" />
+            <marker date="1529227682405" expanded="true" signature="1856:2000" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1085,11 +1064,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dwarves/IncidentWorker_AncientDwarvenStronghold.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="494">
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <marker date="1528550402382" expanded="false" signature="6:118" ph="..." />
-            <marker date="1528550402382" expanded="true" signature="137:5514" ph="{...}" />
             <marker date="1528550402382" expanded="true" signature="213:5512" ph="{...}" />
             <marker date="1528550402382" expanded="true" signature="289:539" ph="{...}" />
             <marker date="1528550402382" expanded="true" signature="592:777" ph="{...}" />
@@ -1119,7 +1097,6 @@
           <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
             <marker date="1528734121818" expanded="true" signature="6:81" ph="..." />
-            <marker date="1528734121818" expanded="true" signature="100:250" ph="{...}" />
             <marker date="1528734121818" expanded="true" signature="134:248" ph="{...}" />
             <marker date="1528734121818" expanded="true" signature="213:233" ph="{...}" />
           </folding>
@@ -1128,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dwarves/HarmonyPatches.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
           <folding>
             <marker date="1528734746329" expanded="false" signature="6:119" ph="..." />
             <marker date="1528734746329" expanded="true" signature="138:7575" ph="{...}" />
@@ -1170,5 +1147,5 @@
         </state>
       </provider>
     </entry>
-  </component>
+  </ComponentIndustrial>
 </project>

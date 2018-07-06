@@ -2,6 +2,117 @@
 <Defs>
 
 
+
+
+	<ThingDef ParentName="LotRD_ApparelMakeableBase">
+    <defName>LotRD_DwarfApparel_Pants</defName>
+    <label>pants</label>
+	<techLevel>Neolithic</techLevel>
+    <description>A simple pair of Dwarven pants.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>52</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+			<MaxHitPoints>102</MaxHitPoints>
+			<WorkToMake>8550</WorkToMake>
+      <Mass>0.45</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+	  <tags>
+	    <li>LotR_DwarfMilitary</li>
+	    <li>LotR_DwarfGuard</li>
+	    <li>LotR_DwarfVillager</li>
+	  </tags>
+      <defaultOutfitTags>
+        <li>LotR_DwarfLongbeard</li>
+        <li>LotR_DwarfGuard</li>
+      </defaultOutfitTags>
+    </apparel>
+	<tradeTags>
+	  <li>LotRD_DwarvenArmor</li>
+	</tradeTags>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+
+  <ThingDef ParentName="LotRD_ApparelMakeableBase">
+    <defName>LotRD_DwarfApparel_Tunic</defName>
+    <description>A simple dwarven tunic wrapped with a sash.</description>
+    <label>Dwarven tunic</label>
+	<techLevel>Neolithic</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Dwarf/Apparel/Tunic/edmundWulfGarthTunic_Male_front</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costStuffCount>57</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+			<MaxHitPoints>105</MaxHitPoints>
+			<WorkToMake>8300</WorkToMake>
+      <Mass>0.3</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>-4</Insulation_Cold>
+    </statBases>
+		<generateCommonality>1.0</generateCommonality>
+		<apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Dwarf/Apparel/Tunic/edmundWulfGarthTunic</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+	  <tags>
+	    <li>LotR_DwarfMilitary</li>
+	    <li>LotR_DwarfGuard</li>
+	    <li>LotR_DwarfVillager</li>
+	  </tags>
+      <defaultOutfitTags>
+        <li>LotR_DwarfLongbeard</li>
+        <li>LotR_DwarfGuard</li>
+      </defaultOutfitTags>
+    </apparel>
+	<tradeTags>
+	  <li>LotRD_DwarvenArmor</li>
+	</tradeTags>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+
 	<ThingDef ParentName="LotRD_ArmorMakeableBase">
     <defName>LotRD_DwarfApparel_GimliArmor</defName>
     <label>longbeard-dwarf chaincoat</label>

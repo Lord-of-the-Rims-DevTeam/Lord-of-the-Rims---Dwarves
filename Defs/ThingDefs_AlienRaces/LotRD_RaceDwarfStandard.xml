@@ -49,7 +49,7 @@
 			  <bodyPart>Head</bodyPart>
 			  <drawSize>(0.85, 1.2)</drawSize>
 			  <inFrontOfBody>true</inFrontOfBody>
-			  <layerOffset>-0.295</layerOffset>
+			  <layerOffset>-0.2925</layerOffset>
 			  <offsets>
 				  <front>
 					<bodyTypes>
@@ -184,6 +184,7 @@
 	  </hairSettings>
 	  <raceRestriction>
 	    <apparelList>
+		  <li>LotRD_DwarfApparel_Tunic</li>
 		  <li>LotRD_DwarfApparel_GimliArmor</li>
 		  <li>LotRD_DwarfApparel_IronHillArmor</li>
 		  <li>LotRD_DwarfApparel_MoriaBattleArmor</li>
@@ -202,6 +203,7 @@
     <statBases>
       <MarketValue>1750</MarketValue>
       <MoveSpeed>4.61</MoveSpeed>
+      <Mass>65</Mass>
       <Flammability>1.0</Flammability>
       <ComfyTemperatureMin>12</ComfyTemperatureMin>
       <ComfyTemperatureMax>50</ComfyTemperatureMax>

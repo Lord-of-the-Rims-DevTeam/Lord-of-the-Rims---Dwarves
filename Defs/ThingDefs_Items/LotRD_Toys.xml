@@ -55,7 +55,7 @@
       <MarketValue>130</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
-      <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+      <JoyGainFactor>1</JoyGainFactor>
 	  <Beauty>1</Beauty>
     </statBases>
     <thingCategories>
@@ -94,7 +94,7 @@
       <MarketValue>115</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
-      <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+      <JoyGainFactor>1</JoyGainFactor>
 	  <Beauty>1</Beauty>
     </statBases>
     <thingCategories>
@@ -144,7 +144,7 @@
       <MarketValue>65</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
-      <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+      <JoyGainFactor>1</JoyGainFactor>
 	  <Beauty>1</Beauty>
     </statBases>
     <recipeMaker>

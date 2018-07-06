@@ -34,13 +34,13 @@
       <max>2.0</max>
     </gearHealthRange>
 	<apparelTags>
-      <li>Outlander</li>
+      <li>LotR_DwarfVillager</li>
     </apparelTags>
     <apparelMoney>
       <min>300</min>
       <max>900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>0</min>
       <max>250</max>
@@ -104,7 +104,7 @@
       <min>150</min>
       <max>300</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <techHediffsMoney>
       <min>0</min>
       <max>35</max>
@@ -147,7 +147,7 @@
       <min>2000</min>
       <max>32000</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
       <min>0</min>
       <max>32000</max>
@@ -181,7 +181,7 @@
       <min>2000</min>
       <max>32000</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
       <min>0</min>
       <max>32000</max>
@@ -211,7 +211,7 @@
       <min>3000</min>
       <max>9000</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>0</min>
       <max>2000</max>
@@ -247,7 +247,7 @@
 	<apparelTags>
       <li>LotR_DwarfGuard</li>
     </apparelTags>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 	<modExtensions>
 		<li Class="PawnShields.ShieldPawnGeneratorProperties">
 			<shieldMoney>
@@ -280,7 +280,7 @@
 	<weaponTags>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
   </PawnKindDef>    
   
   <PawnKindDef ParentName="LotRD_DwarfGuard">
@@ -295,7 +295,7 @@
       <li>NeolithicRangedHeavy</li>
       <li>LotRD_BanditDwarf</li>
     </weaponTags>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
   </PawnKindDef>      
   
   <PawnKindDef ParentName="LotRD_DwarfGuard">
@@ -306,7 +306,7 @@
 	<apparelRequired>
       <li>LotRD_DwarfApparel_IronHillArmor</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>0.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
 	<weaponMoney>
       <min>0</min>
       <max>12000</max>
@@ -342,7 +342,7 @@
 	<apparelRequired>
       <li>LotRD_DwarfApparel_IronHillArmor</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>0.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
 	<weaponMoney>
       <min>0</min>
       <max>12000</max>
@@ -362,7 +362,7 @@
 	<apparelTags>
       <li>LotR_DwarfGuard</li>
     </apparelTags>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 	<modExtensions>
 		<li Class="PawnShields.ShieldPawnGeneratorProperties">
 			<shieldMoney>
@@ -385,7 +385,7 @@
       <li>LotRD_DwarfApparel_MoriaBattleArmor</li>
       <li>LotRD_DwarfApparel_MoriaBattleHelmet</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
       <min>0</min>
       <max>12000</max>
@@ -415,7 +415,7 @@
       <li>LotRD_DwarfApparel_MoriaBattleArmor</li>
       <li>LotRD_DwarfApparel_MoriaBattleHelmet</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
       <min>0</min>
       <max>12000</max>
@@ -446,7 +446,7 @@
       <li>LotRD_DwarfApparel_IronHillArmor</li>
       <li>LotRD_DwarfApparel_IronHillHelmet</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
       <min>0</min>
       <max>12000</max>
@@ -477,7 +477,7 @@
       <li>LotRD_DwarfApparel_IronHillArmor</li>
       <li>LotRD_DwarfApparel_IronHillHelmet</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
       <min>0</min>
       <max>12000</max>
@@ -508,7 +508,7 @@
       <li>LotRD_DwarfApparel_IronHillArmor</li>
       <li>LotRD_DwarfApparel_IronHillHelmet</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
       <min>0</min>
       <max>12000</max>

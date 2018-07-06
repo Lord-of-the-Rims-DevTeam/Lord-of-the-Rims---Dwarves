@@ -48,7 +48,7 @@
 			<baseHungerRate>0.5</baseHungerRate>
 			<foodType>OmnivoreRoughAnimal</foodType>
       <wildness>0.60</wildness>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
       <useMeatFrom>Pig</useMeatFrom>
       <useLeatherFrom>Pig</useLeatherFrom>
@@ -94,12 +94,12 @@
     <label>giant boar</label>
     <race>LotRD_GiantBoarRace</race>
     <combatPower>65</combatPower>
-    <wildSpawn_EcoSystemWeight>0.015</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.015</ecoSystemWeight>
+     
+    <wildGroupSize>
       <min>2</min>
       <max>4</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>

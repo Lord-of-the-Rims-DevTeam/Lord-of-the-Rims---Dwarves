@@ -58,9 +58,9 @@ namespace Dwarves
             }
         }
 
-        public override void DeSpawn()
+        public override void DeSpawn(DestroyMode mode = DestroyMode.Vanish)
         {
-            base.DeSpawn();
+            base.DeSpawn(mode);
         }
 
         public override void ExposeData()

@@ -17,8 +17,8 @@ namespace Dwarves
         {
             HarmonyInstance harmony = HarmonyInstance.Create("rimworld.lotr.dwarves");
 
-            harmony.Patch(AccessTools.Method(typeof(TileFinder), "RandomFactionBaseTileFor"),
-                new HarmonyMethod(typeof(HarmonyFactions).GetMethod("RandomFactionBaseTileFor_PreFix")), null);
+            harmony.Patch(AccessTools.Method(typeof(TileFinder), "RandomSettlementTileFor"),
+                new HarmonyMethod(typeof(HarmonyFactions).GetMethod("RandomSettlementTileFor_PreFix")), null);
             harmony.Patch(AccessTools.Method(typeof(Plant), "get_DyingBecauseExposedToLight"), null,
                 new HarmonyMethod(typeof(HarmonyFactions), nameof(get_DyingBecauseExposedToLight_PostFix)), null);
             harmony.Patch(AccessTools.Method(typeof(Plant), "get_GrowthRate"), null,
@@ -83,28 +83,28 @@ namespace Dwarves
             if (__instance.def.defName == "LotRD_PlantEarthBreadRoot") __result = false;
         }
 
-        public static bool RandomFactionBaseTileFor_PreFix(ref int __result, Faction faction)
+        public static bool RandomSettlementTileFor_PreFix(ref int __result, Faction faction)
         {
             //if (faction.def.defName == "TheAgency")
             //{
-            //    __result = RandomFactionBaseTileFor_TheAgency(faction);
+            //    __result = RandomSettlementTileFor_TheAgency(faction);
             //    return false;
             //}
             if (faction?.def?.defName == "LotRD_HillClans")
             {
-                __result = RandomFactionBaseTileFor_HillDwarves(faction);
+                __result = RandomSettlementTileFor_HillDwarves(faction);
                 return false;
             }
             if (faction?.def?.defName == "LotRD_MountainKingdom")
             {
-                __result = RandomFactionBaseTileFor_MountainDwarves(faction);
+                __result = RandomSettlementTileFor_MountainDwarves(faction);
                 return false;
             }
             return true;
         }
 
 
-        public static int RandomFactionBaseTileFor_HighElves(Faction faction, bool mustBeAutoChoosable = false)
+        public static int RandomSettlementTileFor_HighElves(Faction faction, bool mustBeAutoChoosable = false)
         {
             for (int i = 0; i < 500; i++)
             {
@@ -133,7 +133,7 @@ namespace Dwarves
         }
 
 
-        public static int RandomFactionBaseTileFor_MountainDwarves(Faction faction, bool mustBeAutoChoosable = false)
+        public static int RandomSettlementTileFor_MountainDwarves(Faction faction, bool mustBeAutoChoosable = false)
         {
             for (int i = 0; i < 500; i++)
             {
@@ -161,7 +161,7 @@ namespace Dwarves
             return 0;
         }
 
-        public static int RandomFactionBaseTileFor_HillDwarves(Faction faction, bool mustBeAutoChoosable = false)
+        public static int RandomSettlementTileFor_HillDwarves(Faction faction, bool mustBeAutoChoosable = false)
         {
             for (int i = 0; i < 500; i++)
             {

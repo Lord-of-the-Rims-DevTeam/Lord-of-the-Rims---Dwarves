@@ -11,8 +11,8 @@
     <techLevel>Medieval</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-		<baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
-		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<settlementNameMaker>NamerFactionBasePlayerColony</settlementNameMaker>
+		<settlementNameMakerPlayer>NamerFactionPlayerColonyRandomized</settlementNameMakerPlayer>
 		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
 		<geneticVariance>1</geneticVariance>
 		<!--
@@ -111,7 +111,7 @@
         <li Class="ScenPart_StartingAnimal">
           <def>StartingAnimal</def>
           <count>1</count>
-		  <animalKind>GrizzlyBear</animalKind>
+		  <animalKind>Bear_Grizzly</animalKind>
           <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
         </li>
         <li Class="ScenPart_StartingAnimal">
@@ -124,12 +124,12 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>LotRD_DwarfApparel_GimliArmor</thingDef>
-          <stuff>GrizzlyBear_Leather</stuff>
+          <stuff>Bear_Grizzly_Leather</stuff>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>LotRD_DwarfApparel_GimliArmor</thingDef>
-          <stuff>GrizzlyBear_Leather</stuff>
+          <stuff>Bear_Grizzly_Leather</stuff>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>

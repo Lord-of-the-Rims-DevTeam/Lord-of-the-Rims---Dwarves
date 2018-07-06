@@ -31,13 +31,13 @@
 		<maxPawnOptionCostFactor>3.0</maxPawnOptionCostFactor>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
             <LotRD_DragonFireDrake>9999999</LotRD_DragonFireDrake>
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
     <allowedArrivalTemperatureRange>
       <min>-255</min>
       <max>255</max>

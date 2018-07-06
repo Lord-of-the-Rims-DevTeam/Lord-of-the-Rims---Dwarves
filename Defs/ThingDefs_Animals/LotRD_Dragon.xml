@@ -154,7 +154,7 @@
       <baseBodySize>6.0</baseBodySize>
       <baseHealthScale>21.0</baseHealthScale>
       <lifeExpectancy>1500</lifeExpectancy>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <lifeStageAges>
