@@ -12,7 +12,7 @@ namespace Dwarves
 
         public static PawnKindDef LotRD_DwarfGuardMountain;
         
-        public static ItemCollectionGeneratorDef LotRD_Treasure;
+        public static ThingSetMakerDef LotRD_Treasure;
         public static PawnKindDef LotRD_DwarfVillager;
         public static PawnKindDef LotRD_DragonFireDrake;
     }

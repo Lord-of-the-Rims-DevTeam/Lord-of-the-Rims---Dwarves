@@ -11,9 +11,9 @@
     <techLevel>Medieval</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-		<settlementNameMaker>NamerFactionBasePlayerColony</settlementNameMaker>
-		<settlementNameMakerPlayer>NamerFactionPlayerColonyRandomized</settlementNameMakerPlayer>
-		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerSettlementOutlander</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerSettlementOutlander</factionNameMaker>
 		<geneticVariance>1</geneticVariance>
 		<!--
 		<startingResearchTags>
@@ -67,7 +67,7 @@
 		</li>
 		<li Class="ScenPart_StartingResearch">
 			<def>StartingResearch</def>
-			<project>Beds</project>
+			<project>ComplexFurniture</project>
 		</li>
 		<li Class="ScenPart_StartingResearch">
 			<def>StartingResearch</def>
@@ -99,7 +99,7 @@
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>HerbalMedicine</thingDef>
+          <thingDef>MedicineHerbal</thingDef>
           <count>30</count>
         </li>
         <li Class="ScenPart_StartingAnimal">
@@ -124,12 +124,12 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>LotRD_DwarfApparel_GimliArmor</thingDef>
-          <stuff>Bear_Grizzly_Leather</stuff>
+          <stuff>Leather_Bear</stuff>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>LotRD_DwarfApparel_GimliArmor</thingDef>
-          <stuff>Bear_Grizzly_Leather</stuff>
+          <stuff>Leather_Bear</stuff>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>

@@ -33,6 +33,7 @@
     <description>Discovered by Dwarves in deep mountain caves, this plant produces a sweet preserving agent similar to honey from a beehive. It only survives underground and dies when exposed to light.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
+	  <Nutrition>0.22</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Honeyroot</texPath>
@@ -40,14 +41,11 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>10</pathCost>
-    <ingestible>
-      <nutrition>0.22</nutrition>
-    </ingestible>
     <plant>
 	  <neverBlightable>true</neverBlightable>
 	  <growMinGlow>0</growMinGlow>
 	  <growOptimalGlow>0</growOptimalGlow>
-	  <reproduces>false</reproduces>
+	  
 	  <wildClusterRadius>8</wildClusterRadius>
 	  <cavePlant>true</cavePlant>
       <fertilityMin>0.01</fertilityMin>

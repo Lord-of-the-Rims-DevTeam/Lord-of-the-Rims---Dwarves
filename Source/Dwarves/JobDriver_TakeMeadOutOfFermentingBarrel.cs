@@ -7,13 +7,14 @@ namespace Dwarves
 {
     public class JobDriver_TakeMeadOutOfFermentingBarrel : JobDriver
     {
-        
         private const TargetIndex BarrelInd = TargetIndex.A;
         private const TargetIndex BeerToHaulInd = TargetIndex.B;
         private const TargetIndex StorageCellInd = TargetIndex.C;
         private const int Duration = 200;
-        
-        protected Building_FermentingMeadBarrel MeadBarrel => (Building_FermentingMeadBarrel) job.GetTarget(BarrelInd).Thing;
+
+        protected Building_FermentingMeadBarrel MeadBarrel =>
+            (Building_FermentingMeadBarrel) job.GetTarget(BarrelInd).Thing;
+
         public override bool TryMakePreToilReservations() => pawn.Reserve(MeadBarrel, job, 1, -1, null);
 
         protected override IEnumerable<Toil> MakeNewToils()
@@ -30,13 +31,12 @@ namespace Dwarves
                 {
                     Thing thing = MeadBarrel.TakeOutMead();
                     GenPlace.TryPlaceThing(thing, pawn.Position, Map, ThingPlaceMode.Near, null);
-                    StoragePriority currentPriority = HaulAIUtility.StoragePriorityAtFor(thing.Position, thing);
-                    IntVec3 c;
-                    if (StoreUtility.TryFindBestBetterStoreCellFor(thing, pawn, Map, currentPriority, pawn.Faction,
-                        out c, true))
+                    StoragePriority currentPriority = StoreUtility.CurrentStoragePriorityOf(thing);
+                    if (StoreUtility.TryFindBestBetterStoreCellFor(thing,
+                        pawn, Map, currentPriority, pawn.Faction, out var c, true))
                     {
-                        job.SetTarget(StorageCellInd, c);
-                        job.SetTarget(BeerToHaulInd, thing);
+                        job.SetTarget(TargetIndex.C, c);
+                        job.SetTarget(TargetIndex.B, thing);
                         job.count = thing.stackCount;
                     }
                     else
@@ -55,6 +55,5 @@ namespace Dwarves
             yield return Toils_Haul.PlaceHauledThingInCell(StorageCellInd, carryToCell, true);
             yield break;
         }
-
     }
 }

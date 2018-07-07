@@ -141,7 +141,9 @@
       <wildness>0.985</wildness>
       <thinkTreeMain>Animal</thinkTreeMain>
       <body>LotRD_DragonBody</body>
-      <leatherColor>(151,63,42)</leatherColor>
+	  <leatherDef>LotRD_Leather_Dragon</leatherDef>
+      <!--
+	  <leatherColor>(151,63,42)</leatherColor>
       <leatherInsulation>1.35</leatherInsulation>
       <leatherCommonalityFactor>0.005</leatherCommonalityFactor>
       <leatherMarketValueFactor>8</leatherMarketValueFactor>
@@ -151,6 +153,7 @@
         <ArmorRating_Sharp>4.5</ArmorRating_Sharp>
         <ArmorRating_Heat>5.0</ArmorRating_Heat>
       </leatherStatFactors>
+	  -->
       <baseBodySize>6.0</baseBodySize>
       <baseHealthScale>21.0</baseHealthScale>
       <lifeExpectancy>1500</lifeExpectancy>
@@ -189,6 +192,28 @@
     <recipes>
       <li>Euthanize</li>
     </recipes>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="LeatherBase">
+    <defName>LotRD_Leather_Dragon</defName>
+    <label>dragonhide</label>
+    <description>The tanned flesh and scales of a dragon. Luxurious and extraordinarily durable. Used for the highest-quality crafts for its heat insulation and strength.</description>
+    <graphicData>
+      <color>(151,63,42)</color>
+      <colorTwo>(151,63,42)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MarketValue>16.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.12</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>32</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(151,63,42)</color>
+      <commonality>0.0015</commonality>
+    </stuffProps>
   </ThingDef>
  
  

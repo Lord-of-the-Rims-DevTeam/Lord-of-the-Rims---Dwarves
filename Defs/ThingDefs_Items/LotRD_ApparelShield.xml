@@ -8,7 +8,7 @@
 		<description>This is a fast to craft, common shield, often employed by Dwarves.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
-			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShied_front</texPath>
+			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShied_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
@@ -89,7 +89,7 @@
 	  <defName>LotRD_DwarfStandardShieldTwo</defName>
 	  <label>dwarf-shield (knotted)</label>
 		<graphicData>
-			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignTwo_front</texPath>
+			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignTwo_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
@@ -132,7 +132,7 @@
 	  <defName>LotRD_DwarfStandardShieldThree</defName>
 	  <label>dwarf-shield (green)</label>
 		<graphicData>
-			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignThree_front</texPath>
+			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignThree_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
@@ -175,7 +175,7 @@
 	  <defName>LotRD_DwarfStandardShieldFour</defName>
 	  <label>dwarf-shield (heraldry)</label>
 		<graphicData>
-			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignFour_front</texPath>
+			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignFour_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
@@ -218,7 +218,7 @@
 	  <defName>LotRD_DwarfStandardShieldFive</defName>
 	  <label>dwarf-shield (noble)</label>
 		<graphicData>
-			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignSix_front</texPath>
+			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignSix_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>

@@ -14,30 +14,33 @@ namespace Dwarves
             Faction faction;
             Faction faction2;
             int num;
-            return base.CanFireNowSub(target) && !AnyExistingStrongholds() &&
+            return base.CanFireNowSub(parms) && !AnyExistingStrongholds() &&
                    TryFindNewSiteTile(out num, 8, 30, false, true, -1);
         }
 
         public static bool AnyExistingStrongholds()
         {
-            return Find.World?.worldObjects?.Sites?.FirstOrDefault(x => x.parts.FirstOrDefault(y => y.defName == "LotRD_AncientDwarvenStronghold") != null) != null;
+            return Find.World?.worldObjects?.Sites?.FirstOrDefault(x =>
+                       x.parts.FirstOrDefault(y => y.def.defName == "LotRD_AncientDwarvenStronghold") != null) != null;
         }
 
 
         //The same as TileFinder.TryFindNewSiteTile EXCEPT
         // this one finds locations with caves
-        public static bool TryFindNewSiteTile(out int tile, int minDist = 8, int maxDist = 30, bool allowCaravans = false, bool preferCloserTiles = true, int nearThisTile = -1)
+        public static bool TryFindNewSiteTile(out int tile, int minDist = 8, int maxDist = 30,
+            bool allowCaravans = false, bool preferCloserTiles = true, int nearThisTile = -1)
         {
             Func<int, int> findTile = delegate(int root)
             {
                 int minDist2 = minDist;
                 int maxDist2 = maxDist;
-                Predicate<int> validator = (int x) => 
-                    !Find.WorldObjects.AnyWorldObjectAt(x) && 
+                Predicate<int> validator = (int x) =>
+                    !Find.WorldObjects.AnyWorldObjectAt(x) &&
                     Find.World.HasCaves(x) && TileFinder.IsValidTileForNewSettlement(x, null);
                 bool preferCloserTiles2 = preferCloserTiles;
                 int result;
-                if (TileFinder.TryFindPassableTileWithTraversalDistance(root, minDist2, maxDist2, out result, validator, false, preferCloserTiles2))
+                if (TileFinder.TryFindPassableTileWithTraversalDistance(root, minDist2, maxDist2, out result, validator,
+                    false, preferCloserTiles2))
                 {
                     return result;
                 }
@@ -71,9 +74,9 @@ namespace Dwarves
 //            this.TryFindFactions(out faction, out faction2) &&
 //                TileFinder.TryFindNewSiteTile(out num, 8, 30, false, true, -1)
             //var pirate = Find.FactionManager.FirstFactionOfDef(FactionDef.Named("Pirate"));
-            Site site = SiteMaker.MakeSite(SiteCoreDefOf.Nothing, DwarfDefOf.LotRD_AncientDwarvenStronghold, Find.FactionManager.FirstFactionOfDef(DwarfDefOf.LotRD_MonsterFaction));
-            site.Tile = tile;
-            site.GetComponent<DefeatAllEnemiesQuestComp>().StartQuest(Faction.OfPlayer, 8f, GenerateRewards());
+            Site site = SiteMaker.MakeSite(SiteCoreDefOf.Nothing, DwarfDefOf.LotRD_AncientDwarvenStronghold, tile,
+                Find.FactionManager.FirstFactionOfDef(DwarfDefOf.LotRD_MonsterFaction));
+            site.GetComponent<DefeatAllEnemiesQuestComp>().StartQuest(Faction.OfPlayer, 8, GenerateRewards());
             Find.WorldObjects.Add(site);
             base.SendStandardLetter(site);
             return true;
@@ -81,9 +84,9 @@ namespace Dwarves
 
         private List<Thing> GenerateRewards(Faction alliedFaction = null)
         {
-            ItemCollectionGeneratorParams parms = default(ItemCollectionGeneratorParams);
+            ThingSetMakerParams parms = default(ThingSetMakerParams);
             parms.techLevel = TechLevel.Medieval; //new TechLevel?(alliedFaction.def.techLevel);
-            return ItemCollectionGeneratorDefOf.BanditCampQuestRewards.Worker.Generate(parms);
+            return ThingSetMakerDefOf.Reward_StandardByDropPod.root.Generate(parms);
         }
 
 //        private bool TryFindFactions(out Faction alliedFaction, out Faction enemyFaction)

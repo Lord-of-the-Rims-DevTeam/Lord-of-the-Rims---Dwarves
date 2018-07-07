@@ -10,8 +10,6 @@ namespace Dwarves
 {
 	public class GenStep_AncientDwarvenStronghold : GenStep
 	{
-		
-		
 		public static CellRect TopHalf(CellRect rect)
 		{
 			return new CellRect(rect.minX, rect.minZ, rect.Width, (int)(rect.Height / 2f));
@@ -22,8 +20,8 @@ namespace Dwarves
 		{
 			return new CellRect(rect.minX, rect.minZ + (int)(rect.Height / 2f), rect.Width, (int)(rect.Height / 2f));
 		}
-		
-		public override void Generate(Map map)
+
+		public override void Generate(Map map, GenStepParams parms)
 		{
 			CellRect rectToDefend;
 			if (!MapGenerator.TryGetVar<CellRect>("RectOfInterest", out rectToDefend))
@@ -42,7 +40,7 @@ namespace Dwarves
 			rp.edgeDefenseWidth = new int?(2);
 			rp.edgeDefenseTurretsCount = 0;// new int?(Rand.RangeInclusive(0, 1));
 			rp.edgeDefenseMortarsCount = new int?(0);
-			rp.factionBasePawnGroupPointsFactor = new float?(0.4f);
+			rp.settlementPawnGroupPoints = new float?(0.4f);
 			BaseGen.globalSettings.map = map;
 //			BaseGen.globalSettings.minBuildings = 1;
 //			BaseGen.globalSettings.minBarracks = 1;
@@ -89,11 +87,11 @@ namespace Dwarves
 			//Dragon horde
 			ResolveParams dragonHorde = rp;
 			dragonHorde.rect = TopHalf(dragonRoomRect); //new CellRect(dragonRoomRect.minX, (int)(dragonRoomRect.minZ + dragonRoomRect.Height / 2f), dragonRoomRect.Width, (int)(dragonRoomRect.Height / 2f));
-			dragonHorde.itemCollectionGeneratorDef = DwarfDefOf.LotRD_Treasure;
-			var newParamsForItemGen = new ItemCollectionGeneratorParams();
-			newParamsForItemGen.count = Rand.Range(15, 20);
-			newParamsForItemGen.totalMarketValue = Rand.Range(6000, 8000);
-			dragonHorde.itemCollectionGeneratorParams = newParamsForItemGen;
+			dragonHorde.thingSetMakerDef = DwarfDefOf.LotRD_Treasure;
+			var newParamsForItemGen = new ThingSetMakerParams();
+			newParamsForItemGen.countRange = new IntRange(15, 20);
+			newParamsForItemGen.maxThingMarketValue = Rand.Range(6000, 8000);
+			dragonHorde.thingSetMakerParams = newParamsForItemGen;
 			dragonHorde.singleThingStackCount = 250;
 			BaseGen.symbolStack.Push("stockpile", dragonHorde);
 			//
@@ -200,5 +198,7 @@ namespace Dwarves
 		private const int Size = 16;
 
 		private static List<CellRect> possibleRects = new List<CellRect>();
+
+		public override int SeedPart { get; }
 	}
 }

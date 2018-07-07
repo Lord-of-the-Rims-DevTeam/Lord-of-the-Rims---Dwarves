@@ -11,7 +11,6 @@ namespace Dwarves
         /// <summary>
         /// Similar to how a pawn can be a social drinker or solitary relaxer in their room, hobbits can try and solve a puzzle box.
         /// </summary>
-
         public override float GetChance(Pawn pawn)
         {
             //hobbits have twice the chance of opening the puzzle box
@@ -27,7 +26,8 @@ namespace Dwarves
 
         public override Job TryGiveJobInPartyArea(Pawn pawn, IntVec3 partySpot)
         {
-            return this.TryGiveJobInternal(pawn, (Thing x) => !x.Spawned || PartyUtility.InPartyArea(x.Position, partySpot, pawn.Map));
+            return this.TryGiveJobInternal(pawn,
+                (Thing x) => !x.Spawned || PartyUtility.InPartyArea(x.Position, partySpot, pawn.Map));
         }
 
         private Job TryGiveJobInternal(Pawn pawn, Predicate<Thing> extraValidator)
@@ -43,11 +43,15 @@ namespace Dwarves
         protected override Thing BestIngestItem(Pawn pawn, Predicate<Thing> extraValidator)
         {
             //Find the puzzle box.
-            Predicate<Thing> predicate = (Thing t) => (t.def == DefDatabase<ThingDef>.GetNamed("LotRD_DwarfMarbleLabyrinth")) && pawn.CanReserve(t) && (extraValidator == null || extraValidator(t));
-            List<Thing> searchSet = this.GetSearchSet(pawn);
+            Predicate<Thing> predicate = (Thing t) =>
+                (t.def == DefDatabase<ThingDef>.GetNamed("LotRD_DwarfMarbleLabyrinth")) && pawn.CanReserve(t) &&
+                (extraValidator == null || extraValidator(t));
+            List<Thing> searchSet = new List<Thing>();
+            GetSearchSet(pawn, searchSet);
             TraverseParms traverseParams = TraverseParms.For(pawn, Danger.Deadly, TraverseMode.ByPawn, false);
 
-            return GenClosest.ClosestThing_Global_Reachable(pawn.Position, pawn.Map, searchSet, PathEndMode.OnCell, traverseParams, 9999f, predicate, null);
+            return GenClosest.ClosestThing_Global_Reachable(pawn.Position, pawn.Map, searchSet, PathEndMode.OnCell,
+                traverseParams, 9999f, predicate, null);
         }
 
         protected override Job CreateIngestJob(Thing thing, Pawn pawn)

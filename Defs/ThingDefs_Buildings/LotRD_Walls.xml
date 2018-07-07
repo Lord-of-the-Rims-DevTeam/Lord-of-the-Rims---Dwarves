@@ -4,8 +4,8 @@
   <ThingDef ParentName="LotRD_BuildingBase">
     <defName>LotRD_WallDwarven</defName>
     <label>dwarven reinforced wall</label>
-    <thingClass>Buildings</thingClass>
-    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
     <description>These walls use specially-crafted buttresses to provide the perfect reinforced walls for a dwarven stronghold.</description>
     <graphicData>
       <texPath>Things/Building/Linked/jecrellReinforcedWall</texPath>
@@ -26,9 +26,6 @@
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
     </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-    </blueprintGraphicData>
     <uiIconPath>Things/Building/Linked/jecrellReinforcedWall_MenuIcon</uiIconPath>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
@@ -60,6 +57,9 @@
       <li>Stony</li>
     </stuffCategories>
     <building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
       <isInert>true</isInert>
     </building>
     <damageMultipliers>

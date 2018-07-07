@@ -197,7 +197,7 @@ namespace Dwarves
 					stringBuilder.AppendLine("FermentationProgress".Translate(new object[]
 					{
 						this.Progress.ToStringPercent(),
-						this.EstimatedTicksLeft.ToStringTicksToPeriod(true, false, true)
+						this.EstimatedTicksLeft.ToStringTicksToPeriod()
 					}));
 					if (this.CurrentTempProgressSpeedFactor != 1f)
 					{

@@ -49,7 +49,8 @@ namespace Dwarves
         {
             //Find a doll
             Predicate<Thing> predicate = (Thing t) => (t.def == DefDatabase<ThingDef>.GetNamed("LotRD_DwarfElfToy")) && pawn.CanReserve(t) && (extraValidator == null || extraValidator(t));
-            List<Thing> searchSet = this.GetSearchSet(pawn);
+            List<Thing> searchSet = new List<Thing>();
+            GetSearchSet(pawn, searchSet);
             TraverseParms traverseParams = TraverseParms.For(pawn, Danger.Deadly, TraverseMode.ByPawn, false);
 
             return GenClosest.ClosestThing_Global_Reachable(pawn.Position, pawn.Map, searchSet, PathEndMode.OnCell, traverseParams, 9999f, predicate, null);

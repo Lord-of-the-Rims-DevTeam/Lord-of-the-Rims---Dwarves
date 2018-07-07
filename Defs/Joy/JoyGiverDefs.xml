@@ -10,7 +10,7 @@
       <li>LotRD_GameTable</li>
     </thingDefs>
     <jobDef>LotRD_PlayGameTable</jobDef>
-    <joyKind>GamingCerebral</joyKind>
+    <joyKind>Gaming_Cerebral</joyKind>
     <requiredCapacities>
       <li>Sight</li>
       <li>Manipulation</li>
@@ -23,7 +23,7 @@
     <giverClass>Dwarves.JoyGiver_Puzzlebox</giverClass>
     <baseChance>2</baseChance>
     <jobDef>LotRD_SolvePuzzleBox</jobDef>
-    <joyKind>Study</joyKind>
+    <joyKind>Gaming_Cerebral</joyKind>
     <thingDefs>
       <li>LotRD_DwarfPuzzleBox</li>
     </thingDefs>
@@ -38,7 +38,7 @@
     <giverClass>Dwarves.JoyGiver_MarbleLabyrinth</giverClass>
     <baseChance>2</baseChance>
     <jobDef>LotRD_SolvePuzzleBox</jobDef>
-    <joyKind>Study</joyKind>
+    <joyKind>Gaming_Cerebral</joyKind>
     <thingDefs>
       <li>LotRD_DwarfMarbleLabyrinth</li>
     </thingDefs>

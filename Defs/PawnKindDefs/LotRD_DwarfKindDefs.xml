@@ -42,7 +42,7 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <weaponMoney>
-      <min>0</min>
+      <min>20</min>
       <max>250</max>
     </weaponMoney>
     <weaponTags>
@@ -149,7 +149,7 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
-      <min>0</min>
+      <min>1000</min>
       <max>32000</max>
     </weaponMoney>
     <weaponTags>
@@ -183,7 +183,7 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
-      <min>0</min>
+      <min>1000</min>
       <max>32000</max>
     </weaponMoney>
     <weaponTags>
@@ -213,7 +213,7 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
-      <min>0</min>
+      <min>410</min>
       <max>2000</max>
     </weaponMoney>
 	<weaponTags>
@@ -281,6 +281,10 @@
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>200</min>
+      <max>1000</max>
+    </weaponMoney>
   </PawnKindDef>    
   
   <PawnKindDef ParentName="LotRD_DwarfGuard">
@@ -295,6 +299,10 @@
       <li>NeolithicRangedHeavy</li>
       <li>LotRD_BanditDwarf</li>
     </weaponTags>
+    <weaponMoney>
+      <min>200</min>
+      <max>1000</max>
+    </weaponMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
   </PawnKindDef>      
   
@@ -308,7 +316,7 @@
     </apparelRequired>
     <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
 	<weaponMoney>
-      <min>0</min>
+      <min>1000</min>
       <max>12000</max>
     </weaponMoney>
 	<weaponTags>
@@ -344,7 +352,7 @@
     </apparelRequired>
     <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
 	<weaponMoney>
-      <min>0</min>
+      <min>1000</min>
       <max>12000</max>
     </weaponMoney>
 	<weaponTags>
@@ -387,7 +395,7 @@
     </apparelRequired>
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
-      <min>0</min>
+      <min>500</min>
       <max>12000</max>
     </weaponMoney>
 	<weaponTags>
@@ -417,7 +425,7 @@
     </apparelRequired>
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
-      <min>0</min>
+      <min>500</min>
       <max>12000</max>
     </weaponMoney>
 	<weaponTags>
@@ -448,7 +456,7 @@
     </apparelRequired>
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
-      <min>0</min>
+      <min>500</min>
       <max>12000</max>
     </weaponMoney>
 	<weaponTags>
@@ -479,7 +487,7 @@
     </apparelRequired>
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
-      <min>0</min>
+      <min>600</min>
       <max>12000</max>
     </weaponMoney>
 	<weaponTags>
@@ -510,7 +518,7 @@
     </apparelRequired>
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 	<weaponMoney>
-      <min>0</min>
+      <min>280</min>
       <max>12000</max>
     </weaponMoney>
 	<weaponTags>

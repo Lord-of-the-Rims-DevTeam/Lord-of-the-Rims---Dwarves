@@ -23,7 +23,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/LotRD_sheidulaDwarvenHornBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>BowRecurve</soundInteract>
+    <soundInteract>Bow_Recurve</soundInteract>
     <costList>
       <WoodLog>50</WoodLog>
     </costList>
@@ -46,7 +46,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbows</researchPrerequisite>
+      <researchPrerequisite>Greatbow</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -96,7 +96,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.2</drawSize>
     </graphicData>
-    <soundInteract>BowRecurve</soundInteract>
+    <soundInteract>Bow_Recurve</soundInteract>
     <costList>
       <WoodLog>60</WoodLog>
       <Steel>10</Steel>
@@ -120,7 +120,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbows</researchPrerequisite>
+      <researchPrerequisite>Greatbow</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>

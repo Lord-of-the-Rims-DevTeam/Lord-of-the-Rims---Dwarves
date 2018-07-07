@@ -11,7 +11,7 @@
     <joyGainRate>1.3</joyGainRate>
     <joySkill>Intellectual</joySkill>
     <joyXpPerTick>0.004</joyXpPerTick>
-    <joyKind>GamingCerebral</joyKind>
+    <joyKind>Gaming_Cerebral</joyKind>
     <taleOnCompletion>PlayedGame</taleOnCompletion>
   </JobDef>
 
@@ -23,7 +23,7 @@
     <joySkill>Intellectual</joySkill>
     <joyXpPerTick>0.002</joyXpPerTick>
     <joyGainRate>1</joyGainRate>
-    <joyKind>Study</joyKind>
+    <joyKind>Gaming_Cerebral</joyKind>
   </JobDef>
   <JobDef>
     <defName>LotRD_PlayWithDoll</defName>

@@ -13,7 +13,7 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>52</costStuffCount>
@@ -65,7 +65,7 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Tunic/edmundWulfGarthTunic_Male_front</texPath>
+      <texPath>Things/Pawn/Dwarf/Apparel/Tunic/edmundWulfGarthTunic_Male_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -122,7 +122,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaGimliArmor_Male_front</texPath>
+      <texPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaGimliArmor_Male_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -183,7 +183,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaIronHillArmor_Male_front</texPath>
+      <texPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaIronHillArmor_Male_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>250</costStuffCount>

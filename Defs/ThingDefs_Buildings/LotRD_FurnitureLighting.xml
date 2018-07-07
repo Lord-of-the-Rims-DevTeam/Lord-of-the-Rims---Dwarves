@@ -199,9 +199,10 @@
     <designationCategory>Furniture</designationCategory>
   </ThingDef>
   
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="FurnitureWithQualityBase">
     <defName>LotRD_Brazier</defName>
     <label>dwarven brazier box</label>
+	<thingClass>Building</thingClass>
     <description>A pit for a flame to grow and light its surroundings.</description>
     <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
     <graphicData>
@@ -227,6 +228,7 @@
     </stuffCategories>
     <costStuffCount>20</costStuffCount>	
     <statBases>
+	  <Mass>10</Mass>
       <MaxHitPoints>85</MaxHitPoints>
       <WorkToBuild>220</WorkToBuild>
       <Flammability>0</Flammability>
@@ -285,9 +287,10 @@
     <designationHotKey>Misc10</designationHotKey>
   </ThingDef>
   
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="FurnitureWithQualityBase">
     <defName>LotRD_DwarvenWallLight</defName>
     <label>dwarven ithildin wall light</label>
+	<thingClass>Building</thingClass>
     <description>Imbued with the mithril alloy of ithildin, this wall light gives off a beautiful blue luminescence.</description>
     <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
 	<building>
@@ -340,12 +343,12 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="ArtableFurnitureBase">
     <defName>LotRD_DwarvenStreetLamp</defName>
     <label>dwarven ithildin lamp</label>
     <description>A standing lamp that uses the mithril alloy ithildin to create endless blue light.</description>
-    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
-	<thingClass>Dwarves.Building_StreetLamp</thingClass>	
+	<thingClass>Dwarves.Building_StreetLamp</thingClass>
+    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>	
     <graphicData>
       <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenLampPost</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -407,7 +410,7 @@
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
     </graphicData>
-    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
+    <category>Ethereal</category>
     <thingClass>Dwarves.ThingWithComps_Glower</thingClass>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <tickerType>Normal</tickerType>

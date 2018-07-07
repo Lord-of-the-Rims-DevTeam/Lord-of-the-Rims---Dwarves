@@ -60,7 +60,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaIronHillHelmet_front</texPath>
+      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaIronHillHelmet_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>250</costStuffCount>
@@ -107,7 +107,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaIronHillHelmetKing_front</texPath>
+      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaIronHillHelmetKing_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>250</costStuffCount>
@@ -205,7 +205,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/jecrellDwarfCrown_front</texPath>
+      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/jecrellDwarfCrown_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>500</costStuffCount>

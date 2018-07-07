@@ -1,11 +1,78 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ItemCollectionGeneratorDef>
-	  <defName>LotRD_Treasure</defName>
-	  <label>treasure</label>
-	  <workerClass>Dwarves.ItemCollectionGenerator_Treasure</workerClass>
-    </ItemCollectionGeneratorDef>
+  <ThingSetMakerDef>
+    <defName>LotRD_Treasure</defName>
+    <root Class="ThingSetMaker_RandomOption">
+      <fixedParams>
+        <totalMarketValueRange>
+          <min>2000</min>
+          <max>3500</max>
+        </totalMarketValueRange>
+        <qualityGenerator>Reward</qualityGenerator>
+      </fixedParams>
+      <options>
+        <li>
+          <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>Gold</li>
+                </thingDefs>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <categories>
+                  <li>ResourcesRaw</li>
+                </categories>
+                <thingSetMakerTagsToDisallow>
+                  <li>RewardSpecial</li>
+                </thingSetMakerTagsToDisallow>
+                <disallowCheaperThan>6</disallowCheaperThan>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>6</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <tradeTagsToAllow>
+                  <li>ExoticMisc</li>
+                </tradeTagsToAllow>
+                <categories>
+                  <li>Weapons</li>
+                  <li>Apparel</li>
+                  <li>BuildingsArt</li>
+                  <li>BuildingsFurniture</li>
+                </categories>
+                <disallowedThingDefs>
+                  <li>Apparel_SmokepopBelt</li>
+                  <li>MedicineUltratech</li>
+                  <li>ComponentSpacer</li>
+                  <li>Hyperweave</li>
+                  <li>CochlearImplant</li>
+                  <li>BionicEar</li>
+                </disallowedThingDefs>
+                <thingSetMakerTagsToDisallow>
+                  <li>RewardSpecial</li>
+                  <li>AnimalPart</li>
+                </thingSetMakerTagsToDisallow>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+      </options>
+    </root>
+  </ThingSetMakerDef>
 
 	<IncidentDef>
 		<defName>LotRD_QuestAncientStronghold</defName>
@@ -37,7 +104,6 @@
     <expandingIconTexture>World/AncientDwarfRuin</expandingIconTexture>
     <applyFactionColorToSiteTexture>false</applyFactionColorToSiteTexture>
     <showFactionInInspectString>false</showFactionInInspectString>
-    <knownDanger>true</knownDanger>
     <requiresFaction>false</requiresFaction>
     <tags>
       <li>AncientDwarvenStronghold</li>

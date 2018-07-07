@@ -46,6 +46,8 @@
   <ThingDef ParentName="BuildingBase">
     <defName>LotRD_FermentingBarrel</defName>
     <label>fermenting barrel (mead)</label>
+	<category>Building</category>
+	
     <thingClass>Dwarves.Building_FermentingMeadBarrel</thingClass>
     <graphicData>
       <texPath>Things/Building/Production/FermentingBarrel</texPath>
@@ -55,6 +57,9 @@
       </damageData>
     </graphicData>
     <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.45</fillPercent>

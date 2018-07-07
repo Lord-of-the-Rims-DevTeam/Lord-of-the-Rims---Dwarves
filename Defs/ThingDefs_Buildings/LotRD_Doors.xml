@@ -14,12 +14,9 @@
     <defName>PH_DoorDoubleDwarvenGrand</defName>
     <label>dwarven grand gate (3x2)</label>
     <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
-    <blueprintClass>Blueprint_Build</blueprintClass>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Door/DoorDouble_Blueprint</texPath>
-    </blueprintGraphicData>
     <description>A massive gate that stands as a strong divider between adversaries and a Dwarven stronghold.</description>
     <statBases>
+	  <Mass>1000</Mass>
 	  <MaxHitPoints>1000</MaxHitPoints>
       <WorkToBuild>2850</WorkToBuild>
     </statBases>
@@ -27,6 +24,11 @@
       <li>JecsTools.PlaceWorker_Outline</li>
     </placeWorkers>
     <size>(3,2)</size>
+	<building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Door/DoorDouble_Blueprint</texPath>
+      </blueprintGraphicData>
+	</building>
 	<stuffCategories>
       <li>Metallic</li>
       <li>Stony</li>
@@ -53,10 +55,10 @@
     <defName>LotRD_DoorDwarven</defName>
     <label>dwarven reinforced door</label>
     <description>Reinforced with metallic supports. Divides rooms. Must be manually opened and closed, which slows people down.</description>
-    <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>	
-	<blueprintClass>Blueprint_Door</blueprintClass>
+    <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
     <doorType>Standard</doorType>	
     <statBases>
+	  <Mass>100</Mass>
 	  <MaxHitPoints>350</MaxHitPoints>
       <WorkToBuild>1150</WorkToBuild>
     </statBases>
@@ -66,11 +68,13 @@
 	<placeWorkers>
       <li>JecsTools.PlaceWorker_Outline</li>
     </placeWorkers>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Structures/edmundWulfgarthDwarvenSmallGate_Blueprint</texPath>
-	  <drawSize>1</drawSize>
-	  <graphicClass>Graphic_Single</graphicClass>
-    </blueprintGraphicData>
+	<building>
+		<blueprintGraphicData>
+		  <texPath>Things/Building/Structures/edmundWulfgarthDwarvenSmallGate_Blueprint</texPath>
+		  <drawSize>1</drawSize>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</blueprintGraphicData>
+	</building>
     <graphicData>
       <texPath>Things/Building/Structures/edmundWulfgarthDwarvenSmallGate_Mover</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -14,7 +14,6 @@
         <e p="Graphic_CustomFlicker.cs" t="Include" />
         <e p="HarmonyPatches.cs" t="Include" />
         <e p="IncidentWorker_AncientDwarvenStronghold.cs" t="Include" />
-        <e p="ItemCollectionGenerator_Treasure.cs" t="Include" />
         <e p="JobDriver_FillFermentingBarrel.cs" t="Include" />
         <e p="JobDriver_PlayWithDoll.cs" t="Include" />
         <e p="JobDriver_SolvePuzzle.cs" t="Include" />
@@ -24,6 +23,7 @@
         <e p="JoyGiver_ToyDoll.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="SymbolResolver_CorpseMaker.cs" t="Include" />
+        <e p="ThingSetMaker_Treasure.cs" t="Include" />
         <e p="ThingWithComps_Glower.cs" t="Include" />
         <e p="WorkGiver_FillFermentingBarrel.cs" t="Include" />
         <e p="WorkGiver_TakeMeadOutOfFermentingBarrel.cs" t="Include" />
@@ -32,5 +32,5 @@
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\mattw\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_Dwarves.154602451.00" t="ExcludeRecursive" />
-  </ComponentIndustrial>
+  </component>
 </project>

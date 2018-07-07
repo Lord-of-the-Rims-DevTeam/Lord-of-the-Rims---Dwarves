@@ -16,11 +16,12 @@
       <DeteriorationRate>0.6</DeteriorationRate>
       <MarketValue>16</MarketValue>
       <Mass>0.3</Mass>
+	  <Nutrition>0.09</Nutrition>
     </statBases>
     <ingestible>
       <foodType>Fluid, Processed, Liquor</foodType>
-      <nutrition>0.09</nutrition>
       <joy>0.19</joy>
+      <joyKind>Chemical</joyKind>
       <nurseable>true</nurseable>
       <drugCategory>Social</drugCategory>
       <ingestSound>Ingest_Beer</ingestSound>
@@ -84,7 +85,7 @@
 		<label>make mead wort</label>
 		<description>Make mead wort from honeyroot.</description>
 		<jobString>Making mead wort.</jobString>
-		<workSpeedStat>BrewingSpeed</workSpeedStat>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>

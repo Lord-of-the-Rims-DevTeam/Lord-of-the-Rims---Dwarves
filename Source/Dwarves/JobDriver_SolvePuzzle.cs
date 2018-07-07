@@ -50,7 +50,7 @@ namespace Dwarves
 
         protected void RollForLuck()
         {
-            float extraLuckFromQuality = base.TargetThingA.GetStatValue(StatDefOf.EntertainmentStrengthFactor, true);
+            float extraLuckFromQuality = base.TargetThingA.GetStatValue(StatDefOf.JoyGainFactor, true);
             float extraLuckFromSmarts = pawn.skills.GetSkill(SkillDefOf.Intellectual).levelInt;
 
             float yourLuckyNumber = ((1f + extraLuckFromSmarts) * extraLuckFromQuality) / 100;
@@ -77,7 +77,7 @@ namespace Dwarves
             {
                 this.pawn.rotationTracker.FaceCell(base.TargetB.Cell);
                 this.pawn.GainComfortFromCellIfPossible();
-                float extraJoyGainFactor = base.TargetThingA.GetStatValue(StatDefOf.EntertainmentStrengthFactor, true);
+                float extraJoyGainFactor = base.TargetThingA.GetStatValue(StatDefOf.JoyGainFactor, true);
                 JoyUtility.JoyTickCheckEnd(this.pawn, JoyTickFullJoyAction.EndJob, extraJoyGainFactor);
             };
         }

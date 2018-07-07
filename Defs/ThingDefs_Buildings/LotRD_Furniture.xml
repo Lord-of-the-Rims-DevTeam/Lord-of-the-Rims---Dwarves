@@ -17,7 +17,7 @@
     <socialPropernessMatters>true</socialPropernessMatters>
     <fillPercent>0.40</fillPercent>
     <building>
-      <isJoySource>true</isJoySource>
+      <joyKind>Gaming_Cerebral</joyKind>
     </building>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>

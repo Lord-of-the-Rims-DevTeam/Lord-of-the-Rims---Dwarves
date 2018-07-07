@@ -117,7 +117,7 @@ namespace Dwarves
                     {
                         return 0f;
                     }
-                    if (tile.rivers != null && tile.rivers.Count > 0)
+                    if (tile.Rivers != null && tile.Rivers.Count > 0)
                         return 1000f;
                     return 0f; //tile.biome.factionBaseSelectionWeight;
                 }, out num))

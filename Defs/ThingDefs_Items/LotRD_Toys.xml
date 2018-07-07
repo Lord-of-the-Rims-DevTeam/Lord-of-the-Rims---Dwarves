@@ -67,7 +67,7 @@
       </li>
     </comps>
     <drawGUIOverlay>false</drawGUIOverlay>
-    <tradeability>Stockable</tradeability>
+    <tradeability>All</tradeability>
     <techLevel>Medieval</techLevel>
     <tradeTags>
       <li>Medieval</li>
@@ -119,7 +119,7 @@
     </li>
     </comps>
     <drawGUIOverlay>false</drawGUIOverlay>
-    <tradeability>Stockable</tradeability>
+    <tradeability>All</tradeability>
     <techLevel>Medieval</techLevel>
     <tradeTags>
       <li>Medieval</li>
@@ -169,7 +169,7 @@
     </li>
     </comps>
     <drawGUIOverlay>false</drawGUIOverlay>
-    <tradeability>Stockable</tradeability>
+    <tradeability>All</tradeability>
     <techLevel>Medieval</techLevel>
     <tradeTags>
       <li>Medieval</li>

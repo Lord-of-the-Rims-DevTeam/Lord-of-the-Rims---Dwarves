@@ -1,50 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-  <ThingDef Name="LotRD_BuildingBase" Abstract="True">
-    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
-    <thingClass>Buildings</thingClass>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <repairEffect>Repair</repairEffect>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
-		<statBases>
-			<SellPriceFactor>0.70</SellPriceFactor>
-		</statBases>
+  <ThingDef ParentName="BuildingBase" Name="LotRD_BuildingBase" Abstract="True">
   </ThingDef>
   
   
-  <ThingDef Name="LotRD_FurnitureBase" ParentName="LotRD_BuildingBase" Abstract="True">
-    <designationCategory>Furniture</designationCategory>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <tradeTags>
-      <li>Furniture</li>
-    </tradeTags>
+  <ThingDef ParentName="FurnitureBase" Name="LotRD_FurnitureBase" Abstract="True">
   </ThingDef>
   
-  <ThingDef Name="LotRD_FurnitureWithQualityBase" ParentName="LotRD_FurnitureBase" Abstract="True">
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
+  <ThingDef ParentName="FurnitureWithQualityBase" Name="LotRD_FurnitureWithQualityBase" Abstract="True">
   </ThingDef>
   
   
-  <ThingDef Name="LotRD_ArtableFurnitureBase" ParentName="LotRD_FurnitureWithQualityBase" Abstract="True">
-    <comps>
-      <li Class="CompProperties_Art">
-        <nameMaker>NamerArtFurniture</nameMaker>
-        <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-    </comps>
-    <inspectorTabs>
-      <li>ITab_Art</li>
-    </inspectorTabs>
+  <ThingDef ParentName="ArtableFurnitureBase" Name="LotRD_ArtableFurnitureBase" Abstract="True">
   </ThingDef>
 
 

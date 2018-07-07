@@ -29,7 +29,6 @@
     </tags>
   </BodyPartDef>
   
-
 	<BodyDef>
 		<!-- Quadruped Animal With Claws Wings And Tail -->
 		<defName>LotRD_DragonBody</defName>
@@ -167,35 +166,40 @@
 					<height>Bottom</height>
 					<parts>
 						<li>
-							<def>FrontLeftLegFirstClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front left leg first claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontLeftClaws</li>
 							</groups>
 						</li>
 						<li>
-							<def>FrontLeftLegSecondClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front left leg second claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontLeftClaws</li>
 							</groups>
 						</li>
 						<li>
-							<def>FrontLeftLegThirdClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front left leg third claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontLeftClaws</li>
 							</groups>
 						</li>
 						<li>
-							<def>FrontLeftLegFourthClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front left leg fourth claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontLeftClaws</li>
 							</groups>
 						</li>
 						<li>
-							<def>FrontLeftLegFifthClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front left leg fifth claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontLeftClaws</li>
@@ -210,35 +214,40 @@
 					<height>Bottom</height>
 					<parts>
 						<li>
-							<def>FrontRightLegFirstClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front right leg first claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontRightClaws</li>
 							</groups>
 						</li>
 						<li>
-							<def>FrontRightLegSecondClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front right leg second claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontRightClaws</li>
 							</groups>
 						</li>
 						<li>
-							<def>FrontRightLegThirdClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front right leg third claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontRightClaws</li>
 							</groups>
 						</li>
 						<li>
-							<def>FrontRightLegFourthClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front right leg fourth claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontRightClaws</li>
 							</groups>
 						</li>
 						<li>
-							<def>FrontRightLegFifthClaw</def>
+							<def>FrontClaw</def>
+							<customLabel>front right leg fifth claw</customLabel>
 							<coverage>0.05</coverage>
 							<groups>
 								<li>FrontRightClaws</li>
@@ -253,23 +262,28 @@
 					<height>Bottom</height>
 					<parts>
 						<li>
-							<def>RearLeftLegFirstClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear left leg first claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 						<li>
-							<def>RearLeftLegSecondClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear left leg second claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 						<li>
-							<def>RearLeftLegThirdClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear left leg third claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 						<li>
-							<def>RearLeftLegFourthClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear left leg fourth claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 						<li>
-							<def>RearLeftLegFifthClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear left leg fifth claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 					</parts>
@@ -281,23 +295,28 @@
 					<height>Bottom</height>
 					<parts>
 						<li>
-							<def>RearRightLegFirstClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear right leg first claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 						<li>
-							<def>RearRightLegSecondClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear right leg second claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 						<li>
-							<def>RearRightLegThirdClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear right leg third claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 						<li>
-							<def>RearRightLegFourthClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear right leg fourth claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 						<li>
-							<def>RearRightLegFifthClaw</def>
+							<def>RearClaw</def>
+							<customLabel>rear right leg fifth claw</customLabel>
 							<coverage>0.05</coverage>
 						</li>
 					</parts>

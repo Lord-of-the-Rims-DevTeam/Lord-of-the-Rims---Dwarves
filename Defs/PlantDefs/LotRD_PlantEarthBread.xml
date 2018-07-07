@@ -30,6 +30,7 @@
     <description>An edible root only known to the Dwarves. Grows slowly outside of caves.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
+	  <Nutrition>0.2</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/EarthbreadRoot</texPath>
@@ -37,13 +38,10 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>10</pathCost>
-    <ingestible>
-      <nutrition>0.20</nutrition>
-    </ingestible>
     <plant>
 	  <growMinGlow>0</growMinGlow>
 	  <growOptimalGlow>0</growOptimalGlow>
-	  <reproduces>false</reproduces>
+	  
 	  <wildClusterRadius>8</wildClusterRadius>
       <fertilityMin>0.01</fertilityMin>
       <fertilitySensitivity>0.15</fertilitySensitivity>
