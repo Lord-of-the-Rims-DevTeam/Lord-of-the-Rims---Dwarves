@@ -65,6 +65,8 @@
     <Compile Include="JoyGiver_Puzzlebox.cs" />
     <Compile Include="JoyGiver_ToyDoll.cs" />
     <Compile Include="Building_StreetLamp.cs" />
+    <Compile Include="PlaceWorker_CeilingBuilding.cs" />
+    <Compile Include="PlaceWorker_WallBuilding.cs" />
     <Compile Include="SymbolResolver_CorpseMaker.cs" />
     <Compile Include="Graphic_CustomFlicker.cs" />
     <Compile Include="JobDriver_TakeMeadOutOfFermentingBarrel.cs" />

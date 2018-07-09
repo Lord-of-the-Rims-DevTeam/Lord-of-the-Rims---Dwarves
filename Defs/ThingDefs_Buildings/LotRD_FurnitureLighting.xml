@@ -25,6 +25,7 @@
     <costStuffCount>110</costStuffCount>	
     <rotatable>false</rotatable>
     <altitudeLayer>MoteOverhead</altitudeLayer>
+    <clearBuildingArea>false</clearBuildingArea>
     <passability>Standable</passability>
 	<pathCost>8</pathCost>
     <tickerType>Normal</tickerType>
@@ -78,6 +79,7 @@
     </comps>
 	<placeWorkers>
       <li>PlaceWorker_Heater</li>
+      <li>Dwarves.PlaceWorker_CeilingBuilding</li>
     </placeWorkers>
     <designationCategory>Furniture</designationCategory>
   </ThingDef>
@@ -247,7 +249,7 @@
             <li>WoodLog</li>
           </thingDefs>
         </fuelFilter>
-        <destroyOnNoFuel>true</destroyOnNoFuel>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>10</glowRadius>
@@ -294,7 +296,7 @@
     <graphicData>
       <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenWallLight</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawRotated>false</drawRotated>
+      <drawRotated>true</drawRotated>
 	  <shaderType>CutoutComplex</shaderType>
       <damageData>
         <rect>(0.35,0.35,0.3,0.3)</rect>
@@ -309,9 +311,10 @@
       <Steel>3</Steel>
       <Component>2</Component>	  
 	</costList>	
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <passability>PassThroughOnly</passability>
+    <clearBuildingArea>false</clearBuildingArea>
 	<pathCost>8</pathCost>
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
@@ -333,6 +336,9 @@
       </li>
       <li Class="CompProperties_Flickable"/>	  
     </comps>
+    <placeWorkers>
+      <li>Dwarves.PlaceWorker_WallBuilding</li>
+    </placeWorkers>
     <designationCategory>Furniture</designationCategory>
   </ThingDef>
 
