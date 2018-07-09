@@ -119,7 +119,7 @@ namespace Dwarves
                     }
                     if (tile.Rivers != null && tile.Rivers.Count > 0)
                         return 1000f;
-                    return 0f; //tile.biome.factionBaseSelectionWeight;
+                    return 0f; //tile.biome.settlementSelectionWeight;
                 }, out num))
                 {
                     if (TileFinder.IsValidTileForNewSettlement(num, null))
@@ -148,7 +148,7 @@ namespace Dwarves
                     }
                     if (tile.hilliness == Hilliness.Mountainous)
                         return 1000f;
-                    return 0f; //tile.biome.factionBaseSelectionWeight;
+                    return 0f; //tile.biome.settlementSelectionWeight;
                 }, out num))
                 {
                     if (TileFinder.IsValidTileForNewSettlement(num, null))
@@ -177,7 +177,7 @@ namespace Dwarves
                     List<int> neighbors = new List<int>();
                     if (tile.hilliness == Hilliness.LargeHills)
                         return 1000f;
-                    return 0f; //tile.biome.factionBaseSelectionWeight;
+                    return 0f; //tile.biome.settlementSelectionWeight;
                 }, out num))
                 {
                     if (TileFinder.IsValidTileForNewSettlement(num, null))

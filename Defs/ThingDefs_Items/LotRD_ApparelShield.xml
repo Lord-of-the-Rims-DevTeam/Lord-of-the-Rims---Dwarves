@@ -23,7 +23,7 @@
 			<Weapon_Bulk>2.0</Weapon_Bulk>
 		</statBases>
 		<equippedStatOffsets>
-			<ShootingAccuracy>-0.5</ShootingAccuracy>
+			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
 			<!--MoveSpeed>-1.6</MoveSpeed-->
 		</equippedStatOffsets>
 		<equippedAngleOffset>-25</equippedAngleOffset>
@@ -276,7 +276,7 @@
 			<Weapon_Bulk>2.0</Weapon_Bulk>
 		</statBases>
 		<equippedStatOffsets>
-			<ShootingAccuracy>-0.7</ShootingAccuracy>
+			<ShootingAccuracyPawn>-0.7</ShootingAccuracyPawn>
 			<!--MoveSpeed>-1.6</MoveSpeed-->
 		</equippedStatOffsets>
 		<equippedAngleOffset>-25</equippedAngleOffset>
@@ -356,7 +356,7 @@
 			<Weapon_Bulk>2.0</Weapon_Bulk>
 		</statBases>
 		<equippedStatOffsets>
-			<ShootingAccuracy>-0.6</ShootingAccuracy>
+			<ShootingAccuracyPawn>-0.6</ShootingAccuracyPawn>
 			<!--MoveSpeed>-1.6</MoveSpeed-->
 		</equippedStatOffsets>
 		<equippedAngleOffset>-25</equippedAngleOffset>

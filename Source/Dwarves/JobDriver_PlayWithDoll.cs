@@ -51,7 +51,7 @@ namespace Dwarves
                 (pawn?.story?.traits.HasTrait(TraitDefOf.Abrasive) ?? false))
                 symbol = InteractionDefOf.Insult.Symbol;
             MoteMaker.MakeInteractionBubble(pawn, null, ThingDefOf.Mote_Speech, symbol);
-//            float extraLuckFromQuality = base.TargetThingA.GetStatValue(StatDefOf.EntertainmentStrengthFactor, true);
+//            float extraLuckFromQuality = base.TargetThingA.GetStatValue(StatDefOf.JoyGainFactor, true);
 //            float extraLuckFromSmarts = pawn.skills.GetSkill(SkillDefOf.Intellectual).levelInt;
 //
 //            float yourLuckyNumber = ((1f + extraLuckFromSmarts) * extraLuckFromQuality) / 100;
