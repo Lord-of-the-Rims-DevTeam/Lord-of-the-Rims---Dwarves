@@ -63,18 +63,12 @@
     </comps>
     <tools>
       <li>
+	    <id>LotR_MeadSteinTool</id>
+		<label>ass-end</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
         <power>8</power>
-        <cooldownTime>1.8</cooldownTime>
-      </li>
-      <li>
-        <label>neck</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>5</power>
         <cooldownTime>1.8</cooldownTime>
       </li>
     </tools>

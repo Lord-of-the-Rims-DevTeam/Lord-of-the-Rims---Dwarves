@@ -22,7 +22,7 @@
 	  <MarketValue>20</MarketValue>
       <WorkToMake>24500</WorkToMake>
       <Mass>1.0</Mass>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
+      
     </statBases>
     <equippedAngleOffset>60</equippedAngleOffset>
     <stuffCategories>
@@ -93,7 +93,7 @@
     <statBases>
       <WorkToMake>26000</WorkToMake>
       <Mass>2</Mass>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
+      
     </statBases>
     <equippedAngleOffset>60</equippedAngleOffset>
     <stuffCategories>
@@ -165,7 +165,7 @@
     <statBases>
       <WorkToMake>27000</WorkToMake>
       <Mass>4.0</Mass>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
+      
     </statBases>
     <equippedAngleOffset>60</equippedAngleOffset>
     <stuffCategories>

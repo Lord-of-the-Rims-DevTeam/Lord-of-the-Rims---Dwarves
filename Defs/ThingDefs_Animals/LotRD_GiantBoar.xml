@@ -13,6 +13,7 @@
     </statBases>
     <tools>
       <li>
+	    <id>LotR_GiantBoarTuskTool</id>
         <label>tusk</label>
         <capacities>
           <li>Scratch</li>
@@ -23,6 +24,8 @@
         <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
+	    <id>LotR_GiantBoarMawTool</id>
+		<label>maw</label>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -31,6 +34,7 @@
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
+	    <id>LotR_GiantBoarHeadTool</id>
         <label>head</label>
         <capacities>
           <li>Blunt</li>

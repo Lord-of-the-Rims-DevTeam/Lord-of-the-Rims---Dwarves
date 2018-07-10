@@ -11,7 +11,7 @@
     <defName>LotRD_LeftWing</defName>
     <label>left wing</label>
     <hitPoints>10</hitPoints>
-    <permanentInjuryBaseChance>0.08</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
     <skinCovered>true</skinCovered>
     <tags>
       <li>MovingLimbCore</li>
@@ -22,7 +22,7 @@
     <defName>LotRD_RightWing</defName>
     <label>right wing</label>
     <hitPoints>10</hitPoints>
-    <permanentInjuryBaseChance>0.08</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
     <skinCovered>true</skinCovered>
     <tags>
       <li>MovingLimbCore</li>
