@@ -72,7 +72,7 @@
 			  <inFrontOfBody>true</inFrontOfBody>
 			  <layerOffset>-0.2925</layerOffset>
 			  <offsets>
-				  <front>
+				  <south>
 					<bodyTypes>
 						<Male>(-0.43,0.5155)</Male>
 						<Female>(-0.43,0.5155)</Female>
@@ -82,8 +82,8 @@
 					<crownTypes>
 						<Normal_Average>(-0.43,0.5155)</Normal_Average>
 					</crownTypes>
-				  </front>
-				  <back>
+				  </south>
+				  <north>
 					<bodyTypes>
 						<Male>(-0.43,0.5155)</Male>
 						<Female>(-0.43,0.5155)</Female>
@@ -93,8 +93,8 @@
 					<crownTypes>
 						<Normal_Average>(-0.43,0.5155)</Normal_Average>
 					</crownTypes>
-				  </back>
-				  <side>
+				  </north>
+				  <east>
 					<bodyTypes>
 						<Male>(-0.43,0.5155)</Male>
 						<Female>(-0.43,0.5155)</Female>
@@ -104,7 +104,7 @@
 					<crownTypes>
 						<Normal_Average>(-0.43,0.5155)</Normal_Average>
 					</crownTypes>
-				  </side>
+				  </east>
 			  </offsets>
 		      <useSkinColor>false</useSkinColor>
 		    </li>

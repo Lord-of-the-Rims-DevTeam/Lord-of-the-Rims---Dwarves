@@ -139,7 +139,6 @@
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>LotRD_Bow_Dwarven</thingDef>
-          <stuff>WoodLog</stuff>
         </li>
 
         <!-- Scatter some things near player start -->

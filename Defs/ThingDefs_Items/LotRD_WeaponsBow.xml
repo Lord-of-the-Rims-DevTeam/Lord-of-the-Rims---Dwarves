@@ -60,7 +60,7 @@
     </verbs>
     <tools>
       <li>
-	    <id>LotR_DwarfArrowTool</id>
+	    
 		<label>arrow</label>
         <capacities>
           <li>Blunt</li>
@@ -136,7 +136,7 @@
     </verbs>
     <tools>
       <li>
-	    <id>LotR_DwarfBoltTool</id>
+	    
 		<label>bolt</label>
         <capacities>
           <li>Blunt</li>
