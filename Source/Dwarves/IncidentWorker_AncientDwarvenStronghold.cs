@@ -74,8 +74,9 @@ namespace Dwarves
 //            this.TryFindFactions(out faction, out faction2) &&
 //                TileFinder.TryFindNewSiteTile(out num, 8, 30, false, true, -1)
             //var pirate = Find.FactionManager.FirstFactionOfDef(FactionDef.Named("Pirate"));
-            Site site = SiteMaker.MakeSite(SiteCoreDefOf.Nothing, DwarfDefOf.LotRD_AncientDwarvenStronghold, tile,
-                Find.FactionManager.FirstFactionOfDef(DwarfDefOf.LotRD_MonsterFaction));
+            var site = SiteMaker.MakeSite(SiteCoreDefOf.Nothing, DwarfDefOf.LotRD_AncientDwarvenStronghold, tile,
+                Find.FactionManager.FirstFactionOfDef(DwarfDefOf.LotRD_MonsterFaction), true, null);
+            site.sitePartsKnown = true;
             site.GetComponent<DefeatAllEnemiesQuestComp>().StartQuest(Faction.OfPlayer, 8, GenerateRewards());
             Find.WorldObjects.Add(site);
             base.SendStandardLetter(site);

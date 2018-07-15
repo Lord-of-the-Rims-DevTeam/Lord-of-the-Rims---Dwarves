@@ -57,6 +57,7 @@
     <Compile Include="GenStep_AncientDwarvenStronghold.cs" />
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="IncidentWorker_AncientDwarvenStronghold.cs" />
+    <Compile Include="SymbolResolver_FilthMaker.cs" />
     <Compile Include="ThingSetMaker_Treasure.cs" />
     <Compile Include="JobDriver_FillFermentingBarrel.cs" />
     <Compile Include="JobDriver_PlayWithDoll.cs" />

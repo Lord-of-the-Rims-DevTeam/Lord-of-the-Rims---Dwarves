@@ -28,25 +28,30 @@ namespace Dwarves
 			{
 				rectToDefend = CellRect.SingleCell(map.Center);
 			}
+			TerrainDef floorDef = TerrainDef.Named("FlagstoneGranite"); // rp.floorDef ?? BaseGenUtility.CorrespondingTerrainDef(thingDef, true);
+
 			Faction faction = Find.FactionManager.FirstFactionOfDef(DwarfDefOf.LotRD_MonsterFaction);
 			ResolveParams rp = default(ResolveParams);
 			rp.rect = this.GetOutpostRect(rectToDefend, map);
 			rp.rect = rp.rect.ExpandedBy(30);
 			Log.Message(rp.rect.minX.ToString() + " " + rp.rect.minZ.ToString());
 			rp.faction = faction;
-			rp.floorDef = TerrainDefOf.FlagstoneSandstone;
+			rp.floorDef = floorDef;
 			rp.wallStuff = ThingDefOf.BlocksGranite;
 			rp.pathwayFloorDef = TerrainDef.Named("SilverTile");
 			rp.edgeDefenseWidth = new int?(2);
 			rp.edgeDefenseTurretsCount = 0;// new int?(Rand.RangeInclusive(0, 1));
 			rp.edgeDefenseMortarsCount = new int?(0);
 			rp.settlementPawnGroupPoints = new float?(0.4f);
+			rp.chanceToSkipWallBlock = 0.1f;
 			BaseGen.globalSettings.map = map;
 //			BaseGen.globalSettings.minBuildings = 1;
 //			BaseGen.globalSettings.minBarracks = 1;
 //			BaseGen.symbolStack.Push("factionBase", resolveParams);
 			Lord singlePawnLord = rp.singlePawnLord ?? LordMaker.MakeNewLord(faction, new LordJob_DefendPoint(rp.rect.CenterCell), map, null);
 		
+			
+			
 			
 			BaseGen.symbolStack.Push("outdoorLighting", rp);
 			ResolveParams resolveParams3 = rp;
@@ -57,11 +62,17 @@ namespace Dwarves
 			BaseGen.symbolStack.Push("pawn", resolveParams3);
 			
 			ThingDef thingDef = ThingDefOf.BlocksGranite; //rp.wallStuff ?? BaseGenUtility.RandomCheapWallStuff(rp.faction, false);
-			TerrainDef floorDef = TerrainDef.Named("FlagstoneGranite"); // rp.floorDef ?? BaseGenUtility.CorrespondingTerrainDef(thingDef, true);
 		    
 			///Dragon Room
 			var dragonRoomParams = default(ResolveParams);
 			var dragonRoomRect = rp.rect.ContractedBy(Rand.Range(20, 25));
+			
+			//Rubble strewn about
+			ResolveParams rubbleEverywhere = rp;
+			rubbleEverywhere.rect = rp.rect.ContractedBy(1);
+			rubbleEverywhere.filthDef = ThingDefOf.Filth_RubbleBuilding;
+			rubbleEverywhere.chanceToSkipFloor = 0.25f;
+			BaseGen.symbolStack.Push("filthMaker", rubbleEverywhere);
 			
 			//Corpses strewn about
 			ResolveParams corpsesEverywhere = rp;
@@ -84,13 +95,23 @@ namespace Dwarves
 			throneArea.singleThingStuff = ThingDefOf.BlocksGranite;
 			BaseGen.symbolStack.Push("thing", throneArea);
 			
+			//Gold coins strewn about
+			ResolveParams coinsEverywhere = rp;
+			coinsEverywhere.rect = BottomHalf(dragonRoomRect).ContractedBy(4);
+			coinsEverywhere.filthDef = ThingDef.Named("LotRD_Filth_GoldCoins");
+			coinsEverywhere.chanceToSkipFloor = 0f;
+			coinsEverywhere.filthDensity = new FloatRange(1, 5);
+			coinsEverywhere.streetHorizontal = true;
+			BaseGen.symbolStack.Push("filthMaker", coinsEverywhere);
+			
+			
 			//Dragon horde
 			ResolveParams dragonHorde = rp;
-			dragonHorde.rect = TopHalf(dragonRoomRect); //new CellRect(dragonRoomRect.minX, (int)(dragonRoomRect.minZ + dragonRoomRect.Height / 2f), dragonRoomRect.Width, (int)(dragonRoomRect.Height / 2f));
+			dragonHorde.rect = BottomHalf(dragonRoomRect).ContractedBy(5); //new CellRect(dragonRoomRect.minX, (int)(dragonRoomRect.minZ + dragonRoomRect.Height / 2f), dragonRoomRect.Width, (int)(dragonRoomRect.Height / 2f));
 			dragonHorde.thingSetMakerDef = DwarfDefOf.LotRD_Treasure;
 			var newParamsForItemGen = new ThingSetMakerParams();
 			newParamsForItemGen.countRange = new IntRange(15, 20);
-			newParamsForItemGen.maxThingMarketValue = Rand.Range(6000, 8000);
+			newParamsForItemGen.maxThingMarketValue = Rand.Range(10000, 15000);
 			dragonHorde.thingSetMakerParams = newParamsForItemGen;
 			dragonHorde.singleThingStackCount = 250;
 			BaseGen.symbolStack.Push("stockpile", dragonHorde);
@@ -106,7 +127,8 @@ namespace Dwarves
 			ResolveParams dragonRoomWalls = dragonRoomParams;
 			dragonRoomWalls.rect = dragonRoomRect;
 			dragonRoomWalls.wallStuff = thingDef;
-			dragonRoomWalls.chanceToSkipWallBlock = 0.85f;
+			dragonRoomWalls.floorDef = floorDef;
+			dragonRoomWalls.chanceToSkipWallBlock = 0.25f;
 			BaseGen.symbolStack.Push("edgeWalls", dragonRoomWalls);	
 			BaseGen.symbolStack.Push("clear", dragonRoomParams);
 			
@@ -127,6 +149,8 @@ namespace Dwarves
 			ResolveParams resolveParams5 = abandonedBase;
 			resolveParams5.rect = rp.rect.ContractedBy(num + 10);
 			resolveParams5.faction = faction;
+			resolveParams5.wallStuff = thingDef;
+			resolveParams5.floorDef = floorDef;
 			BaseGen.symbolStack.Push("basePart_outdoors", resolveParams5);
 			/// 
 			
@@ -145,6 +169,7 @@ namespace Dwarves
 				ResolveParams towerWallParams = towerParams;
 				towerWallParams.rect = towerRect;
 				towerWallParams.wallStuff = thingDef;
+				towerWallParams.floorDef = floorDef;
 				towerWallParams.chanceToSkipWallBlock = 0.1f;
 				BaseGen.symbolStack.Push("edgeWalls", towerWallParams);	
 				BaseGen.symbolStack.Push("clear", towerParams);

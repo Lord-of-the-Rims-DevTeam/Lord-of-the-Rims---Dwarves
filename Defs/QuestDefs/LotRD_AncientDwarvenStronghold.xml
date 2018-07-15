@@ -24,52 +24,6 @@
             </fixedParams>
           </thingSetMaker>
         </li>
-        <li>
-          <weight>1</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <categories>
-                  <li>ResourcesRaw</li>
-                </categories>
-                <thingSetMakerTagsToDisallow>
-                  <li>RewardSpecial</li>
-                </thingSetMakerTagsToDisallow>
-                <disallowCheaperThan>6</disallowCheaperThan>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>6</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <tradeTagsToAllow>
-                  <li>ExoticMisc</li>
-                </tradeTagsToAllow>
-                <categories>
-                  <li>Weapons</li>
-                  <li>Apparel</li>
-                  <li>BuildingsArt</li>
-                  <li>BuildingsFurniture</li>
-                </categories>
-                <disallowedThingDefs>
-                  <li>Apparel_SmokepopBelt</li>
-                  <li>MedicineUltratech</li>
-                  <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
-                  <li>CochlearImplant</li>
-                  <li>BionicEar</li>
-                </disallowedThingDefs>
-                <thingSetMakerTagsToDisallow>
-                  <li>RewardSpecial</li>
-                  <li>AnimalPart</li>
-                </thingSetMakerTagsToDisallow>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
       </options>
     </root>
   </ThingSetMakerDef>
@@ -117,11 +71,32 @@
     <genStep Class="Dwarves.GenStep_AncientDwarvenStronghold"/>
   </GenStepDef>
   
+  
+  <ThingDef ParentName="BaseFilth">
+    <defName>LotRD_Filth_GoldCoins</defName>
+    <label>ancient coins</label>
+    <graphicData>
+      <texPath>Things/Filth/GoldCoins</texPath>
+    </graphicData>
+    <filth>
+      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+    </filth>
+  </ThingDef>
+
+  
   <RuleDef>
     <defName>LotRD_CorpseMaker</defName>
     <symbol>corpseMaker</symbol>
     <resolvers>
       <li Class="Dwarves.SymbolResolver_CorpseMaker" />
+    </resolvers>
+  </RuleDef>
+  
+  <RuleDef>
+    <defName>LotRD_FilthMaker</defName>
+    <symbol>filthMaker</symbol>
+    <resolvers>
+      <li Class="Dwarves.SymbolResolver_FilthMaker" />
     </resolvers>
   </RuleDef>
   

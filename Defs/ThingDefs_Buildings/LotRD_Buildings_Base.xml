@@ -15,5 +15,11 @@
   <ThingDef ParentName="ArtableFurnitureBase" Name="LotRD_ArtableFurnitureBase" Abstract="True">
   </ThingDef>
 
+      <ThingCategoryDef>
+      <defName>LotRD_BuildingsDwarven</defName>
+      <label>dwarven</label>
+      <parent>Buildings</parent>
+    </ThingCategoryDef>
+  
 
 </Defs>

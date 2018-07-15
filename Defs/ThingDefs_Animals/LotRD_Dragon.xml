@@ -142,6 +142,11 @@
       <thinkTreeMain>Animal</thinkTreeMain>
       <body>LotRD_DragonBody</body>
 	  <leatherDef>LotRD_Leather_Dragon</leatherDef>
+      <herdAnimal>false</herdAnimal>
+      <predator>true</predator>
+      <maxPreyBodySize>6.0</maxPreyBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <!--
 	  <leatherColor>(151,63,42)</leatherColor>
       <leatherInsulation>1.35</leatherInsulation>

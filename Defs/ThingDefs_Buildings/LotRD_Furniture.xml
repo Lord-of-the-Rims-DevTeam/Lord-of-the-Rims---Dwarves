@@ -6,6 +6,9 @@
     <defName>LotRD_GameTable</defName>
     <label>dwarven game table</label>
     <description>A table designed for playing a variety of stone throwing games. A great way to test one's strategic skills and a bit of luck.</description>
+	<thingCategories Inherit="False">
+	  <li>LotRD_BuildingsDwarven</li>
+	</thingCategories>
     <graphicData>
       <texPath>Things/Building/Joy/edmundWulfgarthDwarvenGameTable</texPath>
       <graphicClass>Graphic_Single</graphicClass>

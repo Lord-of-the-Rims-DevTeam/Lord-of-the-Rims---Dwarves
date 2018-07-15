@@ -23,6 +23,7 @@
         <e p="JoyGiver_ToyDoll.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="SymbolResolver_CorpseMaker.cs" t="Include" />
+        <e p="SymbolResolver_FilthMaker.cs" t="Include" />
         <e p="ThingSetMaker_Treasure.cs" t="Include" />
         <e p="ThingWithComps_Glower.cs" t="Include" />
         <e p="WorkGiver_FillFermentingBarrel.cs" t="Include" />
