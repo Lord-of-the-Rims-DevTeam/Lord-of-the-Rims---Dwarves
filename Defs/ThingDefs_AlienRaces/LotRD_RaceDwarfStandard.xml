@@ -23,6 +23,43 @@
   </ThingDef>
   
 
+  <AlienRace.RaceSettings>
+    <defName>LotRD_RaceSettings</defName>
+	  <pawnKindSettings>
+		<alienrefugeekinds>
+			<li>
+				<kindDefs>
+					<li>LotRD_DwarfVillager</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienrefugeekinds>
+		<alienslavekinds>
+			<li>
+				<kindDefs>
+					<li>LotRD_DwarfSlave</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienslavekinds>
+		<startingColonists>
+		  <li>
+			<pawnKindEntries>
+			  <li>
+				<kindDefs>
+				  <li>LotRD_DwarfColonist</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			  </li>
+			</pawnKindEntries>
+			<factionDefs>
+			  <li>PlayerColony</li> 
+			  <li>LotRPlayerColony</li> 
+			</factionDefs>
+		  </li>
+		</startingColonists>
+	  </pawnKindSettings>
+  </AlienRace.RaceSettings>
 
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRD_DwarfStandardRace</defName>
@@ -163,41 +200,6 @@
 		</alienPartGenerator>
 		
 	  </generalSettings>
-	  <pawnKindSettings>
-		<alienrefugeekinds>
-			<li>
-				<kindDefs>
-					<li>LotRD_DwarfVillager</li>
-				</kindDefs>
-				<chance>10.0</chance>
-			</li>
-		</alienrefugeekinds>
-		<alienslavekinds>
-			<li>
-				<kindDefs>
-					<li>LotRD_DwarfSlave</li>
-				</kindDefs>
-				<chance>10.0</chance>
-			</li>
-		</alienslavekinds>
-		<startingColonists>
-		  <li>
-			<pawnKindEntries>
-			  <li>
-				<kindDefs>
-				  <li>LotRD_DwarfColonist</li>
-				</kindDefs>
-				<chance>10.0</chance>
-			  </li>
-			</pawnKindEntries>
-			<factionDefs>
-			  <li>PlayerColony</li> 
-			  <li>LotRPlayerColony</li> 
-			</factionDefs>
-		  </li>
-		</startingColonists>
-	  </pawnKindSettings>
-	  
 	  <hairSettings>
 		<hairTags>
 			<li>LotRD_Dwarf</li>
@@ -274,7 +276,7 @@
         <power>5</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
