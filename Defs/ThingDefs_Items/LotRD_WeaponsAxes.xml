@@ -3,7 +3,7 @@
 
 <!-- Tier 1 -->
 
-  <ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_AxeGimliWalking</defName>
     <label>dwarf walking axe</label>
     <description>An axe with a very long handle. It also helps with mountain climbing.</description>
@@ -75,7 +75,7 @@
   
 <!-- Tier 2 -->
   
-  <ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_AxeBattle</defName>
     <label>dwarf battle axe</label>
     <description>A single-headed axe designed for war.</description>
@@ -147,7 +147,7 @@
 
 <!-- Tier 3 -->
 
-	<ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_AxeWarGimli</defName>
     <label>dwarf double-bearded axe</label>
     <description>A massive axe that takes two hands to wield.</description>

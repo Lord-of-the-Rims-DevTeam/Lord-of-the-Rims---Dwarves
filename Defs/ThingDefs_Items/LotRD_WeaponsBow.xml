@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="LotRD_BaseProjectileNeolithic">
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>LotRD_Arrow</defName>
     <label>dwarven arrow</label>
     <graphicData>
@@ -15,7 +15,7 @@
       <speed>50</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="LotRD_BaseWeaponNeolithic">
+  <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>LotRD_Bow_Dwarven</defName>
     <label>dwarf horn bow</label>
     <description>Efficient at both close and medium range, this heavy hitting bow is the preferred ranged weapon of the Dwarves.</description>
@@ -75,7 +75,7 @@
 	</tradeTags>
   </ThingDef>
   
-  <ThingDef ParentName="LotRD_BaseProjectileNeolithic">
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>LotRD_Bolt</defName>
     <label>dwarven bolt</label>
     <graphicData>
@@ -89,7 +89,7 @@
       <speed>60</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="LotRD_BaseWeaponNeolithic">
+  <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>LotRD_Bow_DwarvenCross</defName>
     <label>dwarf crossbow</label>
     <description>Slow recharge rate, but the heaviest hitting dwarf bow. Among the craftier dwarves, this is their ranged weapon of choice.</description>

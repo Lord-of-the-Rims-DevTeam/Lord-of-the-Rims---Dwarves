@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
-
-
-	<ThingDef ParentName="LotRD_ApparelMakeableBase">
+	<ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRD_DwarfApparel_Pants</defName>
     <label>pants</label>
 	<techLevel>Neolithic</techLevel>
@@ -25,12 +22,13 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-			<MaxHitPoints>102</MaxHitPoints>
-			<WorkToMake>8550</WorkToMake>
-      <Mass>0.45</Mass>
-      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
-      <Insulation_Cold>-3</Insulation_Cold>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
     </statBases>
     <apparel>
       <bodyPartGroups>
@@ -56,7 +54,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="LotRD_ApparelMakeableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRD_DwarfApparel_Tunic</defName>
     <description>A simple dwarven tunic wrapped with a sash.</description>
     <label>Dwarven tunic</label>
@@ -78,12 +76,13 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-			<MaxHitPoints>105</MaxHitPoints>
-			<WorkToMake>8300</WorkToMake>
-      <Mass>0.3</Mass>
-      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
-      <Insulation_Cold>-4</Insulation_Cold>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1500</WorkToMake>
+      <Mass>0.25</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
     </statBases>
 		<generateCommonality>1.0</generateCommonality>
 		<apparel>
@@ -113,13 +112,16 @@
   </ThingDef>
 
 
-	<ThingDef ParentName="LotRD_ArmorMakeableBase">
+	<ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRD_DwarfApparel_GimliArmor</defName>
     <label>longbeard-dwarf chaincoat</label>
     <description>Used by Durin's folk, this fine reinforced tabard wrapped chainmail served as a strong yet comfortable alternative to heavier armors and full plates favored by dwarves in combat.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaGimliArmor_Male_north</texPath>
@@ -134,14 +136,13 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <WorkToMake>9000</WorkToMake>
-      <MaxHitPoints>150</MaxHitPoints>
-      <Mass>9</Mass>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.33</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.25</ArmorRating_Heat>
-      <Insulation_Cold>-45</Insulation_Cold>
-      <Insulation_Heat>0</Insulation_Heat>
+      <WorkToMake>28000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>10</Mass>
+      <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>10</EquipDelay>
     </statBases>
     <thingCategories>
       <li>Apparel</li>
@@ -174,13 +175,16 @@
 	</tradeTags>
   </ThingDef>
   
-	<ThingDef ParentName="LotRD_ArmorMakeableBase">
+	<ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRD_DwarfApparel_IronHillArmor</defName>
     <label>hill-dwarf armor</label>
     <description>Used by the Dwarves of the Iron Hills, this armor appeared most prominently during the Battle of the Five Armies.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaIronHillArmor_Male_north</texPath>
@@ -191,13 +195,13 @@
       <li>Metallic</li>
     </stuffCategories>
     <statBases>
-      <WorkToMake>17000</WorkToMake>
-      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToMake>30000</WorkToMake>
+      <MaxHitPoints>275</MaxHitPoints>
       <Mass>15</Mass>
-      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.20</ArmorRating_Heat>
-      <Insulation_Cold>-45</Insulation_Cold>
+      <StuffEffectMultiplierArmor>0.8</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
@@ -232,13 +236,16 @@
 	</tradeTags>
   </ThingDef>
   
-	<ThingDef ParentName="LotRD_ArmorMakeableBase">
+	<ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRD_DwarfApparel_MoriaBattleArmor</defName>
     <label>mountain-dwarf armor</label>
     <description>Used by the Dwarves of Moria, this sturdy battle armor helped prolong their survival during the Battle of Moria.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Dwarf/Apparel/Armor/sheidulaMoriaBattleArmorDisplay</texPath>
@@ -249,13 +256,13 @@
       <li>Metallic</li>
     </stuffCategories>
     <statBases>
-      <WorkToMake>17000</WorkToMake>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Mass>15</Mass>
-      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.20</ArmorRating_Heat>
-      <Insulation_Cold>-45</Insulation_Cold>
+      <WorkToMake>30000</WorkToMake>
+      <MaxHitPoints>325</MaxHitPoints>
+      <Mass>20</Mass>
+      <StuffEffectMultiplierArmor>0.83</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>16</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>

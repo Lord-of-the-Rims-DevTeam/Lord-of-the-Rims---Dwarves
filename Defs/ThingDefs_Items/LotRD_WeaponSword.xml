@@ -3,7 +3,7 @@
 
 
 
-	<ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_DwarfSword</defName>
     <label>noble dwarf-sword</label>
     <description>A finely crafted Dwarven blade, suitable for noble Dwarves demonstrating their heraldry.</description>
@@ -71,7 +71,7 @@
 	</tradeTags>
   </ThingDef>
 
-	<ThingDef ParentName="LotRD_BaseMeleeWeapon_Sharp_Quality">
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRD_MeleeWeapon_DwarfSwordBandit</defName>
     <label>dwarf-sword</label>
     <description>A jagged toothed Dwarven blade, suited utility as well as combat.</description>
