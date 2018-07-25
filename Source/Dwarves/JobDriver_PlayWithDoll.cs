@@ -18,7 +18,7 @@ namespace Dwarves
             get { return this.job.GetTarget(TargetIndex.A).Thing; }
         }
 
-        public override bool TryMakePreToilReservations()
+        public override bool TryMakePreToilReservations(bool yeaa)
         {
             return this.pawn.Reserve(PuzzleBox, this.job, 1, -1, null);
         }

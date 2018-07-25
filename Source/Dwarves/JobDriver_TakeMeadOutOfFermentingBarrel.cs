@@ -15,7 +15,7 @@ namespace Dwarves
         protected Building_FermentingMeadBarrel MeadBarrel =>
             (Building_FermentingMeadBarrel) job.GetTarget(BarrelInd).Thing;
 
-        public override bool TryMakePreToilReservations() => pawn.Reserve(MeadBarrel, job, 1, -1, null);
+        public override bool TryMakePreToilReservations(bool yeaa) => pawn.Reserve(MeadBarrel, job, 1, -1, null);
 
         protected override IEnumerable<Toil> MakeNewToils()
         {

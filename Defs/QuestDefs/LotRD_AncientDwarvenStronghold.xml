@@ -32,9 +32,9 @@
 		<defName>LotRD_QuestAncientStronghold</defName>
 		<label>ancient dwarven stronghold</label>
 		<category>Misc</category>
-    <targetTypes>
+    <targetTags>
       <li>World</li>
-    </targetTypes>
+    </targetTags>
 		<workerClass>Dwarves.IncidentWorker_AncientDwarvenStronghold</workerClass>
 		<letterLabel>ancient dwarven stronghold</letterLabel>
 		<letterText>Ancient things rest deep in the earth where dwarves have dug too deep and reaped the consequences. Untold treasures lie in wait, possessed by a creature most fearsome with flame. Should we dare risk such dangers?</letterText>

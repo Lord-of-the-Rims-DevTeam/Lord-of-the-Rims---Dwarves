@@ -22,7 +22,7 @@ namespace Dwarves
             }
         }
 
-        public override bool TryMakePreToilReservations()
+        public override bool TryMakePreToilReservations(bool yeaa)
         {
             return this.pawn.Reserve(PuzzleBox, this.job, 1, -1, null);
         }
