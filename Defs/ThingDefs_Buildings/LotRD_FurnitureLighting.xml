@@ -79,6 +79,7 @@
     </comps>
 	<placeWorkers>
       <li>PlaceWorker_Heater</li>
+      <li>PlaceWorker_CeilingBuilding</li>
     </placeWorkers>
     <designationCategory>Furniture</designationCategory>
   </ThingDef>
@@ -301,7 +302,7 @@
     <graphicData>
       <texPath>Things/Building/Furniture/edmundWulfgarthDwarvenWallLight</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawRotated>false</drawRotated>
+      <drawRotated>true</drawRotated>
 	  <shaderType>CutoutComplex</shaderType>
       <damageData>
         <rect>(0.35,0.35,0.3,0.3)</rect>
@@ -316,7 +317,7 @@
       <Steel>3</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>	  
 	</costList>	
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <passability>PassThroughOnly</passability>
 	<pathCost>8</pathCost>
@@ -340,6 +341,9 @@
       </li>
       <li Class="CompProperties_Flickable"/>	  
     </comps>
+    <placeWorkers>
+      <li>PlaceWorker_WallBuilding</li>
+    </placeWorkers>
     <designationCategory>Furniture</designationCategory>
   </ThingDef>
 
