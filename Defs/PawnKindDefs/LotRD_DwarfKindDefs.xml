@@ -98,7 +98,7 @@
       <max>0.8</max>
     </gearHealthRange>
 	<apparelTags>
-      <li>Outlander</li>
+      <li>IndustrialBasic</li><li>IndustrialAdvanced</li>
     </apparelTags>
     <apparelMoney>
       <min>150</min>
@@ -132,7 +132,7 @@
     <isFighter>true</isFighter>
     <combatPower>200</combatPower>
     <apparelTags>
-      <li>Outlander</li>
+      <li>IndustrialBasic</li><li>IndustrialAdvanced</li>
       <li>LotR_DwarfMilitary</li>
       <li>LotR_DwarfNoble</li>
     </apparelTags>
@@ -170,7 +170,7 @@
 	<isFighter>true</isFighter>
     <combatPower>200</combatPower>
     <apparelTags>
-      <li>Outlander</li>
+      <li>IndustrialBasic</li><li>IndustrialAdvanced</li>
       <li>LotR_DwarfMilitary</li>
       <li>LotR_DwarfNoble</li>
     </apparelTags>
@@ -267,15 +267,17 @@
   <PawnKindDef ParentName="LotRD_DwarfVillager">
     <defName>LotRD_DwarfThief</defName>
     <label>dwarf thief</label>
+    <isFighter>true</isFighter>
   </PawnKindDef>
   
   <PawnKindDef ParentName="LotRD_DwarfGuard">
     <defName>LotRD_DwarfBandit</defName>
     <label>dwarf bandit</label>
 	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
+    <isFighter>true</isFighter>
 	<apparelTags>
       <li>LotR_DwarfGuard</li>
-      <li>Outlander</li>
+      <li>IndustrialBasic</li><li>IndustrialAdvanced</li>
     </apparelTags>
 	<weaponTags>
       <li>NeolithicMeleeAdvanced</li>
@@ -291,9 +293,10 @@
     <defName>LotRD_DwarfBanditHunter</defName>
     <label>dwarf brigand</label>
 	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
+    <isFighter>true</isFighter>
 	<apparelTags>
       <li>LotR_DwarfGuard</li>
-      <li>Outlander</li>
+      <li>IndustrialBasic</li><li>IndustrialAdvanced</li>
     </apparelTags>
 	<weaponTags>
       <li>NeolithicRangedHeavy</li>
@@ -310,6 +313,7 @@
     <defName>LotRD_DwarfBanditTough</defName>
     <label>dwarf marauder</label>
 	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
+    <isFighter>true</isFighter>
     <combatPower>160</combatPower>
 	<apparelRequired>
       <li>LotRD_DwarfApparel_IronHillArmor</li>
@@ -346,6 +350,7 @@
     <defName>LotRD_DwarfBanditToughRanged</defName>
     <label>dwarf highwayman</label>
 	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
+    <isFighter>true</isFighter>
     <combatPower>160</combatPower>
 	<apparelRequired>
       <li>LotRD_DwarfApparel_IronHillArmor</li>

@@ -79,7 +79,7 @@
     </comps>
 	<placeWorkers>
       <li>PlaceWorker_Heater</li>
-      <li>PlaceWorker_CeilingBuilding</li>
+      <li>JecsTools.PlaceWorker_UnderCeiling</li>
     </placeWorkers>
     <designationCategory>Furniture</designationCategory>
   </ThingDef>
@@ -342,7 +342,7 @@
       <li Class="CompProperties_Flickable"/>	  
     </comps>
     <placeWorkers>
-      <li>PlaceWorker_WallBuilding</li>
+      <li>JecsTools.PlaceWorker_OnTopOfWalls</li>
     </placeWorkers>
     <designationCategory>Furniture</designationCategory>
   </ThingDef>

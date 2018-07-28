@@ -54,10 +54,17 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Combat</kindDef>
+        <kindDef>Peaceful</kindDef>
         <options>
 			<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
 			<LotRD_DwarfVillager>100</LotRD_DwarfVillager>
+			<LotRD_DwarfSoldierMountain>20</LotRD_DwarfSoldierMountain>
+		</options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+			<LotRD_DwarfGuardMountain>100</LotRD_DwarfGuardMountain>
 			<LotRD_DwarfSoldierMountain>20</LotRD_DwarfSoldierMountain>
 			<LotRD_DwarfKing>5</LotRD_DwarfKing>
 		</options>
@@ -146,9 +153,16 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Combat</kindDef>
+        <kindDef>Peaceful</kindDef>
         <options>
 			<LotRD_DwarfVillager>50</LotRD_DwarfVillager>
+			<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
+			<LotRD_DwarfSoldierHill>20</LotRD_DwarfSoldierHill>
+		</options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
 			<LotRD_DwarfGuardHill>100</LotRD_DwarfGuardHill>
 			<LotRD_DwarfSoldierHill>20</LotRD_DwarfSoldierHill>
 			<LotRD_DwarfSoldierHillHogRider>123</LotRD_DwarfSoldierHillHogRider>
@@ -241,6 +255,16 @@
       <max>45</max>
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+			<LotRD_DwarfThief>50</LotRD_DwarfThief>
+			<LotRD_DwarfBandit>100</LotRD_DwarfBandit>
+			<LotRD_DwarfBanditHunter>100</LotRD_DwarfBanditHunter>
+			<LotRD_DwarfBanditTough>123</LotRD_DwarfBanditTough>
+			<LotRD_DwarfBanditToughRanged>123</LotRD_DwarfBanditToughRanged>
+		</options>
+      </li>
       <li>
         <kindDef>Combat</kindDef>
         <options>
