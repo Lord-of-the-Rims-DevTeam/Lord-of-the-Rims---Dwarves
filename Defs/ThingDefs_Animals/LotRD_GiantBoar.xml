@@ -109,15 +109,16 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/GiantBoar/GiantBoar</texPath>
           <drawSize>1.5</drawSize>
-		  <shaderType>CutoutComplex</shaderType>
+		      <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.30, 0.25, 0.20)</volume>
           </shadowData>
           <color>(107,89,66)</color>
         </bodyGraphicData>
+
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
+          <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -131,8 +132,8 @@
           <color>(107,89,66)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.7</drawSize>
+          <texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
+          <drawSize>3.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -147,8 +148,8 @@
           <color>(107,89,66)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.3</drawSize>
+          <texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
+          <drawSize>4.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
