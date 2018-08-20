@@ -7,7 +7,7 @@
 	<race>LotRD_DwarfStandardRace</race>
     <label>colonist (dwarf)</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
+    <backstoryCategories><li>LotR_BackstoryDwarf</li></backstoryCategories>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelTags>
       <li>Spacer</li>
@@ -25,7 +25,7 @@
 	<race>LotRD_DwarfStandardRace</race>
     <label>dwarf-villager</label>
 	<defaultFactionType>LotRD_MountainKingdom</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
+    <backstoryCategories><li>LotR_BackstoryDwarf</li></backstoryCategories>
     <combatPower>30</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -88,7 +88,7 @@
     <race>LotRD_DwarfStandardRace</race>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
 	<defaultFactionType>LotRD_MountainKingdom</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
+    <backstoryCategories><li>LotR_BackstoryDwarf</li></backstoryCategories>
     <itemQuality>Shoddy</itemQuality>
     <backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
     <isFighter>false</isFighter>
@@ -196,7 +196,7 @@
     <label>dwarf-guard</label>
 	<race>LotRD_DwarfStandardRace</race>
 	<defaultFactionType>LotRD_MountainKingdom</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryDwarf</backstoryCategory>
+    <backstoryCategories><li>LotR_BackstoryDwarf</li></backstoryCategories>
     <combatPower>120</combatPower>
     <isFighter>true</isFighter>
     <maxGenerationAge>6500</maxGenerationAge>

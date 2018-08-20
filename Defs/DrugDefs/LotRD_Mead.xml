@@ -20,7 +20,7 @@
     </statBases>
     <ingestible>
       <foodType>Fluid, Processed, Liquor</foodType>
-      <joy>0.19</joy>
+      <joy>0.21</joy>
       <joyKind>Chemical</joyKind>
       <nurseable>true</nurseable>
       <drugCategory>Social</drugCategory>
@@ -36,12 +36,12 @@
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AlcoholHigh</hediffDef>
-          <severity>0.15</severity>
+          <severity>0.07</severity>
           <toleranceChemical>Alcohol</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AlcoholTolerance</hediffDef>
-          <severity>0.032</severity>
+          <severity>0.012</severity>
 					<divideByBodySize>true</divideByBodySize>
 				</li>
       </outcomeDoers>
@@ -63,7 +63,6 @@
     </comps>
     <tools>
       <li>
-	    
 		<label>ass-end</label>
         <capacities>
           <li>Blunt</li>

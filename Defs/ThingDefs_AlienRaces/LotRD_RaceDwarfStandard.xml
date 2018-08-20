@@ -69,7 +69,7 @@
 	  <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
 	    <maleGenderProbability>0.85</maleGenderProbability>
-	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+	    <allowHumanBios>false</allowHumanBios>
 	    <notXenophobistTowards>
 		  <li>LotRH_HobbitStandardRace</li>
 	    </notXenophobistTowards>
