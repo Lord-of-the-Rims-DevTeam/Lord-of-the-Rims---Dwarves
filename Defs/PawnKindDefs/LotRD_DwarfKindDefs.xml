@@ -10,7 +10,7 @@
     <backstoryCategories><li>LotR_BackstoryDwarf</li></backstoryCategories>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelTags>
-      <li>Spacer</li>
+      <li>LotR_DwarfVillager</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>

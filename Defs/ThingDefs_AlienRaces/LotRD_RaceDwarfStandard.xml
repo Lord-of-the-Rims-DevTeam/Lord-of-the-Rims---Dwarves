@@ -97,6 +97,9 @@
 			</li>
 		</forcedRaceTraitEntries>
 	    <alienPartGenerator>
+			<alienbodytypes>
+				<li>Male</li>
+			</alienbodytypes>
 	      <customDrawSize>(1.15, 0.8)</customDrawSize>
 		  <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 		  <customPortraitDrawSize>(1.15, 0.8)</customPortraitDrawSize>
