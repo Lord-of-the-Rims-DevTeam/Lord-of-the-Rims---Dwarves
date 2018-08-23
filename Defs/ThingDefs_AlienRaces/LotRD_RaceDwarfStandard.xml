@@ -111,7 +111,7 @@
 			  <drawSize>1</drawSize>
 			  <!-- drawSize>(0.85, 1.2)</drawSize  -->
 			  <inFrontOfBody>true</inFrontOfBody>
-			  <layerOffset>-0.2925</layerOffset>
+			  <layerOffset>-0.29</layerOffset>
 			  <offsets>
 				  <south>
 					<bodyTypes>
