@@ -29,7 +29,9 @@
     </startingGoodwill>
 		<settlementNameMaker>LotRD_NamerFactionBaseDwarfMountain</settlementNameMaker>
 		<techLevel>Medieval</techLevel>
-		<backstoryCategories><li>Civil</li></backstoryCategories>
+		<backstoryCategories>
+    <li>LotR_BackstoryDwarf</li>
+    </backstoryCategories>
 		<geneticVariance>0.8</geneticVariance>
 		<hairTags>
 			<li>Rural</li>
@@ -128,7 +130,7 @@
     </startingGoodwill>
 		<settlementNameMaker>LotRD_NamerFactionBaseDwarfHills</settlementNameMaker>
 		<techLevel>Medieval</techLevel>
-		<backstoryCategories><li>Civil</li></backstoryCategories>
+		<backstoryCategories><li>LotR_BackstoryDwarf</li></backstoryCategories>
 		<geneticVariance>0.8</geneticVariance>
 		<hairTags>
 			<li>Rural</li>
