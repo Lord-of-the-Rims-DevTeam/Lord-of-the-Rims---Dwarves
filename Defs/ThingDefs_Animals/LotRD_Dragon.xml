@@ -39,6 +39,7 @@
     </statFactors>
   </LifeStageDef>
   
+  
   <PawnKindDef>
     <defName>LotRD_DragonFireDrake</defName>
     <label>dragon (fire drake)</label>
@@ -56,6 +57,10 @@
             <volume>(0.6, 0.8, 0.6)</volume>
           </shadowData>
         </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dragon/FireDrake_Dessicated</texPath>
+          <drawSize>5.5</drawSize>
+        </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
@@ -66,6 +71,10 @@
             <volume>(0.6, 0.8, 0.6)</volume>
           </shadowData>
         </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dragon/FireDrake_Dessicated</texPath>
+          <drawSize>10.0</drawSize>
+        </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
@@ -76,6 +85,10 @@
             <volume>(0.6, 0.8, 0.6)</volume>
           </shadowData>
         </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dragon/FireDrake_Dessicated</texPath>
+          <drawSize>13.0</drawSize>
+        </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
