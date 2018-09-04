@@ -11,7 +11,7 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>ArrowHighVelocity</damageDef>
-      <damageAmountBase>23</damageAmountBase>
+      <damageAmountBase>15</damageAmountBase>
       <speed>50</speed>
     </projectile>
   </ThingDef>
@@ -85,7 +85,7 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>ArrowHighVelocity</damageDef>
-      <damageAmountBase>27</damageAmountBase>
+      <damageAmountBase>21</damageAmountBase>
       <speed>60</speed>
     </projectile>
   </ThingDef>

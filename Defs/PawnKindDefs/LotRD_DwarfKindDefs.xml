@@ -46,10 +46,6 @@
       <max>900</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-    <weaponMoney>
-      <min>20</min>
-      <max>250</max>
-    </weaponMoney>
     <weaponTags>
       <li>DwarvenMeleeTier1</li>
     </weaponTags>
@@ -274,6 +270,10 @@
     <defName>LotRD_DwarfThief</defName>
     <label>dwarf thief</label>
     <isFighter>true</isFighter>
+    <weaponMoney>
+      <min>370</min>
+      <max>500</max>
+    </weaponMoney>
   </PawnKindDef>
   
   <PawnKindDef ParentName="LotRD_DwarfGuard">
