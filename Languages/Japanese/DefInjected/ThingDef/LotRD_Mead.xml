@@ -3,12 +3,11 @@
 
   <LotRD_Mead.label>ドワーフ蜂蜜酒</LotRD_Mead.label>
   <LotRD_Mead.description>中つ国全域で大人気のアルコール飲料です。蜂蜜酒の酒壺ほどドワーフたちに家を思い出させるものはありません。その甘さが特徴の全てでしょう。ただし中毒を引き起こすので注意が必要です。度を過ぎた消費は、ビールと同様にアルコール中毒を引き起こす可能性があります。</LotRD_Mead.description>
-  <LotRD_Mead.tools.1.label>酒瓶</LotRD_Mead.tools.1.label>
-  <LotRD_Mead.ingestible.ingestCommandString>{0} を飲む</LotRD_Mead.ingestible.ingestCommandString>
-  <LotRD_Mead.ingestible.ingestReportString>{0} を飲んでいる</LotRD_Mead.ingestible.ingestReportString>
+  <LotRD_Mead.tools.0.label>酒瓶の底</LotRD_Mead.tools.0.label>
+  <LotRD_Mead.ingestible.ingestCommandString>{0}を飲む</LotRD_Mead.ingestible.ingestCommandString>
+  <LotRD_Mead.ingestible.ingestReportString>{0}を飲んでいる</LotRD_Mead.ingestible.ingestReportString>
 
   <LotRD_MeadWort.label>蜂蜜汁</LotRD_MeadWort.label>
   <LotRD_MeadWort.description>発酵前のドワーフ蜂蜜酒です。この液体は、アルコール飲料であるドワーフ蜂蜜酒にする前にミード樽で発酵させる必要があります。</LotRD_MeadWort.description>
-
 
 </LanguageData>

@@ -2,7 +2,6 @@
 <LanguageData>
 
   <LotRD_DwarfTraitsGiver.hediffGivers.3.letterLabel>サヴァン症候群</LotRD_DwarfTraitsGiver.hediffGivers.3.letterLabel>
-  <LotRD_DwarfTraitsGiver.hediffGivers.3.letter>NAMEの脳への損傷は、HIMに天才のような奇妙な能力を発現させました。</LotRD_DwarfTraitsGiver.hediffGivers.3.letter>
-
+  <LotRD_DwarfTraitsGiver.hediffGivers.3.letter>[PAWN_nameDef]の脳への損傷は、[PAWN_objective]天才のような奇妙な能力に目覚めさせました。</LotRD_DwarfTraitsGiver.hediffGivers.3.letter>
 
 </LanguageData>

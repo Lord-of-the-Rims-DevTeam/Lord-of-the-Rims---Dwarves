@@ -9,13 +9,13 @@
   <LotRD_DragonFireDrakeRace.tools.1.label>鉤爪(左)</LotRD_DragonFireDrakeRace.tools.1.label>
   <LotRD_DragonFireDrakeRace.tools.2.label>鉤爪(右)</LotRD_DragonFireDrakeRace.tools.2.label>
   <LotRD_DragonFireDrakeRace.tools.3.label>翼</LotRD_DragonFireDrakeRace.tools.3.label>
-  <LotRD_DragonFireDrakeRace_Leather.label>ドラゴンの鱗(火竜)</LotRD_DragonFireDrakeRace_Leather.label>
-  <LotRD_DragonFireDrakeRace_Leather.description>ドラゴンの鱗(火竜)</LotRD_DragonFireDrakeRace_Leather.description>
-  <LotRD_DragonFireDrakeRace_Leather.stuffProps.stuffAdjective>ドラゴンの鱗(火竜)</LotRD_DragonFireDrakeRace_Leather.stuffProps.stuffAdjective>
-  <LotRD_DragonFireDrakeRace_Meat.label>ドラゴン(火竜)の肉</LotRD_DragonFireDrakeRace_Meat.label>
-  <LotRD_DragonFireDrakeRace_Meat.description>ドラゴン(火竜)の肉</LotRD_DragonFireDrakeRace_Meat.description>
-  <LotRD_DragonFireDrakeRace_Corpse.label>ドラゴン(火竜)の死骸</LotRD_DragonFireDrakeRace_Corpse.label>
-  <LotRD_DragonFireDrakeRace_Corpse.description>ドラゴン(火竜)の死骸</LotRD_DragonFireDrakeRace_Corpse.description>
+  <Meat_LotRD_DragonFireDrakeRace.label>ドラゴン(火竜)の肉</Meat_LotRD_DragonFireDrakeRace.label>
+  <Meat_LotRD_DragonFireDrakeRace.description>ドラゴン(火竜)の肉</Meat_LotRD_DragonFireDrakeRace.description>
+  <Corpse_LotRD_DragonFireDrakeRace.label>ドラゴン(火竜)の死骸</Corpse_LotRD_DragonFireDrakeRace.label>
+  <Corpse_LotRD_DragonFireDrakeRace.description>ドラゴン(火竜)の死骸</Corpse_LotRD_DragonFireDrakeRace.description>
 
+  <LotRD_Leather_Dragon.label>ドラゴンの革(火竜)</LotRD_Leather_Dragon.label>
+  <LotRD_Leather_Dragon.description>なめした皮とドラゴンの鱗です。価値が高く、非常に耐久性があります。その断熱性と強靭さを生かす最高品質の工芸品を作る材料として利用されます。</LotRD_Leather_Dragon.description>
+  <LotRD_Leather_Dragon.stuffProps.stuffAdjective>ドラゴンの革(火竜)</LotRD_Leather_Dragon.stuffProps.stuffAdjective>
 
 </LanguageData>

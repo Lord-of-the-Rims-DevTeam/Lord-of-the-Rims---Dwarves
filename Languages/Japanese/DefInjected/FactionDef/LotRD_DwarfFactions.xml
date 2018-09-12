@@ -6,18 +6,20 @@
   <LotRD_MountainKingdom.fixedName>山の下の王国</LotRD_MountainKingdom.fixedName>
   <LotRD_MountainKingdom.pawnsPlural>山ドワーフ</LotRD_MountainKingdom.pawnsPlural>
   <LotRD_MountainKingdom.leaderTitle>王</LotRD_MountainKingdom.leaderTitle>
+  <LotRD_MountainKingdom.pawnSingular>国民</LotRD_MountainKingdom.pawnSingular>
 
   <LotRD_HillClans.label>丘ドワーフ氏族</LotRD_HillClans.label>
   <LotRD_HillClans.description>第一紀の頃にドワーフによって入植され、くろがね連山と呼ばれる鉄が豊富に採掘できる丘陵地帯に住む長髭族のドワーフ達です。</LotRD_HillClans.description>
   <LotRD_HillClans.fixedName>丘ドワーフ氏族</LotRD_HillClans.fixedName>
   <LotRD_HillClans.pawnsPlural>丘ドワーフ</LotRD_HillClans.pawnsPlural>
   <LotRD_HillClans.leaderTitle>王</LotRD_HillClans.leaderTitle>
+  <LotRD_HillClans.pawnSingular>一員</LotRD_HillClans.pawnSingular>
 
   <LotRD_DwarfBandits.label>ドワーフの山賊</LotRD_DwarfBandits.label>
   <LotRD_DwarfBandits.description>最後の同盟の戦いでサウロンに付いた悪のドワーフたちです。氏族から追放されたドワーフたちによって組織された大規模な山賊集団です。</LotRD_DwarfBandits.description>
   <LotRD_DwarfBandits.fixedName>ドワーフの山賊</LotRD_DwarfBandits.fixedName>
   <LotRD_DwarfBandits.pawnsPlural>山賊ドワーフ</LotRD_DwarfBandits.pawnsPlural>
   <LotRD_DwarfBandits.leaderTitle>ボス</LotRD_DwarfBandits.leaderTitle>
-
+  <LotRD_DwarfBandits.pawnSingular>手下</LotRD_DwarfBandits.pawnSingular>
 
 </LanguageData>

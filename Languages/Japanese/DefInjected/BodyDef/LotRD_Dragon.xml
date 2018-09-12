@@ -2,6 +2,37 @@
 <LanguageData>
 
   <LotRD_DragonBody.label>ドラゴン</LotRD_DragonBody.label>
-
+  <LotRD_DragonBody.corePart.parts.left_lung.customLabel>左肺</LotRD_DragonBody.corePart.parts.left_lung.customLabel>
+  <LotRD_DragonBody.corePart.parts.right_lung.customLabel>右肺</LotRD_DragonBody.corePart.parts.right_lung.customLabel>
+  <LotRD_DragonBody.corePart.parts.left_kidney.customLabel>左腎臓</LotRD_DragonBody.corePart.parts.left_kidney.customLabel>
+  <LotRD_DragonBody.corePart.parts.right_kidney.customLabel>右腎臓</LotRD_DragonBody.corePart.parts.right_kidney.customLabel>
+  <LotRD_DragonBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>左眼</LotRD_DragonBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <LotRD_DragonBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>右眼</LotRD_DragonBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <LotRD_DragonBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>左耳</LotRD_DragonBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <LotRD_DragonBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>右耳</LotRD_DragonBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_left_leg.customLabel>左前肢</LotRD_DragonBody.corePart.parts.front_left_leg.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_first_claw.customLabel>左前肢大爪</LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_first_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_second_claw.customLabel>左前肢次爪</LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_second_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_third_claw.customLabel>左前肢中爪</LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_third_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_fourth_claw.customLabel>左前肢四爪</LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_fourth_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_fifth_claw.customLabel>左前肢五爪</LotRD_DragonBody.corePart.parts.front_left_leg.parts.front_left_leg_fifth_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_right_leg.customLabel>右前肢</LotRD_DragonBody.corePart.parts.front_right_leg.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_first_claw.customLabel>右前肢大爪</LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_first_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_second_claw.customLabel>右前肢次爪</LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_second_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_third_claw.customLabel>右前肢中爪</LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_third_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_fourth_claw.customLabel>右前肢四爪</LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_fourth_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_fifth_claw.customLabel>右前肢五爪</LotRD_DragonBody.corePart.parts.front_right_leg.parts.front_right_leg_fifth_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_left_leg.customLabel>左後肢</LotRD_DragonBody.corePart.parts.rear_left_leg.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_first_claw.customLabel>左後肢大爪</LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_first_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_second_claw.customLabel>左後肢次爪</LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_second_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_third_claw.customLabel>左後肢中爪</LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_third_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_fourth_claw.customLabel>左後肢四爪</LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_fourth_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_fifth_claw.customLabel>左後肢五爪</LotRD_DragonBody.corePart.parts.rear_left_leg.parts.rear_left_leg_fifth_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_right_leg.customLabel>右後肢</LotRD_DragonBody.corePart.parts.rear_right_leg.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_first_claw.customLabel>右後肢大爪</LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_first_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_second_claw.customLabel>右後肢次爪</LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_second_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_third_claw.customLabel>右後肢中爪</LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_third_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>右後肢四爪</LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>
+  <LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_fifth_claw.customLabel>右後肢五爪</LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_fifth_claw.customLabel>
 
 </LanguageData>

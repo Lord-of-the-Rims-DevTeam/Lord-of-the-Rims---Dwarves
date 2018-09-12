@@ -3,9 +3,8 @@
 
   <LotRD_WallDwarven.label>強化壁(ドワーフ)</LotRD_WallDwarven.label>
   <LotRD_WallDwarven.description>これらの壁は、特別に補強する控え壁(バットレス)を利用して、ドワーフの拠点に強化された完璧な壁を提供します。</LotRD_WallDwarven.description>
-  <LotRD_WallDwarven_Blueprint.label>強化壁(ドワーフ)(設計)</LotRD_WallDwarven_Blueprint.label>
-  <LotRD_WallDwarven_Frame.label>強化壁(ドワーフ)(施工)</LotRD_WallDwarven_Frame.label>
-  <LotRD_WallDwarven_Frame.description>これらの壁は、特別に補強する控え壁(バットレス)を利用して、ドワーフの拠点に強化された完璧な壁を提供します。</LotRD_WallDwarven_Frame.description>
-
+  <Blueprint_LotRD_WallDwarven.label>強化壁(ドワーフ)(設計)</Blueprint_LotRD_WallDwarven.label>
+  <Frame_LotRD_WallDwarven.label>強化壁(ドワーフ)(施工)</Frame_LotRD_WallDwarven.label>
+  <Frame_LotRD_WallDwarven.description>これらの壁は、特別に補強する控え壁(バットレス)を利用して、ドワーフの拠点に強化された完璧な壁を提供します。</Frame_LotRD_WallDwarven.description>
 
 </LanguageData>
