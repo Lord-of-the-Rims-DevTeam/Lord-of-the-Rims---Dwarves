@@ -280,6 +280,7 @@
     <defName>LotRD_DwarfBandit</defName>
     <label>dwarf bandit</label>
 	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
+    <combatPower>240</combatPower>
     <isFighter>true</isFighter>
 	<apparelTags>
       <li>LotR_DwarfGuard</li>
@@ -299,6 +300,7 @@
   <PawnKindDef ParentName="LotRD_DwarfGuard">
     <defName>LotRD_DwarfBanditHunter</defName>
     <label>dwarf brigand</label>
+	<combatPower>240</combatPower>
 	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
     <isFighter>true</isFighter>
 	<apparelTags>
@@ -322,7 +324,7 @@
     <label>dwarf marauder</label>
 	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
     <isFighter>true</isFighter>
-    <combatPower>160</combatPower>
+    <combatPower>240</combatPower>
 	<apparelRequired>
       <li>LotRD_DwarfApparel_IronHillArmor</li>
     </apparelRequired>
@@ -359,7 +361,7 @@
     <label>dwarf highwayman</label>
 	<defaultFactionType>LotRD_DwarfBandits</defaultFactionType>
     <isFighter>true</isFighter>
-    <combatPower>160</combatPower>
+    <combatPower>280</combatPower>
 	<apparelRequired>
       <li>LotRD_DwarfApparel_IronHillArmor</li>
     </apparelRequired>
