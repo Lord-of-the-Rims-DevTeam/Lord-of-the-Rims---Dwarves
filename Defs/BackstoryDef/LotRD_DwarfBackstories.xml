@@ -53,7 +53,7 @@
 <AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
     <defName>LotRD_jecrellBackstoryChildThree</defName>
     <title>Dwarf guarded child</title>
-    <baseDescription>As a child, [PAWN_nameDef] spent [PAWN_possessive] childhood under incredible care and watchful eyes. [PAWN_possessive]CAP parents made sure no harm or conflict came to [PAWN_objective].</baseDescription>
+    <baseDescription>As a child, [PAWN_nameDef] spent [PAWN_possessive] childhood under incredible care and watchful eyes. [PAWN_possessive] parents made sure no harm or conflict came to [PAWN_objective].</baseDescription>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
@@ -294,7 +294,7 @@
 <AlienRace.BackstoryDef ParentName="LotRD_BackstoryDwarf">
     <defName>LotRD_jecrellBackstoryAdultNine</defName>
     <title>Dwarf cook</title>
-    <baseDescription>[PAWN_nameDef] provides all [PAWN_possessive] kin with meals hot and ready like freshly forged steel. [PAWN_possessive]CAP expertise with hammering out dough is renowned in the halls of the underground kingdoms.</baseDescription>
+    <baseDescription>[PAWN_nameDef] provides all [PAWN_possessive] kin with meals hot and ready like freshly forged steel. [PAWN_possessive] expertise with hammering out dough is renowned in the halls of the underground kingdoms.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
