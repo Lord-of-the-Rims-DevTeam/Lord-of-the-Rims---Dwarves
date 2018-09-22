@@ -1,10 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ModMetaData>
-  <name>Lord of the Rims - Dwarves</name>
-  <author>Jecrell</author>
-  <targetVersion>0.19.0</targetVersion>
-  <description>1.19.0.4 (09-22-2018)
-
 Lord of the Rims - Dwarves is a mod package that is part of the Lord of the Rims series for RimWorld. 
 The mod adds in a number of dwarf-related content such as:
   * Dwarves as a playable race
@@ -14,5 +7,4 @@ The mod adds in a number of dwarf-related content such as:
   * Giant Boars (GiddyUp supported)
   * Factions: Kingdom Under the Mountain, Dwarven Hill Clans, and Dwarven Bandits
   * Starting scenario: Dwarves - Homeless
-  * ... and a special event for dwarves.</description>
-</ModMetaData>
+  * ... and a special event for dwarves.

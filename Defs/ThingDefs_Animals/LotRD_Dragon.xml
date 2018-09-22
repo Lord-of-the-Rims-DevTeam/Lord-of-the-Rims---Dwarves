@@ -47,6 +47,7 @@
     <combatPower>1600</combatPower>
     <defaultFactionType>LotRD_MonsterFaction</defaultFactionType>
     <aiAvoidCover>true</aiAvoidCover>
+	<ecoSystemWeight>0</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -98,7 +99,8 @@
     <label>dragon (fire-drake)</label>
 	<thingClass>Dwarves.Dragon</thingClass>
     <description>The most powerful division of dragonkind. As their name implies, fire-drakes are capable of breathing fire on their enemies.</description>
-    <statBases>
+    <tradeability>None</tradeability>
+	<statBases>
       <ComfyTemperatureMin>-65</ComfyTemperatureMin>
       <ComfyTemperatureMax>255</ComfyTemperatureMax>
       <MoveSpeed>7.0</MoveSpeed>
