@@ -1,3 +1,7 @@
+1.20.0.2 (10-20-2018)
+========================
+Manifest uri previously pointed to The Third Age. This was fixed.
+
 1.20.0.1 (10-20-2018)
 ========================
 Added Manifest.xml for Fluffys Mod Manager Support.

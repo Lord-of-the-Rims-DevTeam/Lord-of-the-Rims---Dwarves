@@ -3,7 +3,7 @@
   <name>Lord of the Rims - Dwarves</name>
   <author>Jecrell</author>
   <targetVersion>1.0.2059</targetVersion>
-  <description>1.20.0.1 (10-20-2018)
+  <description>1.20.0.2 (10-20-2018)
 
 Lord of the Rims - Dwarves is a mod package that is part of the Lord of the Rims series for RimWorld. 
 The mod adds in a number of dwarf-related content such as:
@@ -24,6 +24,10 @@ Lumberjack, Shibby Says, TheJagermeister, Cory Bonifay, Kiya Nicoll, Matt Harris
 ========================
 Changelog
 ========================
+1.20.0.2 (10-20-2018)
+========================
+Manifest uri previously pointed to The Third Age. This was fixed.
+
 1.20.0.1 (10-20-2018)
 ========================
 Added Manifest.xml for Fluffys Mod Manager Support.
