@@ -1,3 +1,7 @@
+1.20.0.3 (10-20-2018)
+========================
+Manifest.xml now properly contains required dependencies for the Dwarves mod.
+
 1.20.0.2 (10-20-2018)
 ========================
 Manifest uri previously pointed to The Third Age. This was fixed.
