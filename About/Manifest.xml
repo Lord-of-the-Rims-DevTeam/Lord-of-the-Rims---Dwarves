@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>LotR-Dwarves</identifier>
+  <version>1.20.0.1</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadAfter>
+    <li>HugsLib</li>
+    <li>JecsTools</li>
+    <li>HumanoidAlienRaces2.0</li>
+    <li>LotR-TheThirdAge</li>
+  </loadAfter>
+  <manifestUri>https://raw.githubusercontent.com/Lord-of-the-Rims-DevTeam/Lord-of-the-Rims---The-Third-Age/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/Lord-of-the-Rims-DevTeam/Lord-of-the-Rims---The-Third-Age/releases</downloadUri>
+</Manifest>
