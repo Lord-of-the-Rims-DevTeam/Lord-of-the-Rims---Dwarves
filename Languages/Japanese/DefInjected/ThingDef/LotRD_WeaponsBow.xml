@@ -5,11 +5,14 @@
 
   <LotRD_Bow_Dwarven.label>ドワーヴンホーンボウ</LotRD_Bow_Dwarven.label>
   <LotRD_Bow_Dwarven.description>近距離と中距離の両方で効果的な、この強力な打撃を放つ弓はドワーフの遠距離武器です。</LotRD_Bow_Dwarven.description>
+  <LotRD_Bow_Dwarven.tools.0.label>矢じり</LotRD_Bow_Dwarven.tools.0.label>
+  <LotRD_Bow_Dwarven.verbs.Verb_Shoot.label>ドワーヴンホーンボウ</LotRD_Bow_Dwarven.verbs.Verb_Shoot.label>
 
   <LotRD_Bolt.label>ドワーヴンボルト</LotRD_Bolt.label>
 
   <LotRD_Bow_DwarvenCross.label>ドワーヴンクロスボウ</LotRD_Bow_DwarvenCross.label>
   <LotRD_Bow_DwarvenCross.description>ゆっくりと巻き上げられて攻撃速度が遅いですが、最も強力な打撃を与えるドワーフたちの弓です。 ドワーフが作る武器の中で、これは遠距離攻撃の武器です。</LotRD_Bow_DwarvenCross.description>
-
+  <LotRD_Bow_DwarvenCross.tools.0.label>矢じり</LotRD_Bow_DwarvenCross.tools.0.label>
+  <LotRD_Bow_DwarvenCross.verbs.Verb_Shoot.label>ドワーヴンクロスボウ</LotRD_Bow_DwarvenCross.verbs.Verb_Shoot.label>
 
 </LanguageData>
