@@ -51,6 +51,8 @@
         <roomStat>Impressiveness</roomStat>
       </li>
     </comps>
+
+    <researchPrerequisites><li>LotRD_FurnitureOne</li></researchPrerequisites>
   </ThingDef>
 
 
@@ -104,6 +106,7 @@
         <maxDistance>6</maxDistance>
       </li>
     </comps>
+    <researchPrerequisites><li>LotRD_FurnitureOne</li></researchPrerequisites>
   </ThingDef>
 
   
@@ -144,6 +147,7 @@
     <staticSunShadowHeight>0</staticSunShadowHeight>
     <castEdgeShadows>false</castEdgeShadows>
     <rotatable>true</rotatable>
+    <researchPrerequisites><li>LotRD_FurnitureOne</li></researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="TableGatherSpotBase">
@@ -171,6 +175,7 @@
     <staticSunShadowHeight>0</staticSunShadowHeight>
     <castEdgeShadows>false</castEdgeShadows>
     <rotatable>false</rotatable>
+    <researchPrerequisites><li>LotRD_FurnitureOne</li></researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="TableGatherSpotBase">
@@ -200,6 +205,7 @@
     </statBases>
     <size>(1,2)</size>
     <costStuffCount>45</costStuffCount>
+    <researchPrerequisites><li>LotRD_FurnitureOne</li></researchPrerequisites>
   </ThingDef>
   
   <ThingDef ParentName="ArtableFurnitureBase">
@@ -246,6 +252,7 @@
     <building>
       <isSittable>true</isSittable>
     </building>
+    <researchPrerequisites><li>LotRD_FurnitureOne</li></researchPrerequisites>
   </ThingDef>
 
 	<ThingDef ParentName="ArtableFurnitureBase">
@@ -289,6 +296,8 @@
 		  <li>JecsTools.PlaceWorker_Outline</li>
 		</placeWorkers>
       <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+
+    <researchPrerequisites><li>LotRD_Kingdom</li></researchPrerequisites>
 	</ThingDef>
   
 </Defs>

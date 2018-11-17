@@ -7,6 +7,9 @@
 		<label>dwarf-shield</label>
 		<description>This is a fast to craft, common shield, often employed by Dwarves.</description>
 		<equipmentType>None</equipmentType>
+		<recipeMaker>
+			<researchPrerequisite>LotRD_ArmorTwo</researchPrerequisite>
+		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShied_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -14,13 +17,13 @@
 		<techLevel>Medieval</techLevel>
 		<costStuffCount>40</costStuffCount>
 		<costList>
-		  <WoodLog>20</WoodLog>
+			<WoodLog>20</WoodLog>
 		</costList>
 		<statBases>
 			<WorkToMake>6000</WorkToMake>
 			<MaxHitPoints>160</MaxHitPoints>
 			<Mass>2.0</Mass>
-			
+
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -30,7 +33,9 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
+		<weaponTags>
+			<li>DwarvenShieldTier1</li>
+		</weaponTags>
 		<comps>
 			<li Class="PawnShields.CompProperties_Shield">
 				<!-- Rendering systems -->
@@ -51,7 +56,7 @@
 				<!-- Blocking system (Optional???) -->
 				<canBlockRanged>true</canBlockRanged>
 				<canBlockMelee>true</canBlockMelee>
-				<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
+				<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
 				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
 				<!-- Shield damage system (Optional) -->
 				<shieldTakeDamage>true</shieldTakeDamage>
@@ -84,185 +89,198 @@
 			</li>
 		</tools>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="LotRD_DwarfStandardShield">
-	  <defName>LotRD_DwarfStandardShieldTwo</defName>
-	  <label>dwarf-shield (knotted)</label>
+		<defName>LotRD_DwarfStandardShieldTwo</defName>
+		<label>dwarf-shield (knotted)</label>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignTwo_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
-      <comps>
-	    <li Class="PawnShields.CompProperties_Shield">
-			<!-- Rendering systems -->
-			<wieldedGraphic>
-				<graphicClass>Graphic_Multi</graphicClass>
-				<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignTwo</texPath>
-				<drawSize>(1.1, 1.1)</drawSize>
-			</wieldedGraphic>
-			<renderProperties>
-				<!-- Same as defaults in C# -->
-				<northOffset>(-0.3, -0.017, -0.3)</northOffset>
-				<southOffset>(0.3, 0.033, -0.3)</southOffset>
-				<westOffset>(-0.3, 0.053, -0.3)</westOffset>
-				<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
-				<flipRotation>true</flipRotation>
-				<renderWhenPeaceful>false</renderWhenPeaceful>
-			</renderProperties>
-			<!-- Blocking system (Optional???) -->
-			<canBlockRanged>true</canBlockRanged>
-			<canBlockMelee>true</canBlockMelee>
-			<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
-			<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
-			<!-- Shield damage system (Optional) -->
-			<shieldTakeDamage>true</shieldTakeDamage>
-			<shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
-			<!-- Auto discard system (Optional) -->
-			<canBeAutoDiscarded>true</canBeAutoDiscarded>
-			<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
-			<!-- Shield fatigue system (Optional) -->
-			<useFatigue>true</useFatigue>
-			<damageToFatigueFactor>0.005</damageToFatigueFactor>
-		</li>
-	  </comps>
+		<weaponTags>
+			<li>DwarvenShieldTier1</li>
+		</weaponTags>
+		<comps>
+			<li Class="PawnShields.CompProperties_Shield">
+				<!-- Rendering systems -->
+				<wieldedGraphic>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignTwo</texPath>
+					<drawSize>(1.1, 1.1)</drawSize>
+				</wieldedGraphic>
+				<renderProperties>
+					<!-- Same as defaults in C# -->
+					<northOffset>(-0.3, -0.017, -0.3)</northOffset>
+					<southOffset>(0.3, 0.033, -0.3)</southOffset>
+					<westOffset>(-0.3, 0.053, -0.3)</westOffset>
+					<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+					<flipRotation>true</flipRotation>
+					<renderWhenPeaceful>false</renderWhenPeaceful>
+				</renderProperties>
+				<!-- Blocking system (Optional???) -->
+				<canBlockRanged>true</canBlockRanged>
+				<canBlockMelee>true</canBlockMelee>
+				<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
+				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+				<!-- Shield damage system (Optional) -->
+				<shieldTakeDamage>true</shieldTakeDamage>
+				<shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
+				<!-- Auto discard system (Optional) -->
+				<canBeAutoDiscarded>true</canBeAutoDiscarded>
+				<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+				<!-- Shield fatigue system (Optional) -->
+				<useFatigue>true</useFatigue>
+				<damageToFatigueFactor>0.005</damageToFatigueFactor>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="LotRD_DwarfStandardShield">
-	  <defName>LotRD_DwarfStandardShieldThree</defName>
-	  <label>dwarf-shield (green)</label>
+		<defName>LotRD_DwarfStandardShieldThree</defName>
+		<label>dwarf-shield (green)</label>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignThree_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
-      <comps>
-	    <li Class="PawnShields.CompProperties_Shield">
-			<!-- Rendering systems -->
-			<wieldedGraphic>
-				<graphicClass>Graphic_Multi</graphicClass>
-				<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignThree</texPath>
-				<drawSize>(1.1, 1.1)</drawSize>
-			</wieldedGraphic>
-			<renderProperties>
-				<!-- Same as defaults in C# -->
-				<northOffset>(-0.3, -0.017, -0.3)</northOffset>
-				<southOffset>(0.3, 0.033, -0.3)</southOffset>
-				<westOffset>(-0.3, 0.053, -0.3)</westOffset>
-				<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
-				<flipRotation>true</flipRotation>
-				<renderWhenPeaceful>false</renderWhenPeaceful>
-			</renderProperties>
-			<!-- Blocking system (Optional???) -->
-			<canBlockRanged>true</canBlockRanged>
-			<canBlockMelee>true</canBlockMelee>
-			<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
-			<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
-			<!-- Shield damage system (Optional) -->
-			<shieldTakeDamage>true</shieldTakeDamage>
-			<shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
-			<!-- Auto discard system (Optional) -->
-			<canBeAutoDiscarded>true</canBeAutoDiscarded>
-			<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
-			<!-- Shield fatigue system (Optional) -->
-			<useFatigue>true</useFatigue>
-			<damageToFatigueFactor>0.005</damageToFatigueFactor>
-		</li>
-	  </comps>
+		<weaponTags>
+			<li>DwarvenShieldTier1</li>
+		</weaponTags>
+		<comps>
+			<li Class="PawnShields.CompProperties_Shield">
+				<!-- Rendering systems -->
+				<wieldedGraphic>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignThree</texPath>
+					<drawSize>(1.1, 1.1)</drawSize>
+				</wieldedGraphic>
+				<renderProperties>
+					<!-- Same as defaults in C# -->
+					<northOffset>(-0.3, -0.017, -0.3)</northOffset>
+					<southOffset>(0.3, 0.033, -0.3)</southOffset>
+					<westOffset>(-0.3, 0.053, -0.3)</westOffset>
+					<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+					<flipRotation>true</flipRotation>
+					<renderWhenPeaceful>false</renderWhenPeaceful>
+				</renderProperties>
+				<!-- Blocking system (Optional???) -->
+				<canBlockRanged>true</canBlockRanged>
+				<canBlockMelee>true</canBlockMelee>
+				<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
+				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+				<!-- Shield damage system (Optional) -->
+				<shieldTakeDamage>true</shieldTakeDamage>
+				<shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
+				<!-- Auto discard system (Optional) -->
+				<canBeAutoDiscarded>true</canBeAutoDiscarded>
+				<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+				<!-- Shield fatigue system (Optional) -->
+				<useFatigue>true</useFatigue>
+				<damageToFatigueFactor>0.005</damageToFatigueFactor>
+			</li>
+		</comps>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="LotRD_DwarfStandardShield">
-	  <defName>LotRD_DwarfStandardShieldFour</defName>
-	  <label>dwarf-shield (heraldry)</label>
+		<defName>LotRD_DwarfStandardShieldFour</defName>
+		<label>dwarf-shield (heraldry)</label>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignFour_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
-      <comps>
-	    <li Class="PawnShields.CompProperties_Shield">
-			<!-- Rendering systems -->
-			<wieldedGraphic>
-				<graphicClass>Graphic_Multi</graphicClass>
-				<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignFour</texPath>
-				<drawSize>(1.1, 1.1)</drawSize>
-			</wieldedGraphic>
-			<renderProperties>
-				<!-- Same as defaults in C# -->
-				<northOffset>(-0.3, -0.017, -0.3)</northOffset>
-				<southOffset>(0.3, 0.033, -0.3)</southOffset>
-				<westOffset>(-0.3, 0.053, -0.3)</westOffset>
-				<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
-				<flipRotation>true</flipRotation>
-				<renderWhenPeaceful>false</renderWhenPeaceful>
-			</renderProperties>
-			<!-- Blocking system (Optional???) -->
-			<canBlockRanged>true</canBlockRanged>
-			<canBlockMelee>true</canBlockMelee>
-			<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
-			<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
-			<!-- Shield damage system (Optional) -->
-			<shieldTakeDamage>true</shieldTakeDamage>
-			<shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
-			<!-- Auto discard system (Optional) -->
-			<canBeAutoDiscarded>true</canBeAutoDiscarded>
-			<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
-			<!-- Shield fatigue system (Optional) -->
-			<useFatigue>true</useFatigue>
-			<damageToFatigueFactor>0.005</damageToFatigueFactor>
-		</li>
-	  </comps>
+		<weaponTags>
+			<li>DwarvenShieldTier1</li>
+		</weaponTags>
+		<comps>
+			<li Class="PawnShields.CompProperties_Shield">
+				<!-- Rendering systems -->
+				<wieldedGraphic>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignFour</texPath>
+					<drawSize>(1.1, 1.1)</drawSize>
+				</wieldedGraphic>
+				<renderProperties>
+					<!-- Same as defaults in C# -->
+					<northOffset>(-0.3, -0.017, -0.3)</northOffset>
+					<southOffset>(0.3, 0.033, -0.3)</southOffset>
+					<westOffset>(-0.3, 0.053, -0.3)</westOffset>
+					<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+					<flipRotation>true</flipRotation>
+					<renderWhenPeaceful>false</renderWhenPeaceful>
+				</renderProperties>
+				<!-- Blocking system (Optional???) -->
+				<canBlockRanged>true</canBlockRanged>
+				<canBlockMelee>true</canBlockMelee>
+				<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
+				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+				<!-- Shield damage system (Optional) -->
+				<shieldTakeDamage>true</shieldTakeDamage>
+				<shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
+				<!-- Auto discard system (Optional) -->
+				<canBeAutoDiscarded>true</canBeAutoDiscarded>
+				<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+				<!-- Shield fatigue system (Optional) -->
+				<useFatigue>true</useFatigue>
+				<damageToFatigueFactor>0.005</damageToFatigueFactor>
+			</li>
+		</comps>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="LotRD_DwarfStandardShield">
-	  <defName>LotRD_DwarfStandardShieldFive</defName>
-	  <label>dwarf-shield (noble)</label>
+		<defName>LotRD_DwarfStandardShieldFive</defName>
+		<label>dwarf-shield (noble)</label>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignSix_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags><li>DwarvenShieldTier1</li></weaponTags>
-      <comps>
-	    <li Class="PawnShields.CompProperties_Shield">
-			<!-- Rendering systems -->
-			<wieldedGraphic>
-				<graphicClass>Graphic_Multi</graphicClass>
-				<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignSix</texPath>
-				<drawSize>(1.1, 1.1)</drawSize>
-			</wieldedGraphic>
-			<renderProperties>
-				<!-- Same as defaults in C# -->
-				<northOffset>(-0.3, -0.017, -0.3)</northOffset>
-				<southOffset>(0.3, 0.033, -0.3)</southOffset>
-				<westOffset>(-0.3, 0.053, -0.3)</westOffset>
-				<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
-				<flipRotation>true</flipRotation>
-				<renderWhenPeaceful>false</renderWhenPeaceful>
-			</renderProperties>
-			<!-- Blocking system (Optional???) -->
-			<canBlockRanged>true</canBlockRanged>
-			<canBlockMelee>true</canBlockMelee>
-			<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
-			<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
-			<!-- Shield damage system (Optional) -->
-			<shieldTakeDamage>true</shieldTakeDamage>
-			<shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
-			<!-- Auto discard system (Optional) -->
-			<canBeAutoDiscarded>true</canBeAutoDiscarded>
-			<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
-			<!-- Shield fatigue system (Optional) -->
-			<useFatigue>true</useFatigue>
-			<damageToFatigueFactor>0.005</damageToFatigueFactor>
-		</li>
-	  </comps>
+		<weaponTags>
+			<li>DwarvenShieldTier1</li>
+		</weaponTags>
+		<comps>
+			<li Class="PawnShields.CompProperties_Shield">
+				<!-- Rendering systems -->
+				<wieldedGraphic>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaDwarfShiedDesignSix</texPath>
+					<drawSize>(1.1, 1.1)</drawSize>
+				</wieldedGraphic>
+				<renderProperties>
+					<!-- Same as defaults in C# -->
+					<northOffset>(-0.3, -0.017, -0.3)</northOffset>
+					<southOffset>(0.3, 0.033, -0.3)</southOffset>
+					<westOffset>(-0.3, 0.053, -0.3)</westOffset>
+					<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+					<flipRotation>true</flipRotation>
+					<renderWhenPeaceful>false</renderWhenPeaceful>
+				</renderProperties>
+				<!-- Blocking system (Optional???) -->
+				<canBlockRanged>true</canBlockRanged>
+				<canBlockMelee>true</canBlockMelee>
+				<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
+				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+				<!-- Shield damage system (Optional) -->
+				<shieldTakeDamage>true</shieldTakeDamage>
+				<shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
+				<!-- Auto discard system (Optional) -->
+				<canBeAutoDiscarded>true</canBeAutoDiscarded>
+				<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+				<!-- Shield fatigue system (Optional) -->
+				<useFatigue>true</useFatigue>
+				<damageToFatigueFactor>0.005</damageToFatigueFactor>
+			</li>
+		</comps>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>LotRD_IronHillBattleShield</defName>
 		<label>hill-dwarf Shield</label>
 		<description>Shield commonly used alongside the battle armor of the dwarves from the Iron Hills.</description>
 		<equipmentType>None</equipmentType>
-		<weaponTags><li>DwarvenShieldTier2</li></weaponTags>
+		<weaponTags>
+			<li>DwarvenShieldTier2</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>LotRD_ArmorThree</researchPrerequisite>
+		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaIronHillShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -273,7 +291,7 @@
 			<WorkToMake>8000</WorkToMake>
 			<MaxHitPoints>160</MaxHitPoints>
 			<Mass>2.0</Mass>
-			
+
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.7</ShootingAccuracyPawn>
@@ -303,7 +321,7 @@
 				<!-- Blocking system (Optional???) -->
 				<canBlockRanged>true</canBlockRanged>
 				<canBlockMelee>true</canBlockMelee>
-				<meleeBlockChanceFactor>10.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
+				<meleeBlockChanceFactor>10.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
 				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
 				<!-- Shield damage system (Optional) -->
 				<shieldTakeDamage>true</shieldTakeDamage>
@@ -342,7 +360,12 @@
 		<label>mountain-dwarf shield</label>
 		<description>Shield commonly used alongside the battle armor of the dwarves from Moria.</description>
 		<equipmentType>None</equipmentType>
-		<weaponTags><li>DwarvenShieldTier3</li></weaponTags>
+		<weaponTags>
+			<li>DwarvenShieldTier3</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>LotRD_ArmorFour</researchPrerequisite>
+		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Pawn/Dwarf/Apparel/Shields/sheidulaMoriaBattleShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -353,7 +376,7 @@
 			<WorkToMake>10000</WorkToMake>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>1.25</Mass>
-			
+
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.6</ShootingAccuracyPawn>
@@ -384,7 +407,7 @@
 				<!-- Blocking sytstem (Optional???) -->
 				<canBlockRanged>true</canBlockRanged>
 				<canBlockMelee>true</canBlockMelee>
-				<meleeBlockChanceFactor>10.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
+				<meleeBlockChanceFactor>10.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
 				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
 				<!-- Shield damage system (Optional) -->
 				<shieldTakeDamage>true</shieldTakeDamage>
@@ -417,5 +440,5 @@
 			</li>
 		</tools>
 	</ThingDef>
-	
+
 </Defs>

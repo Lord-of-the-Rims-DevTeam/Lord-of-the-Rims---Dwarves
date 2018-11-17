@@ -48,6 +48,7 @@
     <costStuffCount>500</costStuffCount>
     <designationHotKey>Misc1</designationHotKey>
     <doorType>Standard</doorType>	
+    <researchPrerequisites><li>LotRD_StructuresTwo</li></researchPrerequisites>
   </DoorsExpanded.DoorExpandedDef>
   
   
@@ -88,6 +89,7 @@
     </graphicData>
     <uiIconPath>Things/Building/Structures/edmundWulfgarthDwarvenSmallGate_MenuUI</uiIconPath>
     <costStuffCount>50</costStuffCount>
+    <researchPrerequisites><li>LotRD_StructuresOne</li></researchPrerequisites>
   </DoorsExpanded.DoorExpandedDef>
 
 

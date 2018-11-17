@@ -65,7 +65,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <researchPrerequisite>LotRD_WeaponsOne</researchPrerequisite>
     </recipeMaker>
 	<tradeTags>
 	  <li>LotRD_DwarvenWeapons</li>
@@ -136,7 +136,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <researchPrerequisite>LotRD_WeaponsTwo</researchPrerequisite>
     </recipeMaker>
 	<tradeTags>
 	  <li>LotRD_DwarvenWeapons</li>
@@ -208,7 +208,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <researchPrerequisite>LotRD_WeaponsThree</researchPrerequisite>
     </recipeMaker>	
 	<tradeTags>
 	  <li>LotRD_DwarvenWeapons</li>

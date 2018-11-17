@@ -46,7 +46,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbow</researchPrerequisite>
+      <researchPrerequisite>LotRD_WeaponsTwo</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -122,7 +122,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbow</researchPrerequisite>
+      <researchPrerequisite>LotRD_WeaponsThree</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>

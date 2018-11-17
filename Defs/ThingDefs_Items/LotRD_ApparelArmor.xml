@@ -7,7 +7,7 @@
 	<techLevel>Neolithic</techLevel>
     <description>A simple pair of Dwarven pants.</description>
     <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <researchPrerequisite>LotRD_ArmorOne</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</texPath>
@@ -60,7 +60,7 @@
     <label>Dwarven tunic</label>
 	<techLevel>Neolithic</techLevel>
     <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <researchPrerequisite>LotRD_ArmorOne</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Dwarf/Apparel/Tunic/edmundWulfGarthTunic_Male_north</texPath>
@@ -118,6 +118,7 @@
     <description>Used by Durin's folk, this fine reinforced tabard wrapped chainmail served as a strong yet comfortable alternative to heavier armors and full plates favored by dwarves in combat.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
+      <researchPrerequisite>LotRD_ArmorTwo</researchPrerequisite>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>6</Crafting>
@@ -181,6 +182,7 @@
     <description>Used by the Dwarves of the Iron Hills, this armor appeared most prominently during the Battle of the Five Armies.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
+      <researchPrerequisite>LotRD_ArmorThree</researchPrerequisite>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>8</Crafting>
@@ -242,6 +244,7 @@
     <description>Used by the Dwarves of Moria, this sturdy battle armor helped prolong their survival during the Battle of Moria.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
+      <researchPrerequisite>LotRD_ArmorFour</researchPrerequisite>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>8</Crafting>

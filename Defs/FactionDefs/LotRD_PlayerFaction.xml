@@ -18,11 +18,9 @@
 		<playerInitialSettlementNameMaker>NamerSettlementOutlander</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerSettlementOutlander</factionNameMaker>
 		<geneticVariance>1</geneticVariance>
-		<!--
 		<startingResearchTags>
-			<li>ClassicStart</li>
+			<li>LotRD_DwarfScenario</li>
 		</startingResearchTags>
-		-->
 		<hairTags>
 			<li>LotRD_Dwarf</li>
 		</hairTags>

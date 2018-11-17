@@ -69,6 +69,7 @@
       </li>
     </damageMultipliers>
     <designationHotKey>Misc3</designationHotKey>
+    <researchPrerequisites><li>LotRD_StructuresOne</li></researchPrerequisites>
   </ThingDef>
 
 </Defs>

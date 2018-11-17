@@ -82,6 +82,7 @@
       <li>JecsTools.PlaceWorker_UnderCeiling</li>
     </placeWorkers>
     <designationCategory>Furniture</designationCategory>
+    <researchPrerequisites><li>LotRD_FurnitureTwo</li></researchPrerequisites>
   </ThingDef>
   
   <ThingDef ParentName="ArtableFurnitureBase">
@@ -199,6 +200,7 @@
       </li>
     </comps>
     <designationCategory>Furniture</designationCategory>
+    <researchPrerequisites><li>LotRD_FurnitureTwo</li></researchPrerequisites>
   </ThingDef>
   
   <ThingDef ParentName="FurnitureWithQualityBase">
@@ -287,6 +289,7 @@
     </comps>
     <designationCategory>Furniture</designationCategory>
     <designationHotKey>Misc10</designationHotKey>
+    <researchPrerequisites><li>LotRD_FurnitureTwo</li></researchPrerequisites>
   </ThingDef>
   
   <ThingDef ParentName="FurnitureWithQualityBase">
@@ -345,6 +348,7 @@
       <li>JecsTools.PlaceWorker_OnTopOfWalls</li>
     </placeWorkers>
     <designationCategory>Furniture</designationCategory>
+    <researchPrerequisites><li>LotRD_FurnitureThree</li></researchPrerequisites>
   </ThingDef>
 
 
@@ -399,6 +403,7 @@
       <li>PlaceWorker_NotUnderRoof</li>
     </placeWorkers>	
     <designationCategory>Furniture</designationCategory>
+    <researchPrerequisites><li>LotRD_FurnitureThree</li></researchPrerequisites>
   </ThingDef>    
 	
   <ThingDef ParentName="BuildingBase">

@@ -86,7 +86,7 @@
     <rotatable>true</rotatable>
     <designationCategory>Production</designationCategory>
     <constructEffect>ConstructWood</constructEffect>
-    <researchPrerequisites><li>Brewing</li></researchPrerequisites>
+    <researchPrerequisites><li>LotRD_Brewing</li></researchPrerequisites>
   </ThingDef>
 
 </Defs>

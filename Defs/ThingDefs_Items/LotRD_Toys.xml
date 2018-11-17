@@ -18,6 +18,7 @@
     <stackLimit>1</stackLimit>
     <useHitPoints>true</useHitPoints>
     <recipeMaker>
+			<researchPrerequisite>LotRD_ToyMaking</researchPrerequisite>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
@@ -80,6 +81,7 @@
       <li>Items</li>
     </thingCategories>
     <recipeMaker>
+			<researchPrerequisite>LotRD_ToyMaking</researchPrerequisite>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
