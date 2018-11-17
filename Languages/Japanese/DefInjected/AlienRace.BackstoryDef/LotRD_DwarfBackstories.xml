@@ -11,7 +11,7 @@
 
   <LotRD_jecrellBackstoryChildThree.title>ドワーフ:過保護な子</LotRD_jecrellBackstoryChildThree.title>
   <LotRD_jecrellBackstoryChildThree.titleShort>過保護な子</LotRD_jecrellBackstoryChildThree.titleShort>
-  <LotRD_jecrellBackstoryChildThree.baseDescription>子供の頃、[PAWN_nameDef]は幼少期を過保護な世話と注意深い監視の下で安全に過ごしました。[PAWN_pronoun]の両親は、[PAWN_objective]が怪我したり喧嘩したりしないように細心の注意を払いました。</LotRD_jecrellBackstoryChildThree.baseDescription>
+  <LotRD_jecrellBackstoryChildThree.baseDescription>子供の頃、[PAWN_nameDef]は幼少期を過保護な世話と注意深い監視の下で[PAWN_possessive]安全に過ごしました。[PAWN_possessive]の両親は、[PAWN_objective]が怪我したり喧嘩したりしないように細心の注意を払いました。</LotRD_jecrellBackstoryChildThree.baseDescription>
 
   <LotRD_jecrellBackstoryChildFour.title>ドワーフ:脳筋一家</LotRD_jecrellBackstoryChildFour.title>
   <LotRD_jecrellBackstoryChildFour.titleShort>脳筋一家</LotRD_jecrellBackstoryChildFour.titleShort>
