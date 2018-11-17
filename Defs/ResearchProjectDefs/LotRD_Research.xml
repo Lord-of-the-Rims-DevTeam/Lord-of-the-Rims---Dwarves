@@ -21,7 +21,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_WeaponsOne</defName>
     <label>Khazâd!</label>
-    <description>&lt;i&gt;Dwarves!&lt;/i&gt;\nUnlock only the most simplistic Dwarven weapons:\n- Dwarf walking axe\n- Dwarf-spear</description>
+    <description>&lt;i&gt;Dwarves!&lt;/i&gt;\n\nUnlock only the most simplistic Dwarven weapons:\n- Dwarf walking axe\n- Dwarf-spear</description>
     <baseCost>250</baseCost>
     <tags>
       <li>LotRD_DwarfScenario</li>
@@ -33,7 +33,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_WeaponsTwo</defName>
     <label>Baruk Khazâd!</label>
-    <description>&lt;i&gt;Axes of the Dwarves!&lt;/i&gt;\nUnlock proper Dwarven weapons:\n- Dwarf battle axe\n- Dwarf-sword\n- Dwarven horn bow</description>
+    <description>&lt;i&gt;Axes of the Dwarves!&lt;/i&gt;\n\nUnlock proper Dwarven weapons:\n- Dwarf battle axe\n- Dwarf-sword\n- Dwarven horn bow</description>
     <baseCost>500</baseCost>
     <prerequisites>
       <li>LotRD_WeaponsOne</li>
@@ -45,7 +45,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_WeaponsThree</defName>
     <label>Khazâd ai-mênu!</label>
-    <description>&lt;i&gt;The Dwarves are upon you!&lt;/i&gt;\nUnlock weapons worthy of the children of Aulë:\n- Dwarven double-headed axe\n- Noble dwarf-sword\n- Dwarven crossbow</description>
+    <description>&lt;i&gt;The Dwarves are upon you!&lt;/i&gt;\n\nUnlock weapons worthy of the children of Aulë:\n- Dwarven double-headed axe\n- Noble dwarf-sword\n- Dwarven crossbow</description>
     <baseCost>750</baseCost>
     <prerequisites>
       <li>LotRD_WeaponsTwo</li>
@@ -97,7 +97,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_ArmorFour</defName>
     <label>Armor of the Kingdom Under the Mountain</label>
-    <description>Inlay, shape, and produce armor with stunning unrivaled quality worthy of a true kingdom under the mountain:\nMountain-dwarf armor and helmet\nMountain-dwarf shield</description>
+    <description>Inlay, shape, and produce armor with stunning unrivaled quality worthy of a true kingdom under the mountain:\n- Mountain-dwarf armor and helmet\n- Mountain-dwarf shield</description>
     <baseCost>800</baseCost>
     <prerequisites>
       <li>LotRD_ArmorThree</li>
@@ -112,7 +112,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_FurnitureOne</defName>
     <label>Dwarven Furniture</label>
-    <description>The natural dwarven inclination to craft creates impressive furniture:\nDwarven stool\nDwarven table\nDwarven end table\nDwarven dresser\nDwarven game table</description>
+    <description>The natural dwarven inclination to craft creates impressive furniture:\n- Dwarven stool\n- Dwarven table\n- Dwarven end table\n- Dwarven dresser\n- Dwarven game table</description>
     <baseCost>250</baseCost>
     
     <tags>
@@ -125,7 +125,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_FurnitureTwo</defName>
     <label>Dwarven Lighting</label>
-    <description>Unlock dwarven furniture for providing light in dark places:\nDwarven chandelier\nDwarven candelabra\nDwarven brazier box\nDwarven dresser</description>
+    <description>Unlock dwarven furniture for providing light in dark places:\n- Dwarven chandelier\n- Dwarven candelabra\n- Dwarven brazier box\n- Dwarven dresser</description>
     <baseCost>250</baseCost>
     
     <researchViewX>0.75</researchViewX>
@@ -135,7 +135,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_FurnitureThree</defName>
     <label>Ithildin</label>
-    <description>Allows for the creation of special lighting using a mithril alloy:\nDwarven chandelier\nDwarven candelabra\nDwarven brazier box\nDwarven dresser</description>
+    <description>Allows for the creation of special lighting using a mithril alloy:\n- Dwarven chandelier\n- Dwarven candelabra\n- Dwarven brazier box\n- Dwarven dresser</description>
     <baseCost>1000</baseCost>
     
     <researchViewX>1.5</researchViewX>
@@ -151,7 +151,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_StructuresOne</defName>
     <label>Dwarven Fortress</label>
-    <description>Create strong doors and sturdy walls worthy of your dwarves:\nDwarven reinforced door\nDwarven reinforced walls</description>
+    <description>Create strong doors and sturdy walls worthy of your dwarves:\n- Dwarven reinforced door\n- Dwarven reinforced walls</description>
     <baseCost>500</baseCost>
     
     <researchViewX>0</researchViewX>
@@ -161,7 +161,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_StructuresTwo</defName>
     <label>Grand Gate</label>
-    <description>Create a massive gate to prevent adversaries from intruding upon your mead halls:\nDwarven reinforced door\nDwarven reinforced walls</description>
+    <description>Create a massive gate to prevent adversaries from intruding upon your mead halls:\n- Dwarven reinforced door\n- Dwarven reinforced walls</description>
     <baseCost>1200</baseCost>
     <prerequisites>
       <li>LotRD_StructuresOne</li>
@@ -174,7 +174,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_Kingdom</defName>
     <label>Dwarven Kingdom</label>
-    <description>Create a proper kingdom. Unlock appropriate buildings and apparel:\nDwarven throne\nDwarf-king's crown\nHill-dwarf lordhelm</description>
+    <description>&lt;i&gt;A king he was on carven throne\nIn many-pillared halls of stone\nWith golden roof and silver floor,\nAnd runes of power upon the door.&lt;/i&gt;\n\nCreate a proper kingdom. Unlock appropriate buildings and apparel:\n- Dwarven throne\n- Dwarf-king's crown\n- Hill-dwarf lordhelm</description>
     <baseCost>1200</baseCost>
     <prerequisites>
       <li>LotRD_StructuresOne</li>
@@ -190,7 +190,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_Brewing</defName>
     <label>Dwarven Mead Brewing</label>
-    <description>Unlock the powers of mead by turning raw mead wort into mead:\n\nFermenting barrel (mead)</description>
+    <description>Unlock the powers of mead by turning raw mead wort into mead:\n\n- Fermenting barrel (mead)</description>
     <baseCost>500</baseCost>    
     <researchViewX>1</researchViewX>
     <researchViewY>4</researchViewY>
@@ -199,7 +199,7 @@
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_ToyMaking</defName>
     <label>Dwarven Toy Making</label>
-    <description>Allows for the making of the following at a smithy:\nPuzzle box\nMarble labyrinth\nElf doll</description>
+    <description>Allows for the making of the following at a smithy:\n- Puzzle box\n- Marble labyrinth\n- Elf doll</description>
     <baseCost>250</baseCost>    
     <researchViewX>1.75</researchViewX>
     <researchViewY>4</researchViewY>

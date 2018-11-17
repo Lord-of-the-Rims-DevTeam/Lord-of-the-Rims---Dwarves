@@ -3,7 +3,7 @@
   <name>Lord of the Rims - Dwarves</name>
   <author>Jecrell</author>
   <targetVersion>1.0.2059</targetVersion>
-  <description>1.20.0.4 (10-23-2018)
+  <description>1.20.0.5 (11-18-2018)
 
 Lord of the Rims - Dwarves is a mod package that is part of the Lord of the Rims series for RimWorld. 
 The mod adds in a number of dwarf-related content such as:
@@ -24,6 +24,10 @@ Maaxar, Shibby Says, TheJagermeister, Cory Bonifay, Kiya Nicoll, Matt Harris, Pa
 ========================
 Changelog
 ========================
+1.20.0.5 (11-18-2018)
+========================
+Adds research and technologies for most dwarven weapons, armor, apparel, furniture, structures, and more.
+
 1.20.0.4 (10-23-2018)
 ========================
 Adjusts about.xml properly.
