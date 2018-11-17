@@ -3,13 +3,13 @@
 
   <!-- Dwarves Weapons -->
 
-  <LotRD_WeaponsOne.label>カザド！</LotRD_WeaponsOne.label>
-  <LotRD_WeaponsOne.description>&lt;i&gt;カザド(ドワーフ自身の呼び名)だ！&lt;/i&gt;\n\n最もシンプルなドワーフ族の武器だけが生産可能になります：\n－ドワーヴンウォーキングアックス\n－ドワーヴンスピアー</LotRD_WeaponsOne.description>
+  <LotRD_WeaponsOne.label>カザード！</LotRD_WeaponsOne.label>
+  <LotRD_WeaponsOne.description>&lt;i&gt;カザード(ドワーフ自身の呼び名)だ！&lt;/i&gt;\n\n最もシンプルなドワーフ族の武器だけが生産可能になります：\n－ドワーヴンウォーキングアックス\n－ドワーヴンスピアー</LotRD_WeaponsOne.description>
 
-  <LotRD_WeaponsTwo.label>バルクカザド！</LotRD_WeaponsTwo.label>
+  <LotRD_WeaponsTwo.label>バルクカザード！</LotRD_WeaponsTwo.label>
   <LotRD_WeaponsTwo.description>&lt;i&gt;ドワーフの斧だ！&lt;/i&gt;\n\nドワーフ族の平均的な武器の生産を解除します：\n－ドワーヴンバトルアックス\n－ドワーヴンソード\n－ドワーヴンホーンボウ</LotRD_WeaponsTwo.description>
 
-  <LotRD_WeaponsThree.label>カザドアイ＝メヌ！</LotRD_WeaponsThree.label>
+  <LotRD_WeaponsThree.label>カザードアイ＝メヌ！</LotRD_WeaponsThree.label>
   <LotRD_WeaponsThree.description>&lt;i&gt;ドワーフが汝らを討つぞ！&lt;/i&gt;\n\nアウレの子らにふさわしい武器の生産を解除します：\n－ドワーヴンダブルブレードアックス\n－ノーブルドワーヴンソード\n－ドワーヴンクロスボウ</LotRD_WeaponsThree.description>
 
 
