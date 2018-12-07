@@ -32,21 +32,21 @@
 
   <!-- Recipe Users: TableMachining -->
 
-  <Make_LotRD_DwarfApparel_MoriaBattleHelmet.label>ドワーヴンバトルヘルム(山)を作る</Make_LotRD_DwarfApparel_MoriaBattleHelmet.label>
-  <Make_LotRD_DwarfApparel_MoriaBattleHelmet.description>ドワーヴンバトルヘルム(山)を作る。</Make_LotRD_DwarfApparel_MoriaBattleHelmet.description>
-  <Make_LotRD_DwarfApparel_MoriaBattleHelmet.jobString>ドワーヴンバトルヘルム(山)を製作中</Make_LotRD_DwarfApparel_MoriaBattleHelmet.jobString>
+  <Make_LotRD_DwarfApparel_GimliHelmet.label>ドワーヴンヘルム(長髭)を作る</Make_LotRD_DwarfApparel_GimliHelmet.label>
+  <Make_LotRD_DwarfApparel_GimliHelmet.description>ドワーヴンヘルム(長髭)を作る。</Make_LotRD_DwarfApparel_GimliHelmet.description>
+  <Make_LotRD_DwarfApparel_GimliHelmet.jobString>ドワーヴンヘルム(長髭)を製作中</Make_LotRD_DwarfApparel_GimliHelmet.jobString>
 
   <Make_LotRD_DwarfApparel_IronHillHelmet.label>ドワーヴンヘルム(丘)を作る</Make_LotRD_DwarfApparel_IronHillHelmet.label>
   <Make_LotRD_DwarfApparel_IronHillHelmet.description>ドワーヴンヘルム(丘)を作る。</Make_LotRD_DwarfApparel_IronHillHelmet.description>
   <Make_LotRD_DwarfApparel_IronHillHelmet.jobString>ドワーヴンヘルム(丘)を製作中</Make_LotRD_DwarfApparel_IronHillHelmet.jobString>
 
+  <Make_LotRD_DwarfApparel_MoriaBattleHelmet.label>ドワーヴンバトルヘルム(山)を作る</Make_LotRD_DwarfApparel_MoriaBattleHelmet.label>
+  <Make_LotRD_DwarfApparel_MoriaBattleHelmet.description>ドワーヴンバトルヘルム(山)を作る。</Make_LotRD_DwarfApparel_MoriaBattleHelmet.description>
+  <Make_LotRD_DwarfApparel_MoriaBattleHelmet.jobString>ドワーヴンバトルヘルム(山)を製作中</Make_LotRD_DwarfApparel_MoriaBattleHelmet.jobString>
+
   <Make_LotRD_DwarfApparel_IronHillHelmetKing.label>ドワーヴンロードヘルム(丘)を作る</Make_LotRD_DwarfApparel_IronHillHelmetKing.label>
   <Make_LotRD_DwarfApparel_IronHillHelmetKing.description>ドワーヴンロードヘルム(丘)を作る。</Make_LotRD_DwarfApparel_IronHillHelmetKing.description>
   <Make_LotRD_DwarfApparel_IronHillHelmetKing.jobString>ドワーヴンロードヘルム(丘)を製作中</Make_LotRD_DwarfApparel_IronHillHelmetKing.jobString>
-
-  <Make_LotRD_DwarfApparel_GimliHelmet.label>ドワーヴンヘルム(長髭)を作る</Make_LotRD_DwarfApparel_GimliHelmet.label>
-  <Make_LotRD_DwarfApparel_GimliHelmet.description>ドワーヴンヘルム(長髭)を作る。</Make_LotRD_DwarfApparel_GimliHelmet.description>
-  <Make_LotRD_DwarfApparel_GimliHelmet.jobString>ドワーヴンヘルム(長髭)を製作中</Make_LotRD_DwarfApparel_GimliHelmet.jobString>
 
   <Make_LotRD_DwarfApparel_Crown.label>ドワーヴンクラウンを作る</Make_LotRD_DwarfApparel_Crown.label>
   <Make_LotRD_DwarfApparel_Crown.description>ドワーヴンクラウンを作る。</Make_LotRD_DwarfApparel_Crown.description>
@@ -141,5 +141,6 @@
   <Make_LotRD_MeleeWeapon_DwarfSpear.label>ドワーヴンスピアーを作る</Make_LotRD_MeleeWeapon_DwarfSpear.label>
   <Make_LotRD_MeleeWeapon_DwarfSpear.description>ドワーヴンスピアーを作る。</Make_LotRD_MeleeWeapon_DwarfSpear.description>
   <Make_LotRD_MeleeWeapon_DwarfSpear.jobString>ドワーヴンスピアーを作製中</Make_LotRD_MeleeWeapon_DwarfSpear.jobString>
+
 
 </LanguageData>
