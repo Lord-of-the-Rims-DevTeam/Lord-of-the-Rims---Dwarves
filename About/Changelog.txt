@@ -1,3 +1,7 @@
+1.20.0.6 (12-07-2018)
+========================
+Dwarven crossbows now fire bolts properly instead of hornbow arrows.
+
 1.20.0.5 (11-18-2018)
 ========================
 Adds research and technologies for most dwarven weapons, armor, apparel, furniture, structures, and more.

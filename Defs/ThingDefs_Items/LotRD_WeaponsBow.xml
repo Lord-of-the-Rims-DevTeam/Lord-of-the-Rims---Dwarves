@@ -128,7 +128,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>LotRD_Arrow</defaultProjectile>
+        <defaultProjectile>LotRD_Bolt</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>32</range>
         <soundCast>LotRD_BowDwarf</soundCast>
