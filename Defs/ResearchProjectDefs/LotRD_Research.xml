@@ -3,12 +3,12 @@
 
   <ResearchTabDef>
     <defName>LotRD_DwarvesTab</defName>
-	<label>Dwarves, Khazâd</label>
+    <label>Dwarves, Khazâd</label>
   </ResearchTabDef>
 
   <ResearchProjectDef Name="DwarvenResearch" Abstract="True">
-	<techLevel>Neolithic</techLevel>
-	<tab>LotRD_DwarvesTab</tab>
+    <techLevel>Neolithic</techLevel>
+    <tab>LotRD_DwarvesTab</tab>
   </ResearchProjectDef>
 
   <ResearchProjectTagDef>
@@ -53,10 +53,10 @@
     <researchViewX>1.5</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
-  
+
   <!--======== Column 2 =========-->
   <!--======= Dwarves Armor ======-->
-  
+
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_ArmorOne</defName>
     <label>Apparel of the Aulëonnar</label>
@@ -73,7 +73,7 @@
     <defName>LotRD_ArmorTwo</defName>
     <label>Shieldmaking and Chainmail</label>
     <description>Prepare your dwarves with armor and helmets for the horrors of war:\n- Longbeard chaincoat and helmet\n- Dwarf-shield</description>
-    <baseCost>250</baseCost>                                                 
+    <baseCost>250</baseCost>
     <prerequisites>
       <li>LotRD_ArmorOne</li>
     </prerequisites>
@@ -86,7 +86,6 @@
     <label>Armor of the Iron Hills</label>
     <description>Thicken your dwarves with iron apparel inspired by the dwarves from the iron hills:\n- Hill-dwarf armor and helmet\n- Hill-dwarf shield</description>
     <baseCost>500</baseCost>
-    
     <prerequisites>
       <li>LotRD_ArmorTwo</li>
     </prerequisites>
@@ -114,7 +113,6 @@
     <label>Dwarven Furniture</label>
     <description>The natural dwarven inclination to craft creates impressive furniture:\n- Dwarven stool\n- Dwarven table\n- Dwarven end table\n- Dwarven dresser\n- Dwarven game table</description>
     <baseCost>250</baseCost>
-    
     <tags>
       <li>LotRD_DwarfScenario</li>
     </tags>
@@ -126,18 +124,19 @@
     <defName>LotRD_FurnitureTwo</defName>
     <label>Dwarven Lighting</label>
     <description>Unlock dwarven furniture for providing light in dark places:\n- Dwarven chandelier\n- Dwarven candelabra\n- Dwarven brazier box\n- Dwarven dresser</description>
-    <baseCost>250</baseCost>
-    
+    <baseCost>200</baseCost>
     <researchViewX>0.75</researchViewX>
     <researchViewY>2</researchViewY>
+    <prerequisites>
+      <li>LotRD_FurnitureOne</li>
+    </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="DwarvenResearch">
     <defName>LotRD_FurnitureThree</defName>
     <label>Ithildin</label>
-    <description>Allows for the creation of special lighting using a mithril alloy:\n- Dwarven chandelier\n- Dwarven candelabra\n- Dwarven brazier box\n- Dwarven dresser</description>
+    <description>Allows for the creation of special lighting using a mithril alloy:\n- Dwarven ithildin wall light\n- Dwarven ithildin lamp</description>
     <baseCost>1000</baseCost>
-    
     <researchViewX>1.5</researchViewX>
     <researchViewY>2</researchViewY>
     <prerequisites>
@@ -153,7 +152,6 @@
     <label>Dwarven Fortress</label>
     <description>Create strong doors and sturdy walls worthy of your dwarves:\n- Dwarven reinforced door\n- Dwarven reinforced walls</description>
     <baseCost>500</baseCost>
-    
     <researchViewX>0</researchViewX>
     <researchViewY>3</researchViewY>
   </ResearchProjectDef>
@@ -166,7 +164,6 @@
     <prerequisites>
       <li>LotRD_StructuresOne</li>
     </prerequisites>
-    
     <researchViewX>0.75</researchViewX>
     <researchViewY>2.7</researchViewY>
   </ResearchProjectDef>
@@ -179,7 +176,6 @@
     <prerequisites>
       <li>LotRD_StructuresOne</li>
     </prerequisites>
-    
     <researchViewX>0.75</researchViewX>
     <researchViewY>3.3</researchViewY>
   </ResearchProjectDef>
@@ -191,7 +187,7 @@
     <defName>LotRD_Brewing</defName>
     <label>Dwarven Mead Brewing</label>
     <description>Unlock the powers of mead by turning raw mead wort into mead:\n\n- Fermenting barrel (mead)</description>
-    <baseCost>500</baseCost>    
+    <baseCost>500</baseCost>
     <researchViewX>1</researchViewX>
     <researchViewY>4</researchViewY>
   </ResearchProjectDef>
@@ -200,7 +196,7 @@
     <defName>LotRD_ToyMaking</defName>
     <label>Dwarven Toy Making</label>
     <description>Allows for the making of the following at a smithy:\n- Puzzle box\n- Marble labyrinth\n- Elf doll</description>
-    <baseCost>250</baseCost>    
+    <baseCost>250</baseCost>
     <researchViewX>1.75</researchViewX>
     <researchViewY>4</researchViewY>
   </ResearchProjectDef>
