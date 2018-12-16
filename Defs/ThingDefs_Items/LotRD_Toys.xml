@@ -4,7 +4,7 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>LotRD_DwarfPuzzleBox</defName>
-    <label>puzzle box (dwarfmake)</label>
+    <label>Puzzle box (Dwarfmake)</label>
     <description>A magic puzzle box of dwarf-make with holes, slides, and knobs.</description>
     <graphicData>
       <texPath>Things/Item/Toys/sheidulaPuzzleBox</texPath>
@@ -18,7 +18,7 @@
     <stackLimit>1</stackLimit>
     <useHitPoints>true</useHitPoints>
     <recipeMaker>
-			<researchPrerequisite>LotRD_ToyMaking</researchPrerequisite>
+      <researchPrerequisite>LotRD_ToyMaking</researchPrerequisite>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
@@ -29,14 +29,14 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-	  <WoodLog>100</WoodLog>
+      <WoodLog>100</WoodLog>
     </costList>
     <statBases>
       <MarketValue>130</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
       <JoyGainFactor>1</JoyGainFactor>
-	  <Beauty>1</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
     <thingCategories>
       <li>Items</li>
@@ -53,15 +53,15 @@
       <li>Medieval</li>
     </tradeTags>
   </ThingDef>
-  
+
   <ThingDef ParentName="ResourceBase">
     <defName>LotRD_DwarfMarbleLabyrinth</defName>
-    <label>marble labyrinth (dwarfmake)</label>
+    <label>Marble labyrinth (Dwarfmake)</label>
     <description>An enchanted marble labyrinth -- seemingly once reaching the end of one level, the box slides away to reveal additional layers in the maze.</description>
     <graphicData>
       <texPath>Things/Item/Toys/sheidulaMarbleMaze</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>0.5</drawSize>
+      <drawSize>0.5</drawSize>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
       <color>(133,97,67)</color>
     </graphicData>
@@ -75,13 +75,13 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
       <JoyGainFactor>1</JoyGainFactor>
-	  <Beauty>1</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
     <thingCategories>
       <li>Items</li>
     </thingCategories>
     <recipeMaker>
-			<researchPrerequisite>LotRD_ToyMaking</researchPrerequisite>
+      <researchPrerequisite>LotRD_ToyMaking</researchPrerequisite>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
@@ -92,12 +92,12 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-	  <WoodLog>80</WoodLog>
+      <WoodLog>80</WoodLog>
     </costList>
     <comps>
-    <li>
+      <li>
         <compClass>CompQuality</compClass>
-    </li>
+      </li>
     </comps>
     <drawGUIOverlay>false</drawGUIOverlay>
     <tradeability>All</tradeability>
@@ -106,10 +106,10 @@
       <li>Medieval</li>
     </tradeTags>
   </ThingDef>
-  
+
   <ThingDef ParentName="ResourceBase">
     <defName>LotRD_DwarfElfToy</defName>
-    <label>elf doll (dwarfmake)</label>
+    <label>Elf doll (Dwarfmake)</label>
     <description>A delightul child's toy enchanted by dwarf magic. It can talk when pressed gently. The maker of this doll also enchanted it with a few "oofs" when squeezed harder than normal.</description>
     <graphicData>
       <texPath>Things/Item/Toys/sheidulaElfDoll</texPath>
@@ -126,9 +126,10 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>2</Mass>
       <JoyGainFactor>1</JoyGainFactor>
-	  <Beauty>1</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
     <recipeMaker>
+      <researchPrerequisite>LotRD_ToyMaking</researchPrerequisite>
       <workSpeedStat>TailoringSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
@@ -139,15 +140,15 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-	  <Cloth>30</Cloth>
+      <Cloth>30</Cloth>
     </costList>
     <thingCategories>
       <li>Items</li>
     </thingCategories>
     <comps>
-    <li>
+      <li>
         <compClass>CompQuality</compClass>
-    </li>
+      </li>
     </comps>
     <drawGUIOverlay>false</drawGUIOverlay>
     <tradeability>All</tradeability>
