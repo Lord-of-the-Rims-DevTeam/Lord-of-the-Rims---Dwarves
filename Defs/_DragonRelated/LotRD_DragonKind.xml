@@ -154,7 +154,7 @@
     </tools>
     <race>
       <wildness>0.985</wildness>
-      <thinkTreeMain>Animal</thinkTreeMain>
+      <thinkTreeMain>LotRD_DragonTree</thinkTreeMain>
       <body>LotRD_DragonBody</body>
 	  <leatherDef>LotRD_Leather_Dragon</leatherDef>
       <herdAnimal>false</herdAnimal>

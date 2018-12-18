@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>LotRD_FlyToRearTarget</defName>
+    <driverClass>Dwarves.JobDriver_FlyToRearTarget</driverClass>
+    <reportString>flying to TargetA.</reportString>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <casualInterruptible>false</casualInterruptible>
+    <collideWithPawns>true</collideWithPawns>
+  </JobDef>
+
+  <JobDef>
+    <defName>LotRD_FireBlast</defName>
+    <driverClass>Dwarves.JobDriver_FireBlast</driverClass>
+    <reportString>breathing fire on TargetA.</reportString>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <casualInterruptible>false</casualInterruptible>
+    <collideWithPawns>true</collideWithPawns>
+  </JobDef>
+
+  <JobDef>
+    <defName>LotRD_WingBuffet</defName>
+    <driverClass>Dwarves.JobDriver_WingBuffet</driverClass>
+    <reportString>flapping wings at TargetA.</reportString>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <casualInterruptible>false</casualInterruptible>
+    <collideWithPawns>true</collideWithPawns>
+  </JobDef>
+
+</Defs>

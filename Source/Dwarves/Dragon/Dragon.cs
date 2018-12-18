@@ -14,11 +14,11 @@ namespace Dwarves
                 Log.Message("Absorbed flame damage");
                 absorbed = true;
             }
-            if (!this.InMentalState && dinfo.Instigator is Pawn p && p?.Faction == Faction.OfPlayerSilentFail)
-            {
-                this.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter, p.Label, true, false,
-                    null);
-            }
+            //if (!this.InMentalState && dinfo.Instigator is Pawn p && p?.Faction == Faction.OfPlayerSilentFail)
+            //{
+            //    this.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Manhunter, p.Label, true, false,
+            //        null);
+            //}
         }
 
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
