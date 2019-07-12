@@ -3,9 +3,9 @@
 
   <LotRD_GiantBoarRace.label>巨大イノシシ</LotRD_GiantBoarRace.label>
   <LotRD_GiantBoarRace.description>巨大な頭と肩を持つ大型のイノシシで、乗ることができると噂されています。</LotRD_GiantBoarRace.description>
-  <LotRD_GiantBoarRace.tools.0.label>牙</LotRD_GiantBoarRace.tools.0.label>
-  <LotRD_GiantBoarRace.tools.1.label>口</LotRD_GiantBoarRace.tools.1.label>
-  <LotRD_GiantBoarRace.tools.2.label>頭つき</LotRD_GiantBoarRace.tools.2.label>
+  <LotRD_GiantBoarRace.tools.tusk.label>牙</LotRD_GiantBoarRace.tools.tusk.label>
+  <LotRD_GiantBoarRace.tools.maw.label>口</LotRD_GiantBoarRace.tools.maw.label>
+  <LotRD_GiantBoarRace.tools.head.label>頭つき</LotRD_GiantBoarRace.tools.head.label>
   <!-- Use Leather From: Pig -->
   <!-- Use Meat From: Pig -->
   <Corpse_LotRD_GiantBoarRace.label>大イノシシの死骸</Corpse_LotRD_GiantBoarRace.label>
