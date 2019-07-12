@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LotRD_ObservedDragon.stages.0.label>ドラゴンを見た</LotRD_ObservedDragon.stages.0.label>
-  <LotRD_ObservedDragon.stages.0.description>本当に歌や物語で語られている事では完全に不足でしょう。ドラゴン！なんて壮大な生き物！</LotRD_ObservedDragon.stages.0.description>
+  <LotRD_ObservedDragon.stages.observed_dragon.label>ドラゴンを見た</LotRD_ObservedDragon.stages.observed_dragon.label>
+  <LotRD_ObservedDragon.stages.observed_dragon.description>本当に歌や物語で語られている事では完全に不足でしょう。ドラゴン！なんて壮大な生き物！</LotRD_ObservedDragon.stages.observed_dragon.description>
 
-  <LotRD_ObservedDragonDead.stages.0.label>ドラゴンの死を見届けた</LotRD_ObservedDragonDead.stages.0.label>
-  <LotRD_ObservedDragonDead.stages.0.description>死んだという事が、いまだに信じられないほどです。 蜂蜜酒と共に食べる竜の肉がどんな味なのか想像できますか？</LotRD_ObservedDragonDead.stages.0.description>
+  <LotRD_ObservedDragonDead.stages.observed_dead_dragon.label>ドラゴンの死を見届けた</LotRD_ObservedDragonDead.stages.observed_dead_dragon.label>
+  <LotRD_ObservedDragonDead.stages.observed_dead_dragon.description>死んだという事が、いまだに信じられないほどです。 蜂蜜酒と共に食べる竜の肉がどんな味なのか想像できますか？</LotRD_ObservedDragonDead.stages.observed_dead_dragon.description>
 
-  <LotRD_ObservedDragonEnraged.stages.0.label>怒れるドラゴンを見た</LotRD_ObservedDragonEnraged.stages.0.label>
-  <LotRD_ObservedDragonEnraged.stages.0.description>ドラゴンの吐く炎と破滅！それが私たちの身の上に降りかかるものです！</LotRD_ObservedDragonEnraged.stages.0.description>
+  <LotRD_ObservedDragonEnraged.stages.observed_enraged_dragon.label>怒れるドラゴンを見た</LotRD_ObservedDragonEnraged.stages.observed_enraged_dragon.label>
+  <LotRD_ObservedDragonEnraged.stages.observed_enraged_dragon.description>ドラゴンの吐く炎と破滅！それが私たちの身の上に降りかかるものです！</LotRD_ObservedDragonEnraged.stages.observed_enraged_dragon.description>
 
 </LanguageData>
