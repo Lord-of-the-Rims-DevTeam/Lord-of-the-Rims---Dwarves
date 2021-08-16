@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="ModCheck.isModLoaded">
+        <modName>Lord of the Rims - Dwarves</modName>
+        <yourMod>Lord of the Rims CE Patch</yourMod>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="LotRD_DragonFireDrakeRace"]</xpath>
+        <value>
+          <li Class="CombatExtended.RacePropertiesExtensionCE">
+            <bodyShape>Quadruped</bodyShape>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_DragonFireDrakeRace"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>teeth</label>
+              <capacities>
+                <li>Bite</li>
+              </capacities>
+              <power>50</power>
+              <cooldownTime>2.5</cooldownTime>
+              <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+              <armorPenetration>0.42</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>left claws</label>
+              <capacities>
+                <li>Slash</li>
+              </capacities>
+              <power>30</power>
+              <cooldownTime>1.5</cooldownTime>
+              <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+              <armorPenetration>0.32</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>right claws</label>
+              <capacities>
+                <li>Slash</li>
+              </capacities>
+              <power>30</power>
+              <cooldownTime>1.5</cooldownTime>
+              <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+              <armorPenetration>0.32</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>wings</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>25</power>
+              <cooldownTime>3</cooldownTime>
+              <linkedBodyPartsGroup>LotRD_Wings</linkedBodyPartsGroup>
+              <armorPenetration>0.18</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

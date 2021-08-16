@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+    <modNameReadable>LordoftheRimsDwarves</modNameReadable>
+    <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2243330771</linkUrl>
+  </HugsLib.UpdateFeatureDef>
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>LordoftheRimsDwarves_1_0_7_0</defName>
+    <assemblyVersion>1.0.7.0</assemblyVersion>
+    <content>The Dwarven-throne and other throneroom furniture can now be used to fulfill Royalty-titles.
+The information on what items are needed might not show the dwarven items due to a limitation in the game, but once the required structure is built it should recognize it.
+Thanks SoongJr for most of the work on this update!
+</content>
+  </HugsLib.UpdateFeatureDef>
+</Defs>

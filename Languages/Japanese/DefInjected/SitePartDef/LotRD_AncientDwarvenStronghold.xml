@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_AncientDwarvenStronghold.label>太古のドワーフ居住地</LotRD_AncientDwarvenStronghold.label>
   <LotRD_AncientDwarvenStronghold.description>恐ろしい獣に守られた貴重な宝物があります。</LotRD_AncientDwarvenStronghold.description>
   <LotRD_AncientDwarvenStronghold.descriptionDialogue>この廃墟を守っている恐ろしい生き物がいます</LotRD_AncientDwarvenStronghold.descriptionDialogue>
-
 </LanguageData>

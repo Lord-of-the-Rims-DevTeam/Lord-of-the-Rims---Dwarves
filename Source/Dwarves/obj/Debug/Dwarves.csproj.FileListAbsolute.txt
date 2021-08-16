@@ -1,11 +1,5 @@
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord of the Rims - Dwarves\Assemblies\Vampire.dll
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord of the Rims - Dwarves\Source\Dwarves\obj\Debug\Dwarves.csprojResolveAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord of the Rims - Dwarves\Source\Dwarves\obj\Debug\Vampire.dll
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.csprojResolveAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Assemblies\Dwarves.dll
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Assemblies\Dwarves.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.csprojAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\Lord-of-the-Rims---Dwarves\1.3\Assemblies\Dwarves.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.dll

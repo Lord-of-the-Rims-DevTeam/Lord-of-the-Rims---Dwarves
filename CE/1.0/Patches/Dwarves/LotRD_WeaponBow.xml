@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="ModCheck.isModLoaded">
+        <modName>Lord of the Rims - Dwarves</modName>
+        <yourMod>Lord of the Rims CE Patch</yourMod>
+      </li>
+      <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>LotRD_Bow_Dwarven</defName>
+        <statBases>
+          <SightsEfficiency>0.85</SightsEfficiency>
+          <ShotSpread>1</ShotSpread>
+          <SwayFactor>2</SwayFactor>
+          <Bulk>3</Bulk>
+          <RangedWeapon_Cooldown>1.68</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+          <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>Projectile_LotRD_Arrow</defaultProjectile>
+          <warmupTime>1.5</warmupTime>
+          <range>32</range>
+          <soundCast>LotRD_BowDwarf</soundCast>
+        </Properties>
+        <AmmoUser>
+          <ammoSet>AmmoSet_LotRD_Arrow</ammoSet>
+        </AmmoUser>
+        <FireModes>
+          <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <weaponTags>
+          <li>DwarvenRanged</li>
+        </weaponTags>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_Bow_Dwarven"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <capacities>
+                <li>Blunt</li>
+                <li>Poke</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>1.6</cooldownTime>
+              <armorPenetration>0.1</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>LotRD_Bow_DwarvenCross</defName>
+        <statBases>
+          <SightsEfficiency>0.85</SightsEfficiency>
+          <ShotSpread>1</ShotSpread>
+          <SwayFactor>2</SwayFactor>
+          <Bulk>3</Bulk>
+          <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+          <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>Projectile_LotRD_Bolt</defaultProjectile>
+          <warmupTime>1.5</warmupTime>
+          <range>32</range>
+          <soundCast>LotRD_BowDwarf</soundCast>
+        </Properties>
+        <AmmoUser>
+          <ammoSet>AmmoSet_LotRD_Bolt</ammoSet>
+        </AmmoUser>
+        <FireModes>
+          <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <weaponTags>
+          <li>DwarvenRanged</li>
+        </weaponTags>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_Bow_DwarvenCross"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <capacities>
+                <li>Blunt</li>
+                <li>Poke</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>1.6</cooldownTime>
+              <armorPenetration>0.1</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

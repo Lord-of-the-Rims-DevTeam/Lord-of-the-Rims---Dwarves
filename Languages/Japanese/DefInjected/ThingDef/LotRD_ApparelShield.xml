@@ -1,39 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_DwarfStandardShield.label>ドワーヴンシールド</LotRD_DwarfStandardShield.label>
   <LotRD_DwarfStandardShield.description>これは素早く簡単に作れる一般的な盾で、ドワーフがよく使用しています。</LotRD_DwarfStandardShield.description>
-  <LotRD_DwarfStandardShield.tools.side.label>側面</LotRD_DwarfStandardShield.tools.side.label>
-  <LotRD_DwarfStandardShield.tools.buckle.label>留め金</LotRD_DwarfStandardShield.tools.buckle.label>
-
+  <LotRD_DwarfStandardShield.tools.0.label>側面</LotRD_DwarfStandardShield.tools.0.label>
+  <LotRD_DwarfStandardShield.tools.1.label>留め金</LotRD_DwarfStandardShield.tools.1.label>
   <LotRD_DwarfStandardShieldTwo.label>ドワーヴンシールド(模様)</LotRD_DwarfStandardShieldTwo.label>
   <LotRD_DwarfStandardShieldTwo.description>これは素早く簡単に作れます。盾の表面にドワーヴンノット(ドワーフ文化の模様)が描き込まれた盾で、戦いにおもむく戦士階級のドワーフがよく使用しています。</LotRD_DwarfStandardShieldTwo.description>
-  <LotRD_DwarfStandardShieldTwo.tools.side.label>側面</LotRD_DwarfStandardShieldTwo.tools.side.label>
-  <LotRD_DwarfStandardShieldTwo.tools.buckle.label>留め金</LotRD_DwarfStandardShieldTwo.tools.buckle.label>
-
+  <LotRD_DwarfStandardShieldTwo.tools.0.label>側面</LotRD_DwarfStandardShieldTwo.tools.0.label>
+  <LotRD_DwarfStandardShieldTwo.tools.1.label>留め金</LotRD_DwarfStandardShieldTwo.tools.1.label>
   <LotRD_DwarfStandardShieldThree.label>ドワーヴンシールド(緑)</LotRD_DwarfStandardShieldThree.label>
   <LotRD_DwarfStandardShieldThree.description>これは素早く簡単に作れます。盾の表面に士族を示す緑色の染料でドワーヴンノット(ドワーフ文化の模様)が描き込まれた盾で、戦いに熟練したドワーフがよく使用しています。</LotRD_DwarfStandardShieldThree.description>
-  <LotRD_DwarfStandardShieldThree.tools.side.label>側面</LotRD_DwarfStandardShieldThree.tools.side.label>
-  <LotRD_DwarfStandardShieldThree.tools.buckle.label>留め金</LotRD_DwarfStandardShieldThree.tools.buckle.label>
-
+  <LotRD_DwarfStandardShieldThree.tools.0.label>側面</LotRD_DwarfStandardShieldThree.tools.0.label>
+  <LotRD_DwarfStandardShieldThree.tools.1.label>留め金</LotRD_DwarfStandardShieldThree.tools.1.label>
   <LotRD_DwarfStandardShieldFour.label>ドワーヴンシールド(紋章)</LotRD_DwarfStandardShieldFour.label>
   <LotRD_DwarfStandardShieldFour.description>これは素早く簡単に作れ、盾の表面に家を示す紋章がが描き込まれた盾で、それなりに家名が高い戦士階級のドワーフがよく使用しています。</LotRD_DwarfStandardShieldFour.description>
-  <LotRD_DwarfStandardShieldFour.tools.side.label>側面</LotRD_DwarfStandardShieldFour.tools.side.label>
-  <LotRD_DwarfStandardShieldFour.tools.buckle.label>留め金</LotRD_DwarfStandardShieldFour.tools.buckle.label>
-
+  <LotRD_DwarfStandardShieldFour.tools.0.label>側面</LotRD_DwarfStandardShieldFour.tools.0.label>
+  <LotRD_DwarfStandardShieldFour.tools.1.label>留め金</LotRD_DwarfStandardShieldFour.tools.1.label>
   <LotRD_DwarfStandardShieldFive.label>ドワーヴンシールド(貴族)</LotRD_DwarfStandardShieldFive.label>
   <LotRD_DwarfStandardShieldFive.description>これは素早く簡単に作れ、盾の表面に貴族家を示す紋章がが描き込まれた盾で、高名な貴族階級のドワーフが使用しています。</LotRD_DwarfStandardShieldFive.description>
-  <LotRD_DwarfStandardShieldFive.tools.side.label>側面</LotRD_DwarfStandardShieldFive.tools.side.label>
-  <LotRD_DwarfStandardShieldFive.tools.buckle.label>留め金</LotRD_DwarfStandardShieldFive.tools.buckle.label>
-
+  <LotRD_DwarfStandardShieldFive.tools.0.label>側面</LotRD_DwarfStandardShieldFive.tools.0.label>
+  <LotRD_DwarfStandardShieldFive.tools.1.label>留め金</LotRD_DwarfStandardShieldFive.tools.1.label>
   <LotRD_IronHillBattleShield.label>ドワーヴンシールド(丘)</LotRD_IronHillBattleShield.label>
   <LotRD_IronHillBattleShield.description>この盾は通常、くろがね連山に住む丘ドワーフによって作られ、鉄製の鎧と共に装備して使用されます。</LotRD_IronHillBattleShield.description>
-  <LotRD_IronHillBattleShield.tools.side.label>側面</LotRD_IronHillBattleShield.tools.side.label>
-  <LotRD_IronHillBattleShield.tools.buckle.label>留め金</LotRD_IronHillBattleShield.tools.buckle.label>
-
+  <LotRD_IronHillBattleShield.tools.0.label>側面</LotRD_IronHillBattleShield.tools.0.label>
+  <LotRD_IronHillBattleShield.tools.1.label>留め金</LotRD_IronHillBattleShield.tools.1.label>
   <LotRD_MoriaBattleShield.label>ドワーヴンシールド(山)</LotRD_MoriaBattleShield.label>
   <LotRD_MoriaBattleShield.description>この盾は通常、モリアに住む長鬚族のドワーフによって作られ、鉄製の鎧と共に装備して使用されました。</LotRD_MoriaBattleShield.description>
-  <LotRD_MoriaBattleShield.tools.side.label>側面</LotRD_MoriaBattleShield.tools.side.label>
-  <LotRD_MoriaBattleShield.tools.buckle.label>留め金</LotRD_MoriaBattleShield.tools.buckle.label>
-
+  <LotRD_MoriaBattleShield.tools.0.label>側面</LotRD_MoriaBattleShield.tools.0.label>
+  <LotRD_MoriaBattleShield.tools.1.label>留め金</LotRD_MoriaBattleShield.tools.1.label>
 </LanguageData>

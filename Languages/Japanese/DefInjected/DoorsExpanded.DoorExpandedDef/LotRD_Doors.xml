@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Doors -->
-
   <PH_DoorDoubleDwarvenGrand.label>グランドゲート(ドワーフ)(3x2)</PH_DoorDoubleDwarvenGrand.label>
   <PH_DoorDoubleDwarvenGrand.description>外敵とドワーフの拠点との間を強力に隔てる巨大な門です。</PH_DoorDoubleDwarvenGrand.description>
-
   <LotRD_DoorDwarven.label>頑丈なドア(ドワーフ)</LotRD_DoorDwarven.label>
   <LotRD_DoorDwarven.description>金属製の枠で補強されています。 部屋を隔てる手動扉です。 手で開け閉めしないといけない分だけ移動が遅くなります。</LotRD_DoorDwarven.description>
-
 </LanguageData>

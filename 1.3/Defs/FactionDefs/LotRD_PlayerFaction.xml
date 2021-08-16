@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>LotRD_PlayerColony</defName>
+    <label>Dwarf Settlement</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>LotRD_DwarfVillager</basicMemberKind>
+    <pawnsPlural>dwarves</pawnsPlural>
+    <techLevel>Medieval</techLevel>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <backstoryCategories>
+      <li>LotR_BackstoryDwarf</li>
+    </backstoryCategories>
+    <factionIconPath>World/MountainDwarves</factionIconPath>
+    <settlementNameMaker>LotRD_NamerFactionBaseDwarfMountain</settlementNameMaker>
+    <playerInitialSettlementNameMaker>NamerSettlementOutlander</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerSettlementOutlander</factionNameMaker>
+    <geneticVariance>1</geneticVariance>
+    <startingResearchTags>
+      <li>LotRD_DwarfScenario</li>
+    </startingResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

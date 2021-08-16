@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_ContainsWortMead>{0}を含む/蜂蜜汁{1}</LotRD_ContainsWortMead>
   <LotRD_ContainsMead>{0}を含む/トワーフ蜂蜜酒{1}</LotRD_ContainsMead>
   <LotRD_NoWortMead>蜂蜜汁が必要</LotRD_NoWortMead>
-
 </LanguageData>

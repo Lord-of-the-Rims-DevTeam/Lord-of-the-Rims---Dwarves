@@ -1,0 +1,10 @@
+Lord of the Rims - Dwarves is a mod package that is part of the Lord of the Rims series for RimWorld. 
+The mod adds in a number of dwarf-related content such as:
+  * Dwarves as a playable race
+  * Dwarven furniture, walls, and doors
+  * Dwarven weapons, armor, and toys
+  * Plants: Earthbread, Honeyroot, and Mead
+  * Giant Boars (GiddyUp supported)
+  * Factions: Kingdom Under the Mountain, Dwarven Hill Clans, and Dwarven Bandits
+  * Starting scenario: Dwarves - Homeless
+  * ... and a special event for dwarves.

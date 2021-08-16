@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_GiantBoarKind.label>巨大イノシシ</LotRD_GiantBoarKind.label>
   <LotRD_GiantBoarKind.labelPlural>巨大イノシシたち</LotRD_GiantBoarKind.labelPlural>
   <LotRD_GiantBoarKind.lifeStages.0.label>巨大ウリ坊</LotRD_GiantBoarKind.lifeStages.0.label>
@@ -25,5 +24,4 @@
   <LotRD_GiantBoarKind.labelMalePlural>男性 巨大イノシシたち</LotRD_GiantBoarKind.labelMalePlural>
   <LotRD_GiantBoarKind.labelFemale>女性 巨大イノシシ</LotRD_GiantBoarKind.labelFemale>
   <LotRD_GiantBoarKind.labelFemalePlural>女性 巨大イノシシたち</LotRD_GiantBoarKind.labelFemalePlural>
-
 </LanguageData>

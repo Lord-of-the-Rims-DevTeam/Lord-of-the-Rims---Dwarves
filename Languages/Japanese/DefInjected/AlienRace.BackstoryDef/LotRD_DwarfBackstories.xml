@@ -1,62 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_jecrellBackstoryChildOne.title>ドワーフ:探索者</LotRD_jecrellBackstoryChildOne.title>
   <LotRD_jecrellBackstoryChildOne.titleShort>探索者</LotRD_jecrellBackstoryChildOne.titleShort>
   <LotRD_jecrellBackstoryChildOne.baseDescription>[PAWN_nameDef]は多くのドワーフの子供がそうしていたように、大人の鉱夫の手伝いをして、[PAWN_possessive]幼児期を過ごしました。[PAWN_pronoun]は[PAWN_possessive]小さな体を利用して細い通路を巡って、新旧両方のトンネルを通り抜けて貴重な鉱物の有る場所に繋がる通路を発見しました。</LotRD_jecrellBackstoryChildOne.baseDescription>
-
   <LotRD_dreggrodDaTraitorBackstoryChildTwo.title>ドワーフ:放浪生活者</LotRD_dreggrodDaTraitorBackstoryChildTwo.title>
   <LotRD_dreggrodDaTraitorBackstoryChildTwo.titleShort>放浪生活者</LotRD_dreggrodDaTraitorBackstoryChildTwo.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryChildTwo.baseDescription>幼い頃に[PAWN_possessive]家族から引き放された[PAWN_nameDef]は、今すぐ成長しなければなりませんでした。</LotRD_dreggrodDaTraitorBackstoryChildTwo.baseDescription>
-
   <LotRD_jecrellBackstoryChildThree.title>ドワーフ:過保護な子</LotRD_jecrellBackstoryChildThree.title>
   <LotRD_jecrellBackstoryChildThree.titleShort>過保護な子</LotRD_jecrellBackstoryChildThree.titleShort>
-  <LotRD_jecrellBackstoryChildThree.baseDescription>子供の頃、[PAWN_nameDef]は幼少期を過保護な世話と注意深い監視の下で[PAWN_possessive]安全に過ごしました。[PAWN_possessive]の両親は、[PAWN_objective]が怪我したり喧嘩したりしないように細心の注意を払いました。</LotRD_jecrellBackstoryChildThree.baseDescription>
-
+  <LotRD_jecrellBackstoryChildThree.baseDescription>子供の頃、[PAWN_nameDef]は幼少期を過保護な世話と注意深い監視の下で安全に過ごしました。[PAWN_pronoun]の両親は、[PAWN_objective]が怪我したり喧嘩したりしないように細心の注意を払いました。</LotRD_jecrellBackstoryChildThree.baseDescription>
   <LotRD_jecrellBackstoryChildFour.title>ドワーフ:脳筋一家</LotRD_jecrellBackstoryChildFour.title>
   <LotRD_jecrellBackstoryChildFour.titleShort>脳筋一家</LotRD_jecrellBackstoryChildFour.titleShort>
   <LotRD_jecrellBackstoryChildFour.baseDescription>家族のである戦士たちと一緒に育ったことで、[PAWN_nameDef]には沢山練習する時間があり、おもちゃとして与えられた武器で遊んだり、スリングショットで的を撃ったりしていました。しかし、机で本を読むことはめったにありませんでした。</LotRD_jecrellBackstoryChildFour.baseDescription>
-
   <!-- Adult backstories -->
-
   <LotRD_dreggrodDaTraitorBackstoryAdultOne.title>ドワーフ:炭鉱夫</LotRD_dreggrodDaTraitorBackstoryAdultOne.title>
   <LotRD_dreggrodDaTraitorBackstoryAdultOne.titleShort>炭鉱夫</LotRD_dreggrodDaTraitorBackstoryAdultOne.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryAdultOne.baseDescription>[PAWN_nameDef]は鉱夫でした。 [PAWN_pronoun]は、ドワーフ王国の山塞を彫刻する役目を果たしました。</LotRD_dreggrodDaTraitorBackstoryAdultOne.baseDescription>
-
   <LotRD_dreggrodDaTraitorBackstoryAdultTwo.title>ドワーフ:鍛冶屋</LotRD_dreggrodDaTraitorBackstoryAdultTwo.title>
   <LotRD_dreggrodDaTraitorBackstoryAdultTwo.titleShort>鍛冶屋</LotRD_dreggrodDaTraitorBackstoryAdultTwo.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryAdultTwo.baseDescription>[PAWN_nameDef]は、[PAWN_possessive]作りあげた武器と鎧によって中つ国に住む自由の民たちの間では有名な一流鍛冶職人でした。</LotRD_dreggrodDaTraitorBackstoryAdultTwo.baseDescription>
-
   <LotRD_dreggrodDaTraitorBackstoryAdultThree.title>ドワーフ:採食者</LotRD_dreggrodDaTraitorBackstoryAdultThree.title>
   <LotRD_dreggrodDaTraitorBackstoryAdultThree.titleShort>採食者</LotRD_dreggrodDaTraitorBackstoryAdultThree.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryAdultThree.baseDescription>猟犬たちのように、[PAWN_nameDef]は食糧を狩り集める命令をされて頻繁に住処を離れなければなりませんでした。</LotRD_dreggrodDaTraitorBackstoryAdultThree.baseDescription>
-
   <LotRD_dreggrodDaTraitorBackstoryAdultFour.title>ドワーフ:兵士</LotRD_dreggrodDaTraitorBackstoryAdultFour.title>
   <LotRD_dreggrodDaTraitorBackstoryAdultFour.titleShort>兵士</LotRD_dreggrodDaTraitorBackstoryAdultFour.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryAdultFour.baseDescription>[PAWN_nameDef]は拠点の所属する兵士として務めていました。 [PAWN_pronoun]は斧を振るったり正確に弓を使うこと学び、[PAWN_objective]が外から来る脅威から拠点を守ることで実績を築く助けとなりました。</LotRD_dreggrodDaTraitorBackstoryAdultFour.baseDescription>
-
   <LotRD_dreggrodDaTraitorBackstoryAdultFive.title>ドワーフ:貴族</LotRD_dreggrodDaTraitorBackstoryAdultFive.title>
   <LotRD_dreggrodDaTraitorBackstoryAdultFive.titleShort>貴族</LotRD_dreggrodDaTraitorBackstoryAdultFive.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryAdultFive.baseDescription>[PAWN_nameDef]の家系は、ドワーフの領主から分家しました。 家臣のドワーフたちは間違いなく[PAWN_possessive]命令に従いました。彼はいつも[PAWN_possessive]頼んだ飲み物を無料で飲んでいました。</LotRD_dreggrodDaTraitorBackstoryAdultFive.baseDescription>
-
   <LotRD_dreggrodDaTraitorBackstoryAdultSix.title>ドワーフ:冒険者</LotRD_dreggrodDaTraitorBackstoryAdultSix.title>
   <LotRD_dreggrodDaTraitorBackstoryAdultSix.titleShort>冒険者</LotRD_dreggrodDaTraitorBackstoryAdultSix.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryAdultSix.baseDescription>[PAWN_nameDef]は冒険家でした。 [PAWN_pronoun]は、世界中の富と名声を追い求めるために彼の故郷を離れました。 [PAWN_pronoun]は[PAWN_possessive]旅を通して財宝の価値をしっかり学びましたし、優れた物々交換技能を学び帰国しました。</LotRD_dreggrodDaTraitorBackstoryAdultSix.baseDescription>
-
   <LotRD_dreggrodDaTraitorBackstoryAdultFueh.title>ドワーフ:探検家</LotRD_dreggrodDaTraitorBackstoryAdultFueh.title>
   <LotRD_dreggrodDaTraitorBackstoryAdultFueh.titleShort>探検家</LotRD_dreggrodDaTraitorBackstoryAdultFueh.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryAdultFueh.baseDescription>[PAWN_nameDef]は冒険家でした。 [PAWN_pronoun]は、世界中の富と名声を追い求めるために彼の故郷を離れました。 [PAWN_pronoun]は[PAWN_possessive]旅を通して財宝の価値をしっかり学びましたし、優れた物々交換技能を学び帰国しました。</LotRD_dreggrodDaTraitorBackstoryAdultFueh.baseDescription>
-
   <LotRD_dreggrodDaTraitorBackstoryAdultSeven.title>ドワーフ:玩具職人</LotRD_dreggrodDaTraitorBackstoryAdultSeven.title>
   <LotRD_dreggrodDaTraitorBackstoryAdultSeven.titleShort>玩具職人</LotRD_dreggrodDaTraitorBackstoryAdultSeven.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryAdultSeven.baseDescription>小さな子供たちに喜びを広めることをこよなく愛すドワーフで、[PAWN_nameDef]は[PAWN_possessive]芸術的な玩具作りに打ち込んでいます。</LotRD_dreggrodDaTraitorBackstoryAdultSeven.baseDescription>
-
   <LotRD_dreggrodDaTraitorBackstoryAdultEight.title>ドワーフ:醸造家</LotRD_dreggrodDaTraitorBackstoryAdultEight.title>
   <LotRD_dreggrodDaTraitorBackstoryAdultEight.titleShort>醸造家</LotRD_dreggrodDaTraitorBackstoryAdultEight.titleShort>
   <LotRD_dreggrodDaTraitorBackstoryAdultEight.baseDescription>ドワーフがこの世界で最も愛していることが1つあれば、それは間違いなくエールでしょう。 [PAWN_nameDef]がそれを提供しています。</LotRD_dreggrodDaTraitorBackstoryAdultEight.baseDescription>
-
   <LotRD_jecrellBackstoryAdultNine.title>ドワーフ:料理人</LotRD_jecrellBackstoryAdultNine.title>
   <LotRD_jecrellBackstoryAdultNine.titleShort>料理人</LotRD_jecrellBackstoryAdultNine.titleShort>
   <LotRD_jecrellBackstoryAdultNine.baseDescription>[PAWN_nameDef]は[PAWN_possessive]同族全員に対して溶かされたばかりの鉄のようにアツアツな食事を提供します。 [PAWN_pronoun]の専門的な料理知識は、地下の王国の洞窟内で有名です。</LotRD_jecrellBackstoryAdultNine.baseDescription>
-
 </LanguageData>

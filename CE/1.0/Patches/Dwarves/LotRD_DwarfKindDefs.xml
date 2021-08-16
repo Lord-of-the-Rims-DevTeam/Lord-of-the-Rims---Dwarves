@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="ModCheck.isModLoaded">
+        <modName>Lord of the Rims - Dwarves</modName>
+        <yourMod>Lord of the Rims CE Patch</yourMod>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfVillager"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfKing"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfLord"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfGuard"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfBandit"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfBanditHunter"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfBanditTough"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfBanditToughRanged"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfGuardHill"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfSoldierMountain"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfSoldierHill"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/PawnKindDef[defName="LotRD_DwarfSoldierHillHogRider"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>30</min>
+              <max>50</max>
+            </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

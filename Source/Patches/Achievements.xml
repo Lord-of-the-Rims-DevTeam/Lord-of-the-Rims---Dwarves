@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/MainButtonDef[defName="Achievements"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementTabDef>
+              <defName>Mlie_Continued</defName>
+              <label>Continued Mods</label>
+            </AchievementsExpanded.AchievementTabDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef Name="Mlie_AchievementParent" Abstract="true">
+              <bgtexPath>Achievements/AchievmentsBG</bgtexPath>
+              <tab>Mlie_Continued</tab>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>Dwarves_DontTellTheOthers</defName>
+              <label>Dont tell the others</label>
+              <description>Equip a dwarf with a jump pack</description>
+              <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                <def>
+                </def>
+                <madeFrom>
+                </madeFrom>
+                <count>
+                </count>
+              </tracker>
+              <texPath>
+              </texPath>
+              <points>
+              </points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

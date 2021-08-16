@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_Braidbun.label>ドワーフブレイドバン</LotRD_Braidbun.label>
   <LotRD_BraidbunLong.label>ドワーフブレイドバン(長)</LotRD_BraidbunLong.label>
   <LotRD_Gaston.label>ドワーフガストン</LotRD_Gaston.label>
   <LotRD_Princess.label>ドワーフプリンセス</LotRD_Princess.label>
   <LotRD_Scat.label>ドワーフスキャット</LotRD_Scat.label>
-
 </LanguageData>

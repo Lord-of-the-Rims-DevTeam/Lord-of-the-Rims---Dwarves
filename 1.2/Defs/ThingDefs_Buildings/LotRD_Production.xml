@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>LotRD_TakeMeadOutOfFermentingBarrel</defName>
+    <label>take dwarven mead out of fermenting barrels</label>
+    <giverClass>Dwarves.WorkGiver_TakeMeadOutOfFermentingBarrel</giverClass>
+    <workType>Hauling</workType>
+    <verb>take dwarven mead</verb>
+    <gerund>taking dwarven mead from</gerund>
+    <priorityInType>20</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>LotRD_FillFermentingBarrel</defName>
+    <label>fill fermenting barrels</label>
+    <giverClass>Dwarves.WorkGiver_FillFermentingBarrel</giverClass>
+    <workType>Hauling</workType>
+    <verb>fill</verb>
+    <gerund>filling</gerund>
+    <priorityInType>19</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <JobDef>
+    <defName>LotRD_FillFermentingBarrel</defName>
+    <driverClass>Dwarves.JobDriver_FillFermentingBarrel</driverClass>
+    <reportString>filling TargetA.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+  <JobDef>
+    <defName>LotRD_TakeMeadOutOfFermentingBarrel</defName>
+    <driverClass>Dwarves.JobDriver_TakeMeadOutOfFermentingBarrel</driverClass>
+    <reportString>taking dwarven mead out of TargetA.</reportString>
+  </JobDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>LotRD_FermentingBarrel</defName>
+    <label>fermenting barrel (mead)</label>
+    <category>Building</category>
+    <thingClass>Dwarves.Building_FermentingMeadBarrel</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/FermentingBarrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <statBases>
+      <WorkToBuild>600</WorkToBuild>
+      <Mass>10</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>A barrel for fermenting raw mead wort into dwarven mead.</description>
+    <costList>
+      <Steel>10</Steel>
+      <WoodLog>30</WoodLog>
+    </costList>
+    <comps>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-1</minSafeTemperature>
+        <maxSafeTemperature>32</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
+    </comps>
+    <tickerType>Rare</tickerType>
+    <rotatable>true</rotatable>
+    <designationCategory>Production</designationCategory>
+    <constructEffect>ConstructWood</constructEffect>
+    <researchPrerequisites>
+      <li>LotRD_Brewing</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

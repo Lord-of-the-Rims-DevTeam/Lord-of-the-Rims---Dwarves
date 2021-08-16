@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="ModCheck.isModLoaded">
+        <modName>Lord of the Rims - Dwarves</modName>
+        <yourMod>Lord of the Rims CE Patch</yourMod>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_MeleeWeapon_DwarfSword"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>6</power>
+              <cooldownTime>2.7</cooldownTime>
+              <armorPenetration>0.1</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>20</power>
+              <cooldownTime>2.7</cooldownTime>
+              <armorPenetration>0.22</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Cut</li>
+              </capacities>
+              <power>28</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetration>0.26</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_MeleeWeapon_DwarfSwordBandit"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>6</power>
+              <cooldownTime>2.7</cooldownTime>
+              <armorPenetration>0.1</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>18</power>
+              <cooldownTime>2.8</cooldownTime>
+              <armorPenetration>0.22</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Cut</li>
+              </capacities>
+              <power>24</power>
+              <cooldownTime>2.8</cooldownTime>
+              <armorPenetration>0.26</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_MeleeWeapon_DwarfSpear"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>shaft</label>
+              <capacities>
+                <li>Blunt</li>
+                <li>Poke</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>2.3</cooldownTime>
+              <armorPenetration>0.12</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>23</power>
+              <cooldownTime>2.3</cooldownTime>
+              <armorPenetration>0.38</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

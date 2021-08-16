@@ -1,42 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_Chandelier.label>シャンデリア(ドワーフ)</LotRD_Chandelier.label>
   <LotRD_Chandelier.description>ドワーフ風の周囲を照らすための金属製または石造りの天井に吊るす照明です。 調理場で動物の脂肪から作られたワックスがあれば自動的に燃料補給できます。 少しの熱しか産出しません。</LotRD_Chandelier.description>
   <Blueprint_LotRD_Chandelier.label>シャンデリア(ドワーフ)(設計)</Blueprint_LotRD_Chandelier.label>
   <Blueprint_Install_LotRD_Chandelier.label>シャンデリア(ドワーフ)(移動先)</Blueprint_Install_LotRD_Chandelier.label>
   <Frame_LotRD_Chandelier.label>シャンデリア(ドワーフ)(施工)</Frame_LotRD_Chandelier.label>
   <Frame_LotRD_Chandelier.description>ドワーフ風の周囲を照らすための金属製または石造りの天井に吊るす照明です。 調理場で動物の脂肪から作られたワックスがあれば自動的に燃料補給できます。 少しの熱しか産出しません。</Frame_LotRD_Chandelier.description>
-
   <LotRD_DwarvenCandelabra.label>枝付燭台(ドワーフ)</LotRD_DwarvenCandelabra.label>
   <LotRD_DwarvenCandelabra.description>ワックスキャンドルが周囲を照らします。 ワックスを自動的に燃料補給できます。少しの熱しか出しません。</LotRD_DwarvenCandelabra.description>
   <Blueprint_LotRD_DwarvenCandelabra.label>枝付燭台(ドワーフ)(設計)</Blueprint_LotRD_DwarvenCandelabra.label>
   <Blueprint_Install_LotRD_DwarvenCandelabra.label>枝付燭台(ドワーフ)(移動先)</Blueprint_Install_LotRD_DwarvenCandelabra.label>
   <Frame_LotRD_DwarvenCandelabra.label>枝付燭台(ドワーフ)(施工)</Frame_LotRD_DwarvenCandelabra.label>
   <Frame_LotRD_DwarvenCandelabra.description>ワックス</Frame_LotRD_DwarvenCandelabra.description>
-
   <LotRD_Brazier.label>火鉢(ドワーフ)</LotRD_Brazier.label>
   <LotRD_Brazier.description>炎を入れる火鉢です。設置された周辺を照らします。</LotRD_Brazier.description>
   <Blueprint_LotRD_Brazier.label>火鉢(ドワーフ)(設計)</Blueprint_LotRD_Brazier.label>
   <Blueprint_Install_LotRD_Brazier.label>火鉢(ドワーフ)(移動先)</Blueprint_Install_LotRD_Brazier.label>
   <Frame_LotRD_Brazier.label>火鉢(ドワーフ)(施工)</Frame_LotRD_Brazier.label>
   <Frame_LotRD_Brazier.description>炎を入れる火鉢です。設置された周辺を照らします。</Frame_LotRD_Brazier.description>
-
   <LotRD_DwarvenWallLight.label>イシルディン壁灯(ドワーフ)</LotRD_DwarvenWallLight.label>
   <LotRD_DwarvenWallLight.description>イシルディンのミスリル合金を埋め込んだこの壁面の光は、美しい青色の光を放ちます。</LotRD_DwarvenWallLight.description>
   <Blueprint_LotRD_DwarvenWallLight.label>イシルディン壁灯(ドワーフ)(設計)</Blueprint_LotRD_DwarvenWallLight.label>
   <Blueprint_Install_LotRD_DwarvenWallLight.label>イシルディン壁灯(ドワーフ)(移動先)</Blueprint_Install_LotRD_DwarvenWallLight.label>
   <Frame_LotRD_DwarvenWallLight.label>イシルディン壁灯(ドワーフ)(施工)</Frame_LotRD_DwarvenWallLight.label>
   <Frame_LotRD_DwarvenWallLight.description>イシルディンのミスリル合金を埋め込んだこの壁面の光は、美しい青色の光を放ちます。</Frame_LotRD_DwarvenWallLight.description>
-
   <LotRD_DwarvenStreetLamp.label>イシルディンランプ(ドワーフ)</LotRD_DwarvenStreetLamp.label>
   <LotRD_DwarvenStreetLamp.description>イシルディンのミスリル合金を使用して無限に青色に光り続けるスタンドランプです。</LotRD_DwarvenStreetLamp.description>
   <Blueprint_LotRD_DwarvenStreetLamp.label>イシルディンランプ(ドワーフ)(設計)</Blueprint_LotRD_DwarvenStreetLamp.label>
   <Blueprint_Install_LotRD_DwarvenStreetLamp.label>イシルディンランプ(ドワーフ)(移動先)</Blueprint_Install_LotRD_DwarvenStreetLamp.label>
   <Frame_LotRD_DwarvenStreetLamp.label>イシルディンランプ(ドワーフ)(施工)</Frame_LotRD_DwarvenStreetLamp.label>
   <Frame_LotRD_DwarvenStreetLamp.description>イシルディンのミスリル合金を使用して無限に青色に光り続けるスタンドランプです。</Frame_LotRD_DwarvenStreetLamp.description>
-
   <LotRD_GasLampGlower.label>街路ガス灯(ドワーフ)</LotRD_GasLampGlower.label>
   <LotRD_GasLampGlower.description>灯火へ自動的に燃料を供給するために予め設置されたガス管を使用する街路灯です。</LotRD_GasLampGlower.description>
-
 </LanguageData>

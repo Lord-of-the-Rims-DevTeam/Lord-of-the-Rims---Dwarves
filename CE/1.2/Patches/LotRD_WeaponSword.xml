@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_MeleeWeapon_DwarfSword"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>6</power>
+              <cooldownTime>2.7</cooldownTime>
+              <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+              <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>20</power>
+              <cooldownTime>2.7</cooldownTime>
+              <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+              <armorPenetrationSharp>1.6</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Cut</li>
+              </capacities>
+              <power>28</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetrationBlunt>2.592</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.58</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_MeleeWeapon_DwarfSwordBandit"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>6</power>
+              <cooldownTime>2.7</cooldownTime>
+              <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+              <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>18</power>
+              <cooldownTime>2.8</cooldownTime>
+              <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+              <armorPenetrationSharp>1.6</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Cut</li>
+              </capacities>
+              <power>24</power>
+              <cooldownTime>2.8</cooldownTime>
+              <armorPenetrationBlunt>2.592</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.58</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_MeleeWeapon_DwarfSpear"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>shaft</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>2.3</cooldownTime>
+              <chanceFactor>0.15</chanceFactor>
+              <armorPenetrationBlunt>2.592</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.58</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>shaft</label>
+              <capacities>
+                <li>Poke</li>
+              </capacities>
+              <power>5</power>
+              <cooldownTime>1.78</cooldownTime>
+              <chanceFactor>0.05</chanceFactor>
+              <armorPenetrationBlunt>1</armorPenetrationBlunt>
+              <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>23</power>
+              <cooldownTime>2.3</cooldownTime>
+              <armorPenetrationBlunt>2.25</armorPenetrationBlunt>
+              <armorPenetrationSharp>1.5</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+            </li>
+          </tools>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

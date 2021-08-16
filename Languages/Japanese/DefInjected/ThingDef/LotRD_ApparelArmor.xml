@@ -1,19 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <LotRD_DwarfApparel_Pants.label>ドワーフのパンツ</LotRD_DwarfApparel_Pants.label>
+  <LotRD_DwarfApparel_Pants.label>パンツ</LotRD_DwarfApparel_Pants.label>
   <LotRD_DwarfApparel_Pants.description>シンプルなドワーフのスボンです。</LotRD_DwarfApparel_Pants.description>
-
   <LotRD_DwarfApparel_Tunic.label>ドワーフの上着</LotRD_DwarfApparel_Tunic.label>
   <LotRD_DwarfApparel_Tunic.description>肩帯が掛けられているシンプルなドワーフの上着です。</LotRD_DwarfApparel_Tunic.description>
-
   <LotRD_DwarfApparel_GimliArmor.label>ドワーヴンチェインコート(長髭)</LotRD_DwarfApparel_GimliArmor.label>
   <LotRD_DwarfApparel_GimliArmor.description>不死のドゥリンを始祖とする長髭族たちに使用されたこの丈夫な強化された鎖で編まれた胴鎧は、より頑丈な鎧や戦闘でドワーフたちが好むフルプレートに代わるほど強力ではありません。</LotRD_DwarfApparel_GimliArmor.description>
-
   <LotRD_DwarfApparel_IronHillArmor.label>ドワーヴンアーマー(丘)</LotRD_DwarfApparel_IronHillArmor.label>
   <LotRD_DwarfApparel_IronHillArmor.description>くろがね連山に住む丘ドワーフが使用していたこの鎧は、第三紀2941年にエレボール(はなれ山)で行われた五軍の合戦(エルフ・人間・ドワーフの連合軍とゴブリン・ワーグたちの戦い)で最も多く見られました。</LotRD_DwarfApparel_IronHillArmor.description>
-
   <LotRD_DwarfApparel_MoriaBattleArmor.label>ドワーヴンアーマー(山)</LotRD_DwarfApparel_MoriaBattleArmor.label>
   <LotRD_DwarfApparel_MoriaBattleArmor.description>モリアの山ドワーフたちが使用していたこの頑丈な戦闘用の胴鎧は、第二紀末期の3430年に起きた最後の同盟と呼ばれるサウロンとの戦いに参戦した山ドワーフたちが生き残るために役立ちました。</LotRD_DwarfApparel_MoriaBattleArmor.description>
-
 </LanguageData>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>LotRD_ObservedDragon</defName>
+    <icon>Things/Mote/ThoughtSymbol/jecrellDragon</icon>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemoryObservation</thoughtClass>
+    <durationDays>0.25</durationDays>
+    <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>observed dragon</label>
+        <description>Truly songs and tales fall utterly short of the reality. A dragon! What a magnificent creature!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>LotRD_ObservedDragonDead</defName>
+    <icon>Things/Mote/ThoughtSymbol/jecrellDragonSkull</icon>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemoryObservation</thoughtClass>
+    <durationDays>0.25</durationDays>
+    <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>observed dead dragon</label>
+        <description>Even in death, it is still unbelievable. I wonder what dragon meat tastes like with a flagon of mead?</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>LotRD_ObservedDragonEnraged</defName>
+    <icon>Things/Mote/ThoughtSymbol/jecrellScared</icon>
+    <showBubble>true</showBubble>
+    <thoughtClass>Thought_MemoryObservation</thoughtClass>
+    <durationDays>0.2</durationDays>
+    <stackedEffectMultiplier>1.0</stackedEffectMultiplier>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>observed enraged dragon</label>
+        <description>Dragonfire and ruin! That is what it will bring upon us!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

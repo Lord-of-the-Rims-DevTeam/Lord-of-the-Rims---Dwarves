@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>LotRD_ElfOof</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Toy/LotrD_ElfOof</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>9</min>
+          <max>11</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1.591765</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- A sound def for entry -->
+  <!-- Make sure this has onCamera -->
+  <SoundDef>
+    <defName>LotRD_FanfareDwarfMountain</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <!-- Yeah this must be true -->
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Faction/FanfareDwarfMountain</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10.058827</min>
+          <max>10.058827</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>LotRD_FanfareDwarfHill</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <!-- Yeah this must be true -->
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Faction/FanfareDwarfHill</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10.058827</min>
+          <max>10.058827</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>LotRD_BowDwarf</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/DwarfBow</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>60.70111</min>
+          <max>77.30627</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.6976015</min>
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

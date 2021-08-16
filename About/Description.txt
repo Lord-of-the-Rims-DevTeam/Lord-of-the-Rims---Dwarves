@@ -1,10 +1,22 @@
-Lord of the Rims - Dwarves is a mod package that is part of the Lord of the Rims series for RimWorld. 
-The mod adds in a number of dwarf-related content such as:
-  * Dwarves as a playable race
-  * Dwarven furniture, walls, and doors
-  * Dwarven weapons, armor, and toys
-  * Plants: Earthbread, Honeyroot, and Mead
-  * Giant Boars (GiddyUp supported)
-  * Factions: Kingdom Under the Mountain, Dwarven Hill Clans, and Dwarven Bandits
-  * Starting scenario: Dwarves - Homeless
-  * ... and a special event for dwarves.
+Adds Dwarves to RimWorld.
+
+Includes:
+ Playable Dwarven race.
+ Starter Dwarven scenario.
+ Three Dwarven factions. One of which will start hostile to players.
+ Mountable (with Giddy-Up!) giant boars.
+ A new quest to raid a randomly generated dwarven mountain fortress from a certain foe.
+ Also includes Dwarven armor, weapons, doors, walls, furniture, and toys.
+
+Requires:
+ JecsTools, DoorsExpanded, and Humanoid Alien Races
+
+**Special thanks to Mlie, a hero in our darkest hour**
+**Mlie's updated**
+- Added support for Combat Extended
+- Fixed starting goodwill with Empire
+- Added Royalty-titles support, via SoongJr
+- Giant Boars should spawn in more biomes, via leugimimi
+
+**Known Issues**
+- Dwarven Fortress incident is to be fixed

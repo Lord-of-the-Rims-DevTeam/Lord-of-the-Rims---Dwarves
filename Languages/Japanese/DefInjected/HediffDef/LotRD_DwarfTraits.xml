@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_DwarfTraits.label>種族ボーナス：ドワーフ</LotRD_DwarfTraits.label>
   <LotRD_DwarfTraits.postListText>暑さに耐性があり、病気に対して高い免疫力を持ちます。</LotRD_DwarfTraits.postListText>
-
 </LanguageData>

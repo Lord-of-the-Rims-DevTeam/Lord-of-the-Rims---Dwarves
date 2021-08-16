@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_FermentingBarrel.label>ミード樽(蜂蜜酒)</LotRD_FermentingBarrel.label>
   <LotRD_FermentingBarrel.description>生の蜂蜜汁をドワーフ蜂蜜酒に発酵させるための酒樽です。</LotRD_FermentingBarrel.description>
   <Blueprint_LotRD_FermentingBarrel.label>ミード樽(蜂蜜酒)(設計)</Blueprint_LotRD_FermentingBarrel.label>
   <Blueprint_Install_LotRD_FermentingBarrel.label>ミード樽(蜂蜜酒)(移動先)</Blueprint_Install_LotRD_FermentingBarrel.label>
   <Frame_LotRD_FermentingBarrel.label>ミード樽(蜂蜜酒)(施工)</Frame_LotRD_FermentingBarrel.label>
   <Frame_LotRD_FermentingBarrel.description>生の蜂蜜汁をドワーフ蜂蜜酒に発酵させるための酒樽です。</Frame_LotRD_FermentingBarrel.description>
-
 </LanguageData>

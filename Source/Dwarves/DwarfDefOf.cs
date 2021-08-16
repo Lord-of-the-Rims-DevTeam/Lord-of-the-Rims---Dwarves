@@ -11,7 +11,7 @@ namespace Dwarves
         public static FactionDef LotRD_MonsterFaction;
 
         public static PawnKindDef LotRD_DwarfGuardMountain;
-        
+
         public static ThingSetMakerDef LotRD_Treasure;
         public static PawnKindDef LotRD_DwarfVillager;
         public static PawnKindDef LotRD_DragonFireDrake;

@@ -1,96 +1,96 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-    <Operation Class="PatchOperationSequence">
-        <success>Always</success>
-        <operations>
-            <li Class="PatchOperationAdd">
-                <xpath>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>
                     */ThingDef[defName="Bed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities
-                </xpath> 
-                <value>
-                    <li>LotRD_EndTable</li>
-                    <li>LotRD_Dresser</li>
-                </value>
-                <order>Append</order>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>
+                </xpath>
+        <value>
+          <li>LotRD_EndTable</li>
+          <li>LotRD_Dresser</li>
+        </value>
+        <order>Append</order>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>
                     */ThingDef[defName="DoubleBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities
-                </xpath> 
-                <value>
-                    <li>LotRD_EndTable</li>
-                    <li>LotRD_Dresser</li>
-                </value>
-                <order>Append</order>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>
+                </xpath>
+        <value>
+          <li>LotRD_EndTable</li>
+          <li>LotRD_Dresser</li>
+        </value>
+        <order>Append</order>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>
                     */ThingDef[defName="RoyalBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities
-                </xpath> 
-                <value>
-                    <li>LotRD_EndTable</li>
-                    <li>LotRD_Dresser</li>
-                </value>
-                <order>Append</order>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>
+                </xpath>
+        <value>
+          <li>LotRD_EndTable</li>
+          <li>LotRD_Dresser</li>
+        </value>
+        <order>Append</order>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>
                     */ThingDef[defName="HospitalBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities
-                </xpath> 
-                <value>
-                    <li>LotRD_EndTable</li>
-                    <li>LotRD_Dresser</li>
-                </value>
-                <order>Append</order>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>
+                </xpath>
+        <value>
+          <li>LotRD_EndTable</li>
+          <li>LotRD_Dresser</li>
+        </value>
+        <order>Append</order>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>
                     */ThingDef[defName="Bedroll"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities
-                </xpath> 
-                <value>
-                    <li>LotRD_EndTable</li>
-                    <li>LotRD_Dresser</li>
-                </value>
-                <order>Append</order>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>
+                </xpath>
+        <value>
+          <li>LotRD_EndTable</li>
+          <li>LotRD_Dresser</li>
+        </value>
+        <order>Append</order>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>
                     */ThingDef[defName="BedrollDouble"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities
-                </xpath> 
-                <value>
-                    <li>LotRD_EndTable</li>
-                    <li>LotRD_Dresser</li>
-                </value>
-                <order>Append</order>
-            </li>
-        </operations>
-    </Operation>
-    <Operation Class="PatchOperationSequence">
-        <success>Always</success>
-        <operations>
-            <li Class="JecsTools.PatchOperationModLoaded">
-                <modName>Lord of the Rims - Elves</modName>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>
+                </xpath>
+        <value>
+          <li>LotRD_EndTable</li>
+          <li>LotRD_Dresser</li>
+        </value>
+        <order>Append</order>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="JecsTools.PatchOperationModLoaded">
+        <modName>Lord of the Rims - Elves</modName>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>
                     */ThingDef[defName="LotRE_ElvenRoyalBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities
-                </xpath> 
-                <value>
-                    <li>LotRD_EndTable</li>
-                    <li>LotRD_Dresser</li>
-                </value>
-                <order>Append</order>
-            </li>
-            <li Class="PatchOperationAdd">
-                <xpath>
+                </xpath>
+        <value>
+          <li>LotRD_EndTable</li>
+          <li>LotRD_Dresser</li>
+        </value>
+        <order>Append</order>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>
                     */ThingDef[defName="LotRE_ElvenBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities
-                </xpath> 
-                <value>
-                    <li>LotRD_EndTable</li>
-                    <li>LotRD_Dresser</li>
-                </value>
-                <order>Append</order>
-            </li>
-        </operations>
-    </Operation>
+                </xpath>
+        <value>
+          <li>LotRD_EndTable</li>
+          <li>LotRD_Dresser</li>
+        </value>
+        <order>Append</order>
+      </li>
+    </operations>
+  </Operation>
 </Patch>

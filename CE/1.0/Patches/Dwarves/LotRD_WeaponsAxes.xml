@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="ModCheck.isModLoaded">
+        <modName>Lord of the Rims - Dwarves</modName>
+        <yourMod>Lord of the Rims CE Patch</yourMod>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_MeleeWeapon_AxeGimliWalking"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetration>0.12</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>tip</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>12</power>
+              <cooldownTime>1.95</cooldownTime>
+              <armorPenetration>0.22</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>27</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetration>0.29</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_MeleeWeapon_AxeBattle"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>6</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetration>0.12</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>tip</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>16</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetration>0.17</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>32</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetration>0.35</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_MeleeWeapon_AxeWarGimli"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>6</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetration>0.12</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>tip</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>10</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetration>0.17</armorPenetration>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>38</power>
+              <cooldownTime>3.0</cooldownTime>
+              <armorPenetration>0.41</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-<LotRD_ContainsWortMead>Contains {0} / {1} mead wort.</LotRD_ContainsWortMead>
-<LotRD_ContainsMead>Contains {0} / {1} dwarven mead.</LotRD_ContainsMead>
-<LotRD_NoWortMead>need mead wort</LotRD_NoWortMead>
-
+  <LotRD_ContainsWortMead>Contains {0} / {1} mead wort.</LotRD_ContainsWortMead>
+  <LotRD_ContainsMead>Contains {0} / {1} dwarven mead.</LotRD_ContainsMead>
+  <LotRD_NoWortMead>need mead wort</LotRD_NoWortMead>
+  <LotRD_RoomRequirementAllBraziersMustBeLit>all dwarven braziers must be lit</LotRD_RoomRequirementAllBraziersMustBeLit>
+  <LotRD_RoomRequirementAllChandeliersMustBeLit>all dwarven chandeliers must be lit</LotRD_RoomRequirementAllChandeliersMustBeLit>
+  <LotRD_RoomRequirementAllCandelabraMustBeLit>all dwarven candelabra must be lit</LotRD_RoomRequirementAllCandelabraMustBeLit>
+  <LotRD_RoomRequirementTotal>{0} in total of any of these:</LotRD_RoomRequirementTotal>
 </LanguageData>

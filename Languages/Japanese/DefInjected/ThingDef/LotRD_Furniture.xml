@@ -1,53 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_GameTable.label>ゲームテーブル(ドワーフ)</LotRD_GameTable.label>
   <LotRD_GameTable.description>さまざまな石投げゲームをプレイするためにデザインされたテーブルです。 戦略的な思考と少しの運を試すための素晴らしい遊びです。</LotRD_GameTable.description>
   <Blueprint_LotRD_GameTable.label>ゲームテーブル(ドワーフ)(設計)</Blueprint_LotRD_GameTable.label>
   <Blueprint_Install_LotRD_GameTable.label>ゲームテーブル(ドワーフ)(移動先)</Blueprint_Install_LotRD_GameTable.label>
   <Frame_LotRD_GameTable.label>ゲームテーブル(ドワーフ)(施工)</Frame_LotRD_GameTable.label>
   <Frame_LotRD_GameTable.description>さまざまな石投げゲームをプレイするためにデザインされたテーブルです。 戦略的な思考と少しの運を試すための素晴らしい遊びです。</Frame_LotRD_GameTable.description>
-
   <LotRD_Dresser.label>タンス(ドワーフ)</LotRD_Dresser.label>
   <LotRD_Dresser.description>近くにある全てのベッドにドワーフ風の小さな睡眠のボーナスを与えます。 同じベッドの近くに複数のタンスを置いても効果は重複しません。</LotRD_Dresser.description>
   <Blueprint_LotRD_Dresser.label>タンス(ドワーフ)(blueprint)</Blueprint_LotRD_Dresser.label>
   <Blueprint_Install_LotRD_Dresser.label>タンス(ドワーフ)(blueprint)</Blueprint_Install_LotRD_Dresser.label>
   <Frame_LotRD_Dresser.label>タンス(ドワーフ)(building)</Frame_LotRD_Dresser.label>
   <Frame_LotRD_Dresser.description>近くにある全てのベッドにドワーフ風の小さな睡眠のボーナスを与えます。 同じベッドの近くに複数のタンスを置いても効果は重複しません。</Frame_LotRD_Dresser.description>
-
   <LotRD_EndTable.label>エンドテーブル(ドワーフ)</LotRD_EndTable.label>
   <LotRD_EndTable.description>小さなドワーフのベッドサイドテーブルです。近くにあるベッドをちょっとだけ快適にさせます。それらの頭部分の横に直接置かなければなりません。同じベッドに一つより多くのエンドテーブルを置いても効果はありません。</LotRD_EndTable.description>
   <Blueprint_LotRD_EndTable.label>エンドテーブル(ドワーフ)(設計)</Blueprint_LotRD_EndTable.label>
   <Blueprint_Install_LotRD_EndTable.label>エンドテーブル(ドワーフ)(移動先)</Blueprint_Install_LotRD_EndTable.label>
   <Frame_LotRD_EndTable.label>エンドテーブル(ドワーフ)(施工)</Frame_LotRD_EndTable.label>
   <Frame_LotRD_EndTable.description>小さなドワーフのベッドサイドテーブルです。近くにあるベッドをちょっとだけ快適にさせます。それらの頭部分の横に直接置かなければなりません。同じベッドに一つより多くのエンドテーブルを置いても効果はありません。</Frame_LotRD_EndTable.description>
-
   <LotRD_Table1x1c.label>テーブル(ドワーフ)(1x1)</LotRD_Table1x1c.label>
   <LotRD_Table1x1c.description>ドワーフ風のシンプルなテーブルです。</LotRD_Table1x1c.description>
   <Blueprint_LotRD_Table1x1c.label>テーブル(ドワーフ)(1x1)(設計)</Blueprint_LotRD_Table1x1c.label>
   <Blueprint_Install_LotRD_Table1x1c.label>テーブル(ドワーフ)(1x1)(移動先)</Blueprint_Install_LotRD_Table1x1c.label>
   <Frame_LotRD_Table1x1c.label>テーブル(ドワーフ)(1x1)(施工)</Frame_LotRD_Table1x1c.label>
   <Frame_LotRD_Table1x1c.description>ドワーフ風のシンプルなテーブルです。</Frame_LotRD_Table1x1c.description>
-
   <LotRD_Table1x2c.label>テーブル(ドワーフ)(1x2)</LotRD_Table1x2c.label>
   <LotRD_Table1x2c.description>イスを向き合うように配置すると、ここで食事を摂るようになります。</LotRD_Table1x2c.description>
   <Blueprint_LotRD_Table1x2c.label>テーブル(ドワーフ)(1x2)(設計)</Blueprint_LotRD_Table1x2c.label>
   <Blueprint_Install_LotRD_Table1x2c.label>テーブル(ドワーフ)(1x2)(移動先)</Blueprint_Install_LotRD_Table1x2c.label>
   <Frame_LotRD_Table1x2c.label>テーブル(ドワーフ)(1x2)(施工)</Frame_LotRD_Table1x2c.label>
   <Frame_LotRD_Table1x2c.description>イスを向き合うように配置すると、ここで食事を摂るようになります。</Frame_LotRD_Table1x2c.description>
-
   <LotRD_Stool.label>スツール(ドワーフ)</LotRD_Stool.label>
   <LotRD_Stool.description>ドワーフ向けにデザインされた座るためのシンプルな台座です。</LotRD_Stool.description>
   <Blueprint_LotRD_Stool.label>スツール(ドワーフ)(設計)</Blueprint_LotRD_Stool.label>
   <Blueprint_Install_LotRD_Stool.label>スツール(ドワーフ)(移動先)</Blueprint_Install_LotRD_Stool.label>
   <Frame_LotRD_Stool.label>スツール(ドワーフ)(施工)</Frame_LotRD_Stool.label>
   <Frame_LotRD_Stool.description>ドワーフ向けにデザインされた座るためのシンプルな台座です。</Frame_LotRD_Stool.description>
-
   <LotRD_DwarvenThrone.label>ドワーフの玉座</LotRD_DwarvenThrone.label>
   <LotRD_DwarvenThrone.description>ドワーフ族の貴族向け座席です。</LotRD_DwarvenThrone.description>
   <Blueprint_LotRD_DwarvenThrone.label>ドワーフの玉座(設計)</Blueprint_LotRD_DwarvenThrone.label>
   <Blueprint_Install_LotRD_DwarvenThrone.label>ドワーフの玉座(移動先)</Blueprint_Install_LotRD_DwarvenThrone.label>
   <Frame_LotRD_DwarvenThrone.label>ドワーフの玉座(施工)</Frame_LotRD_DwarvenThrone.label>
   <Frame_LotRD_DwarvenThrone.description>ドワーフ族の貴族向け座席です。</Frame_LotRD_DwarvenThrone.description>
-
 </LanguageData>

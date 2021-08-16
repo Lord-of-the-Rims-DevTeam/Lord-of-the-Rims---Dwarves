@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_MonsterFaction.label>モンスター派閥</LotRD_MonsterFaction.label>
   <LotRD_MonsterFaction.description>太古の危険</LotRD_MonsterFaction.description>
   <LotRD_MonsterFaction.fixedName>モンスターの巣</LotRD_MonsterFaction.fixedName>
   <LotRD_MonsterFaction.pawnsPlural>モンスターたち</LotRD_MonsterFaction.pawnsPlural>
   <LotRD_MonsterFaction.pawnSingular>モンスター</LotRD_MonsterFaction.pawnSingular>
-
 </LanguageData>

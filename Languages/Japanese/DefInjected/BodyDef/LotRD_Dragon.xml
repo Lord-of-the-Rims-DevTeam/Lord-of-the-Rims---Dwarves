@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRD_DragonBody.label>ドラゴン</LotRD_DragonBody.label>
   <LotRD_DragonBody.corePart.parts.left_lung.customLabel>左肺</LotRD_DragonBody.corePart.parts.left_lung.customLabel>
   <LotRD_DragonBody.corePart.parts.right_lung.customLabel>右肺</LotRD_DragonBody.corePart.parts.right_lung.customLabel>
@@ -34,5 +33,4 @@
   <LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_third_claw.customLabel>右後肢中爪</LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_third_claw.customLabel>
   <LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>右後肢四爪</LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_fourth_claw.customLabel>
   <LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_fifth_claw.customLabel>右後肢五爪</LotRD_DragonBody.corePart.parts.rear_right_leg.parts.rear_right_leg_fifth_claw.customLabel>
-
 </LanguageData>
