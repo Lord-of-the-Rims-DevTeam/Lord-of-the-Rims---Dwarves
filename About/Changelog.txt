@@ -1,3 +1,7 @@
+1.21.0.0 (08-15-2021)
+========================
+Updated for RimWorld 1.3
+
 # Changelog for LordoftheRimsDwarves
 
 1.0.13.0 - Missed the HillClan for selectable at gamestart

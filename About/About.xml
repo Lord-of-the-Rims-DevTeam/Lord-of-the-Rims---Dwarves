@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Lord of the Rims - Dwarves</name>
   <packageId>LordOfTheRims.Dwarves</packageId>
@@ -41,8 +41,7 @@
     <li>erdelf.HumanoidAlienRaces</li>
     <li>CETeam.CombatExtended</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
-
+  <description>1.21.0.0 (08-15-2021)
 
 Adds Dwarves to RimWorld.
 
@@ -57,18 +56,70 @@ Includes:
 Requires:
  JecsTools, DoorsExpanded, and Humanoid Alien Races
 
-
-(Apologies that this workshop page isn&apos;t very nice. It&apos;s 3AM, so I&apos;ll fix this up to look nicer tomorrow! =D)
-
-Join the Lord of the Rims channel to discuss the mod.
-https://discord.gg/jcMf4am
-
-[h1]Special Thanks to Mlie for keeping this mod up to date in Jecrell's absence[/h1]
-https://github.com/emipa606
+**Special thanks to Mlie, a hero in our darkest hour**
+**Mlie's updated**
 - Added support for Combat Extended
 - Fixed starting goodwill with Empire
 - Added Royalty-titles support, via SoongJr
 - Giant Boars should spawn in more biomes, via leugimimi
+
+**Known Issues**
+- Dwarven Fortress incident is to be fixed
+
+Thank you to my Patrons for supporting me in my efforts. Without you, none of this would be possible.
+
+These are the most excellent rim dwellers who support me: 
+Michael Cailler, Jigsawjohn , Daniel Schott, Penelope Charli Whitman, Jerome Gonschorek, Genaeve , RainerWingel , Lea Stannard, David Silberstein, 수현 남, Matt Harris, Kiya Nicoll, Paul Fenwick, Matthew Isom, Elodie , Михаил Юрченко, Charlie Garnham, Populous25 , Landon Cash, Marcus Sireanu, Maaxar , logan sheppard-organ, TinyATuin, Don Homer, Sharp Spook, roxxploxx , Dan Jones, Kaz, Justin Andres, Alex Mederer, Justin , iknowdude00, E_T , Alexander , Ken Birdwell, Michael Cailler, Jigsawjohn , Daniel Schott, Penelope Charli Whitman, Jerome Gonschorek, Genaeve , RainerWingel , Lea Stannard, David Silberstein, 수현 남, Matt Harris, Kiya Nicoll, Paul Fenwick, Matthew Isom, Elodie , Михаил Юрченко, Charlie Garnham, Populous25 , Landon Cash, Marcus Sireanu, Maaxar , logan sheppard-organ, TinyATuin, Don Homer, Sharp Spook, roxxploxx , Dan Jones, Kaz, Justin Andres, Alex Mederer, Justin , iknowdude00, E_T , Alexander , Ken Birdwell
+
+========================
+Changelog
+========================
+1.21.0.0 (08-15-2021)
+========================
+Updated for RimWorld 1.3
+
+# Changelog for LordoftheRimsDwarves
+
+1.0.13.0 - Missed the HillClan for selectable at gamestart
+
+
+1.0.12.0 - Number of factions should now be selectable on game-start
+
+
+1.0.11.0 - Missed the 1.3 Royalty patch-folder
+
+
+1.0.10.0 - Updated for 1.3, as soon as the doors-mod updates
+
+
+1.0.9.0 - Refuelable toggles added, Giant Boars should spawn in more biomes. Thanks leugimimi!
+
+
+1.0.8.0 - Fixed some errors connected to the update of Humanoid Alien Races 2.0
+
+
+1.0.7.0 - Royalty-titles support
+
+
+1.0.6.0 - Missed one tag
+
+
+1.0.5.0 - Fixed a faulty tag in the race-definition
+
+
+1.0.4.0 - Fixed starting goodwill with Empire
+
+
+1.0.3.0 - Fixed an issue with the beards
+
+
+1.0.2.0 - Added support for Combat Extended
+
+
+1.0.1.0 - Fixed faction definitions with decay and enemy-tags
+
+
+1.0.0.0 - First publish
 
 </description>
 </ModMetaData>
