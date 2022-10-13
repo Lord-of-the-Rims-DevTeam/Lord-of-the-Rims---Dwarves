@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.AlienBackstoryDef Name="LotRD_BackstoryDwarf" Abstract="True">
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>LotR_BackstoryDwarf</li>
+    </spawnCategories>
+    <disallowedTraits>
+        <Wimp/>
+    </disallowedTraits>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_jecrellBackstoryChildOne</defName>
+    <title>Dwarf pathfinder</title>
+    <titleShort>pathfinder</titleShort>
+    <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] early years, as many dwarf-children do, aiding the miners. [PAWN_pronoun] used [PAWN_possessive] smaller body to crawl through narrow openings to find pathways through tunnels, both new and old, that led to precious minerals.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Mining</key>
+        <value>4</value>
+      </li>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryChildTwo</defName>
+    <title>Dwarf refugee</title>
+    <titleShort>refugee</titleShort>
+    <baseDesc>Torn from [PAWN_possessive] home at an early age, [PAWN_nameDef] had to grow up sooner rather than later.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-3</value>
+      </li>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_jecrellBackstoryChildThree</defName>
+    <title>Dwarf guarded child</title>
+    <titleShort>guarded child</titleShort>
+    <baseDesc>As a child, [PAWN_nameDef] spent [PAWN_possessive] childhood under incredible care and watchful eyes. [PAWN_possessive] parents made sure no harm or conflict came to [PAWN_objective].</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>2</value>
+      </li>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_jecrellBackstoryChildFour</defName>
+    <title>Dwarf warrior family</title>
+    <titleShort>warrior family</titleShort>
+    <baseDesc>Growing up with a family of warriors gave [PAWN_nameDef] a lot of practice wrestling, playing with toy weapons, and firing slingshots. Books were rarely on the table, however.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>-3</value>
+      </li>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <!-- Adult backstories -->
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultOne</defName>
+    <title>Dwarf miner</title>
+    <titleShort>miner</titleShort>
+    <baseDesc>[PAWN_nameDef] was a miner. [PAWN_pronoun] was instrumental in carving out the mountain fortresses of the dwarf-kingdoms.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Mining</key>
+        <value>7</value>
+      </li>
+      <li>
+        <key>Construction</key>
+        <value>4</value>
+      </li>
+    </skillGains>
+    <workDisables>PlantWork</workDisables>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultTwo</defName>
+    <title>Dwarf blacksmith</title>
+    <titleShort>blacksmith</titleShort>
+    <baseDesc>[PAWN_nameDef] was a master craftsman renowned among the Free Peoples of the World for [PAWN_possessive] masterwork weapons and armor.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Crafting</key>
+        <value>7</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>4</value>
+      </li>
+    </skillGains>
+    <workDisables>Cooking, PlantWork</workDisables>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultThree</defName>
+    <title>Dwarf forager</title>
+    <titleShort>forager</titleShort>
+    <baseDesc>As a forager, [PAWN_nameDef] would have to leave the stronghold in order to forage and hunt for food on the mountainsides.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>6</value>
+      </li>
+      <li>
+        <key>Cooking</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Plants</key>
+        <value>4</value>
+      </li>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultFour</defName>
+    <title>Dwarf soldier</title>
+    <titleShort>soldier</titleShort>
+    <baseDesc>[PAWN_nameDef] served as a soldier for his stronghold. [PAWN_pronoun] learned to use the axe and bow with precision, which helped [PAWN_objective] built a career defending the stronghold against outside threats.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+    <workDisables>PlantWork</workDisables>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultFive</defName>
+    <title>Dwarf noble</title>
+    <titleShort>noble</titleShort>
+    <baseDesc>[PAWN_nameDef]'s family line extended from the dwarf-lords of old. Other dwarves followed [PAWN_possessive] orders without question, and [PAWN_pronoun] always got [PAWN_possessive] drinks for free.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+    <workDisables>ManualDumb, Cooking, Cleaning, PlantWork</workDisables>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultSix</defName>
+    <title>Dwarf adventurer</title>
+    <titleShort>adventurer</titleShort>
+    <baseDesc>[PAWN_nameDef] was an adventurer. [PAWN_pronoun] left [PAWN_possessive] stronghold in order to pursue wealth and fame throughout the world. [PAWN_pronoun] learned the true value of treasure in [PAWN_possessive] travels, and came away with excellent bartering skills.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultFueh</defName>
+    <title>Dwarf delver</title>
+    <titleShort>delver</titleShort>
+    <baseDesc>[PAWN_nameDef] was an adventurer. [PAWN_pronoun] left [PAWN_possessive] stronghold in order to pursue wealth and fame throughout the world. [PAWN_pronoun] learned the true value of treasure in [PAWN_possessive] travels, and came away with excellent bartering skills.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultSeven</defName>
+    <title>Dwarf toymaker</title>
+    <titleShort>toymaker</titleShort>
+    <baseDesc>A dwarf who loves to spread joy to little children, [PAWN_nameDef] has dedicated [PAWN_possessive] art to toymaking.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Artistic</key>
+        <value>6</value>
+      </li>
+      <li>
+        <key>Crafting</key>
+        <value>4</value>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <Kind/>
+    </forcedTraits>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_dreggrodDaTraitorBackstoryAdultEight</defName>
+    <title>Dwarf brewmaster</title>
+    <titleShort>brewmaster</titleShort>
+    <baseDesc>If there is one thing dwarves love most in this world, it's ale. [PAWN_nameDef] provides.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Cooking</key>
+        <value>6</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>1</value>
+      </li>
+      <li>
+        <key>Medicine</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+    <workDisables>ManualDumb</workDisables>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRD_BackstoryDwarf">
+    <defName>LotRD_jecrellBackstoryAdultNine</defName>
+    <title>Dwarf cook</title>
+    <titleShort>cook</titleShort>
+    <baseDesc>[PAWN_nameDef] provides all [PAWN_possessive] kin with meals hot and ready like freshly forged steel. [PAWN_possessive] expertise with hammering out dough is renowned in the halls of the underground kingdoms.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Cooking</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+</Defs>

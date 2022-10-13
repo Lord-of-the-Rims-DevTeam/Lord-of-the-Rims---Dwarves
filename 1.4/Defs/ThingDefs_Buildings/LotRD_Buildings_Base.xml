@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase" Name="LotRD_BuildingBase" Abstract="True">
+  </ThingDef>
+  <ThingDef ParentName="FurnitureBase" Name="LotRD_FurnitureBase" Abstract="True">
+  </ThingDef>
+  <ThingDef ParentName="FurnitureWithQualityBase" Name="LotRD_FurnitureWithQualityBase" Abstract="True">
+  </ThingDef>
+  <ThingDef ParentName="ArtableFurnitureBase" Name="LotRD_ArtableFurnitureBase" Abstract="True">
+  </ThingDef>
+  <ThingCategoryDef>
+    <defName>LotRD_BuildingsDwarven</defName>
+    <label>dwarven</label>
+    <parent>Buildings</parent>
+  </ThingCategoryDef>
+</Defs>

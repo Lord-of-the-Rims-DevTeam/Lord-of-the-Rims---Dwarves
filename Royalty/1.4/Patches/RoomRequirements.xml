@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--  Royalty DLC uses RoomRequirement_Thing when there is only one vanilla thing that can go there instead of the more extensible RoomRequirement_ThingAnyOf.
+        Any mod that wants to add items to this (including yours truly) has to rip out the old one and replace it with RoomRequirement_ThingAnyOf, and then adding their furniture to that.
+        I have high hopes that the patch below will work whether or not some other mod already created a RoomRequirement_ThingAnyOf, without throwing any error messages or masking legitimate errors.
+        Note that esquires and below don't have any bedroom requirements, so they're not listed here. NPC titles have a common base Def "BaseEmpireTitleNPC", so that at least simplifies things.
+  -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- first ensure that RoomRequirement_ThingAnyOf is used instead of RoomRequirement_Thing (ignoring any errors if it was already replaced) -->
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RoyalTitleDef/bedroomRequirements/li[@Class = "RoomRequirement_Thing"][thingDef = "EndTable"]</xpath>
+        <value>
+          <li Class="RoomRequirement_ThingAnyOf">
+            <things>
+              <li>EndTable</li>
+            </things>
+          </li>
+        </value>
+      </li>
+      <!-- now either another mod has already created a RoomRequirement_ThingAnyOf or we did it ourselves, so add dwarven endtable to the requirements: -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RoyalTitleDef/bedroomRequirements/li[@Class = "RoomRequirement_ThingAnyOf"]/things[li = "EndTable"]</xpath>
+        <value>
+          <li>LotRD_EndTable</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- now do exactly the same for dwarven dresser: -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- first ensure that RoomRequirement_ThingAnyOf is used instead of RoomRequirement_Thing (ignoring any errors if it was already replaced) -->
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RoyalTitleDef/bedroomRequirements/li[@Class = "RoomRequirement_Thing"][thingDef = "Dresser"]</xpath>
+        <value>
+          <li Class="RoomRequirement_ThingAnyOf">
+            <things>
+              <li>Dresser</li>
+            </things>
+          </li>
+        </value>
+      </li>
+      <!-- now either another mod has already created a RoomRequirement_ThingAnyOf or we did it ourselves, so add dwarven dresser to the requirements: -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RoyalTitleDef/bedroomRequirements/li[@Class = "RoomRequirement_ThingAnyOf"]/things[li = "Dresser"]</xpath>
+        <value>
+          <li>LotRD_Dresser</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Now, this next bit is less elegant: There is no existing RoomRequirement class that accepts multiple kinds of things AND requires multiple instances of them.
+        Vanilla uses RoomRequirement_ThingCount to require 2 or more braziers, but there is no "RoomRequirement_ThingCountAnyOf" to "require 2 braziers and/or dwarven braizers".
+        We can write one of course, and that's what I did, but this will not be compatible with other mods that do the same because they will have their own classes in their own namespace.
+        Whichever mod comes first will succeed, and all others will fail. I've tried to work around that by ignoring the namespace so if someone did exactly the same as me and named their class either
+        "RoomRequirement_ThingCountAnyOf" or "RoomRequirement_ThingAnyOfCount", it will work if we are loaded after them. If they decided to go with something else completely, I have no way of planning for that.
+        This should also work if vanilla decides to introduce and use such a class (wiht one of those names) as we will just add our furniture tio that.
+  -->
+  <!-- Allow dwarven braziers, chandeliers and candelabra in throne rooms. -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- first ensure that Dwarves.RoomRequirement_ThingCountAnyOf is used instead of RoomRequirement_ThingCount (ignoring any errors if it was already replaced) -->
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class = "RoomRequirement_ThingCount"][thingDef = "Brazier"]</xpath>
+        <value>
+          <li Class="Dwarves.RoomRequirement_ThingCountAnyOf">
+            <things>
+              <li>Brazier</li>
+            </things>
+            <count>2</count>
+          </li>
+        </value>
+      </li>
+      <!-- now either another mod has already created a RoomRequirement_ThingCountAnyOf or we did it ourselves, so add dwarven furniture to the requirements: -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[contains(@Class, "RoomRequirement_ThingCountAnyOf") or contains(@Class, "RoomRequirement_ThingAnyOfCount")]/things[li = "Brazier"]</xpath>
+        <value>
+          <li>LotRD_Brazier</li>
+          <li>LotRD_Chandelier</li>
+          <li>LotRD_DwarvenCandelabra</li>
+        </value>
+      </li>
+      <!-- these new light sources must also be lit! -->
+      <li Class="PatchOperationInsert">
+        <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class = "RoomRequirement_AllThingsAnyOfAreGlowing"][labelKey = "RoomRequirementAllBraziersMustBeLit"]</xpath>
+        <value>
+          <li Class="RoomRequirement_AllThingsAreGlowing">
+            <labelKey>LotRD_RoomRequirementAllBraziersMustBeLit</labelKey>
+            <thingDef>LotRD_Brazier</thingDef>
+          </li>
+          <li Class="RoomRequirement_AllThingsAreGlowing">
+            <labelKey>LotRD_RoomRequirementAllChandeliersMustBeLit</labelKey>
+            <thingDef>LotRD_Chandelier</thingDef>
+          </li>
+          <li Class="RoomRequirement_AllThingsAreGlowing">
+            <labelKey>LotRD_RoomRequirementAllCandelabraMustBeLit</labelKey>
+            <thingDef>LotRD_DwarvenCandelabra</thingDef>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--
+  TODO: Find something to replace the Drapes as requirement for throne- and bedrooms, they don't seem appropiate for dwarves.
+  Dwarves should accept a mural carved directly into the stone of their walls as a culturally acceptable replacement, or maybe a 2x2 decoratively carved column.
+  Or maybe an ornate weapons stand. For now accepting a Dwarven Game Table just so we have something and to make it easier for whoever wants to add such an item in future.
+  -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- first ensure that Dwarves.RoomRequirement_ThingCountAnyOf is used instead of RoomRequirement_ThingCount (ignoring any errors if it was already replaced) -->
+      <!-- Note that there are different required counts for drapes out there and I haven't found a better way than handling each individually. -->
+      <!-- They're also found in both throne rooms as well as bedrooms, for which I have not found a better way than duplicating the XPath as I do below. -->
+      <li Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <xpath>
+              /Defs/RoyalTitleDef/throneRoomRequirements/li[@Class = "RoomRequirement_ThingCount"][thingDef = "Drape"][count = 1]
+              | /Defs/RoyalTitleDef/bedroomRequirements/li[@Class = "RoomRequirement_ThingCount"][thingDef = "Drape"][count = 1]
+            </xpath>
+            <value>
+              <li Class="Dwarves.RoomRequirement_ThingCountAnyOf">
+                <things>
+                  <li>Drape</li>
+                </things>
+                <count>1</count>
+              </li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <xpath>
+              /Defs/RoyalTitleDef/throneRoomRequirements/li[@Class = "RoomRequirement_ThingCount"][thingDef = "Drape"][count = 2]
+              | /Defs/RoyalTitleDef/bedroomRequirements/li[@Class = "RoomRequirement_ThingCount"][thingDef = "Drape"][count = 2]
+            </xpath>
+            <value>
+              <li Class="Dwarves.RoomRequirement_ThingCountAnyOf">
+                <things>
+                  <li>Drape</li>
+                </things>
+                <count>2</count>
+              </li>
+            </value>
+          </li>
+        </operations>
+      </li>
+      <!-- now either another mod has already created a RoomRequirement_ThingCountAnyOf or we did it ourselves, so add dwarven furniture to the requirements: -->
+      <li Class="PatchOperationAdd">
+        <xpath>
+          /Defs/RoyalTitleDef/throneRoomRequirements/li[contains(@Class, "RoomRequirement_ThingCountAnyOf") or contains(@Class, "RoomRequirement_ThingAnyOfCount")]/things[li = "Drape"]
+          | /Defs/RoyalTitleDef/bedroomRequirements/li[contains(@Class, "RoomRequirement_ThingCountAnyOf") or contains(@Class, "RoomRequirement_ThingAnyOfCount")]/things[li = "Drape"]
+        </xpath>
+        <value>
+          <li>LotRD_GameTable</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

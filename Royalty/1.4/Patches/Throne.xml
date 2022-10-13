@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--  First patching the dwarven throne to be acceptable to any pawn that would otherwise require a meditation or grand meditation throne.
+        Then rebalanced it to be a bit above the grand throne for building cost and beauty/comfort, but not as OP as before when beauty and comfort
+        were the only uses for this item. It now also serves an important function and this is reflected in its resource cost.
+  -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="LotRD_DwarvenThrone"]/description</xpath>
+    <value>
+      <description>The seat of nobility for dwarf kind. Designed for a dignity-focused psycaster to sit and meditate. Reigning on a throne is a form of meditation that builds up psyfocus. For dignity psycasters, more impressive meditation thrones and thronerooms increase the rate of psyfocus gain.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="LotRD_DwarvenThrone"]</xpath>
+    <value>
+      <!-- changes to make this viable for meditation: -->
+      <hasInteractionCell>true</hasInteractionCell>
+      <thingClass>Building_Throne</thingClass>
+      <socialPropernessMatters>true</socialPropernessMatters>
+      <drawGUIOverlay>true</drawGUIOverlay>
+      <drawGUIOverlayQuality>false</drawGUIOverlayQuality>
+      <comps>
+        <li Class="CompProperties_AssignableToPawn">
+          <drawAssignmentOverlay>true</drawAssignmentOverlay>
+          <compClass>CompAssignableToPawn_Throne</compClass>
+        </li>
+        <li Class="CompProperties_MeditationFocus">
+          <statDef>MeditationFocusStrength</statDef>
+          <focusTypes>
+            <li>Dignified</li>
+          </focusTypes>
+          <offsets>
+            <li Class="FocusStrengthOffset_ThroneSatisfiesRequirements">
+              <offset>0.08</offset>
+            </li>
+            <li Class="FocusStrengthOffset_RoomImpressiveness">
+              <curve>
+                <points>
+                  <li>(0,   -0.05)</li>
+                  <li>(30,   0.00)</li>
+                  <li>(60,   0.04)</li>
+                  <li>(100,  0.08)</li>
+                  <li>(170,  0.10)</li>
+                </points>
+              </curve>
+            </li>
+          </offsets>
+        </li>
+      </comps>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="LotRD_DwarvenThrone"]/statBases</xpath>
+    <value>
+      <MeditationFocusStrength>0.15</MeditationFocusStrength>
+    </value>
+  </Operation>
+  <!-- these are balancing decisions to make the throne comparable to vanilla ones now that it's not simply a decorative item: -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="LotRD_DwarvenThrone"]/statBases/WorkToBuild</xpath>
+    <value>
+      <WorkToBuild>60000</WorkToBuild>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="LotRD_DwarvenThrone"]/costList/Gold</xpath>
+    <value>
+      <Gold>90</Gold>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="LotRD_DwarvenThrone"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>450</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="LotRD_DwarvenThrone"]/statBases/Beauty</xpath>
+    <value>
+      <Beauty>9</Beauty>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="LotRD_DwarvenThrone"]/statBases/Comfort</xpath>
+    <value>
+      <Comfort>1.0</Comfort>
+    </value>
+  </Operation>
+  <!-- Adjustments to the royalty DLC itself to allow the throne to actually satisfy throne-room requirements.
+      Note that "Esquire" will be changed to "Acolyte" in the Royalty DLC soon, the code below tries to account for that by adding the throne for both,
+      but not complaining if it fails. Handling all other titles with stricter error handling ensures the code itself works fine in general.
+  -->
+  <!--<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RoyalTitleDef[defName = "Esquire" or defName = "Acolyte"]/throneRoomRequirements/li[@Class = "RoomRequirement_HasAssignedThroneAnyOf"]/things</xpath>
+    -->
+  <!--success>Always</success-->
+  <!--
+    -->
+  <!-- this step WILL fail, either for Esquire or Acolyte -->
+  <!--
+    <value>
+      <li>LotRD_DwarvenThrone</li>
+    </value>
+  </Operation>-->
+  <Operation Class="PatchOperationInsert">
+    <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li/things/li[text()="Throne"]</xpath>
+    <value>
+      <li>LotRD_DwarvenThrone</li>
+    </value>
+  </Operation>
+</Patch>

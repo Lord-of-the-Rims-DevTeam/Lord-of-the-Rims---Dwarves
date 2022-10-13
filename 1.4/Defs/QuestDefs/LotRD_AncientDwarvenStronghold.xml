@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingSetMakerDef>
+    <defName>LotRD_Treasure</defName>
+    <root Class="ThingSetMaker_RandomOption">
+      <fixedParams>
+        <totalMarketValueRange>
+          <min>2000</min>
+          <max>3500</max>
+        </totalMarketValueRange>
+        <qualityGenerator>Reward</qualityGenerator>
+      </fixedParams>
+      <options>
+        <li>
+          <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>Gold</li>
+                </thingDefs>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+      </options>
+    </root>
+  </ThingSetMakerDef>
+  <IncidentDef>
+    <defName>LotRD_QuestAncientStronghold</defName>
+    <label>ancient dwarven stronghold</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>World</li>
+    </targetTags>
+    <workerClass>Dwarves.IncidentWorker_AncientDwarvenStronghold</workerClass>
+    <letterLabel>ancient dwarven stronghold</letterLabel>
+    <letterText>Ancient things rest deep in the earth where dwarves have dug too deep and reaped the consequences. Untold treasures lie in wait, possessed by a creature most fearsome with flame. Should we dare risk such dangers?</letterText>
+    <letterDef>PositiveEvent</letterDef>
+    <!-- <baseChance>0.3</baseChance> Need to fix this first -->
+    <baseChance>0</baseChance>
+    <minRefireDays>20</minRefireDays>
+    <chanceFactorByPopulationCurve>
+      <points>
+        <li>(3,0)</li>
+        <li>(5,1)</li>
+      </points>
+    </chanceFactorByPopulationCurve>
+  </IncidentDef>
+  <SitePartDef>
+    <defName>LotRD_AncientDwarvenStronghold</defName>
+    <label>ancient dwarven stronghold</label>
+    <description>A treasure trove guarded by some terrible beast.</description>
+    <arrivedLetter>there is terrible creature guarding this ruin</arrivedLetter>
+    <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
+    <siteTexture>World/WorldObjects/Sites/Outpost</siteTexture>
+    <expandingIconTexture>World/AncientDwarfRuin</expandingIconTexture>
+    <applyFactionColorToSiteTexture>false</applyFactionColorToSiteTexture>
+    <showFactionInInspectString>false</showFactionInInspectString>
+    <requiresFaction>false</requiresFaction>
+    <tags>
+      <li>AncientDwarvenStronghold</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>LotRD_AncientDwarvenStronghold</defName>
+    <linkWithSite>LotRD_AncientDwarvenStronghold</linkWithSite>
+    <order>741</order>
+    <genStep Class="Dwarves.GenStep_AncientDwarvenStronghold" />
+  </GenStepDef>
+  <ThingDef ParentName="BaseFilth">
+    <defName>LotRD_Filth_GoldCoins</defName>
+    <label>ancient coins</label>
+    <graphicData>
+      <texPath>Things/Filth/GoldCoins</texPath>
+    </graphicData>
+    <filth>
+      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+    </filth>
+  </ThingDef>
+  <RuleDef>
+    <defName>LotRD_CorpseMaker</defName>
+    <symbol>corpseMaker</symbol>
+    <resolvers>
+      <li Class="Dwarves.SymbolResolver_CorpseMaker" />
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>LotRD_FilthMaker</defName>
+    <symbol>filthMaker</symbol>
+    <resolvers>
+      <li Class="Dwarves.SymbolResolver_FilthMaker" />
+    </resolvers>
+  </RuleDef>
+</Defs>

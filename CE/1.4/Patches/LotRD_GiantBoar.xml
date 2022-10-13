@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="LotRD_GiantBoarRace"]</xpath>
+        <value>
+          <li Class="CombatExtended.RacePropertiesExtensionCE">
+            <bodyShape>Quadruped</bodyShape>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRD_GiantBoarRace"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>tusk</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>11</power>
+              <cooldownTime>1.65</cooldownTime>
+              <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+              <armorPenetrationSharp>6</armorPenetrationSharp>
+              <armorPenetrationBlunt>10</armorPenetrationBlunt>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <capacities>
+                <li>Bite</li>
+              </capacities>
+              <power>7</power>
+              <cooldownTime>1.65</cooldownTime>
+              <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+              <armorPenetrationSharp>3</armorPenetrationSharp>
+              <armorPenetrationBlunt>8</armorPenetrationBlunt>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>head</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>4</power>
+              <cooldownTime>3</cooldownTime>
+              <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+              <armorPenetrationBlunt>4.55</armorPenetrationBlunt>
+              <chanceFactor>0.2</chanceFactor>
+            </li>
+          </tools>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
