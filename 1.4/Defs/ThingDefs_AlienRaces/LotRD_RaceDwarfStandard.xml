@@ -92,9 +92,9 @@
           </li>
         </forcedRaceTraitEntries>
         <alienPartGenerator>
-          <alienbodytypes>
+          <bodytypes>
             <li>Male</li>
-          </alienbodytypes>
+          </bodytypes>
           <customDrawSize>(1.15, 0.8)</customDrawSize>
           <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
           <customPortraitDrawSize>(1.15, 0.8)</customPortraitDrawSize>
@@ -116,9 +116,10 @@
                     <Fat>(-0.43,0.5155)</Fat>
                     <Thin>(-0.43,0.5155)</Thin>
                   </bodyTypes>
-                  <crownTypes>
-                    <Normal_Average>(-0.43,0.5155)</Normal_Average>
-                  </crownTypes>
+                  <headTypes>
+                    <Male_AverageNormal>(-0.43,0.5155)</Male_AverageNormal>
+                    <Female_AverageNormal>(-0.43,0.5155)</Female_AverageNormal>
+                  </headTypes>
                 </south>
                 <north>
                   <bodyTypes>
@@ -127,9 +128,10 @@
                     <Fat>(-0.43,0.5155)</Fat>
                     <Thin>(-0.43,0.5155)</Thin>
                   </bodyTypes>
-                  <crownTypes>
-                    <Normal_Average>(-0.43,0.5155)</Normal_Average>
-                  </crownTypes>
+                  <headTypes>
+                    <Male_AverageNormal>(-0.43,0.5155)</Male_AverageNormal>
+                    <Female_AverageNormal>(-0.43,0.5155)</Female_AverageNormal>
+                  </headTypes>
                 </north>
                 <east>
                   <bodyTypes>
@@ -138,9 +140,10 @@
                     <Fat>(-0.43,0.5155)</Fat>
                     <Thin>(-0.43,0.5155)</Thin>
                   </bodyTypes>
-                  <crownTypes>
-                    <Normal_Average>(-0.43,0.5155)</Normal_Average>
-                  </crownTypes>
+                  <headTypes>
+                    <Male_AverageNormal>(-0.43,0.5155)</Male_AverageNormal>
+                    <Female_AverageNormal>(-0.43,0.5155)</Female_AverageNormal>
+                  </headTypes>
                 </east>
               </offsets>
               <colorChannel>hair</colorChannel>
