@@ -92,6 +92,12 @@
           </li>
         </forcedRaceTraitEntries>
         <alienPartGenerator>
+          <headTypes>
+            <li>Male_AverageNormal</li>
+            <li>Male_AverageWide</li>
+            <li>Female_AverageNormal</li>
+            <li>Female_AverageWide</li>
+          </headTypes>
           <bodytypes>
             <li>Male</li>
           </bodytypes>
@@ -110,39 +116,27 @@
               <defaultOffset>Tail</defaultOffset>
               <offsets>
                 <south>
-                  <bodyTypes>
-                    <Male>(-0.43,0.5155)</Male>
-                    <Female>(-0.43,0.5155)</Female>
-                    <Fat>(-0.43,0.5155)</Fat>
-                    <Thin>(-0.43,0.5155)</Thin>
-                  </bodyTypes>
                   <headTypes>
                     <Male_AverageNormal>(-0.43,0.5155)</Male_AverageNormal>
+                    <Male_AverageWide>(-0.43,0.5155)</Male_AverageWide>
                     <Female_AverageNormal>(-0.43,0.5155)</Female_AverageNormal>
+                    <Female_AverageWide>(-0.43,0.5155)</Female_AverageWide>
                   </headTypes>
                 </south>
                 <north>
-                  <bodyTypes>
-                    <Male>(-0.43,0.5155)</Male>
-                    <Female>(-0.43,0.5155)</Female>
-                    <Fat>(-0.43,0.5155)</Fat>
-                    <Thin>(-0.43,0.5155)</Thin>
-                  </bodyTypes>
                   <headTypes>
                     <Male_AverageNormal>(-0.43,0.5155)</Male_AverageNormal>
+                    <Male_AverageWide>(-0.43,0.5155)</Male_AverageWide>
                     <Female_AverageNormal>(-0.43,0.5155)</Female_AverageNormal>
+                    <Female_AverageWide>(-0.43,0.5155)</Female_AverageWide>
                   </headTypes>
                 </north>
                 <east>
-                  <bodyTypes>
-                    <Male>(-0.43,0.5155)</Male>
-                    <Female>(-0.43,0.5155)</Female>
-                    <Fat>(-0.43,0.5155)</Fat>
-                    <Thin>(-0.43,0.5155)</Thin>
-                  </bodyTypes>
                   <headTypes>
                     <Male_AverageNormal>(-0.43,0.5155)</Male_AverageNormal>
+                    <Male_AverageWide>(-0.43,0.5155)</Male_AverageWide>
                     <Female_AverageNormal>(-0.43,0.5155)</Female_AverageNormal>
+                    <Female_AverageWide>(-0.43,0.5155)</Female_AverageWide>
                   </headTypes>
                 </east>
               </offsets>
