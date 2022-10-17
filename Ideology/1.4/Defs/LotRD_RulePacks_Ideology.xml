@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Shared content -->
+
+  <RulePackDef>
+    <defName>LotRD_NamerIdeoDwarf</defName>
+    <include>
+      <li>NamerIdeoGlobal</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>globalAdjective->Dwarven</li>
+        <li>globalHyphenPrefix->Khazâd</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LotRD_LeaderTitleMaker_Dwarf</defName>
+    <include>
+      <li>LeaderTitleMaker_GlobalStructure</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>cultureLeaderTitle->King</li>
+        <li>cultureLeaderTitle->Lord</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

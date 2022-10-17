@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PlaceDef>
+    <defName>LotRD_Moria</defName>
+    <tags>
+      <li>LotRD_OriginDwarf</li>
+    </tags>
+    <placeRules>
+      <rulesStrings>
+        <!-- Moria -->
+        <li>place_name->Moria</li>
+        <li>place_adjective->Moria</li>
+        <li>place_summary->underground kingdom</li>
+        <li>place_community->misty mountains</li>
+        <li>place_powerCenter->fortress</li>
+        <li>place_job->miner</li>
+        <li>place_job->warrior</li>
+        <li>place_personalWeapon->magic axe</li>
+        <li>place_personalWeapon->magic battleaxe</li>
+        <li>place_personalWeapon->magic pickaxe</li>
+        <li>place_massWeapon->fire</li>
+        <li>place_massWeapon->darkness</li>
+        <li>place_massWeapon->dark magic</li>
+        <li>place_massWeapon->monsters</li>
+        <li>place_foeLeader->dark lord</li>
+        <li>place_foeLeader->necromancer</li>
+        <li>place_foeLeader->white wizard</li>
+        <li>place_foeSoldiers->goblins</li>
+        <li>place_foeSoldiers->orcs</li>
+        <li>place_foeSoldiers->trolls</li>
+        <li>seismicDevice->an unexpected earthquake</li>
+        <li>anEMPAttack->dark powers seized the hearts of good folk</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <PlaceDef>
+    <defName>LotRD_Belegost</defName>
+    <tags>
+      <li>LotRD_OriginDwarf</li>
+    </tags>
+    <placeRules>
+      <rulesStrings>
+        <li>place_name->Belegost</li>
+        <li>place_adjective->Belegostal</li>
+        <li>place_summary->great fortress</li>
+        <li>place_community->blue mountains</li>
+        <li>place_powerCenter->fortress</li>
+        <li>place_job->armorsmith</li>
+        <li>place_job->weaponsmith</li>
+        <li>place_job->warrior</li>
+        <li>place_personalWeapon->magic axe</li>
+        <li>place_personalWeapon->magic battleaxe</li>
+        <li>place_personalWeapon->magic pickaxe</li>
+        <li>place_massWeapon->fire</li>
+        <li>place_massWeapon->darkness</li>
+        <li>place_massWeapon->dark magic</li>
+        <li>place_massWeapon->monsters</li>
+        <li>place_foeLeader->dark lord</li>
+        <li>place_foeLeader->necromancer</li>
+        <li>place_foeLeader->white wizard</li>
+        <li>place_foeSoldiers->goblins</li>
+        <li>place_foeSoldiers->orcs</li>
+        <li>place_foeSoldiers->trolls</li>
+        <li>seismicDevice->an unexpected earthquake</li>
+        <li>anEMPAttack->dark powers seized the hearts of good folk</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+
+  <PlaceDef>
+    <defName>LotRD_Erebor</defName>
+    <tags>
+      <li>LotRD_OriginDwarf</li>
+    </tags>
+    <placeRules>
+      <rulesStrings>
+        <li>place_name->Erebor</li>
+        <li>place_adjective->Erebor</li>
+        <li>place_summary->lonely mountain</li>
+        <li>place_community->dungeons deep and caverns old</li>
+        <li>place_powerCenter->hall of the king</li>
+        <li>place_job->goldsmith</li>
+        <li>place_job->silversmith</li>
+        <li>place_job->miner</li>
+        <li>place_job->warrior</li>
+        <li>place_personalWeapon->magic axe</li>
+        <li>place_personalWeapon->magic battleaxe</li>
+        <li>place_personalWeapon->magic pickaxe</li>
+        <li>place_massWeapon->dragonfire</li>
+        <li>place_foeLeader->dragon</li>
+        <li>place_foeSoldiers->goblins</li>
+        <li>place_foeSoldiers->orcs</li>
+        <li>place_foeSoldiers->trolls</li>
+        <li>seismicDevice->an earthquake from the dragon</li>
+        <li>anEMPAttack->dark powers seized the hearts of good folk</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+</Defs>

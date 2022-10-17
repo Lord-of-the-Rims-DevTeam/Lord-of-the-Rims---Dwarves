@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <StyleItemCategoryDef>
+    <defName>LotRD_DwarfBeard</defName>
+    <label>dwarf</label>
+  </StyleItemCategoryDef>
+
+  <BeardDef Name="LotRD_DwarfBeard" Abstract="True">
+    <styleGender>Any</styleGender>
+    <category>LotRD_DwarfBeard</category>
+    <styleTags>
+      <li>LotRD_DwarfBeard</li>
+    </styleTags>
+  </BeardDef>
+
+  <BeardDef ParentName="LotRD_DwarfBeard">
+    <defName>LotRD_BeardOldtimer</defName>
+    <label>dwarf oldtimer</label>
+    <texPath>Things/Beards/Beard</texPath>
+  </BeardDef>
+
+  <BeardDef ParentName="LotRD_DwarfBeard">
+    <defName>LotRD_BeardRegalBraids</defName>
+    <label>dwarf regal braids</label>
+    <texPath>Things/Beards/Beard1</texPath>
+  </BeardDef>
+
+  <BeardDef ParentName="LotRD_DwarfBeard">
+    <defName>LotRD_BeardThreeTails</defName>
+    <label>dwarf three tails</label>
+    <texPath>Things/Beards/Beard2</texPath>
+  </BeardDef>
+
+  <BeardDef ParentName="LotRD_DwarfBeard">
+    <defName>LotRD_BeardShortBeard</defName>
+    <label>dwarf short</label>
+    <texPath>Things/Beards/Beard3</texPath>
+  </BeardDef>
+
+  <BeardDef ParentName="LotRD_DwarfBeard">
+    <defName>LotRD_BeardBraidedMustache</defName>
+    <label>dwarf braided mustache</label>
+    <texPath>Things/Beards/Beard4</texPath>
+  </BeardDef>
+
+</Defs>

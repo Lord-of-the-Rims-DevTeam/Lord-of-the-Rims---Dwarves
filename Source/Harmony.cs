@@ -12,6 +12,7 @@ namespace Dwarves
             HarmonyCrops(harmony);
             HarmonyFactions(harmony);
             HarmonyFood(harmony);
+            HarmonyMisc(harmony);
         }
     }
 }

@@ -9,7 +9,7 @@
     <pawnsPlural>dwarves</pawnsPlural>
     <techLevel>Medieval</techLevel>
     <allowedCultures>
-      <li>Corunan</li>
+      <li>LotRD_Dwarf</li>
     </allowedCultures>
     <backstoryCategories>
       <li>LotR_BackstoryDwarf</li>

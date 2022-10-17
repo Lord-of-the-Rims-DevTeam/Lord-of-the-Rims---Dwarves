@@ -20,7 +20,7 @@
     <techLevel>Medieval</techLevel>
     <!-- <factionNameMaker> -->
     <settlementNameMaker>LotRD_NamerFactionBaseDwarfMountain</settlementNameMaker>
-    <allowedCultures><li>Corunan</li></allowedCultures>
+    <allowedCultures><li>LotRD_Dwarf</li></allowedCultures>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
@@ -144,7 +144,7 @@
       <li>LotR_BackstoryDwarf</li>
     </backstoryCategories>
     <allowedCultures>
-      <li>Corunan</li>
+      <li>LotRD_Dwarf</li>
     </allowedCultures>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
@@ -257,7 +257,7 @@
       <li>LotR_BackstoryDwarf</li>
     </backstoryCategories>
     <allowedCultures>
-      <li>Corunan</li>
+      <li>LotRD_Dwarf</li>
     </allowedCultures>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>

@@ -105,14 +105,14 @@
           <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
           <customPortraitDrawSize>(1.15, 0.8)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+          
+          <!--
           <bodyAddons>
             <li>
               <path>Things/Beards/Beard</path>
               <bodyPart>Head</bodyPart>
               <drawSize>1</drawSize>
-              <!-- drawSize>(0.85, 1.2)</drawSize  -->
               <inFrontOfBody>true</inFrontOfBody>
-              <!-- <layerOffset>-0.29</layerOffset> -->
               <defaultOffset>Tail</defaultOffset>
               <offsets>
                 <south>
@@ -143,6 +143,7 @@
               <colorChannel>hair</colorChannel>
             </li>
           </bodyAddons>
+          -->
           <colorChannels>
             <li>
               <name>hair</name>
@@ -199,24 +200,26 @@
           </colorChannels>
         </alienPartGenerator>
       </generalSettings>
+      <!--
       <styleSettings>
         <li>
           <key>HairDef</key>
           <value>
-            <styleTagsOverride>
+            <styleTags>
               <li>LotRD_Dwarf</li>
-            </styleTagsOverride>
+            </styleTags>
           </value>
         </li>
         <li>
           <key>BeardDef</key>
           <value>
             <styleTags>
-              <li>NoBeard</li>
+              <li>LotRD_DwarfBeard</li>
             </styleTags>
           </value>
         </li>
       </styleSettings>
+      -->
       <raceRestriction>
         <apparelList>
           <li>LotRD_DwarfApparel_Tunic</li>
