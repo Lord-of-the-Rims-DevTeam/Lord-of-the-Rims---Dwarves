@@ -86,7 +86,7 @@
       </li>
       <!-- these new light sources must also be lit! -->
       <li Class="PatchOperationInsert">
-        <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class = "RoomRequirement_AllThingsAreGlowing"][labelKey = "RoomRequirementAllBraziersMustBeLit"]</xpath>
+        <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class = "RoomRequirement_AllThingsAnyOfAreGlowing"][labelKey = "RoomRequirementAllBraziersMustBeLit"]</xpath>
         <value>
           <li Class="RoomRequirement_AllThingsAreGlowing">
             <labelKey>LotRD_RoomRequirementAllBraziersMustBeLit</labelKey>
