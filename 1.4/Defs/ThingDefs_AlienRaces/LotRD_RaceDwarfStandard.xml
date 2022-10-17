@@ -66,7 +66,7 @@
         <maleGenderProbability>0.85</maleGenderProbability>
         <allowHumanBios>false</allowHumanBios>
         <notXenophobistTowards>
-          <li MayRequire="Mlie.LordoftheRimsHobbits">LotRH_HobbitStandardRace</li>
+          <li MayRequire="LordOfTheRims.Hobbits">LotRH_HobbitStandardRace</li>
         </notXenophobistTowards>
         <forcedRaceTraitEntries>
           <li>
@@ -98,9 +98,9 @@
             <li>Female_AverageNormal</li>
             <li>Female_AverageWide</li>
           </headTypes>
-          <bodytypes>
+          <bodyTypes>
             <li>Male</li>
-          </bodytypes>
+          </bodyTypes>
           <customDrawSize>(1.15, 0.8)</customDrawSize>
           <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
           <customPortraitDrawSize>(1.15, 0.8)</customPortraitDrawSize>
