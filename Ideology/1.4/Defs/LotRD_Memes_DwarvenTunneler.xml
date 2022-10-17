@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  <MemeDef>
+    <defName>LotRD_Dwarven</defName>
+    <label>Dwarven</label>
+    <description>There are hearty roots to be eaten, mead to be drunk, mountains to be dwelled, honored tombs to be built, and treasures to be claimed.</description>
+    <iconPath>World/AncientDwarfRuin</iconPath>
+    <groupDef>Misc</groupDef>
+    <impact>3</impact>
+    <requireOne>
+      <li>
+        <li>LotRD_DwarvenFoodEating_Preferred</li>
+      </li>
+      <li>
+        <li>SmallSpaces_Acceptable</li>
+      </li>
+      <li>
+        <li>MiningYield_High</li>
+      </li>
+    </requireOne>
+    <requiredRituals>
+      <li>
+        <precept>Funeral</precept>
+        <pattern>FuneralStandard</pattern>
+      </li>
+    </requiredRituals>
+    <generalRules>
+      <rulesStrings>
+        <li>memeCreed->cave</li>
+        <li>memeCreed->great hall</li>
+        <li>memeCreed->mine</li>
+        <li>memeCreed->shaft</li>
+        <li>memeAdjective->deep</li>
+        <li>memeHyphenPrefix->khazâd</li>
+        <li>memeHyphenPrefix->azanûl</li>
+        <li>memeHyphenPrefix->baraz</li>
+        <li>memeHyphenPrefix->stone</li>
+        <li>memeHyphenPrefix->cave</li>
+        <li>memeHyphenPrefix->deep</li>
+        <li>memeHyphenPrefix->under</li>
+        <li>memeConcept->dûm</li>
+        <li>memeConcept->tarâg</li>
+        <li>memeConcept->beard</li>
+        <li>memeConcept->mountain</li>
+        <li>memeConcept->earth</li>
+        <li>memeConcept->stone</li>
+        <li>memeConcept->tomb</li>
+        <li>memeLeaderNoun->Dwarf-King</li>
+        <li>memeLeaderNoun->Dwarf-Lord</li>
+        <li>memeLeaderAdjective->deep</li>
+        <li>memeMoralist->Priest of Mahal</li>
+        <li>memeMoralist->Tombkeeper</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_Dwarven)        ->[deity0_name] was too anxious to wait for our creation. [deity0_pronoun] created our people in secret from the stones. The one above all spared us our us our destruction when the secret was discovered. [deity0_name] has blessed us ever since.</li>
+          <li>episode(uses=1,tag=meme_Dwarven)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
+          <!-- theist founder -->
+          <li>intro(tag=meme_Dwarven)           ->When the first settlers came to the [place_summary] [place_name], the [deity0_type] [deity0_name] used a brutal solar flare to force them to live underground, so they could hear [deity0_possessive] wisdom in the stillness of the tunnels.</li>
+          <li>conflict(tag=meme_Dwarven)        ->A claustrophobic [foeLeader] proposed digging through ancient tombs to mine for minerals, putting the [memberNamePlural]' spirits of the dead at risk.</li>
+          <li>founderJoin(tag=meme_Dwarven)     ->The prophet [founderName] was reborn from the ancient tomb of [place_name], and discovered when [founder_possessive] parents visited the tombs of their ancestors.</li>
+          <li>victory(tag=meme_Dwarven)         ->The [memberNamePlural] dug a mine shaft under the [foeLeader]'s [place_powerCenter], and [founderName] set a trail of treasures to trick them into a tunnel of a colossal monster which routed the [foeLeader]'s [foeSoldiers]. [founderName] dragged the [foeLeader] down to a deep dungeon and imprisoned [foeLeader_objective].</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_Dwarven)           ->In dark times, [founderName] meditated in a deep cave and found meaning, and founded our movement.</li>
+          <li>story(uses=1,tag=meme_Dwarven)    ->[founderName] hid treasures in deep caverns, so that [memberNamePlural] would learn to dig deep for them.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_Dwarven)         ->The codex I found in the City of the Deep taught me one lesson above all others:</li>
+          <li>lesson(tag=meme_Dwarven)              ->the open skies and fields are not a place of flourishing, but a place of peril.</li>
+          <li>lessonReinforcement(tag=meme_Dwarven) ->So grab a pickaxe, and start digging with me. It's only a grave if we stop.</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_Dwarven)    ->The Seven Dwarf Fathers, a title given to the archotechs, lay deep underground awaiting reactivation. Their conscious substrate is safe from gamma rays and solar flares. Digging deeper brings people closer to them.</li>
+          <li>archistFact(tag=meme_Dwarven)     ->Archotechs bio-engineered earthbread for us so that our kind could thrive underground, close to buried archotech minds.</li>
+          <li>archistProphecy(tag=meme_Dwarven) ->[inTheEnd], archotechs will admit us to their the halls of waiting.</li>
+          <!-- animist -->
+          <li>animistFact(tag=meme_Dwarven)     ->The spirits in stone will protect those that visit them.</li>
+          <li>animistFact(tag=meme_Dwarven)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
+          <li>animistFact(tag=meme_Dwarven)     ->Anxious folk bring unease to the stones, and brings with it evil from the depths below depths.</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <renderOrder>110</renderOrder>
+    <addDesignators>
+      <li>FungalGravel</li>
+    </addDesignators>
+    <startingResearchProjects>
+      <li>Stonecutting</li>
+    </startingResearchProjects>
+    <agreeableTraits>
+      <li>Undergrounder</li>
+      <li>Greedy</li>
+    </agreeableTraits>
+  </MemeDef>
+
+</Defs>

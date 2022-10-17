@@ -21,10 +21,11 @@
       </li>
     </comps>
   </ThingDef>
+  
   <ThingDef ParentName="PlantBase">
     <defName>LotRD_PlantEarthBreadRoot</defName>
     <label>earthbread root</label>
-    <description>An edible root only known to the Dwarves. Grows slowly outside of caves.</description>
+    <description>An edible root only known to the Dwarves. Grows slowly when in bright areas or outside of caves.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.2</Nutrition>
@@ -36,12 +37,8 @@
     <selectable>true</selectable>
     <pathCost>10</pathCost>
     <plant>
-      <growMinGlow>0</growMinGlow>
-      <growOptimalGlow>0</growOptimalGlow>
-      <wildClusterRadius>8</wildClusterRadius>
       <fertilityMin>0.01</fertilityMin>
       <fertilitySensitivity>0.15</fertilitySensitivity>
-      <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>LotRD_RawEarthBread</harvestedThingDef>
       <harvestYield>12</harvestYield>
@@ -50,8 +47,17 @@
         <li>Hydroponic</li>
       </sowTags>
       <topWindExposure>0.1</topWindExposure>
-      <growDays>8</growDays>
+      <growDays>6</growDays>
+      <cavePlantWeight>0</cavePlantWeight>
       <visualSizeRange>0.3~1.05</visualSizeRange>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+      <maxMeshCount>9</maxMeshCount>
+
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <wildClusterRadius>8</wildClusterRadius>
+      <dieIfLeafless>true</dieIfLeafless>
     </plant>
   </ThingDef>
 </Defs>

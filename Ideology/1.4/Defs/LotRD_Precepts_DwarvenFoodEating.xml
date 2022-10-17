@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Issue -->
+
+    <IssueDef>
+      <defName>LotRD_DwarvenFoodEating</defName>
+      <label>Dwarven food</label>
+      <iconPath>UI/Issues/LotRD_DwarvenFood</iconPath>
+    </IssueDef>
+  
+    <HistoryEventDef>
+      <defName>LotRD_AteDwarvenFood</defName>
+      <label>ate Dwarven food</label>
+    </HistoryEventDef>
+    
+    <HistoryEventDef>
+      <defName>LotRD_AteDwarvenFoodAsIngredient</defName>
+      <label>ate meal with Dwarven food</label>
+    </HistoryEventDef>
+
+    <HistoryEventDef>
+      <defName>LotRD_AteNonDwarvenFoodPlant</defName>
+      <label>ate non-Dwarven food crop</label>
+    </HistoryEventDef>
+
+    <HistoryEventDef>
+      <defName>LotRD_AteNonDwarvenFoodMealWithPlants</defName>
+      <label>ate non-Dwarven food plant meal</label>
+    </HistoryEventDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>LotRD_DwarvenFoodEating_Preferred</defName>
+    <issue>LotRD_DwarvenFoodEating</issue>
+    <label>preferred</label>
+    <description>Crops not from the mountain are not ingrained with hearty nutrients. Dwarven food includes: earthbread, honeyroot, mead, pork, as well as meat from mountain animals such as goats, ibex, and yaks.</description>
+    <impact>Low</impact>
+    <displayOrderInIssue>0</displayOrderInIssue>
+    <displayOrderInImpact>100</displayOrderInImpact>
+    <requiredMemes>
+      <li>LotRD_Dwarven</li>
+    </requiredMemes>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>LotRD_AteDwarvenFood</eventDef>
+        <thought>LotRD_AteDwarvenFood_Preferred</thought>
+      </li>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>LotRD_AteDwarvenFoodAsIngredient</eventDef>
+        <thought>LotRD_AteDwarvenFoodAsIngredient_Preferred</thought>
+      </li>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>LotRD_AteNonDwarvenFoodPlant</eventDef>
+        <thought>LotRD_AteNonDwarvenFoodPlant_Despised</thought>
+      </li>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>LotRD_AteNonDwarvenFoodMealWithPlants</eventDef>
+        <thought>LotRD_AteNonDwarvenFoodMealWithPlants_Despised</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>LotRD_DwarvenFoodEating_Despised</defName>
+    <issue>LotRD_DwarvenFoodEating</issue>
+    <label>despised</label>
+    <description>That Dwarven food tastes like dirt and is just disgusting.</description>
+    <impact>Low</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <defaultSelectionWeight>1</defaultSelectionWeight>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>LotRD_AteDwarvenFood</eventDef>
+        <thought>LotRD_AteDwarvenFood_Despised</thought>
+      </li>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>LotRD_AteDwarvenFoodAsIngredient</eventDef>
+        <thought>LotRD_AteDwarvenFoodAsIngredient_Despised</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+  
+
+  <!-- Thoughts -->
+
+  <ThoughtDef>
+    <defName>LotRD_AteNonDwarvenFoodPlant_Despised</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate non-Dwarven food plant raw</label>
+        <description>I had to eat a non-Dwarven food plant food I despise. I much prefer Dwarven food.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>LotRD_AteNonDwarvenFoodMealWithPlants_Despised</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate non-Dwarven food plant cooked</label>
+        <description>I ate a meal with a non-Dwarven plant. I wish it were a Dwarven food.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>LotRD_AteDwarvenFood_Preferred</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate Dwarven food</label>
+        <description>I ate some Dwarven food and it was just what I like!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>LotRD_AteDwarvenFoodAsIngredient_Preferred</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate cooked Dwarven food</label>
+        <description>I ate a meal with Dwarven food. Is there any dish it doesn't complement?</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>LotRD_AteDwarvenFood_Despised</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate Dwarven food raw</label>
+        <description>That Dwarven food smelled like damp rags and tasted no better.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>LotRD_AteDwarvenFoodAsIngredient_Despised</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate Dwarven food cooked</label>
+        <description>That whole meal tasted like mud, dirt, and rocks.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

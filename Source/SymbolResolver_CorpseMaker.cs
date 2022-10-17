@@ -23,7 +23,7 @@ namespace Dwarves
                 var faction = rp.faction;
                 var request = new PawnGenerationRequest(kind, faction,
                     PawnGenerationContext.NonPlayer, BaseGen.globalSettings?.map?.Tile ?? Find.CurrentMap.Tile, false,
-                    false, false, false, true, true, 1f, false, true, false,
+                    false, false, false, true, 0f, false, false, true, false,
                     false);
                 var pawn = PawnGenerator.GeneratePawn(request);
 

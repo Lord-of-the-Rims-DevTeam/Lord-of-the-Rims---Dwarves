@@ -12,10 +12,6 @@ Global
 		RW1.4Unstable|Any CPU = RW1.4Unstable|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A4FB893-1148-4E16-B548-867647DF1724}.Debug|Any CPU.ActiveCfg = RW1.4|Any CPU
-		{3A4FB893-1148-4E16-B548-867647DF1724}.Debug|Any CPU.Build.0 = RW1.4|Any CPU
-		{3A4FB893-1148-4E16-B548-867647DF1724}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A4FB893-1148-4E16-B548-867647DF1724}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A4FB893-1148-4E16-B548-867647DF1724}.RW1.4Unstable|Any CPU.ActiveCfg = RW1.4Unstable|Any CPU
 		{3A4FB893-1148-4E16-B548-867647DF1724}.RW1.4Unstable|Any CPU.Build.0 = RW1.4Unstable|Any CPU
 	EndGlobalSection
