@@ -24,16 +24,8 @@
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li> <!-- Mountain Dwarves -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">LotRD_Dwarven</li>
     </requiredMemes>
-    <allowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li> <!-- Mountain Dwarves -->
-      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li> <!-- Mountain Dwarves -->    
-      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
-    </allowedMemes>
     <structureMemeWeights>
       <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
     </structureMemeWeights>
@@ -149,16 +141,8 @@
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">LotRD_Dwarven</li>
     </requiredMemes>
-    <allowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li> <!-- Mountain Dwarves -->
-      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li> <!-- Mountain Dwarves -->    
-      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
-    </allowedMemes>
     <caravanTraderKinds>
       <li>LotRD_Caravan_Dwarf_BulkGoods</li>
       <li>LotRD_Caravan_Dwarf_CombatSupplier</li>
@@ -260,19 +244,8 @@
       <li>LotRD_Dwarf</li>
     </allowedCultures>
     <requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">LotRD_Dwarven</li>
     </requiredMemes>
-    <allowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
-    </allowedMemes>
     <caravanTraderKinds>
       <li>LotRD_Caravan_Dwarf_BulkGoods</li>
       <li>LotRD_Caravan_Dwarf_CombatSupplier</li>

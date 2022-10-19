@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Lord of the Rims - Elves (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="LotRD_GiantBoarRace"]/race/wildBiomes</xpath>
+          <value>
+            <LotRE_MallornForest>0.25</LotRE_MallornForest>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimhammer - The End Times - Beastmen</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="LotRD_GiantBoarRace"]/race/wildBiomes</xpath>
+          <value>
+            <RH_TET_Beastmen_OldGrowthForest>0.25</RH_TET_Beastmen_OldGrowthForest>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="LotRD_GiantBoarRace"]/race/wildBiomes</xpath>
+          <value>
+            <AB_FeraliskInfestedJungle>0.02</AB_FeraliskInfestedJungle>
+            <AB_GelatinousSuperorganism>0.25</AB_GelatinousSuperorganism>
+            <AB_MycoticJungle>0.25</AB_MycoticJungle>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

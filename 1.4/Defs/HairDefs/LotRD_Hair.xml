@@ -7,38 +7,38 @@
     <label>dwarf</label>
   </StyleItemCategoryDef>
 
-  <HairDef Name="LortRD_DwarfHair" Abstract="True">
+  <HairDef Name="LotRD_DwarfHair" Abstract="True">
     <category>LotRD_DwarfHair</category>
     <styleTags>
       <li>LotRD_Dwarf</li>
     </styleTags>
   </HairDef>
 
-  <HairDef ParentName="LortRD_DwarfHair">
+  <HairDef ParentName="LotRD_DwarfHair">
     <defName>LotRD_Braidbun</defName>
     <label>dwarf braidbun</label>
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Dwarf/Hairs/LotRD_Braidbun</texPath>
   </HairDef>
-  <HairDef ParentName="LortRD_DwarfHair">
+  <HairDef ParentName="LotRD_DwarfHair">
     <defName>LotRD_BraidbunLong</defName>
     <label>dwarf braidbun long</label>
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Dwarf/Hairs/LotRD_BraidbunLong</texPath>
   </HairDef>
-  <HairDef ParentName="LortRD_DwarfHair">
+  <HairDef ParentName="LotRD_DwarfHair">
     <defName>LotRD_Gaston</defName>
     <label>dwarf gaston</label>
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Dwarf/Hairs/LotRD_Gaston</texPath>
   </HairDef>
-  <HairDef ParentName="LortRD_DwarfHair">
+  <HairDef ParentName="LotRD_DwarfHair">
     <defName>LotRD_Princess</defName>
     <label>dwarf princess</label>
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Dwarf/Hairs/LotRD_Princess</texPath>
   </HairDef>
-  <HairDef ParentName="LortRD_DwarfHair">
+  <HairDef ParentName="LotRD_DwarfHair">
     <defName>LotRD_Scat</defName>
     <label>dwarf scat</label>
     <hairGender>Male</hairGender>

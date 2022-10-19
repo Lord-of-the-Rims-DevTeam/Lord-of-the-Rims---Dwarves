@@ -1,3 +1,7 @@
+1.21.0.2 (10-18-2022)
+========================
+Removes XML patching error in 1.3 and 1.4 unstable relating to Giddy-Up
+
 1.21.0.1 (10-17-2022)
 ========================
 Removes red error associated with Roaylty for RimWorld 1.3

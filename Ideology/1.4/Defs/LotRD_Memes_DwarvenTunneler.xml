@@ -8,7 +8,7 @@
     <description>There are hearty roots to be eaten, mead to be drunk, mountains to be dwelled, honored tombs to be built, and treasures to be claimed.</description>
     <iconPath>World/AncientDwarfRuin</iconPath>
     <groupDef>Misc</groupDef>
-    <impact>3</impact>
+    <impact>2</impact>
     <requireOne>
       <li>
         <li>LotRD_DwarvenFoodEating_Preferred</li>

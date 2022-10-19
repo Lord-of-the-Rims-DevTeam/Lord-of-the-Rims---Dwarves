@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!--This ensures the patch will only be applied IF Giddy-Up is loaded-->
+      <li Class="JecsTools.PatchOperationModLoaded">
+        <modName>Giddy-up! Core</modName>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>*/PawnKindDef[ defName = "LotRD_DwarfSoldierHillHogRider"]</xpath>
+        <value>
+          <li Class="GiddyUpCore.CustomMountsPatch">
+            <mountChance>100</mountChance>
+            <possibleMounts>
+              <li>
+                <key>LotRD_GiantBoarKind</key>
+                <value>99999</value>
+              </li>
+            </possibleMounts>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
