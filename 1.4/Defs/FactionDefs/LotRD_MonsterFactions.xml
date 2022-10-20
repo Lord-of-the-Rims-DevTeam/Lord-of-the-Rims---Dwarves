@@ -6,7 +6,9 @@
     <description>Ancient danger</description>
     <pawnsPlural>monsters</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
-    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>2000</configurationListOrderPriority>
+    <displayInFactionSelection>false</displayInFactionSelection>
     <fixedName>den of monsters</fixedName>
     <raidCommonalityFromPointsCurve>
       <points>
