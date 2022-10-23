@@ -8,8 +8,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Toy/LotrD_ElfOof</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Toy/LotrD_ElfOof</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -34,8 +34,8 @@
         <!-- Yeah this must be true -->
         <onCamera>True</onCamera>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Faction/FanfareDwarfMountain</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Faction/FanfareDwarfMountain</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -58,8 +58,8 @@
         <!-- Yeah this must be true -->
         <onCamera>True</onCamera>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Faction/FanfareDwarfHill</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Faction/FanfareDwarfHill</clipPath>
           </li>
         </grains>
         <volumeRange>
