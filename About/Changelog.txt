@@ -1,3 +1,7 @@
+1.22.0.0 (10-21-2022)
+========================
+New Dwarven meme; Dwarven culture; Dwarven food preferences; and Dwarven symbols and text generators
+
 1.21.0.2 (10-18-2022)
 ========================
 Removes XML patching error in 1.3 and 1.4 unstable relating to Giddy-Up
