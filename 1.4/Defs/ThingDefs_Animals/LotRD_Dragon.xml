@@ -201,8 +201,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Dragon/FireDrakeRoar</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Dragon/FireDrakeRoar</clipPath>
           </li>
         </grains>
         <volumeRange>
